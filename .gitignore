@@ -23,3 +23,5 @@ plugins/LibertyBans/internal/hypersql/punishments-database.log
 *.log
 *.lck
 *.log
+plugins/LibertyBans/internal/hypersql/punishments-database.lck
+logs/latest.log
