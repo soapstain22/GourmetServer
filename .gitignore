@@ -9,3 +9,4 @@ plugins/LibertyBans/internal/hypersql/punishments-database.log
 plugins/LibertyBans/internal/*
 world/***
 logs/***
+plugins/LibertyBans/internal/hypersql/punishments-database.lck
