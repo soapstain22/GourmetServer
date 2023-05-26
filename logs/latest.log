@@ -753,3 +753,10 @@ java.io.FileNotFoundException: plugins/EssentialsGeoIP/GeoIP2-Country.mmdb (No s
 [17:34:25] [Server thread/INFO]: Rebbebba joined the game
 [17:34:25] [Server thread/INFO]: Rebbebba[/68.132.130.223:62190] logged in with entity id 58645 at ([world]-1231.9690884240072, 95.0, 636.7099351235855)
 [17:34:25] [Craft Scheduler Thread - 720 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Rebbebba. Please ensure that your license key and configuration are correct.
+[17:36:43] [Server thread/INFO]: Gopee360 issued server command: /home
+[17:36:43] [Server thread/WARN]: Gopee360 moved too quickly! -16.77084443910053,11.9375,-16.078413634501544
+[17:40:32] [User Authenticator #15/INFO]: UUID of player sam__mas is 30c797f7-a264-466b-bfbc-ca64e3cdc760
+[17:40:32] [Server thread/INFO]: sam__mas joined the game
+[17:40:32] [Server thread/INFO]: sam__mas[/68.102.105.46:50520] logged in with entity id 59926 at ([world]-1166.135035932186, 91.0, 618.6999999880791)
+[17:40:32] [Craft Scheduler Thread - 756 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for sam__mas. Please ensure that your license key and configuration are correct.
+[17:40:41] [Async Chat Thread - #47/INFO]: <msmarlin> hai
