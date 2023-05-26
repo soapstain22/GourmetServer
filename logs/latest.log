@@ -744,3 +744,12 @@ java.io.FileNotFoundException: plugins/EssentialsGeoIP/GeoIP2-Country.mmdb (No s
 [17:28:57] [Async Chat Thread - #43/INFO]: <NPRebbebba+++> me
 [17:29:00] [Async Chat Thread - #44/INFO]: <msmarlin> lmfao
 [17:29:03] [Async Chat Thread - #43/INFO]: <NPGopee360+> Absorbant and yellow and porous is he
+[17:29:13] [Async Chat Thread - #44/INFO]: <msmarlin> yes sir
+[17:29:21] [Async Chat Thread - #43/INFO]: <NPGopee360+> If nautical nonsense be something you wish
+[17:29:39] [Server thread/INFO]: Rebbebba lost connection: Disconnected
+[17:29:39] [Server thread/INFO]: Rebbebba left the game
+[17:34:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@400d185c[id=<null>,name=Rebbebba,properties={},legacy=false] (/68.132.130.223:62184) lost connection: Disconnected
+[17:34:25] [User Authenticator #14/INFO]: UUID of player Rebbebba is 24417846-d5ed-4608-ae7a-ed643b41c5e1
+[17:34:25] [Server thread/INFO]: Rebbebba joined the game
+[17:34:25] [Server thread/INFO]: Rebbebba[/68.132.130.223:62190] logged in with entity id 58645 at ([world]-1231.9690884240072, 95.0, 636.7099351235855)
+[17:34:25] [Craft Scheduler Thread - 720 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Rebbebba. Please ensure that your license key and configuration are correct.

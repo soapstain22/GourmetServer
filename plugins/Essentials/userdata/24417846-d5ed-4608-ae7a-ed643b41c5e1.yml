@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1685135609131
-  login: 1685135629219
+  logout: 1685136579030
+  login: 1685136865869
 money: '0'
 last-account-name: Rebbebba
 logoutlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -1229.6492435679324
-  y: 99.0
-  z: 634.0759836696
-  yaw: -130.5870361328125
-  pitch: 19.50112533569336
+  x: -1231.9690884240072
+  y: 95.0
+  z: 636.7099351235855
+  yaw: -5.608642578125
+  pitch: 46.8994140625
 lastlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world

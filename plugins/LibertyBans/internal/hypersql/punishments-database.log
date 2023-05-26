@@ -185,3 +185,8 @@ SET DATABASE TRANSACTION CONTROL MVLOCKS
 /*C31*/DISCONNECT
 /*C37*/SET SCHEMA PUBLIC
 SET DATABASE TRANSACTION CONTROL MVLOCKS
+/*C32*/DELETE FROM "libertybans_names" WHERE "uuid"='24417846-d5ed-4608-ae7a-ed643b41c5e1' AND "name"='Rebbebba' AND "lower_name"='rebbebba' AND "updated"=1685135629
+INSERT INTO "libertybans_names" VALUES('24417846-d5ed-4608-ae7a-ed643b41c5e1','Rebbebba','rebbebba',1685136865)
+DELETE FROM "libertybans_addresses" WHERE "uuid"='24417846-d5ed-4608-ae7a-ed643b41c5e1' AND "address"='448482df' AND "updated"=1685135629
+INSERT INTO "libertybans_addresses" VALUES('24417846-d5ed-4608-ae7a-ed643b41c5e1','448482df',1685136865)
+COMMIT
