@@ -1,12 +1,7 @@
-
-*.jar
 *.mca
 *.dat
 *.dat_old
-*.yml
 *.gz
-*.json
-*.txt
 plugins/CoreProtect/database.db
 plugins/CoreProtect/.license
 plugins/ChestShop/version

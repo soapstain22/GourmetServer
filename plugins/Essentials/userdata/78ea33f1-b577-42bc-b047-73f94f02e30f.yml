@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 47.16.167.19
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1684812205600
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684812235970
+  login: 1684809673507
+money: '0'
+last-account-name: ChuggaFTW
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1230.0537114191638
+  y: 65.0
+  z: 569.2598608141501
+  yaw: -7.852386474609375
+  pitch: 10.551213264465332
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: 4681.79767746661
+  y: -50.0
+  z: 652.0879236288
+  yaw: 166.014404296875
+  pitch: 29.469329833984375

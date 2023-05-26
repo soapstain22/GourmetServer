@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 68.129.57.242
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685056254143
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685056262828
+  login: 1685055193020
+money: '0'
+last-account-name: BossTaco523
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: 132.4153778632318
+  y: 80.0
+  z: -1965.1697417293556
+  yaw: 64.26925659179688
+  pitch: 5.019775390625
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -889.9699701316258
+  y: 69.0
+  z: -460.07744210643534
+  yaw: -125.26020812988281
+  pitch: 14.902458190917969

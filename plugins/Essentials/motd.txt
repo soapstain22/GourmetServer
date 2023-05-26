@@ -1,0 +1,6 @@
+&eWelcome, {PLAYER}&e!
+&eType &c/help&e for a list of commands.
+&eType &c/list&e to see who else is online.
+&bPlay CRIMPO QUEST on itch.io!&b
+
+&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 67.243.34.233
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685130539006
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685129921028
+  login: 1685129926319
+money: '0'
+last-account-name: bee_mp3
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1179.7592709383046
+  y: 87.0
+  z: 630.3686015504117
+  yaw: 149.9817657470703
+  pitch: 44.42070770263672
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -899.0
+  y: 70.0
+  z: -462.0
+  yaw: 6.73560905456543
+  pitch: 22.28873062133789

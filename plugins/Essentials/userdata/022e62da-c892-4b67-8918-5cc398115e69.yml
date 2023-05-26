@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 66.65.68.214
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685050611826
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685131427787
+  login: 1685128916019
+money: '0'
+last-account-name: Rhythm8503
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -967.1605782969395
+  y: 63.0
+  z: 618.7289201793762
+  yaw: 53.854705810546875
+  pitch: 15.934611320495605
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1155.6222068533882
+  y: 70.0
+  z: 449.75466672845147
+  yaw: -156.435546875
+  pitch: 11.775810241699219

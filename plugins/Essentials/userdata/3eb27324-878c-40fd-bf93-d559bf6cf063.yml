@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 24.151.12.97
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685061738554
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685062537586
+  login: 1685058655521
+money: '0'
+last-account-name: Revaalt
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -2221.300000011921
+  y: 80.0
+  z: -959.8376040350723
+  yaw: -158.43487548828125
+  pitch: 23.94171142578125
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1265.3738811805706
+  y: 63.0
+  z: 569.4875000119209
+  yaw: -162.983642578125
+  pitch: 16.360286712646484

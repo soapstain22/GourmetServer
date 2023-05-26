@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 68.102.105.46
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685114228279
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685131773482
+  login: 1685130527870
+money: '0'
+last-account-name: sam__mas
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1166.135035932186
+  y: 91.0
+  z: 618.6999999880791
+  yaw: -76.7823486328125
+  pitch: 29.047229766845703
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1047.7947361690995
+  y: -57.0
+  z: 582.3000000119209
+  yaw: 91.0291748046875
+  pitch: 2.2488980293273926

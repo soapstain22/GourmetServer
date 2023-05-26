@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 24.193.49.13
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1684800821002
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684805997899
+  login: 1684800677429
+money: '0'
+last-account-name: irshlay
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -877.4845756381749
+  y: 73.0
+  z: -482.1822577671276
+  yaw: -70.65086364746094
+  pitch: 17.399982452392578
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1246.6225814273355
+  y: 68.0
+  z: 448.37704999776224
+  yaw: -51.1478271484375
+  pitch: 15.899435043334961

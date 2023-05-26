@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 71.67.132.208
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685133608632
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685128808979
+  login: 1685129064720
+money: '0'
+last-account-name: msmarlin
+lastlocation:
+  world: b16a1a20-427f-489a-a062-3a4e102a73b3
+  world-name: programming_area
+  x: -45.36541549289699
+  y: -58.0
+  z: -1549.0935900037584
+  yaw: -60.443790435791016
+  pitch: 1.2430016994476318
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1172.8337445973286
+  y: 97.0
+  z: 633.6233208216069
+  yaw: -109.7176513671875
+  pitch: 12.341471672058105

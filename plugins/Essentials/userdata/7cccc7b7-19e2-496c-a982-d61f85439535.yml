@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 98.97.180.189
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685122894952
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685123349003
+  login: 1685122450888
+money: '0'
+last-account-name: _Sega
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1241.1528854385926
+  y: 60.0
+  z: 566.140374675565
+  yaw: -26.86223602294922
+  pitch: 50.68607711791992
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1239.487500011921
+  y: 67.0
+  z: 566.6812352489959
+  yaw: 171.53233337402344
+  pitch: 30.931386947631836

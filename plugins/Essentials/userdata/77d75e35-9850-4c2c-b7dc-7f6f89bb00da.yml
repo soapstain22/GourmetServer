@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 98.15.244.0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685044287109
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685066043532
+  login: 1685064116567
+money: '0'
+last-account-name: hairball5
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -898.8258717487779
+  y: 70.0
+  z: -460.1163440169432
+  yaw: -7.735671043395996
+  pitch: 4.776387691497803
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -505.892290121263
+  y: 63.0
+  z: 1359.808517084868
+  yaw: 134.40435791015625
+  pitch: 38.08264923095703

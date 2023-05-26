@@ -1,0 +1,155 @@
+[
+  {
+    "title": "Sex In Minecraft",
+    "author": "vargskelethor",
+    "duration": 146,
+    "disc-namespace": "music_disc.sexinminecraftvargskelethorzero",
+    "model-data": 1,
+    "creeper-drop": true,
+    "lores": [
+      "This is the lore of the disc",
+      "",
+      "You can have multiple lines",
+      "",
+      "If you don't want any lores you can leave this empty"
+    ],
+    "loot-tables": [],
+    "fragment-loot-tables": []
+  },
+  {
+    "title": "Sex In Minecraft",
+    "author": "vargskelethor",
+    "duration": 387,
+    "disc-namespace": "music_disc.sexinminecraftvargskelethorone",
+    "model-data": 2,
+    "creeper-drop": true,
+    "lores": [
+      "This is the lore of the disc",
+      "",
+      "You can have multiple lines",
+      "",
+      "If you don't want any lores you can leave this empty"
+    ],
+    "loot-tables": [],
+    "fragment-loot-tables": []
+  },
+  {
+    "title": "Sex In Minecraft",
+    "author": "vargskelethor",
+    "duration": 119,
+    "disc-namespace": "music_disc.sexinminecraftvargskelethortwo",
+    "model-data": 3,
+    "creeper-drop": true,
+    "lores": [
+      "This is the lore of the disc",
+      "",
+      "You can have multiple lines",
+      "",
+      "If you don't want any lores you can leave this empty"
+    ],
+    "loot-tables": [],
+    "fragment-loot-tables": []
+  },
+  {
+    "title": "Sex In Minecraft",
+    "author": "vargskelethor",
+    "duration": 192,
+    "disc-namespace": "music_disc.sexinminecraftvargskelethorthree",
+    "model-data": 4,
+    "creeper-drop": true,
+    "lores": [
+      "This is the lore of the disc",
+      "",
+      "You can have multiple lines",
+      "",
+      "If you don't want any lores you can leave this empty"
+    ],
+    "loot-tables": [],
+    "fragment-loot-tables": []
+  },
+  {
+    "title": "Sex In Minecraft",
+    "author": "vargskelethor",
+    "duration": 298,
+    "disc-namespace": "music_disc.sexinminecraftvargskelethorfour",
+    "model-data": 5,
+    "creeper-drop": true,
+    "lores": [
+      "This is the lore of the disc",
+      "",
+      "You can have multiple lines",
+      "",
+      "If you don't want any lores you can leave this empty"
+    ],
+    "loot-tables": [],
+    "fragment-loot-tables": []
+  },
+  {
+    "title": "Sex In Minecraft",
+    "author": "vargskelethor",
+    "duration": 147,
+    "disc-namespace": "music_disc.sexinminecraftvargskelethorfive",
+    "model-data": 6,
+    "creeper-drop": true,
+    "lores": [
+      "This is the lore of the disc",
+      "",
+      "You can have multiple lines",
+      "",
+      "If you don't want any lores you can leave this empty"
+    ],
+    "loot-tables": [],
+    "fragment-loot-tables": []
+  },
+  {
+    "title": "Sex In Minecraft",
+    "author": "vargskelethor",
+    "duration": 252,
+    "disc-namespace": "music_disc.sexinminecraftvargskelethorsix",
+    "model-data": 7,
+    "creeper-drop": true,
+    "lores": [
+      "This is the lore of the disc",
+      "",
+      "You can have multiple lines",
+      "",
+      "If you don't want any lores you can leave this empty"
+    ],
+    "loot-tables": [],
+    "fragment-loot-tables": []
+  },
+  {
+    "title": "Sex In Minecraft",
+    "author": "vargskelethor",
+    "duration": 185,
+    "disc-namespace": "music_disc.sexinminecraftvargskelethorseven",
+    "model-data": 8,
+    "creeper-drop": true,
+    "lores": [
+      "This is the lore of the disc",
+      "",
+      "You can have multiple lines",
+      "",
+      "If you don't want any lores you can leave this empty"
+    ],
+    "loot-tables": [],
+    "fragment-loot-tables": []
+  },
+  {
+    "title": "Sex In Minecraft",
+    "author": "vargskelethor",
+    "duration": 144,
+    "disc-namespace": "music_disc.sexinminecraftvargskelethoreight",
+    "model-data": 9,
+    "creeper-drop": true,
+    "lores": [
+      "This is the lore of the disc",
+      "",
+      "You can have multiple lines",
+      "",
+      "If you don't want any lores you can leave this empty"
+    ],
+    "loot-tables": [],
+    "fragment-loot-tables": []
+  }
+]

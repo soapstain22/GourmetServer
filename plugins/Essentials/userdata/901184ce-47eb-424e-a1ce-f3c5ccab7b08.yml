@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 69.206.186.61
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685050778287
+  login: 1685048590638
+money: '0'
+last-account-name: BlueCorbeau
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -30.528130298682825
+  y: 109.0
+  z: 85.88693935544144
+  yaw: -23.14111328125
+  pitch: 17.375625610351562
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: 158.0102750021633
+  y: 98.41999998688698
+  z: -1925.397791189351
+  yaw: 83.30132293701172
+  pitch: 16.62250328063965

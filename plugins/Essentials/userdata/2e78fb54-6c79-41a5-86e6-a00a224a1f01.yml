@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 68.192.99.227
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1684805069878
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1684892743329
+  login: 1684891934513
+money: '0'
+last-account-name: OxisCoxi
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1268.0292168333187
+  y: 64.0
+  z: 513.4656347269383
+  yaw: -10.961669921875
+  pitch: 12.674766540527344
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1246.6156818619497
+  y: 68.0
+  z: 450.49239480395596
+  yaw: -89.6591796875
+  pitch: 15.920272827148438

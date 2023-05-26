@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 24.164.183.119
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685133963464
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685128087523
+  login: 1685129322421
+money: '0'
+last-account-name: Gopee360
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1151.300000011921
+  y: 17.0
+  z: 553.8358536642073
+  yaw: 124.587158203125
+  pitch: 71.10041046142578
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1235.3304402916883
+  y: 62.9375
+  z: 518.8503883784055
+  yaw: -53.085540771484375
+  pitch: 2.1450881958007812

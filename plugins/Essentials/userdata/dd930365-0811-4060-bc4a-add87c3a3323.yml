@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 173.56.3.114
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1685131757741
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1685132231433
+  login: 1685131742722
+money: '0'
+last-account-name: jahonfroy123
+logoutlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: -1225.3590293138843
+  y: 64.0
+  z: 557.7809522777075
+  yaw: 148.9532928466797
+  pitch: 12.599899291992188
+lastlocation:
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: 173.9272554564971
+  y: 92.0
+  z: -1922.6749958294047
+  yaw: 90.43433380126953
+  pitch: 6.300086975097656
