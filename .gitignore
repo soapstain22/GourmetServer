@@ -1,0 +1,9 @@
+
+*.jar
+*.mca
+*.dat
+*.dat_old
+*.yml
+*.gz
+*.json
+*.txt
