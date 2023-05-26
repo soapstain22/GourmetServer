@@ -94,3 +94,8 @@ SET DATABASE TRANSACTION CONTROL MVLOCKS
 /*C3*/DISCONNECT
 /*C13*/SET SCHEMA PUBLIC
 SET DATABASE TRANSACTION CONTROL MVLOCKS
+/*C8*/DELETE FROM "libertybans_names" WHERE "uuid"='30c797f7-a264-466b-bfbc-ca64e3cdc760' AND "name"='sam__mas' AND "lower_name"='sam__mas' AND "updated"=1685129579
+INSERT INTO "libertybans_names" VALUES('30c797f7-a264-466b-bfbc-ca64e3cdc760','sam__mas','sam__mas',1685130527)
+DELETE FROM "libertybans_addresses" WHERE "uuid"='30c797f7-a264-466b-bfbc-ca64e3cdc760' AND "address"='4466692e' AND "updated"=1685129579
+INSERT INTO "libertybans_addresses" VALUES('30c797f7-a264-466b-bfbc-ca64e3cdc760','4466692e',1685130527)
+COMMIT
