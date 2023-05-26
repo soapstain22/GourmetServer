@@ -1,0 +1,93 @@
+SET DATABASE UNIQUE NAME HSQLDB883B0D9263
+SET DATABASE DEFAULT RESULT MEMORY ROWS 0
+SET DATABASE EVENT LOG LEVEL 0
+SET DATABASE TRANSACTION CONTROL MVLOCKS
+SET DATABASE DEFAULT ISOLATION LEVEL READ COMMITTED
+SET DATABASE TRANSACTION ROLLBACK ON CONFLICT TRUE
+SET DATABASE TRANSACTION ROLLBACK ON INTERRUPT TRUE
+SET DATABASE TEXT TABLE DEFAULTS ''
+SET DATABASE DEFAULT TABLE TYPE CACHED
+SET DATABASE SQL NAMES TRUE
+SET DATABASE SQL RESTRICT EXEC TRUE
+SET DATABASE SQL REFERENCES TRUE
+SET DATABASE SQL SIZE TRUE
+SET DATABASE SQL TYPES TRUE
+SET DATABASE SQL TDC DELETE TRUE
+SET DATABASE SQL TDC UPDATE TRUE
+SET DATABASE SQL SYS INDEX NAMES TRUE
+SET DATABASE SQL CONCAT NULLS TRUE
+SET DATABASE SQL UNIQUE NULLS TRUE
+SET DATABASE SQL CONVERT TRUNCATE TRUE
+SET DATABASE SQL AVG SCALE 0
+SET DATABASE SQL DOUBLE NAN TRUE
+SET FILES WRITE DELAY 500 MILLIS
+SET FILES BACKUP INCREMENT TRUE
+SET FILES CACHE SIZE 10000
+SET FILES CACHE ROWS 50000
+SET FILES SCALE 32
+SET FILES LOB SCALE 32
+SET FILES DEFRAG 0
+SET FILES NIO TRUE
+SET FILES NIO SIZE 256
+SET FILES LOG TRUE
+SET FILES LOG SIZE 50
+SET FILES CHECK 16170
+SET DATABASE COLLATION "SQL_TEXT" PAD SPACE
+CREATE USER SA PASSWORD DIGEST 'd41d8cd98f00b204e9800998ecf8427e'
+ALTER USER SA SET LOCAL TRUE
+CREATE SCHEMA PUBLIC AUTHORIZATION DBA
+CREATE SEQUENCE PUBLIC."libertybans_punishment_ids" AS BIGINT START WITH 1 MINVALUE 1 MAXVALUE 9223372036854775806
+CREATE SEQUENCE PUBLIC."libertybans_victim_ids" AS INTEGER START WITH -2147483648
+CREATE CACHED TABLE PUBLIC."libertybans_schema_history"("installed_rank" INTEGER NOT NULL,"version" VARCHAR(50),"description" VARCHAR(200) NOT NULL,"type" VARCHAR(20) NOT NULL,"script" VARCHAR(1000) NOT NULL,"checksum" INTEGER,"installed_by" VARCHAR(100) NOT NULL,"installed_on" TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,"execution_time" INTEGER NOT NULL,"success" BIT(1) NOT NULL,CONSTRAINT "libertybans_schema_history_pk" PRIMARY KEY("installed_rank"))
+CREATE INDEX "libertybans_schema_history_s_idx" ON PUBLIC."libertybans_schema_history"("success")
+CREATE CACHED TABLE PUBLIC."libertybans_revision"("constant" VARCHAR(8) NOT NULL,"major" INTEGER NOT NULL,"minor" INTEGER NOT NULL,UNIQUE("constant"),CHECK(PUBLIC."libertybans_revision"."constant"='Constant'))
+CREATE CACHED TABLE PUBLIC."libertybans_names"("uuid" UUID NOT NULL,"name" VARCHAR(16) NOT NULL,"lower_name" VARCHAR(16) GENERATED ALWAYS AS(LOWER(PUBLIC."libertybans_names"."name")),"updated" BIGINT NOT NULL,CONSTRAINT "libertybans_uuid_name_uniqueness" UNIQUE("uuid","name"))
+CREATE INDEX "libertybans_name_index" ON PUBLIC."libertybans_names"("lower_name")
+CREATE CACHED TABLE PUBLIC."libertybans_addresses"("uuid" UUID NOT NULL,"address" VARBINARY(16) NOT NULL,"updated" BIGINT NOT NULL,CONSTRAINT "libertybans_uuid_address_uniqueness" UNIQUE("uuid","address"),CONSTRAINT "libertybans_address_length" CHECK((OCTET_LENGTH(PUBLIC."libertybans_addresses"."address")) IN ((4),(16))))
+CREATE INDEX "libertybans_address_index" ON PUBLIC."libertybans_addresses"("address")
+CREATE VIEW PUBLIC."libertybans_latest_names" ("uuid","name","updated") AS SELECT "names1"."uuid" "uuid","names1"."name" "name","names1"."updated" "updated" FROM PUBLIC."libertybans_names" "names1" LEFT JOIN PUBLIC."libertybans_names" "names2" ON "names1"."uuid"="names2"."uuid" AND "names1"."updated"<"names2"."updated" WHERE "names2"."uuid" IS NULL
+CREATE VIEW PUBLIC."libertybans_latest_addresses" ("uuid","address","updated") AS SELECT "addrs1"."uuid" "uuid","addrs1"."address" "address","addrs1"."updated" "updated" FROM PUBLIC."libertybans_addresses" "addrs1" LEFT JOIN PUBLIC."libertybans_addresses" "addrs2" ON "addrs1"."uuid"="addrs2"."uuid" AND "addrs1"."updated"<"addrs2"."updated" WHERE "addrs2"."address" IS NULL
+CREATE CACHED TABLE PUBLIC."libertybans_punishments"("id" BIGINT NOT NULL,"type" SMALLINT NOT NULL,"operator" UUID NOT NULL,"reason" VARCHAR(256) NOT NULL,"scope" VARCHAR(32) NOT NULL,"start" BIGINT NOT NULL,"end" BIGINT NOT NULL,CONSTRAINT "libertybans_punishment_id_uniqueness" UNIQUE("id"),CONSTRAINT "libertybans_punishment_type_validity" CHECK((PUBLIC."libertybans_punishments"."type">=0) AND (PUBLIC."libertybans_punishments"."type"<=3)),CONSTRAINT "libertybans_punishment_duration_positivity" CHECK((PUBLIC."libertybans_punishments"."end"=0) OR (PUBLIC."libertybans_punishments"."end">PUBLIC."libertybans_punishments"."start")))
+CREATE INDEX "libertybans_punishment_operator_index" ON PUBLIC."libertybans_punishments"("operator")
+CREATE INDEX "libertybans_punishment_start_index" ON PUBLIC."libertybans_punishments"("start")
+CREATE INDEX "libertybans_punishment_end_index" ON PUBLIC."libertybans_punishments"("end")
+CREATE CACHED TABLE PUBLIC."libertybans_victims"("id" INTEGER NOT NULL,"type" SMALLINT NOT NULL,"uuid" UUID NOT NULL,"address" VARBINARY(16) NOT NULL,CONSTRAINT "libertybans_victim_id_uniqueness" UNIQUE("id"),CONSTRAINT "libertybans_victim_type_validity" CHECK((PUBLIC."libertybans_victims"."type">=0) AND (PUBLIC."libertybans_victims"."type"<=2)),CONSTRAINT "libertybans_victim_uniqueness" UNIQUE("type","uuid","address"),CONSTRAINT "libertybans_victim_address_length" CHECK((OCTET_LENGTH(PUBLIC."libertybans_victims"."address")) IN ((4),(16))))
+CREATE CACHED TABLE PUBLIC."libertybans_bans"("id" BIGINT NOT NULL,"victim" INTEGER NOT NULL,CONSTRAINT "libertybans_ban_id_uniqueness" UNIQUE("id"),CONSTRAINT "libertybans_ban_id_validity" FOREIGN KEY("id") REFERENCES PUBLIC."libertybans_punishments"("id") ON DELETE CASCADE,CONSTRAINT "libertybans_ban_victim_uniqueness" UNIQUE("victim"),CONSTRAINT "libertybans_ban_victim_validity" FOREIGN KEY("victim") REFERENCES PUBLIC."libertybans_victims"("id"))
+CREATE CACHED TABLE PUBLIC."libertybans_mutes"("id" BIGINT NOT NULL,"victim" INTEGER NOT NULL,CONSTRAINT "libertybans_mute_id_uniqueness" UNIQUE("id"),CONSTRAINT "libertybans_mute_id_validity" FOREIGN KEY("id") REFERENCES PUBLIC."libertybans_punishments"("id") ON DELETE CASCADE,CONSTRAINT "libertybans_mute_victim_uniqueness" UNIQUE("victim"),CONSTRAINT "libertybans_mute_victim_validity" FOREIGN KEY("victim") REFERENCES PUBLIC."libertybans_victims"("id"))
+CREATE CACHED TABLE PUBLIC."libertybans_warns"("id" BIGINT NOT NULL,"victim" INTEGER NOT NULL,CONSTRAINT "libertybans_warn_id_uniqueness" UNIQUE("id"),CONSTRAINT "libertybans_warn_id_validity" FOREIGN KEY("id") REFERENCES PUBLIC."libertybans_punishments"("id") ON DELETE CASCADE,CONSTRAINT "libertybans_warn_victim_validity" FOREIGN KEY("victim") REFERENCES PUBLIC."libertybans_victims"("id"))
+CREATE INDEX "libertybans_warn_victim_index" ON PUBLIC."libertybans_warns"("victim")
+CREATE CACHED TABLE PUBLIC."libertybans_history"("id" BIGINT NOT NULL,"victim" INTEGER NOT NULL,CONSTRAINT "libertybans_history_id_uniqueness" UNIQUE("id"),CONSTRAINT "libertybans_history_id_validity" FOREIGN KEY("id") REFERENCES PUBLIC."libertybans_punishments"("id") ON DELETE CASCADE,CONSTRAINT "libertybans_history_victim_validity" FOREIGN KEY("victim") REFERENCES PUBLIC."libertybans_victims"("id"))
+CREATE INDEX "libertybans_history_victim_index" ON PUBLIC."libertybans_history"("victim")
+CREATE CACHED TABLE PUBLIC."libertybans_messages"("message" BLOB(1G) NOT NULL,"time" BIGINT NOT NULL)
+CREATE INDEX "libertybans_messages_time_index" ON PUBLIC."libertybans_messages"("time")
+CREATE VIEW PUBLIC."libertybans_simple_bans" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end") AS SELECT "puns"."id","puns"."type","victims"."type" AS "victim_type","victims"."uuid" AS "victim_uuid","victims"."address" AS "victim_address","puns"."operator","puns"."reason","puns"."scope","puns"."start","puns"."end" FROM PUBLIC."libertybans_bans" AS "thetype" INNER JOIN PUBLIC."libertybans_punishments" AS "puns" ON "thetype"."id"="puns"."id" INNER JOIN PUBLIC."libertybans_victims" AS "victims" ON "thetype"."victim"="victims"."id"
+CREATE VIEW PUBLIC."libertybans_applicable_bans" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address") AS SELECT "puns"."id","puns"."type","puns"."victim_type","puns"."victim_uuid","puns"."victim_address","puns"."operator","puns"."reason","puns"."scope","puns"."start","puns"."end","addrs"."uuid","addrs"."address" FROM PUBLIC."libertybans_simple_bans" AS "puns" INNER JOIN PUBLIC."libertybans_addresses" AS "addrs" ON("puns"."victim_type"=0 AND "puns"."victim_uuid"="addrs"."uuid" OR "puns"."victim_type"=1 AND "puns"."victim_address"="addrs"."address" OR "puns"."victim_type"=2 AND("puns"."victim_uuid"="addrs"."uuid" OR "puns"."victim_address"="addrs"."address"))
+CREATE VIEW PUBLIC."libertybans_simple_mutes" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end") AS SELECT "puns"."id","puns"."type","victims"."type" AS "victim_type","victims"."uuid" AS "victim_uuid","victims"."address" AS "victim_address","puns"."operator","puns"."reason","puns"."scope","puns"."start","puns"."end" FROM PUBLIC."libertybans_mutes" AS "thetype" INNER JOIN PUBLIC."libertybans_punishments" AS "puns" ON "thetype"."id"="puns"."id" INNER JOIN PUBLIC."libertybans_victims" AS "victims" ON "thetype"."victim"="victims"."id"
+CREATE VIEW PUBLIC."libertybans_applicable_mutes" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address") AS SELECT "puns"."id","puns"."type","puns"."victim_type","puns"."victim_uuid","puns"."victim_address","puns"."operator","puns"."reason","puns"."scope","puns"."start","puns"."end","addrs"."uuid","addrs"."address" FROM PUBLIC."libertybans_simple_mutes" AS "puns" INNER JOIN PUBLIC."libertybans_addresses" AS "addrs" ON("puns"."victim_type"=0 AND "puns"."victim_uuid"="addrs"."uuid" OR "puns"."victim_type"=1 AND "puns"."victim_address"="addrs"."address" OR "puns"."victim_type"=2 AND("puns"."victim_uuid"="addrs"."uuid" OR "puns"."victim_address"="addrs"."address"))
+CREATE VIEW PUBLIC."libertybans_simple_warns" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end") AS SELECT "puns"."id","puns"."type","victims"."type" AS "victim_type","victims"."uuid" AS "victim_uuid","victims"."address" AS "victim_address","puns"."operator","puns"."reason","puns"."scope","puns"."start","puns"."end" FROM PUBLIC."libertybans_warns" AS "thetype" INNER JOIN PUBLIC."libertybans_punishments" AS "puns" ON "thetype"."id"="puns"."id" INNER JOIN PUBLIC."libertybans_victims" AS "victims" ON "thetype"."victim"="victims"."id"
+CREATE VIEW PUBLIC."libertybans_applicable_warns" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address") AS SELECT "puns"."id","puns"."type","puns"."victim_type","puns"."victim_uuid","puns"."victim_address","puns"."operator","puns"."reason","puns"."scope","puns"."start","puns"."end","addrs"."uuid","addrs"."address" FROM PUBLIC."libertybans_simple_warns" AS "puns" INNER JOIN PUBLIC."libertybans_addresses" AS "addrs" ON("puns"."victim_type"=0 AND "puns"."victim_uuid"="addrs"."uuid" OR "puns"."victim_type"=1 AND "puns"."victim_address"="addrs"."address" OR "puns"."victim_type"=2 AND("puns"."victim_uuid"="addrs"."uuid" OR "puns"."victim_address"="addrs"."address"))
+CREATE VIEW PUBLIC."libertybans_simple_history" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end") AS SELECT "puns"."id","puns"."type","victims"."type" AS "victim_type","victims"."uuid" AS "victim_uuid","victims"."address" AS "victim_address","puns"."operator","puns"."reason","puns"."scope","puns"."start","puns"."end" FROM PUBLIC."libertybans_history" AS "thetype" INNER JOIN PUBLIC."libertybans_punishments" AS "puns" ON "thetype"."id"="puns"."id" INNER JOIN PUBLIC."libertybans_victims" AS "victims" ON "thetype"."victim"="victims"."id"
+CREATE VIEW PUBLIC."libertybans_simple_active" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end") AS SELECT "id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end" FROM PUBLIC."libertybans_simple_bans" UNION ALL SELECT "id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end" FROM PUBLIC."libertybans_simple_mutes" UNION ALL SELECT "id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end" FROM PUBLIC."libertybans_simple_warns"
+CREATE VIEW PUBLIC."libertybans_applicable_active" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address") AS SELECT "id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address" FROM PUBLIC."libertybans_applicable_bans" UNION ALL SELECT "id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address" FROM PUBLIC."libertybans_applicable_mutes" UNION ALL SELECT "id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address" FROM PUBLIC."libertybans_applicable_warns"
+CREATE VIEW PUBLIC."libertybans_strict_links" ("uuid1","uuid2") AS SELECT "addrs1"."uuid" AS "uuid1","addrs2"."uuid" AS "uuid2" FROM PUBLIC."libertybans_addresses" AS "addrs1" INNER JOIN PUBLIC."libertybans_addresses" AS "addrs2" ON "addrs1"."address"="addrs2"."address"
+CREATE VIEW PUBLIC."libertybans_applicable_history" ("id","type","victim_type","victim_uuid","victim_address","operator","reason","scope","start","end","uuid","address") AS SELECT "puns"."id","puns"."type","puns"."victim_type","puns"."victim_uuid","puns"."victim_address","puns"."operator","puns"."reason","puns"."scope","puns"."start","puns"."end","addrs"."uuid","addrs"."address" FROM PUBLIC."libertybans_simple_history" AS "puns" INNER JOIN PUBLIC."libertybans_addresses" AS "addrs" ON("puns"."victim_type"=0 AND "puns"."victim_uuid"="addrs"."uuid" OR "puns"."victim_type"=1 AND "puns"."victim_address"="addrs"."address" OR "puns"."victim_type"=2 AND("puns"."victim_uuid"="addrs"."uuid" OR "puns"."victim_address"="addrs"."address"))
+ALTER SEQUENCE SYSTEM_LOBS.LOB_ID RESTART WITH 1
+ALTER SEQUENCE PUBLIC."libertybans_punishment_ids" RESTART WITH 21
+ALTER SEQUENCE PUBLIC."libertybans_victim_ids" RESTART WITH -2147483642
+SET DATABASE DEFAULT INITIAL SCHEMA PUBLIC
+SET TABLE PUBLIC."libertybans_schema_history" INDEX '22 22 0 0 9'
+SET TABLE PUBLIC."libertybans_revision" INDEX '53 53 0 0 1'
+SET TABLE PUBLIC."libertybans_names" INDEX '1434 911 673 0 0 0 37'
+SET TABLE PUBLIC."libertybans_addresses" INDEX '1148 460 1134 0 0 0 47'
+SET TABLE PUBLIC."libertybans_punishments" INDEX '224 312 224 312 394 0 0 0 0 0 20'
+SET TABLE PUBLIC."libertybans_victims" INDEX '399 399 438 0 0 0 6'
+SET TABLE PUBLIC."libertybans_warns" INDEX '304 317 317 148 148 0 0 0 0 0 13'
+SET TABLE PUBLIC."libertybans_history" INDEX '321 321 321 321 321 0 0 0 0 0 20'
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CARDINAL_NUMBER TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.YES_OR_NO TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.CHARACTER_DATA TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.SQL_IDENTIFIER TO PUBLIC
+GRANT USAGE ON DOMAIN INFORMATION_SCHEMA.TIME_STAMP TO PUBLIC
+GRANT DBA TO SA
+SET SCHEMA SYSTEM_LOBS
+INSERT INTO BLOCKS VALUES(0,2147483647,0)
