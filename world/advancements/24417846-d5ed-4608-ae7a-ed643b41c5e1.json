@@ -3699,15 +3699,15 @@
     },
     "done": true
   },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:british_shorthair": "2023-05-26 16:33:52 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2023-05-26 16:53:29 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_brown_mushroom": "2023-05-26 17:07:41 -0400"
     },
     "done": true
   },
@@ -3723,11 +3723,17 @@
     },
     "done": true
   },
-  "minecraft:husbandry/complete_catalogue": {
+  "minecraft:recipes/misc/bowl": {
     "criteria": {
-      "minecraft:british_shorthair": "2023-05-26 16:33:52 -0400"
+      "has_brown_mushroom": "2023-05-26 17:07:41 -0400"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2023-05-26 17:26:32 -0400"
+    },
+    "done": true
   },
   "DataVersion": 3337
 }
