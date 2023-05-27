@@ -1,153 +1,128 @@
 [
   {
-    "title": "Sex In Minecraft",
-    "author": "vargskelethor",
-    "duration": 146,
-    "disc-namespace": "music_disc.sexinminecraftvargskelethorzero",
+    "title": "Never Meant",
+    "author": "American Football",
+    "duration": 283,
+    "disc-namespace": "music_disc.nevermeantamericanfootballzero",
     "model-data": 1,
     "creeper-drop": true,
     "lores": [
-      "This is the lore of the disc",
-      "",
-      "You can have multiple lines",
-      "",
-      "If you don't want any lores you can leave this empty"
+      "this song makes me cry"
     ],
-    "loot-tables": [],
+    "loot-tables": [
+      "chests/village/village_plains_house",
+      "chests/village/village_savanna_house",
+      "chests/village/village_desert_house",
+      "chests/village/village_snowy_house",
+      "chests/village/village_taiga_house",
+      "chests/woodland_mansion",
+      "chests/desert_pyramid",
+      "chests/abandoned_mineshaft"
+    ],
     "fragment-loot-tables": []
   },
   {
-    "title": "Sex In Minecraft",
-    "author": "vargskelethor",
-    "duration": 387,
-    "disc-namespace": "music_disc.sexinminecraftvargskelethorone",
+    "title": "The Gummy Bear Song",
+    "author": "Gummibär",
+    "duration": 164,
+    "disc-namespace": "music_disc.thegummybearsonggummibrone",
     "model-data": 2,
     "creeper-drop": true,
     "lores": [
-      "This is the lore of the disc",
-      "",
-      "You can have multiple lines",
-      "",
-      "If you don't want any lores you can leave this empty"
+      "The original 30 second video for Itt Van A Gumimaci, the Hungarian version of I Am A Gummy Bear, debuted on the internet in August of 2006. It quickly went viral, gaining hundreds of thousands of views as the popularity of this catchy song and funny character increased and spread by word of mouth. A 30 second English version was then created which helped to increase the clip's popularity and views rocketed up into the millions. By the summer of 2007, the final full length 2:30 version was released and it has been gaining views and viewers ever since."
     ],
     "loot-tables": [],
     "fragment-loot-tables": []
   },
   {
-    "title": "Sex In Minecraft",
-    "author": "vargskelethor",
-    "duration": 119,
-    "disc-namespace": "music_disc.sexinminecraftvargskelethortwo",
+    "title": "Barbie Girl",
+    "author": "Aqua",
+    "duration": 202,
+    "disc-namespace": "music_disc.barbiegirlaquatwo",
     "model-data": 3,
     "creeper-drop": true,
     "lores": [
-      "This is the lore of the disc",
-      "",
-      "You can have multiple lines",
-      "",
-      "If you don't want any lores you can leave this empty"
+      "poop"
     ],
     "loot-tables": [],
     "fragment-loot-tables": []
   },
   {
-    "title": "Sex In Minecraft",
-    "author": "vargskelethor",
-    "duration": 192,
-    "disc-namespace": "music_disc.sexinminecraftvargskelethorthree",
+    "title": "Peanut Butter Jelly Time",
+    "author": "Buckwheat Boyz",
+    "duration": 131,
+    "disc-namespace": "music_disc.peanutbutterjellytimebuckwheatboyzthree",
     "model-data": 4,
     "creeper-drop": true,
     "lores": [
-      "This is the lore of the disc",
-      "",
-      "You can have multiple lines",
-      "",
-      "If you don't want any lores you can leave this empty"
+      "Peanut Butter Jelly Time was a song by Buckwheat Boyz… a novelty act that only release a single full length record. The singer on the song was named Jermaine Fuller. Jermaine Fuller got into an altercation in Las Vegas in 2002 with a police officer. He shot the officer in the chest and the head"
     ],
     "loot-tables": [],
     "fragment-loot-tables": []
   },
   {
-    "title": "Sex In Minecraft",
-    "author": "vargskelethor",
-    "duration": 298,
-    "disc-namespace": "music_disc.sexinminecraftvargskelethorfour",
+    "title": "Sorry for Party Rocking",
+    "author": "LMFAO",
+    "duration": 204,
+    "disc-namespace": "music_disc.sorryforpartyrockinglmfaofour",
     "model-data": 5,
     "creeper-drop": true,
     "lores": [
-      "This is the lore of the disc",
-      "",
-      "You can have multiple lines",
-      "",
-      "If you don't want any lores you can leave this empty"
+      "sorry........."
     ],
     "loot-tables": [],
     "fragment-loot-tables": []
   },
   {
-    "title": "Sex In Minecraft",
-    "author": "vargskelethor",
-    "duration": 147,
-    "disc-namespace": "music_disc.sexinminecraftvargskelethorfive",
+    "title": "Buddy Holly",
+    "author": "Weezer",
+    "duration": 160,
+    "disc-namespace": "music_disc.buddyhollyweezerfive",
     "model-data": 6,
     "creeper-drop": true,
     "lores": [
-      "This is the lore of the disc",
-      "",
-      "You can have multiple lines",
-      "",
-      "If you don't want any lores you can leave this empty"
+      "i smell just like buddy holly"
     ],
     "loot-tables": [],
     "fragment-loot-tables": []
   },
   {
-    "title": "Sex In Minecraft",
-    "author": "vargskelethor",
-    "duration": 252,
-    "disc-namespace": "music_disc.sexinminecraftvargskelethorsix",
+    "title": "Linger",
+    "author": "The Cranberries",
+    "duration": 278,
+    "disc-namespace": "music_disc.lingerthecranberriessix",
     "model-data": 7,
     "creeper-drop": true,
     "lores": [
-      "This is the lore of the disc",
-      "",
-      "You can have multiple lines",
-      "",
-      "If you don't want any lores you can leave this empty"
+      "this song is about a fart"
     ],
     "loot-tables": [],
     "fragment-loot-tables": []
   },
   {
-    "title": "Sex In Minecraft",
-    "author": "vargskelethor",
-    "duration": 185,
-    "disc-namespace": "music_disc.sexinminecraftvargskelethorseven",
+    "title": "Escape",
+    "author": "Rupert Holmes",
+    "duration": 228,
+    "disc-namespace": "music_disc.escaperupertholmesseven",
     "model-data": 8,
     "creeper-drop": true,
     "lores": [
-      "This is the lore of the disc",
-      "",
-      "You can have multiple lines",
-      "",
-      "If you don't want any lores you can leave this empty"
+      "if you like penis coladas"
     ],
     "loot-tables": [],
     "fragment-loot-tables": []
   },
   {
-    "title": "Sex In Minecraft",
-    "author": "vargskelethor",
-    "duration": 144,
-    "disc-namespace": "music_disc.sexinminecraftvargskelethoreight",
+    "title": "Virtual Insanity",
+    "author": "Disc Author",
+    "duration": 237,
+    "disc-namespace": "music_disc.virtualinsanitydiscauthoreight",
     "model-data": 9,
     "creeper-drop": true,
     "lores": [
-      "This is the lore of the disc",
-      "",
-      "You can have multiple lines",
-      "",
-      "If you don't want any lores you can leave this empty"
+      "dancing",
+      "walking",
+      "rearranging furniture"
     ],
     "loot-tables": [],
     "fragment-loot-tables": []
