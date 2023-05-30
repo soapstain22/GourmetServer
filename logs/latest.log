@@ -1,762 +1,307 @@
-[15:16:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:16:16] [ServerMain/INFO]: Loaded 7 recipes
-[15:16:16] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[15:16:16] [Server thread/INFO]: Loading properties
-[15:16:16] [Server thread/INFO]: This server is running Paper version git-Paper-538 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: bcd8dc2)
-[15:16:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:16:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:16:17] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[17:41:54] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:41:55] [ServerMain/INFO]: Loaded 7 recipes
+[17:41:56] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[17:41:56] [Server thread/INFO]: Loading properties
+[17:41:56] [Server thread/INFO]: This server is running Paper version git-Paper-538 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: bcd8dc2)
+[17:41:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:41:56] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:41:56] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[15:16:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[15:16:17] [Server thread/INFO]: Default game type: SURVIVAL
-[15:16:17] [Server thread/INFO]: Generating keypair
-[15:16:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:16:17] [Server thread/INFO]: Using epoll channel type
-[15:16:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:16:17] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[15:16:18] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.79
-[15:16:18] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[15:16:18] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.19.7
-[15:16:18] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.19.7
-[15:16:18] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b??-1b9042e)
-[15:16:18] [Server thread/INFO]: [floodgate] Took 301ms to boot Floodgate
-[15:16:18] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.14+6360-094b734
-[15:16:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4f09b230]
-[15:16:19] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
-[15:16:19] [Server thread/INFO]: [ImageOnMap] Loading server plugin ImageOnMap v4.2.2
-[15:16:19] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.19.7
-[15:16:19] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.19.7
-[15:16:19] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.0-SNAPSHOT
-[15:16:20] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:16:20] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:16:20] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.3
-[15:16:20] [Server thread/INFO]: [LibertyBans] Loading server plugin LibertyBans v1.1.0-M2
-[15:16:20] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v21.3
-[15:16:20] [Server thread/INFO]: [JEXT] Loading server plugin JukeboxExtendedReborn v1.1.3
-[15:16:20] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[15:16:20] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.0.12
-[15:16:20] [Server thread/INFO]: [EssentialsGeoIP] Loading server plugin EssentialsGeoIP v2.19.7
-[15:16:20] [Server thread/INFO]: [ChestShop] Loading server plugin ChestShop v3.12.2 (build 353)
-[15:16:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:16:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.79
-[15:16:20] [Server thread/INFO]:         __    
-[15:16:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.79
-[15:16:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[15:16:20] [Server thread/INFO]: 
-[15:16:20] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[15:16:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[15:16:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[15:16:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[15:16:21] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1271ms)
-[15:16:21] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[15:16:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[15:16:21] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[15:16:21] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[15:16:21] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[15:16:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
-[15:16:21] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[15:16:21] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[15:16:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
-[15:16:22] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
-[15:16:22] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.3
-[15:16:22] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[15:16:22] [Server thread/WARN]: It seems like you're running on paper.
-[15:16:22] [Server thread/WARN]: This may cause issues.
-[15:16:22] [Server thread/WARN]: If you encounter any issues, please join my dicord: https://discord.gg/dBhfCzdZxq
-[15:16:22] [Server thread/WARN]: Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[15:16:22] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[15:16:22] [Server thread/INFO]: Preparing level "world"
-[15:16:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:16:23] [Server thread/INFO]: Time elapsed: 113 ms
-[15:16:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:16:23] [Server thread/INFO]: Time elapsed: 65 ms
-[15:16:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:16:23] [Server thread/INFO]: Time elapsed: 85 ms
-[15:16:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
-[15:16:23] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[15:16:24] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[15:16:24] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[15:16:24] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[15:16:24] [Server thread/INFO]: [Essentials] Using locale en_US
-[15:16:24] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[15:16:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[15:16:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[15:16:24] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[15:16:24] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.7
-[15:16:24] [Server thread/INFO]: [EssentialsChat] Secure signed chat and previews are enabled.
-[15:16:24] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[15:16:24] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b??-1b9042e)
-[15:16:24] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v4.2.2
-[15:16:24] [Server thread/INFO]: [ImageOnMap] Loaded 0 player map files.
-[15:16:24] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.7
-[15:16:24] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[15:16:24] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.19.7
-[15:16:24] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
-[15:16:24] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
-[15:16:24] [Server thread/ERROR]: [EssentialsDiscord] An error occurred while logging into Discord, which has caused the plugin to disable itself: 
-No token provided! Please follow the tutorial in the config in order to setup the plugin.
-[15:16:24] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
-[15:16:25] [Server thread/INFO]: [LibertyBans] Enabling LibertyBans v1.1.0-M2
-[15:16:25] [Server thread/INFO]: [LibertyBans] No addons detected
-[15:16:25] [Server thread/INFO]: [space.arim.libertybans.core.addon.AddonLoader] No addons loaded
-[15:16:25] [Server thread/INFO]: [space.arim.libertybans.core.AbstractBaseFoundation] Conducting start phase...
-[15:16:26] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] LibertyBansPool-HyperSQL - Starting...
-[15:16:26] [Server thread/INFO]: [com.zaxxer.hikari.pool.PoolBase] LibertyBansPool-HyperSQL - Driver does not support get/set network timeout for connections. (feature not supported)
-[15:16:26] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] LibertyBansPool-HyperSQL - Added connection org.hsqldb.jdbc.JDBCConnection@5e8a7196
-[15:16:26] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] LibertyBansPool-HyperSQL - Start completed.
-[15:16:26] [Server thread/INFO]: [org.flywaydb.core.internal.license.VersionPrinter] Flyway Community Edition 8.2.0 by Redgate
-[15:16:26] [Server thread/INFO]: [org.flywaydb.core.internal.database.base.BaseDatabaseType] Database: jdbc:hsqldb:file:/home/max/Desktop/Minecraft/plugins/LibertyBans/internal/hypersql/punishments-database;sql.enforce_names=true;sql.enforce_types=true;hsqldb.tx_interrupt_rollback=true;sql.enforce_refs=true;sql.restrict_exec=true;sql.sys_index_names=true;hsqldb.default_table_type=cached (HSQL Database Engine 2.7)
-[15:16:26] [Server thread/WARN]: [org.flywaydb.core.internal.database.base.Database] Flyway upgrade recommended: HSQLDB 2.7 is newer than this version of Flyway and support has not been tested. The latest supported version of HSQLDB is 2.6.
-[15:16:26] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 9 migrations (execution time 00:00.048s)
-[15:16:26] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "PUBLIC": 28
-[15:16:26] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "PUBLIC" is up to date. No migration necessary.
-[15:16:27] [Server thread/INFO]: [space.arim.libertybans.core.AbstractBaseFoundation] Finished start phase in 1.258 seconds
-[15:16:27] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.3
-[15:16:27] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[15:16:27] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[15:16:27] [Server thread/INFO]: --------------------
-[15:16:27] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[15:16:27] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[15:16:27] [Server thread/INFO]: --------------------
-[15:16:27] [Server thread/INFO]: [JEXT] Enabling JukeboxExtendedReborn v1.1.3
-[15:16:27] [Server thread/INFO]: [JEXT] Enabled Jukebox Extended Reborn, Do Re Mi!
-[15:16:27] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[15:16:27] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[15:16:27] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[15:16:27] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: FUCK
-[15:16:27] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[15:16:27] [Server thread/INFO]: Preparing start region for dimension minecraft:programming_area
-[15:16:28] [ForkJoinPool.commonPool-worker-2/INFO]: [space.arim.libertybans.core.database.jooq.JooqClassloading] Finished pre-initializing classes in 1.05 seconds
-[15:16:28] [Server thread/INFO]: Time elapsed: 706 ms
-[15:16:28] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[15:16:28] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[15:16:28] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[15:16:28] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.12
-[15:16:28] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.7
-[15:16:28] [Server thread/ERROR]: [EssentialsGeoIP] No license key found! Please visit https://essentialsx.net/geoip for first time setup instructions.
-[15:16:28] [Server thread/ERROR]: [EssentialsGeoIP] Failed to read GeoIP database!
-java.io.FileNotFoundException: plugins/EssentialsGeoIP/GeoIP2-Country.mmdb (No such file or directory)
-	at java.io.RandomAccessFile.open0(Native Method) ~[?:?]
-	at java.io.RandomAccessFile.open(RandomAccessFile.java:346) ~[?:?]
-	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:260) ~[?:?]
-	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:214) ~[?:?]
-	at com.earth2me.essentials.geoip.libs.maxmind.db.BufferHolder.<init>(BufferHolder.java:19) ~[EssentialsXGeoIP-2.19.7.jar:?]
-	at com.earth2me.essentials.geoip.libs.maxmind.db.Reader.<init>(Reader.java:116) ~[EssentialsXGeoIP-2.19.7.jar:?]
-	at com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66) ~[EssentialsXGeoIP-2.19.7.jar:?]
-	at com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54) ~[EssentialsXGeoIP-2.19.7.jar:?]
-	at com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160) ~[EssentialsXGeoIP-2.19.7.jar:?]
-	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.reloadConfig(EssentialsGeoIPPlayerListener.java:175) ~[EssentialsXGeoIP-2.19.7.jar:?]
-	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.<init>(EssentialsGeoIPPlayerListener.java:51) ~[EssentialsXGeoIP-2.19.7.jar:?]
-	at com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:33) ~[EssentialsXGeoIP-2.19.7.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.19.4.jar:git-Paper-538]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.19.4.jar:git-Paper-538]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.enablePlugin(CraftServer.java:556) ~[paper-1.19.4.jar:git-Paper-538]
-	at org.bukkit.craftbukkit.v1_19_R3.CraftServer.enablePlugins(CraftServer.java:467) ~[paper-1.19.4.jar:git-Paper-538]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:638) ~[paper-1.19.4.jar:git-Paper-538]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:437) ~[paper-1.19.4.jar:git-Paper-538]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.19.4.jar:git-Paper-538]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1104) ~[paper-1.19.4.jar:git-Paper-538]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320) ~[paper-1.19.4.jar:git-Paper-538]
-	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
-[15:16:28] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[15:16:28] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
-[15:16:28] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.12.2 (build 353)
-[15:16:28] [Server thread/INFO]: [ChestShop] Found locales ar, it, es, el, hu, fr, pl, cs, pt_br, ja, sv, da, es_mx, sr, tr, nl, zh_tw, af, ko, no, vi, ro, he, ru, ca, zh, de, fi, en, uk
-[15:16:29] [Server thread/INFO]: [ChestShop] Using EssentialsX Economy as the Economy provider now.
-[15:16:29] [Server thread/INFO]: [ChestShop] Vault loaded!
-[15:16:29] [Server thread/INFO]: [ChestShop] Using Paper's BlockDestroyEvent instead of the BlockPhysicsEvent!
-[15:16:29] [Server thread/INFO]: [ChestShop] Auto-updater is disabled. If you want the plugin to automatically download new releases then set 'TURN_OFF_UPDATES' to 'false' in your config.yml!
-[15:16:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:16:29] [Server thread/INFO]: [Geyser-Spigot] 
-[15:16:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-ba4e370)
-[15:16:29] [Server thread/INFO]: [Geyser-Spigot] 
-[15:16:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:16:32] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[15:16:32] [Server thread/INFO]: [Geyser-Spigot] Done (3.121s)! Run /geyser help for help!
-[15:16:32] [Server thread/INFO]: Running delayed init tasks
-[15:16:32] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[15:16:32] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[15:16:32] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
-[15:16:32] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
-[15:16:32] [Server thread/INFO]: Done (15.857s)! For help, type "help"
-[15:16:32] [Server thread/INFO]: Timings Reset
-[15:16:32] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
-[15:16:32] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.20.0.
-[15:16:32] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[15:16:37] [User Authenticator #0/INFO]: UUID of player pluto_rights is fcef53df-d285-4228-b2b1-90a7153cb3a3
-[15:16:37] [Server thread/INFO]: pluto_rights joined the game
-[15:16:38] [Server thread/INFO]: pluto_rights[/35.138.71.6:55625] logged in with entity id 238 at ([world]-1055.5836685626184, 70.0, 375.2598247649227)
-[15:16:38] [Craft Scheduler Thread - 3 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for pluto_rights. Please ensure that your license key and configuration are correct.
-[15:16:42] [User Authenticator #0/INFO]: UUID of player msmarlin is 3d3496b2-d3c7-4c2b-b172-64e21748c7f7
-[15:16:42] [Server thread/INFO]: msmarlin joined the game
-[15:16:42] [Server thread/INFO]: msmarlin[/71.67.132.208:54818] logged in with entity id 704 at ([world]-1169.9552654726738, 96.0, 639.8333908172661)
-[15:16:42] [Craft Scheduler Thread - 2 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for msmarlin. Please ensure that your license key and configuration are correct.
-[15:16:49] [User Authenticator #0/INFO]: UUID of player amitskistan is d55c6416-fbea-4aea-a5b0-9e2a71f80815
-[15:16:49] [Server thread/INFO]: amitskistan joined the game
-[15:16:49] [Server thread/INFO]: amitskistan[/81.49.229.145:61476] logged in with entity id 1026 at ([world]-1169.501779924901, 102.5625, 645.5850251402251)
-[15:16:49] [Craft Scheduler Thread - 3 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for amitskistan. Please ensure that your license key and configuration are correct.
-[15:16:51] [Server thread/INFO]: amitskistan lost connection: Disconnected
-[15:16:51] [Server thread/INFO]: amitskistan left the game
-[15:17:00] [Async Chat Thread - #1/INFO]: <msmarlin> why is it laggy
-[15:18:09] [Async Chat Thread - #3/INFO]: <pluto_rights> its not on my end
-[15:18:25] [Server thread/INFO]: msmarlin lost connection: Disconnected
-[15:18:25] [Server thread/INFO]: msmarlin left the game
-[15:18:30] [User Authenticator #1/INFO]: UUID of player msmarlin is 3d3496b2-d3c7-4c2b-b172-64e21748c7f7
-[15:18:30] [Server thread/INFO]: msmarlin joined the game
-[15:18:30] [Server thread/INFO]: msmarlin[/71.67.132.208:54844] logged in with entity id 1364 at ([world]-1168.2382083481423, 101.5, 633.6999999880791)
-[15:18:30] [Craft Scheduler Thread - 12 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for msmarlin. Please ensure that your license key and configuration are correct.
-[15:19:11] [User Authenticator #1/INFO]: UUID of player amitskistan is d55c6416-fbea-4aea-a5b0-9e2a71f80815
-[15:19:11] [Server thread/INFO]: amitskistan joined the game
-[15:19:11] [Server thread/INFO]: amitskistan[/81.49.229.145:61605] logged in with entity id 1666 at ([world]-1169.501779924901, 102.5625, 645.5850251402251)
-[15:19:11] [Craft Scheduler Thread - 18 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for amitskistan. Please ensure that your license key and configuration are correct.
-[15:20:08] [Server thread/INFO]: msmarlin lost connection: Disconnected
-[15:20:08] [Server thread/INFO]: msmarlin left the game
-[15:21:55] [User Authenticator #2/INFO]: UUID of player Rhythm8503 is 022e62da-c892-4b67-8918-5cc398115e69
-[15:21:55] [Server thread/INFO]: Rhythm8503 joined the game
-[15:21:55] [Server thread/INFO]: Rhythm8503[/66.65.68.214:51062] logged in with entity id 2455 at ([world]-1067.7709561072652, 62.0, 583.8378653291186)
-[15:21:56] [Craft Scheduler Thread - 32 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Rhythm8503. Please ensure that your license key and configuration are correct.
-[15:22:22] [Async Chat Thread - #5/INFO]: <Rhythm8503> gamers
-[15:22:26] [Async Chat Thread - #4/INFO]: <Rhythm8503> I smell
-[15:23:02] [User Authenticator #3/INFO]: UUID of player Rebbebba is 24417846-d5ed-4608-ae7a-ed643b41c5e1
-[15:23:02] [Server thread/INFO]: Rebbebba joined the game
-[15:23:02] [Server thread/INFO]: Rebbebba[/68.132.130.223:55810] logged in with entity id 2757 at ([world]-1312.0075736479075, 90.8500000178814, 108.3017578125)
-[15:23:02] [Craft Scheduler Thread - 40 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Rebbebba. Please ensure that your license key and configuration are correct.
-[15:23:06] [Async Chat Thread - #5/INFO]: <Rhythm8503> Rebbebba
-[15:23:09] [Async Chat Thread - #4/INFO]: <NPRebbebba+++> help
-[15:23:11] [Async Chat Thread - #5/INFO]: <Rhythm8503> no
-[15:23:20] [Async Chat Thread - #4/INFO]: <NPRebbebba+++> also taheem that looks so so good
-[15:23:27] [Async Chat Thread - #5/INFO]: <Rhythm8503> thanksies
-[15:23:31] [Async Chat Thread - #4/INFO]: <Rhythm8503> I got like 2 more floors
-[15:23:42] [Async Chat Thread - #5/INFO]: <Rhythm8503> and I still gotta code my nerf gun AI for the third time this week
-[15:23:44] [Async Chat Thread - #4/INFO]: <NPRebbebba+++> im omw home rn
-[15:23:48] [Async Chat Thread - #5/INFO]: <Rhythm8503> just waiting for my 3D printer
-[15:23:52] [Async Chat Thread - #4/INFO]: <Rhythm8503> r u on PE?
-[15:24:02] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3039584764152323
-[15:24:20] [Async Chat Thread - #5/INFO]: <NPRebbebba+++> me?
-[15:24:22] [Async Chat Thread - #4/INFO]: <Rhythm8503> yeah
-[15:24:24] [User Authenticator #4/INFO]: UUID of player msmarlin is 3d3496b2-d3c7-4c2b-b172-64e21748c7f7
-[15:24:24] [Server thread/INFO]: msmarlin joined the game
-[15:24:24] [Server thread/INFO]: msmarlin[/71.67.132.208:50029] logged in with entity id 3733 at ([world]-1172.8337445973286, 97.0, 633.6233208216069)
-[15:24:24] [Craft Scheduler Thread - 46 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for msmarlin. Please ensure that your license key and configuration are correct.
-[15:24:32] [Async Chat Thread - #5/INFO]: <NPRebbebba+++> idk what that is
-[15:24:36] [Async Chat Thread - #4/INFO]: <Rhythm8503> Pocket Edition
-[15:24:39] [Async Chat Thread - #5/INFO]: <NPRebbebba+++> oh no lol
-[15:24:40] [Async Chat Thread - #4/INFO]: <NPRebbebba+++> laptop
-[15:24:42] [Async Chat Thread - #5/INFO]: <Rhythm8503> ohhh
-[15:25:13] [Async Chat Thread - #4/INFO]: <NPRebbebba+++> the lag is probably nathans 400 chickens running around
-[15:25:16] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.41439378007328287
-[15:25:16] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.44119807481388307
-[15:25:17] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.46797256070590265
-[15:25:18] [Async Chat Thread - #5/INFO]: <Rhythm8503> bruh
-[15:25:20] [Async Chat Thread - #4/INFO]: <msmarlin> fr
-[15:25:33] [Async Chat Thread - #5/INFO]: <Rhythm8503> lemme ask nate if I can kill like 100
-[15:25:38] [Async Chat Thread - #4/INFO]: <NPRebbebba+++> just do it
-[15:25:43] [Async Chat Thread - #5/INFO]: <Rhythm8503> where is it
-[15:25:45] [Async Chat Thread - #4/INFO]: <NPRebbebba+++> he has 2 large chests full of eggs
-[15:25:47] [Async Chat Thread - #5/INFO]: <NPRebbebba+++> everywhere
-[15:25:55] [Async Chat Thread - #4/INFO]: <pluto_rights> or nathans 1000 cows
-[15:25:55] [Async Chat Thread - #4/INFO]: <Rhythm8503> where is his farm
-[15:25:56] [Async Chat Thread - #5/INFO]: <msmarlin> nah I was lagging like it was taking me backwards and shit and I had Alex test it and I was like wait a min and touched my pc
-[15:26:03] [Async Chat Thread - #4/INFO]: <NPRebbebba+++> no i mean around the town
-[15:26:08] [Async Chat Thread - #5/INFO]: <NPRebbebba+++> all walkin around
-[15:26:16] [Async Chat Thread - #4/INFO]: <Rhythm8503> bro I don't see anu
-[15:26:17] [Async Chat Thread - #5/INFO]: <Rhythm8503> any
-[15:26:24] [Async Chat Thread - #4/INFO]: <msmarlin> nah there was at least 30 around my house
-[15:26:36] [Async Chat Thread - #5/INFO]: <NPRebbebba+++> same
-[15:27:47] [Async Chat Thread - #7/INFO]: <NPRebbebba+++> brb
-[15:27:48] [Server thread/INFO]: Rebbebba lost connection: Disconnected
-[15:27:48] [Server thread/INFO]: Rebbebba left the game
-[15:27:54] [Async Chat Thread - #6/INFO]: <Rhythm8503> NO
-[15:28:25] [Async Chat Thread - #7/INFO]: <msmarlin> whats the disenchanter called
-[15:28:42] [User Authenticator #5/INFO]: UUID of player Gopee360 is 7ff0fecd-c4ef-46ae-b334-301e1e4d46ea
-[15:28:42] [Server thread/INFO]: Gopee360 joined the game
-[15:28:42] [Server thread/INFO]: Gopee360[/24.164.183.119:50729] logged in with entity id 4842 at ([world]-1151.300000011921, 17.0, 553.8358536642073)
-[15:28:42] [Craft Scheduler Thread - 73 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Gopee360. Please ensure that your license key and configuration are correct.
-[15:28:48] [Async Chat Thread - #6/INFO]: <Rhythm8503> nate kill ur cows and chickens
-[15:28:56] [Async Chat Thread - #7/INFO]: <msmarlin> fr
-[15:29:00] [Async Chat Thread - #6/INFO]: <NPGopee360+> he said it was fine
-[15:29:24] [Async Chat Thread - #7/INFO]: <NPGopee360+> bc the laggine was still happening without the cows and chikens
-[15:29:45] [Async Chat Thread - #6/INFO]: <msmarlin> 0-o
-[15:32:59] [User Authenticator #6/INFO]: UUID of player sam__mas is 30c797f7-a264-466b-bfbc-ca64e3cdc760
-[15:33:00] [Server thread/INFO]: sam__mas joined the game
-[15:33:00] [Server thread/INFO]: sam__mas[/68.102.105.46:50935] logged in with entity id 5827 at ([world]-1155.699999988079, 74.0, 552.2110893151618)
-[15:33:00] [Craft Scheduler Thread - 99 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for sam__mas. Please ensure that your license key and configuration are correct.
-[15:33:04] [Async Chat Thread - #9/INFO]: <msmarlin> MY WIFE
-[15:33:05] [Async Chat Thread - #8/INFO]: <msmarlin> MY LIFE
-[15:33:07] [Async Chat Thread - #9/INFO]: <msmarlin> MY BBG
-[15:33:09] [Async Chat Thread - #8/INFO]: <msmarlin> MY SEXY
-[15:33:12] [Async Chat Thread - #9/INFO]: <msmarlin> MY HOTTIE
-[15:33:15] [Async Chat Thread - #8/INFO]: <sam__mas> hi
-[15:33:19] [Async Chat Thread - #9/INFO]: <Rhythm8503> U sound exactly like my sister
-[15:34:15] [Server thread/WARN]: msmarlin moved wrongly!
-[15:34:52] [Async Chat Thread - #11/INFO]: <msmarlin> you should join vc in our server sam
-[15:34:54] [Async Chat Thread - #10/INFO]: <sam__mas> why so many?
-[15:35:01] [Async Chat Thread - #11/INFO]: <sam__mas> im watching tv ☺
-[15:35:02] [Async Chat Thread - #10/INFO]: <msmarlin> to upgrade the man
-[15:35:08] [Async Chat Thread - #11/INFO]: <msmarlin> :C
-[15:35:08] [Async Chat Thread - #10/INFO]: <sam__mas> man?
-[15:35:14] [Async Chat Thread - #11/INFO]: <msmarlin> villager
-[15:35:17] [Async Chat Thread - #10/INFO]: <sam__mas> ohhhh
-[15:35:23] [User Authenticator #7/INFO]: UUID of player bee_mp3 is cfd66c88-6297-430f-8f8c-ef1b330d1c3d
-[15:35:23] [Server thread/INFO]: bee_mp3 joined the game
-[15:35:23] [Server thread/INFO]: bee_mp3[/67.243.34.233:59593] logged in with entity id 6386 at ([world]-1221.1183299399302, 75.5, 521.089763862979)
-[15:35:24] [Craft Scheduler Thread - 111 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for bee_mp3. Please ensure that your license key and configuration are correct.
-[15:35:35] [Async Chat Thread - #11/INFO]: <sam__mas> ahhhhh
-[15:35:41] [Async Chat Thread - #10/INFO]: <msmarlin> its all a diamond for me
-[15:35:51] [Async Chat Thread - #11/INFO]: <sam__mas> i thought it was ours and i was bout to be pissed
-[15:35:58] [Async Chat Thread - #10/INFO]: <msmarlin> no maam
-[15:36:12] [Async Chat Thread - #11/INFO]: <NPbee_mp3+++> hi
-[15:36:15] [Async Chat Thread - #10/INFO]: <NPbee_mp3+++> who r u
-[15:36:16] [Async Chat Thread - #11/INFO]: <sam__mas> hi beeeeee
-[15:36:16] [Async Chat Thread - #10/INFO]: <msmarlin> I even said if anyone wanted some diamond tools
-[15:36:17] [Async Chat Thread - #11/INFO]: <amitskistan> hello
-[15:36:20] [Async Chat Thread - #10/INFO]: <msmarlin> hai bee
-[15:36:23] [Async Chat Thread - #11/INFO]: <amitskistan> i am human
-[15:36:25] [Async Chat Thread - #10/INFO]: <NPbee_mp3+++> okay
-[15:36:48] [Async Chat Thread - #11/INFO]: <sam__mas> i got a stack of steak
-[15:36:52] [Async Chat Thread - #10/INFO]: <msmarlin> me too
-[15:36:58] [Server thread/INFO]: bee_mp3 was burnt to a crisp whilst fighting sam__mas
-[15:37:01] [Async Chat Thread - #11/INFO]: <sam__mas> oh
-[15:37:03] [Async Chat Thread - #10/INFO]: <msmarlin> hahahahahhahah
-[15:37:05] [Async Chat Thread - #11/INFO]: <sam__mas> ummm
-[15:37:05] [Async Chat Thread - #10/INFO]: <NPbee_mp3+++> YOU FUCKING BITCH
-[15:37:06] [Async Chat Thread - #11/INFO]: <msmarlin> LMFAOSODAOSODOAODOASASD
-[15:37:09] [Async Chat Thread - #10/INFO]: <msmarlin> ASDLJKFHSDJKHFALQKJHFAKJSHFAJKSFHKAJSF
-[15:37:11] [Server thread/INFO]: bee_mp3 issued server command: /warp hi
-[15:37:11] [Async Chat Thread - #11/INFO]: <msmarlin> HAHAHAHAHAHAHA
-[15:37:22] [Async Chat Thread - #10/INFO]: <msmarlin> AAHJAHAHHAHHA
-[15:37:22] [Async Chat Thread - #11/INFO]: <sam__mas> sorry....
-[15:37:23] [Async Chat Thread - #10/INFO]: <NPbee_mp3+++> DAMN HOE
-[15:37:30] [Async Chat Thread - #11/INFO]: <NPbee_mp3+++> IM NEVER VISITING YOU AGAIN
-[15:37:43] [Async Chat Thread - #10/INFO]: <msmarlin> LMFAO I SHOULDVE TOLD YOU HOW POWERFUL IT WAS HUH
-[15:37:46] [Async Chat Thread - #11/INFO]: <sam__mas> ...i didnt know it would kill you
-[15:37:46] [Async Chat Thread - #10/INFO]: <msmarlin> LMDFAOOOAS
-[15:37:49] [Async Chat Thread - #11/INFO]: <msmarlin> AHAHAHHAHAHAHAH
-[15:38:02] [Async Chat Thread - #10/INFO]: <msmarlin> HAHAHAHAH
-[15:38:13] [Async Chat Thread - #11/INFO]: <NPbee_mp3+++> MARLIN QUIET
-[15:38:17] [Async Chat Thread - #10/INFO]: <NPbee_mp3+++> op capds
-[15:38:21] [Async Chat Thread - #11/INFO]: <NPbee_mp3+++> sorry
-[15:38:25] [Async Chat Thread - #10/INFO]: <NPbee_mp3+++> quiet
-[15:38:26] [Async Chat Thread - #11/INFO]: <pluto_rights> y'all should join vc
-[15:38:28] [Async Chat Thread - #10/INFO]: <msmarlin> THATS SO FUNNY IMA BE GIGGLING FOR A MIN
-[15:38:41] [Server thread/INFO]: bee_mp3 lost connection: Disconnected
-[15:38:41] [Server thread/INFO]: bee_mp3 left the game
-[15:38:46] [User Authenticator #8/INFO]: UUID of player bee_mp3 is cfd66c88-6297-430f-8f8c-ef1b330d1c3d
-[15:38:46] [Server thread/INFO]: bee_mp3 joined the game
-[15:38:46] [Server thread/INFO]: bee_mp3[/67.243.34.233:59804] logged in with entity id 7194 at ([world]-1179.7592709383046, 87.0, 630.3686015504117)
-[15:38:46] [Craft Scheduler Thread - 131 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for bee_mp3. Please ensure that your license key and configuration are correct.
-[15:39:20] [Async Chat Thread - #11/INFO]: <NPbee_mp3+++> WHRREW AR MY ARROWS
-[15:39:24] [Async Chat Thread - #10/INFO]: <msmarlin> mira ily
-[15:39:28] [Async Chat Thread - #11/INFO]: <sam__mas> og i have the, sorrt
-[15:39:29] [Async Chat Thread - #10/INFO]: <msmarlin> I mean same
-[15:39:37] [Async Chat Thread - #11/INFO]: <NPbee_mp3+++> cmere
-[15:39:42] [Async Chat Thread - #10/INFO]: <NPbee_mp3+++> SAMn
-[15:39:43] [Async Chat Thread - #11/INFO]: <msmarlin> that made my week
-[15:39:51] [Async Chat Thread - #10/INFO]: <NPbee_mp3+++> SAM COME HERE
-[15:39:53] [Async Chat Thread - #11/INFO]: <NPbee_mp3+++> JESUS
-[15:39:59] [Async Chat Thread - #10/INFO]: <sam__mas> never
-[15:40:02] [Async Chat Thread - #11/INFO]: <NPbee_mp3+++> wtf
-[15:40:07] [Async Chat Thread - #10/INFO]: <NPbee_mp3+++> i wanna tell you smth
-[15:40:09] [User Authenticator #9/INFO]: UUID of player Rebbebba is 24417846-d5ed-4608-ae7a-ed643b41c5e1
-[15:40:09] [Server thread/INFO]: Rebbebba joined the game
-[15:40:09] [Server thread/INFO]: Rebbebba[/68.132.130.223:55928] logged in with entity id 7476 at ([world]-1231.4280653694166, 95.0, 637.3392609375181)
-[15:40:10] [Craft Scheduler Thread - 138 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Rebbebba. Please ensure that your license key and configuration are correct.
-[15:40:14] [Async Chat Thread - #11/INFO]: <NPbee_mp3+++> istg im not mad
-[15:40:19] [Async Chat Thread - #10/INFO]: <NPRebbebba+++> yall help
-[15:40:21] [Async Chat Thread - #11/INFO]: <sam__mas> your gonna kill me
-[15:40:37] [Async Chat Thread - #10/INFO]: <msmarlin> I'm still smiling from sam
-[15:40:40] [Async Chat Thread - #11/INFO]: <NPRebbebba+++> my momma telling me abt the alaska trip we're goin on and she said the plane is 12pm to 9pm
-[15:40:48] [Async Chat Thread - #10/INFO]: <NPRebbebba+++> but she forgot abt the timezones
-[15:40:53] [Async Chat Thread - #11/INFO]: <NPRebbebba+++> 12 HOUR FLIGHT
-[15:40:55] [Async Chat Thread - #10/INFO]: <NPRebbebba+++> RAAAAHHHHHHHHHHHHH
-[15:40:57] [Async Chat Thread - #11/INFO]: <NPbee_mp3+++> LLLLLLLLLLLLL
-[15:41:18] [Server thread/INFO]: bee_mp3 was shot by msmarlin using [Baw]
-[15:41:21] [Async Chat Thread - #10/INFO]: <NPRebbebba+++> like W that im going to alaska but literally there and back will take an entire day total
-[15:41:22] [Server thread/INFO]: bee_mp3 issued server command: /warp hi
-[15:41:22] [Server thread/WARN]: bee_mp3 moved too quickly! -364.5596187163583,-6.0,978.1997841272128
-[15:41:24] [Async Chat Thread - #11/INFO]: <msmarlin> don't shoot me
-[15:41:26] [Server thread/INFO]: bee_mp3 issued server command: /back
-[15:41:29] [Server thread/INFO]: bee_mp3 issued server command: /warp hi
-[15:41:39] [Async Chat Thread - #10/INFO]: <Rhythm8503> [NP]<username>: <text>
-[15:41:54] [Async Chat Thread - #11/INFO]: <Rhythm8503> [NP] Username: <text>
-[15:41:56] [Async Chat Thread - #10/INFO]: <NPbee_mp3+++> i am so about to kill marlin
-[15:42:01] [Async Chat Thread - #11/INFO]: <sam__mas> lmaoo
-[15:42:03] [Async Chat Thread - #10/INFO]: <msmarlin> try it
-[15:42:19] [Async Chat Thread - #11/INFO]: <msmarlin> in my defence you shot first
-[15:42:36] [Async Chat Thread - #10/INFO]: <msmarlin> I will kill you
-[15:42:45] [Async Chat Thread - #11/INFO]: <msmarlin> that's what I thought
-[15:42:53] [Async Chat Thread - #10/INFO]: <Rhythm8503> U need to go back to HS if u can't spell defense
-[15:43:07] [Async Chat Thread - #11/INFO]: <NPRebbebba+++> sweaty on qp wtf
-[15:43:07] [Async Chat Thread - #10/INFO]: <msmarlin> I don't care enough to spell correctly
-[15:43:08] [Async Chat Thread - #11/INFO]: <sam__mas> they are in highschool
-[15:43:30] [Server thread/INFO]: sam__mas has made the advancement [Ice Bucket Challenge]
-[15:43:40] [Async Chat Thread - #10/INFO]: <Rhythm8503> yeah stay in hs
-[15:43:44] [Async Chat Thread - #11/INFO]: <msmarlin> stfu
-[15:43:57] [Async Chat Thread - #10/INFO]: <NPGopee360+> pee pee poo poo
-[15:46:21] [Async Chat Thread - #13/INFO]: <sam__mas> is it just me or is the server super laggy
-[15:46:24] [Async Chat Thread - #12/INFO]: <Rhythm8503> just u
-[15:46:30] [Async Chat Thread - #13/INFO]: <sam__mas> damn ok
-[15:46:31] [Async Chat Thread - #12/INFO]: <msmarlin> I had to restart my pc
-[15:46:40] [Async Chat Thread - #13/INFO]: <sam__mas> imma do that brb
-[15:46:41] [Server thread/INFO]: sam__mas lost connection: Disconnected
-[15:46:41] [Server thread/INFO]: sam__mas left the game
-[15:46:41] [Async Chat Thread - #12/INFO]: <msmarlin> dawg what is ur problem
-[15:48:39] [Async Chat Thread - #15/INFO]: <msmarlin> istg if you don't stop ur death count will be tripled
-[15:48:47] [User Authenticator #10/INFO]: UUID of player sam__mas is 30c797f7-a264-466b-bfbc-ca64e3cdc760
-[15:48:47] [Server thread/INFO]: sam__mas joined the game
-[15:48:47] [Server thread/INFO]: sam__mas[/68.102.105.46:49847] logged in with entity id 11285 at ([world]-1242.2289028104756, 63.0, 552.4164731701534)
-[15:48:47] [Craft Scheduler Thread - 185 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for sam__mas. Please ensure that your license key and configuration are correct.
-[15:48:53] [Server thread/INFO]: bee_mp3 was shot by msmarlin using [Baw]
-[15:48:58] [Async Chat Thread - #14/INFO]: <msmarlin> istg
-[15:48:59] [Server thread/INFO]: bee_mp3 issued server command: /warp hi
-[15:49:00] [Async Chat Thread - #15/INFO]: <msmarlin> fuck off
-[15:49:01] [Async Chat Thread - #14/INFO]: <Rhythm8503> y u shhoot
-[15:49:26] [Async Chat Thread - #15/INFO]: <msmarlin> because I'm trying to defend myself while im fucking be snuck up on in my own damn home
-[15:49:38] [Async Chat Thread - #14/INFO]: <msmarlin> like just fuck off
-[15:49:52] [Async Chat Thread - #15/INFO]: <NPGopee360+> chill bro
-[15:49:53] [Async Chat Thread - #14/INFO]: <sam__mas> marlin calm down pls
-[15:50:03] [Async Chat Thread - #15/INFO]: <NPbee_mp3+++> i had 16 levels when mira killed me
-[15:50:09] [Async Chat Thread - #14/INFO]: <NPbee_mp3+++> and it was your fault
-[15:50:12] [Async Chat Thread - #15/INFO]: <sam__mas> kill me then bee
-[15:50:17] [Async Chat Thread - #14/INFO]: <msmarlin> how df was it my fault
-[15:50:21] [Async Chat Thread - #15/INFO]: <msmarlin> go to the xp farm
-[15:50:22] [Async Chat Thread - #14/INFO]: <msmarlin> df
-[15:50:27] [Async Chat Thread - #15/INFO]: <NPbee_mp3+++> so forgive me if im mad
-[15:50:35] [Async Chat Thread - #14/INFO]: <NPbee_mp3+++> but it is very much a game
-[15:50:37] [Async Chat Thread - #15/INFO]: <NPbee_mp3+++> chill
-[15:50:38] [Async Chat Thread - #14/INFO]: <msmarlin> ur the ones pissing me off
-[15:50:41] [Async Chat Thread - #15/INFO]: <sam__mas> pls
-[15:50:58] [Async Chat Thread - #14/INFO]: <NPbee_mp3+++> no sam it wasnt ur fault
-[15:51:01] [Async Chat Thread - #15/INFO]: <msmarlin> im not gonna calm down when people keep fucking acting like this
-[15:51:10] [Async Chat Thread - #14/INFO]: <NPbee_mp3+++> alright
-[15:51:24] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[15:51:46] [Async Chat Thread - #15/INFO]: <msmarlin> is it that hard to leave my alone if ur upset go to the xp farm or at least say smth to me abt it don't just come and hit me
-[15:52:40] [Async Chat Thread - #14/INFO]: <NPbee_mp3+++> no the problem is that i died then you kept laughing after i very much expressed that i was upset
-[15:53:03] [Async Chat Thread - #15/INFO]: <NPbee_mp3+++> also i didnt even kill you!!
-[15:53:09] [Async Chat Thread - #14/INFO]: <NPbee_mp3+++> you killed me 3 times!!!
-[15:53:11] [Async Chat Thread - #15/INFO]: <msmarlin> u kept hitting me?
-[15:53:27] [Async Chat Thread - #14/INFO]: <msmarlin> I'm not gonna let u not hit me
-[15:53:28] [Async Chat Thread - #15/INFO]: <NPbee_mp3+++> yes but you have full diamond
-[15:53:31] [Async Chat Thread - #14/INFO]: <NPGopee360+> calm yalls tits, ill give u each a diamond if u stfu
-[15:53:32] [Async Chat Thread - #15/INFO]: <NPbee_mp3+++> i have iron
-[15:53:40] [Async Chat Thread - #14/INFO]: <msmarlin> and
-[15:54:07] [Async Chat Thread - #15/INFO]: <msmarlin> I don't need diamonds but ty
-[15:54:35] [User Authenticator #11/INFO]: UUID of player Dare2BeStoopid is 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-[15:54:35] [Server thread/INFO]: Dare2BeStoopid joined the game
-[15:54:35] [Server thread/INFO]: Dare2BeStoopid[/185.189.25.58:59311] logged in with entity id 16535 at ([world]-1105.3749988446375, 81.80266117221998, -412.17092002472185)
-[15:54:46] [Server thread/WARN]: Dare2BeStoopid moved wrongly!
-[15:54:47] [Async Chat Thread - #14/INFO]: <Rhythm8503> Max can I use the cmd block later for the tower
-[15:54:51] [Async Chat Thread - #15/INFO]: <NPDare2BeStoopid+++> MINECRAFT
-[15:55:01] [Async Chat Thread - #14/INFO]: <Rhythm8503> wad that mean
-[15:55:02] [Async Chat Thread - #15/INFO]: <NPGopee360+> SEX IN MINECRAFT
-[15:55:06] [Async Chat Thread - #14/INFO]: <Rhythm8503> Ok nathan
-[15:55:09] [Async Chat Thread - #15/INFO]: <NPDare2BeStoopid+++> SEX
-[15:55:14] [Async Chat Thread - #14/INFO]: <Rhythm8503> ok max
-[15:55:17] [Async Chat Thread - #15/INFO]: <NPDare2BeStoopid+++> SEX
-[15:55:17] [Async Chat Thread - #14/INFO]: <NPDare2BeStoopid+++> SEX
-[15:55:18] [Async Chat Thread - #15/INFO]: <NPDare2BeStoopid+++> SEX
-[15:55:35] [Async Chat Thread - #14/INFO]: <NPDare2BeStoopid+++> BTW ANNOUNCEMENT
-[15:55:39] [Async Chat Thread - #15/INFO]: <NPbee_mp3+++> what
-[15:55:42] [Async Chat Thread - #14/INFO]: <NPDare2BeStoopid+++> we are now open source
-[15:55:42] [Async Chat Thread - #15/INFO]: <msmarlin> que
-[15:55:49] [Async Chat Thread - #14/INFO]: <msmarlin> whats that mean
-[15:55:55] [Async Chat Thread - #15/INFO]: <Rhythm8503> we got on github?
-[15:56:01] [Async Chat Thread - #14/INFO]: <Rhythm8503> lemme make a pull request to add a plugin
-[15:56:02] [Async Chat Thread - #15/INFO]: <NPRebbebba+++> ppl are literally gunna give themselves shit
-[15:56:04] [Server thread/INFO]: Dare2BeStoopid issued server command: /whois NPDare2BeStoopid+++
-[15:56:08] [Async Chat Thread - #14/INFO]: <Rhythm8503> they can;t
-[15:56:13] [Async Chat Thread - #15/INFO]: <NPDare2BeStoopid+++> wait hold
-[15:56:16] [Async Chat Thread - #14/INFO]: <Rhythm8503> the most they can do is just copy the server
-[15:56:25] [Async Chat Thread - #15/INFO]: <NPDare2BeStoopid+++> we can add hotdogs and now custom music
-[15:56:28] [Async Chat Thread - #14/INFO]: <NPDare2BeStoopid+++> ill show
-[15:57:00] [Server thread/INFO]: Dare2BeStoopid issued server command: /gamemode creative
-[15:57:17] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.3121417610041135
-[15:57:21] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.33245959655391744
-[15:57:21] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.25403809755073326
-[15:57:22] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.2834970923850051
-[15:57:22] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.31295650439142264
-[15:57:22] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.34241592163675705
-[15:57:22] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.2639924911898106
-[15:57:23] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.32291132581337934
-[15:57:24] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.273947312677592
-[15:57:24] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.30340672998977425
-[15:57:24] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.3328661473019565
-[15:57:25] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.31336155147835143
-[15:58:42] [Server thread/INFO]: Dare2BeStoopid issued server command: /warp programming_area
-[15:58:43] [Server thread/INFO]: Dare2BeStoopid issued server command: /gamemode creative
-[15:58:53] [Server thread/INFO]: Gopee360 issued server command: /home
-[15:59:56] [Async Chat Thread - #17/INFO]: <Rhythm8503> [NP]Username:
-[16:00:45] [Async Chat Thread - #16/INFO]: <Rhythm8503> <>
-[16:01:17] [Server thread/INFO]: pluto_rights issued server command: /warp hi
-[16:01:58] [Async Chat Thread - #19/INFO]: <msmarlin> pluto Alex likes ur heart house
-[16:03:06] [Server thread/INFO]: msmarlin has made the advancement [Ol' Betsy]
-[16:03:47] [Server thread/INFO]: Rhythm8503 lost connection: Disconnected
-[16:03:47] [Server thread/INFO]: Rhythm8503 left the game
-[16:04:38] [Server thread/INFO]: amitskistan has made the advancement [Ol' Betsy]
-[16:04:38] [Server thread/INFO]: amitskistan has made the advancement [Take Aim]
-[16:06:00] [Server thread/INFO]: pluto_rights lost connection: Disconnected
-[16:06:00] [Server thread/INFO]: pluto_rights left the game
-[16:06:11] [Server thread/INFO]: bee_mp3 issued server command: /shop
-[16:08:10] [Async Chat Thread - #21/INFO]: <msmarlin> sam
-[16:08:13] [Async Chat Thread - #20/INFO]: <sam__mas> ye
-[16:08:15] [Async Chat Thread - #21/INFO]: <msmarlin> want a flame book
-[16:08:20] [Async Chat Thread - #20/INFO]: <NPRebbebba+++> I DO
-[16:08:22] [Async Chat Thread - #21/INFO]: <NPRebbebba+++> I DO I DO
-[16:08:22] [Async Chat Thread - #20/INFO]: <sam__mas> il get one later
-[16:08:22] [Async Chat Thread - #21/INFO]: <msmarlin> I fucking traded for it
-[16:08:25] [Async Chat Thread - #20/INFO]: <msmarlin> ok
-[16:08:29] [Async Chat Thread - #21/INFO]: <msmarlin> where are u
-[16:08:35] [Async Chat Thread - #20/INFO]: <NPRebbebba+++> not there rn
-[16:08:39] [Async Chat Thread - #21/INFO]: <msmarlin> okie
-[16:08:44] [Async Chat Thread - #20/INFO]: <NPRebbebba+++> but what do u want for it
-[16:08:51] [Async Chat Thread - #21/INFO]: <msmarlin> nothing lmao
-[16:08:59] [Async Chat Thread - #20/INFO]: <NPRebbebba+++> wtf
-[16:09:02] [User Authenticator #12/INFO]: UUID of player jahonfroy123 is dd930365-0811-4060-bc4a-add87c3a3323
-[16:09:02] [Server thread/INFO]: jahonfroy123 joined the game
-[16:09:02] [Server thread/INFO]: jahonfroy123[/173.56.3.114:60609] logged in with entity id 25701 at ([world]160.6725294793546, 92.0, -1925.5502275701554)
-[16:09:02] [Craft Scheduler Thread - 304 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for jahonfroy123. Please ensure that your license key and configuration are correct.
-[16:09:12] [Async Chat Thread - #21/INFO]: <msmarlin> you can walk in and it should be in the double chests
-[16:09:17] [Server thread/INFO]: jahonfroy123 issued server command: /warp hi
-[16:09:17] [Server thread/WARN]: jahonfroy123 moved too quickly! -1435.427255456497,-28.0,2439.174995829405
-[16:09:18] [Async Chat Thread - #20/INFO]: <NPRebbebba+++> oh em gee
-[16:09:19] [Async Chat Thread - #20/INFO]: <NPRebbebba+++> ty
-[16:09:29] [Async Chat Thread - #21/INFO]: <msmarlin> it's in me and sams house <3
-[16:09:33] [Server thread/INFO]: sam__mas lost connection: Disconnected
-[16:09:33] [Server thread/INFO]: sam__mas left the game
-[16:09:53] [Server thread/INFO]: msmarlin has made the advancement [We Need to Go Deeper]
-[16:13:01] [Server thread/INFO]: msmarlin has made the advancement [Who is Cutting Onions?]
-[16:13:52] [Server thread/INFO]: msmarlin has made the advancement [A Terrible Fortress]
-[16:16:18] [Server thread/INFO]: msmarlin has made the advancement [Oh Shiny]
-[16:17:11] [Server thread/INFO]: jahonfroy123 lost connection: Disconnected
-[16:17:11] [Server thread/INFO]: jahonfroy123 left the game
-[16:20:52] [Server thread/INFO]: msmarlin has made the advancement [Ice Bucket Challenge]
-[16:26:30] [Async Chat Thread - #23/INFO]: <NPRebbebba+++> where bee
-[16:26:36] [Async Chat Thread - #22/INFO]: <NPbee_mp3+++> SPAWNERRRRRRRRRRRR
-[16:26:40] [Async Chat Thread - #23/INFO]: <NPRebbebba+++> join vc
-[16:26:57] [Async Chat Thread - #22/INFO]: <NPbee_mp3+++> i wanted to watch videos
-[16:27:01] [Async Chat Thread - #23/INFO]: <NPRebbebba+++> o ok
-[16:27:04] [Async Chat Thread - #22/INFO]: <NPbee_mp3+++> while i wait
-[16:27:08] [Async Chat Thread - #23/INFO]: <NPbee_mp3+++> for skeleton
-[16:27:11] [Async Chat Thread - #22/INFO]: <NPRebbebba+++> yea
-[16:27:18] [Async Chat Thread - #23/INFO]: <NPRebbebba+++> theyre talkig cs
-[16:27:20] [Async Chat Thread - #22/INFO]: <msmarlin> where is that spawner
-[16:30:01] [Server thread/INFO]: amitskistan lost connection: Disconnected
-[16:30:01] [Server thread/INFO]: amitskistan left the game
-[16:32:14] [Async Chat Thread - #25/INFO]: <msmarlin> can someone send the cords to the spawner
-[16:32:23] [Async Chat Thread - #24/INFO]: <NPGopee360+> behind the penis
-[16:32:29] [Async Chat Thread - #25/INFO]: <msmarlin> which one
-[16:32:32] [Async Chat Thread - #24/INFO]: <NPGopee360+> big one
-[16:32:37] [Async Chat Thread - #25/INFO]: <msmarlin> okie
-[16:33:04] [Server thread/INFO]: msmarlin has completed the challenge [Return to Sender]
-[16:34:46] [Server thread/INFO]: msmarlin issued server command: /warp hi
-[16:36:26] [Server thread/INFO]: msmarlin issued server command: /warp hi
-[16:38:05] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.27108531477324505
-[16:38:09] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.3154757253940943
-[16:38:15] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.2915016587893433
-[16:38:16] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.29802790201949847
-[16:38:16] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.3241469552539229
-[16:38:17] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.2741087788886034
-[16:38:17] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.33198139129365245
-[16:38:18] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.25348716476219124
-[16:38:18] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.28252202708381446
-[16:38:18] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.31155688171168094
-[16:38:19] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.34071599029891786
-[16:38:19] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.26184949163848614
-[16:38:19] [Server thread/WARN]: Skeleton Horse (vehicle of Rebbebba) moved wrongly! 0.3618413223907737
-[16:39:40] [Server thread/INFO]: Dare2BeStoopid issued server command: /tpa a
-[16:39:41] [Async Chat Thread - #27/INFO]: <msmarlin> who has wart
-[16:39:46] [Server thread/INFO]: Dare2BeStoopid issued server command: /tpa *
-[16:39:49] [Server thread/INFO]: Dare2BeStoopid issued server command: /tpa *.
-[16:39:50] [Server thread/INFO]: Dare2BeStoopid issued server command: /tpa .
-[16:39:51] [Server thread/INFO]: Dare2BeStoopid issued server command: /tpa
-[16:39:53] [Server thread/INFO]: Dare2BeStoopid issued server command: /tpaall
-[16:39:59] [Server thread/INFO]: msmarlin issued server command: /tpaccept
-[16:40:03] [Async Chat Thread - #26/INFO]: <NPDare2BeStoopid+++> oh wait
-[16:40:06] [Server thread/INFO]: Dare2BeStoopid issued server command: /back
-[16:40:08] [Server thread/INFO]: Dare2BeStoopid issued server command: /back msmarlin
-[16:40:15] [Server thread/INFO]: Dare2BeStoopid issued server command: /warp programming_area
-[16:40:16] [Async Chat Thread - #27/INFO]: <msmarlin> lmfao
-[16:40:20] [Async Chat Thread - #26/INFO]: <NPDare2BeStoopid+++> oops!
-[16:40:50] [Async Chat Thread - #27/INFO]: <NPDare2BeStoopid+++> https://github.com/soapstain22/GourmetServer
-[16:41:18] [Server thread/INFO]: Dare2BeStoopid issued server command: /gamemode creative
-[16:41:36] [Server thread/INFO]: Gopee360 issued server command: /warp tpaa
-[16:41:46] [Server thread/INFO]: Gopee360 issued server command: /warp programming_area
-[16:41:55] [Async Chat Thread - #29/INFO]: <msmarlin> nathan wth
-[16:41:57] [Server thread/INFO]: Rebbebba issued server command: /tpaa
-[16:42:00] [Server thread/INFO]: Rebbebba issued server command: /tpa
-[16:42:01] [Async Chat Thread - #28/INFO]: <NPGopee360+> what
-[16:42:02] [Async Chat Thread - #29/INFO]: <msmarlin> 3 chests?
-[16:42:05] [Async Chat Thread - #28/INFO]: <NPRebbebba+++> tpaaccept
-[16:42:06] [Async Chat Thread - #29/INFO]: <NPGopee360+> LMAO
-[16:42:09] [Async Chat Thread - #28/INFO]: <msmarlin> full?
-[16:42:10] [Server thread/INFO]: Rebbebba issued server command: /tpaccept
-[16:42:23] [Async Chat Thread - #29/INFO]: <NPGopee360+> EPIC GAMER
-[16:42:33] [Async Chat Thread - #28/INFO]: <msmarlin> MORE LIKE A SCARY GAMER
-[16:45:02] [Async Chat Thread - #31/INFO]: <NPRebbebba+++> i just took the flame book
-[16:45:05] [Async Chat Thread - #30/INFO]: <msmarlin> W+
-[16:45:08] [Async Chat Thread - #31/INFO]: <NPRebbebba+++> if thats still ok
-[16:45:12] [Async Chat Thread - #30/INFO]: <msmarlin> yup
-[16:45:30] [Async Chat Thread - #31/INFO]: <NPRebbebba+++> i leave u 2 diamonds
-[16:45:34] [Async Chat Thread - #30/INFO]: <msmarlin> NOOOO
-[16:45:40] [Async Chat Thread - #31/INFO]: <msmarlin> I have too many diamonds
-[16:45:43] [Async Chat Thread - #30/INFO]: <NPRebbebba+++> this is a rly good book take it
-[16:45:44] [Async Chat Thread - #31/INFO]: <msmarlin> keep them
-[16:45:45] [Server thread/INFO]: Gopee360 issued server command: /warp hi
-[16:45:51] [Async Chat Thread - #30/INFO]: <msmarlin> istg keep them
-[16:45:55] [Async Chat Thread - #31/INFO]: <NPRebbebba+++> bru
-[16:46:03] [Async Chat Thread - #30/INFO]: <msmarlin> no bruh
-[16:46:03] [Server thread/INFO]: Gopee360 issued server command: /home
-[16:46:05] [Async Chat Thread - #31/INFO]: <msmarlin> keep em
-[16:47:03] [Async Chat Thread - #30/INFO]: <NPGopee360+> hi
-[16:47:17] [Async Chat Thread - #31/INFO]: <NPGopee360+> watch this
-[16:47:42] [Async Chat Thread - #30/INFO]: <NPGopee360+> look how fast the go
-[16:47:46] [Async Chat Thread - #31/INFO]: <NPGopee360+> in the chest
-[16:48:01] [Async Chat Thread - #30/INFO]: <msmarlin> wHATY+
-[16:48:28] [Async Chat Thread - #31/INFO]: <NPGopee360+> oh ok
-[16:48:32] [Async Chat Thread - #30/INFO]: <NPGopee360+> wait which one do u want
-[16:48:39] [Async Chat Thread - #31/INFO]: <NPGopee360+> xp or just a plain old one
-[16:48:42] [Async Chat Thread - #30/INFO]: <NPGopee360+> kk
-[16:49:35] [Async Chat Thread - #31/INFO]: <msmarlin> :o
-[16:49:53] [Async Chat Thread - #30/INFO]: <NPbee_mp3+++> MOTHERFUCKER
-[16:49:57] [Async Chat Thread - #31/INFO]: <msmarlin> ty :D
-[16:50:39] [Async Chat Thread - #30/INFO]: <NPRebbebba+++> does anyone have a potion table
-[16:50:48] [Async Chat Thread - #31/INFO]: <NPbee_mp3+++> gimme sign
-[16:50:50] [Async Chat Thread - #30/INFO]: <msmarlin> we do C:
-[16:51:23] [Async Chat Thread - #31/INFO]: <NPRebbebba+++> or does anyone have a splash potion of weakness
-[16:51:26] [Async Chat Thread - #30/INFO]: <NPRebbebba+++> ill pay in diamonds
-[16:54:55] [Async Chat Thread - #33/INFO]: <msmarlin> does anyone have nether wart
-[16:56:27] [Async Chat Thread - #35/INFO]: <NPRebbebba+++> anyone have a brown mushroom
-[16:57:41] [Async Chat Thread - #37/INFO]: <msmarlin> frank
-[16:57:45] [Async Chat Thread - #36/INFO]: <msmarlin> you good
-[16:57:49] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.3220450903997971
-[16:57:49] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.2691138557895556
-[16:57:50] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.29797659694827416
-[16:57:50] [Async Chat Thread - #37/INFO]: <msmarlin> good to hear
-[16:57:50] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.3271809337754803
-[16:57:51] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.30724887553003555
-[16:57:51] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.3365110882278941
-[16:57:51] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.2580547903490924
-[16:57:52] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.28731700307344
-[16:57:53] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.2966473433675674
-[16:57:53] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.32590955609202865
-[16:57:53] [Server thread/WARN]: Dinnerbone (vehicle of Gopee360) moved wrongly! 0.2767154709372335
-[16:57:59] [Async Chat Thread - #36/INFO]: <msmarlin> me too
-[16:58:03] [Async Chat Thread - #37/INFO]: <msmarlin> yup
-[16:59:33] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3395092731528848
-[16:59:33] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3677096887575999
-[16:59:33] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.39495313490317585
-[16:59:40] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.31732877171725704
-[16:59:40] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.34434440184588766
-[16:59:40] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.37097762902283193
-[16:59:43] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.27529293813324784
-[16:59:43] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3023405755477597
-[16:59:43] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3293882705930855
-[16:59:43] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3564404514928583
-[16:59:43] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.38350588284481546
-[16:59:43] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.4105698829685025
-[16:59:43] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.4376334733161684
-[16:59:43] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.4646969463407231
-[16:59:43] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.49176038577434156
-[16:59:44] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.42425608100620593
-[16:59:44] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.45129905650719593
-[16:59:45] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.47834017029038023
-[16:59:45] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.2757574342914495
-[16:59:45] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3027920002277824
-[16:59:45] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3298265808047063
-[16:59:45] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3568611655736049
-[16:59:46] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.38389575154246813
-[16:59:46] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.2623799619644842
-[16:59:46] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.28941454841492487
-[16:59:46] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3164491348653655
-[16:59:47] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3434837213158062
-[16:59:47] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.37051830776624683
-[16:59:47] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3975528942166875
-[16:59:47] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.42458748066712815
-[16:59:47] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.4516220671175688
-[16:59:47] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.47865665356800946
-[17:00:34] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.28637042268030655
-[17:00:34] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3132415968495934
-[17:00:34] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3401536537011754
-[17:00:34] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.367121752764092
-[17:00:37] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.26808331336110314
-[17:00:37] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.2945568842328612
-[17:00:37] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3213048718054097
-[17:00:37] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.34842032582366755
-[17:00:38] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.37549654039958114
-[17:00:38] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.40256152030428893
-[17:00:38] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.4296253868282065
-[17:00:38] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.45669233319506475
-[17:00:38] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.4837585831820661
-[17:00:39] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.2544182223363123
-[17:00:39] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.28148419303897754
-[17:00:39] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3085501636829804
-[17:00:39] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3356161343100439
-[17:00:39] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.36268210493233255
-[17:00:39] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.38974807555325697
-[17:00:39] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.4168140461738403
-[17:00:39] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.44388001679431
-[17:00:39] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.470945987414666
-[17:00:39] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.49801195803502196
-[17:00:40] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.34986957609964975
-[17:00:40] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.37693554672000573
-[17:00:40] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.4040015173403617
-[17:00:40] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.4310674879607177
-[17:00:41] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.4581334585810737
-[17:00:41] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.48519942920142967
-[17:00:41] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.2558591354049895
-[17:00:41] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.2806980097303722
-[17:00:41] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.263099923365985
-[17:01:09] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.31734410856358863
-[17:01:09] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3444101528181136
-[17:01:09] [Server thread/WARN]: Horse (vehicle of Rebbebba) moved wrongly! 0.3714704047529267
-[17:02:55] [Async Chat Thread - #39/INFO]: <NPRebbebba+++> i just need it for 2 seconds
-[17:03:01] [Async Chat Thread - #38/INFO]: <NPRebbebba+++> done
-[17:03:48] [Server thread/INFO]: Gopee360 issued server command: /home
-[17:05:28] [Async Chat Thread - #41/INFO]: <NPbee_mp3+++> marlin when will u be done
-[17:05:31] [Async Chat Thread - #40/INFO]: <NPbee_mp3+++> so i know
-[17:06:08] [Async Chat Thread - #41/INFO]: <msmarlin> when I hit lvl 30 im at 23 so abt ummmm 15-25 mins ig
-[17:06:12] [Async Chat Thread - #40/INFO]: <NPbee_mp3+++> kk
-[17:10:43] [Server thread/INFO]: bee_mp3 issued server command: /warp home
-[17:10:47] [Server thread/INFO]: bee_mp3 issued server command: /warp hi
-[17:12:48] [Server thread/INFO]: bee_mp3 issued server command: /warp hi
-[17:13:29] [Server thread/INFO]: Rebbebba lost connection: Disconnected
-[17:13:29] [Server thread/INFO]: Rebbebba left the game
-[17:13:49] [User Authenticator #13/INFO]: UUID of player Rebbebba is 24417846-d5ed-4608-ae7a-ed643b41c5e1
-[17:13:49] [Server thread/INFO]: Rebbebba joined the game
-[17:13:49] [Server thread/INFO]: Rebbebba[/68.132.130.223:59368] logged in with entity id 53258 at ([world]-1229.6492435679324, 99.0, 634.0759836696)
-[17:13:49] [Craft Scheduler Thread - 596 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Rebbebba. Please ensure that your license key and configuration are correct.
-[17:21:01] [Server thread/INFO]: msmarlin has made the advancement [Enchanter]
-[17:24:06] [Server thread/INFO]: bee_mp3 lost connection: Disconnected
-[17:24:06] [Server thread/INFO]: bee_mp3 left the game
-[17:26:32] [Server thread/INFO]: Rebbebba has made the advancement [Local Brewery]
-[17:27:57] [Async Chat Thread - #44/INFO]: <NPGopee360+> ARE YOU READ KIDS
-[17:28:02] [Async Chat Thread - #43/INFO]: <msmarlin> yes...
-[17:28:05] [Async Chat Thread - #44/INFO]: <NPGopee360+> AY AY CAPTAIN
-[17:28:10] [Async Chat Thread - #43/INFO]: <msmarlin> yes...
-[17:28:21] [Async Chat Thread - #44/INFO]: <NPGopee360+> OOOOOOOOOOOOOOOooooooooooooooooooooooo
-[17:28:25] [Async Chat Thread - #43/INFO]: <msmarlin> I understand...
-[17:28:28] [Async Chat Thread - #44/INFO]: <msmarlin> yes sir...
-[17:28:45] [Async Chat Thread - #43/INFO]: <NPGopee360+> Who lives in a pineapple under the sea?
-[17:28:54] [Async Chat Thread - #44/INFO]: <msmarlin> SPONDGEBOB SQUAREPANTS
-[17:28:57] [Async Chat Thread - #43/INFO]: <NPRebbebba+++> me
-[17:29:00] [Async Chat Thread - #44/INFO]: <msmarlin> lmfao
-[17:29:03] [Async Chat Thread - #43/INFO]: <NPGopee360+> Absorbant and yellow and porous is he
-[17:29:13] [Async Chat Thread - #44/INFO]: <msmarlin> yes sir
-[17:29:21] [Async Chat Thread - #43/INFO]: <NPGopee360+> If nautical nonsense be something you wish
-[17:29:39] [Server thread/INFO]: Rebbebba lost connection: Disconnected
-[17:29:39] [Server thread/INFO]: Rebbebba left the game
-[17:34:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@400d185c[id=<null>,name=Rebbebba,properties={},legacy=false] (/68.132.130.223:62184) lost connection: Disconnected
-[17:34:25] [User Authenticator #14/INFO]: UUID of player Rebbebba is 24417846-d5ed-4608-ae7a-ed643b41c5e1
-[17:34:25] [Server thread/INFO]: Rebbebba joined the game
-[17:34:25] [Server thread/INFO]: Rebbebba[/68.132.130.223:62190] logged in with entity id 58645 at ([world]-1231.9690884240072, 95.0, 636.7099351235855)
-[17:34:25] [Craft Scheduler Thread - 720 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for Rebbebba. Please ensure that your license key and configuration are correct.
-[17:36:43] [Server thread/INFO]: Gopee360 issued server command: /home
-[17:36:43] [Server thread/WARN]: Gopee360 moved too quickly! -16.77084443910053,11.9375,-16.078413634501544
-[17:40:32] [User Authenticator #15/INFO]: UUID of player sam__mas is 30c797f7-a264-466b-bfbc-ca64e3cdc760
-[17:40:32] [Server thread/INFO]: sam__mas joined the game
-[17:40:32] [Server thread/INFO]: sam__mas[/68.102.105.46:50520] logged in with entity id 59926 at ([world]-1166.135035932186, 91.0, 618.6999999880791)
-[17:40:32] [Craft Scheduler Thread - 756 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for sam__mas. Please ensure that your license key and configuration are correct.
-[17:40:41] [Async Chat Thread - #47/INFO]: <msmarlin> hai
+[17:41:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[17:41:56] [Server thread/INFO]: Default game type: SURVIVAL
+[17:41:56] [Server thread/INFO]: Generating keypair
+[17:41:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:41:57] [Server thread/INFO]: Using epoll channel type
+[17:41:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:41:57] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[17:41:57] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.79
+[17:41:57] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[17:41:57] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.19.7
+[17:41:57] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.19.7
+[17:41:57] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b??-1b9042e)
+[17:41:58] [Server thread/INFO]: [floodgate] Took 287ms to boot Floodgate
+[17:41:58] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.14+6360-094b734
+[17:41:58] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3cc69509]
+[17:41:58] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
+[17:41:59] [Server thread/INFO]: [ImageOnMap] Loading server plugin ImageOnMap v4.2.2
+[17:41:59] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.19.7
+[17:41:59] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.19.7
+[17:41:59] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.0-SNAPSHOT
+[17:41:59] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:41:59] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:41:59] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.3
+[17:41:59] [Server thread/INFO]: [LibertyBans] Loading server plugin LibertyBans v1.1.0-M2
+[17:41:59] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v21.3
+[17:41:59] [Server thread/INFO]: [StatPlugin] Loading server plugin StatPlugin v1.0-SNAPSHOT
+[17:41:59] [Server thread/INFO]: [JEXT] Loading server plugin JukeboxExtendedReborn v1.1.3
+[17:41:59] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[17:41:59] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.0.12
+[17:41:59] [Server thread/INFO]: [Nova] Loading server plugin Nova v0.13.5
+[17:41:59] [Server thread/INFO]: [EssentialsGeoIP] Loading server plugin EssentialsGeoIP v2.19.7
+[17:41:59] [Server thread/INFO]: [ChestShop] Loading server plugin ChestShop v3.12.2 (build 353)
+[17:41:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:41:59] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.79
+[17:42:00] [Server thread/INFO]:         __    
+[17:42:00] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.79
+[17:42:00] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:42:00] [Server thread/INFO]: 
+[17:42:00] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:42:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:42:00] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:42:00] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:42:00] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1207ms)
+[17:42:00] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:42:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:42:00] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:42:00] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:42:00] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:42:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
+[17:42:00] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:42:01] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:42:01] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[17:42:01] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[17:42:01] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.3
+[17:42:01] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:42:01] [Server thread/WARN]: It seems like you're running on paper.
+[17:42:01] [Server thread/WARN]: This may cause issues.
+[17:42:01] [Server thread/WARN]: If you encounter any issues, please join my dicord: https://discord.gg/dBhfCzdZxq
+[17:42:01] [Server thread/WARN]: Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[17:42:01] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[17:42:02] [Server thread/INFO]: [Nova] Enabling Nova v0.13.5
+[17:42:02] [Server thread/INFO]: [Nova] Loading 31 libraries...
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-server-core-jvm/2.2.4/ktor-server-core-jvm-2.2.4.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.7.20/kotlin-stdlib-jdk7-1.7.20.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.7.20/kotlin-stdlib-1.7.20.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.20/kotlin-stdlib-common-1.7.20.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.7.20/kotlin-stdlib-jdk8-1.7.20.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.6.4/kotlinx-coroutines-jdk8-1.6.4.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.6.4/kotlinx-coroutines-bom-1.6.4.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.21/kotlin-stdlib-common-1.6.21.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.21/kotlin-stdlib-jdk8-1.6.21.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.6.21/kotlin-stdlib-1.6.21.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.21/kotlin-stdlib-jdk7-1.6.21.pom
+[17:42:02] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-utils-jvm/2.2.4/ktor-utils-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-io-jvm/2.2.4/ktor-io-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-http-jvm/2.2.4/ktor-http-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-serialization-jvm/2.2.4/ktor-serialization-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-websockets-jvm/2.2.4/ktor-websockets-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-events-jvm/2.2.4/ktor-events-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.7.22/kotlin-reflect-1.7.22.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.7.22/kotlin-stdlib-1.7.22.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.22/kotlin-stdlib-common-1.7.22.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.4.0/jansi-2.4.0.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.12/fusesource-pom-1.12.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-server-jetty-jvm/2.2.4/ktor-server-jetty-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-server-host-common-jvm/2.2.4/ktor-server-host-common-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-http-cio-jvm/2.2.4/ktor-http-cio-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-network-jvm/2.2.4/ktor-network-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-server-servlet-jvm/2.2.4/ktor-server-servlet-jvm-2.2.4.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.49.v20220914/jetty-server-9.4.49.v20220914.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-project/9.4.49.v20220914/jetty-project-9.4.49.v20220914.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/junit/junit-bom/5.8.2/junit-bom-5.8.2.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/testcontainers/testcontainers-bom/1.16.1/testcontainers-bom-1.16.1.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/infinispan/infinispan-bom/11.0.15.Final/infinispan-bom-11.0.15.Final.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/infinispan/infinispan-build-configuration-parent/11.0.15.Final/infinispan-build-configuration-parent-11.0.15.Final.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jboss/jboss-parent/36/jboss-parent-36.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/net/java/jvnet-parent/3/jvnet-parent-3.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.49.v20220914/jetty-http-9.4.49.v20220914.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.49.v20220914/jetty-util-9.4.49.v20220914.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.49.v20220914/jetty-io-9.4.49.v20220914.pom
+[17:42:03] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/9.4.49.v20220914/jetty-servlets-9.4.49.v20220914.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/9.4.49.v20220914/jetty-continuation-9.4.49.v20220914.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-server/9.4.49.v20220914/jetty-alpn-server-9.4.49.v20220914.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-parent/9.4.49.v20220914/jetty-alpn-parent-9.4.49.v20220914.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-java-server/9.4.49.v20220914/jetty-alpn-java-server-9.4.49.v20220914.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-alpn-openjdk8-server/9.4.49.v20220914/jetty-alpn-openjdk8-server-9.4.49.v20220914.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-server/9.4.49.v20220914/http2-server-9.4.49.v20220914.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-parent/9.4.49.v20220914/http2-parent-9.4.49.v20220914.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-common/9.4.49.v20220914/http2-common-9.4.49.v20220914.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/http2/http2-hpack/9.4.49.v20220914/http2-hpack-9.4.49.v20220914.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-client-core-jvm/2.2.4/ktor-client-core-jvm-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-websocket-serialization-jvm/2.2.4/ktor-websocket-serialization-jvm-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-slf4j/1.6.4/kotlinx-coroutines-slf4j-1.6.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.32/slf4j-parent-1.7.32.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-client-cio-jvm/2.2.4/ktor-client-cio-jvm-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-network-tls-jvm/2.2.4/ktor-network-tls-jvm-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-client-content-negotiation/2.2.4/ktor-client-content-negotiation-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-client-core/2.2.4/ktor-client-core-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-http/2.2.4/ktor-http-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-utils/2.2.4/ktor-utils-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-io/2.2.4/ktor-io-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlinx/atomicfu/0.18.5/atomicfu-0.18.5.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlinx/atomicfu-jvm/0.18.5/atomicfu-jvm-0.18.5.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-events/2.2.4/ktor-events-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-websocket-serialization/2.2.4/ktor-websocket-serialization-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-serialization/2.2.4/ktor-serialization-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-websockets/2.2.4/ktor-websockets-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-serialization-gson-jvm/2.2.4/ktor-serialization-gson-jvm-2.2.4.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10/gson-2.10.pom
+[17:42:04] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.10/gson-parent-2.10.pom
+[17:42:05] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/minecraft-asset-downloader/1.3/minecraft-asset-downloader-1.3.pom
+[17:42:05] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.7.10/kotlin-stdlib-1.7.10.pom
+[17:42:05] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.10/kotlin-stdlib-common-1.7.10.pom
+[17:42:05] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.9.0/gson-2.9.0.pom
+[17:42:05] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/google/code/gson/gson-parent/2.9.0/gson-parent-2.9.0.pom
+[17:42:05] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-client-core-jvm/2.1.1/ktor-client-core-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.7.10/kotlin-stdlib-jdk7-1.7.10.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.7.10/kotlin-stdlib-jdk8-1.7.10.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-http-jvm/2.1.1/ktor-http-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-utils-jvm/2.1.1/ktor-utils-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-io-jvm/2.1.1/ktor-io-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-events-jvm/2.1.1/ktor-events-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-websocket-serialization-jvm/2.1.1/ktor-websocket-serialization-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-serialization-jvm/2.1.1/ktor-serialization-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-websockets-jvm/2.1.1/ktor-websockets-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-slf4j/1.6.3/kotlinx-coroutines-slf4j-1.6.3.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.6.3/kotlinx-coroutines-bom-1.6.3.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.3/kotlinx-coroutines-core-jvm-1.6.3.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-client-cio-jvm/2.1.1/ktor-client-cio-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-http-cio-jvm/2.1.1/ktor-http-cio-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-network-jvm/2.1.1/ktor-network-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-network-tls-jvm/2.1.1/ktor-network-tls-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-client-content-negotiation-jvm/2.1.1/ktor-client-content-negotiation-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-serialization-gson-jvm/2.1.1/ktor-serialization-gson-jvm-2.1.1.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.7.0/kotlin-reflect-1.7.0.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.7.0/kotlin-stdlib-1.7.0.pom
+[17:42:06] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.0/kotlin-stdlib-common-1.7.0.pom
+[17:42:07] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/minecraft-model-renderer/1.3/minecraft-model-renderer-1.3.pom
+[17:42:07] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.7.22/kotlin-stdlib-jdk8-1.7.22.pom
+[17:42:07] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.7.22/kotlin-stdlib-jdk7-1.7.22.pom
+[17:42:07] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/resource-pack-obfuscator/0.4.1/resource-pack-obfuscator-0.4.1.pom
+[17:42:08] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/minecraft-asset-downloader/1.0/minecraft-asset-downloader-1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-client-core-jvm/2.1.0/ktor-client-core-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-http-jvm/2.1.0/ktor-http-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-utils-jvm/2.1.0/ktor-utils-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-io-jvm/2.1.0/ktor-io-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-events-jvm/2.1.0/ktor-events-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-websocket-serialization-jvm/2.1.0/ktor-websocket-serialization-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-serialization-jvm/2.1.0/ktor-serialization-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-websockets-jvm/2.1.0/ktor-websockets-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-client-cio-jvm/2.1.0/ktor-client-cio-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-http-cio-jvm/2.1.0/ktor-http-cio-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-network-jvm/2.1.0/ktor-network-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-network-tls-jvm/2.1.0/ktor-network-tls-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-client-content-negotiation-jvm/2.1.0/ktor-client-content-negotiation-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/ktor/ktor-serialization-gson-jvm/2.1.0/ktor-serialization-gson-jvm-2.1.0.pom
+[17:42:09] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/invui/invui-resourcepack/1.8/invui-resourcepack-1.8.pom
+[17:42:10] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/invui/invui-parent/1.8/invui-parent-1.8.pom
+[17:42:11] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/invui/invui-core/1.8/invui-core-1.8.pom
+[17:42:12] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/invui/inventory-access/1.8/inventory-access-1.8.pom
+[17:42:12] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/annotations/24.0.0/annotations-24.0.0.pom
+[17:42:13] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/invui/inventory-access-r13/1.8/inventory-access-r13-1.8.pom
+[17:42:13] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/bstats/bstats-bukkit/3.0.1/bstats-bukkit-3.0.1.pom
+[17:42:14] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/bstats/bstats-base/3.0.1/bstats-base-3.0.1.pom
+[17:42:15] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/bytebase/ByteBase-Runtime/0.4.6/ByteBase-Runtime-0.4.6.pom
+[17:42:16] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/bytebase/ByteBase-Parent/0.4.6/ByteBase-Parent-0.4.6.pom
+[17:42:16] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.20/byte-buddy-agent-1.12.20.pom
+[17:42:16] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.12.20/byte-buddy-parent-1.12.20.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo.xenondevs.xyz/releases/xyz/xenondevs/bytebase/ByteBase/0.4.6/ByteBase-0.4.6.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.8.0/kotlin-stdlib-1.8.0.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.8.0/kotlin-stdlib-common-1.8.0.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.8.0/kotlin-reflect-1.8.0.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/9.4/asm-9.4.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/ow2/ow2/1.5.1/ow2-1.5.1.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.4/asm-commons-9.4.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.4/asm-util-9.4.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.4/asm-analysis-9.4.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/me/xdrop/fuzzywuzzy/1.4.0/fuzzywuzzy-1.4.0.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/s3/2.18.35/s3-2.18.35.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/services/2.18.35/services-2.18.35.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/aws-sdk-java-pom/2.18.35/aws-sdk-java-pom-2.18.35.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/bom-internal/2.18.35/bom-internal-2.18.35.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/aws-xml-protocol/2.18.35/aws-xml-protocol-2.18.35.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/protocols/2.18.35/protocols-2.18.35.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/core/2.18.35/core-2.18.35.pom
+[17:42:17] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/aws-query-protocol/2.18.35/aws-query-protocol-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/protocol-core/2.18.35/protocol-core-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/sdk-core/2.18.35/sdk-core-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/annotations/2.18.35/annotations-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/http-client-spi/2.18.35/http-client-spi-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/utils/2.18.35/utils-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/metrics-spi/2.18.35/metrics-spi-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/endpoints-spi/2.18.35/endpoints-spi-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/profiles/2.18.35/profiles-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/aws-core/2.18.35/aws-core-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/regions/2.18.35/regions-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/json-utils/2.18.35/json-utils-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/third-party-jackson-core/2.18.35/third-party-jackson-core-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/third-party/2.18.35/third-party-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/auth/2.18.35/auth-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/arns/2.18.35/arns-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/apache-client/2.18.35/apache-client-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/http-clients/2.18.35/http-clients-2.18.35.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.5.13/httpcomponents-client-4.5.13.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-parent/11/httpcomponents-parent-11.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/apache/apache/21/apache-21.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.13/httpcomponents-core-4.4.13.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/42/commons-parent-42.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/apache/apache/18/apache-18.pom
+[17:42:18] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/software/amazon/awssdk/netty-nio-client/2.18.35/netty-nio-client-2.18.35.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.77.Final/netty-codec-http-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-parent/4.1.77.Final/netty-parent-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.77.Final/netty-codec-http2-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/google/jimfs/jimfs/1.2/jimfs-1.2.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/google/jimfs/jimfs-parent/1.2/jimfs-parent-1.2.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/google/guava/guava/30.1-android/guava-30.1-android.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/30.1-android/guava-parent-30.1-android.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom
+[17:42:19] [Server thread/INFO]: [Nova] Downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom
+[17:42:19] [Thread-1/INFO]: Stopping main thread (Ignore any thread death message you see! - DO NOT REPORT THREAD DEATH TO PAPER)
+[17:42:19] [Server thread/ERROR]: Main thread terminated by WatchDog due to hard crash
+java.lang.ThreadDeath: null
+	at java.lang.Thread.stop(Thread.java:1717) ~[?:?]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:930) ~[paper-1.19.4.jar:git-Paper-538]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:804) ~[paper-1.19.4.jar:git-Paper-538]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:902) ~[paper-1.19.4.jar:git-Paper-538]
+	at org.bukkit.craftbukkit.v1_19_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.19.4.jar:git-Paper-538]
+[17:42:19] [Thread-1/INFO]: Stopping server
+[17:42:19] [Thread-1/INFO]: [Nova] Disabling Nova v0.13.5
+[17:42:19] [Thread-1/INFO]: [PlugManX] Disabling PlugManX v2.3.3
+[17:42:19] [Thread-1/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[17:42:19] [Thread-1/INFO]: [WorldEdit] Disabling WorldEdit v7.2.14+6360-094b734
+[17:42:19] [Thread-1/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[17:42:19] [Thread-1/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[17:42:19] [Thread-1/INFO]: [LuckPerms] Disabling LuckPerms v5.4.79
+[17:42:19] [Thread-1/INFO]: [LuckPerms] Starting shutdown process...
+[17:42:19] [Thread-1/INFO]: [LuckPerms] Closing storage...
+[17:42:19] [Thread-1/INFO]: [LuckPerms] Goodbye!
+[17:42:19] [Thread-1/INFO]: Saving players
+[17:42:19] [Thread-1/WARN]: Asynchronous Save Players! Blocking thread until it returns 
+java.lang.IllegalStateException: null
+	at io.papermc.paper.util.MCUtil.ensureMain(MCUtil.java:362) ~[paper-1.19.4.jar:git-Paper-538]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1203) ~[paper-1.19.4.jar:git-Paper-538]
+	at net.minecraft.server.players.PlayerList.saveAll(PlayerList.java:1199) ~[paper-1.19.4.jar:git-Paper-538]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:958) ~[paper-1.19.4.jar:git-Paper-538]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:804) ~[paper-1.19.4.jar:git-Paper-538]
+	at net.minecraft.server.MinecraftServer.close(MinecraftServer.java:902) ~[paper-1.19.4.jar:git-Paper-538]
+	at org.bukkit.craftbukkit.v1_19_R3.util.ServerShutdownThread.run(ServerShutdownThread.java:28) ~[paper-1.19.4.jar:git-Paper-538]
