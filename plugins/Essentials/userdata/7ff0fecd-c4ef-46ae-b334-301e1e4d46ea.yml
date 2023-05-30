@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1685482908636
-  login: 1685475975218
+  logout: 1685483124976
+  login: 1685483153207
 money: '0'
 last-account-name: GoPotato360
 logoutlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: 136.23184127214608
+  x: 135.9882118534652
   y: 231.0
-  z: -1928.440283929044
-  yaw: 18.57379150390625
-  pitch: 43.95038604736328
+  z: -1927.300000011921
+  yaw: 1.6264647245407104
+  pitch: -8.400070190429688
 lastlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world

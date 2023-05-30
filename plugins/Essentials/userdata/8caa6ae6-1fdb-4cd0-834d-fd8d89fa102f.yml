@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1685482908638
-  login: 1685481598624
+  logout: 1685483124980
+  login: 1685483205931
 money: '0'
 last-account-name: Dare2BeStoopid
 logoutlocation:
@@ -26,13 +26,13 @@ logoutlocation:
   x: 156.39062218598684
   y: 226.31814947645515
   z: -1876.7349184223672
-  yaw: -32.829864501953125
-  pitch: 24.866680145263672
+  yaw: 35.59181213378906
+  pitch: 57.330326080322266
 lastlocation:
-  world: b16a1a20-427f-489a-a062-3a4e102a73b3
-  world-name: programming_area
-  x: -90.47879730771986
-  y: -58.3042357687771
-  z: -1482.8332488532312
-  yaw: -160.79962158203125
-  pitch: 25.60218620300293
+  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
+  world-name: world
+  x: 206.11418951820846
+  y: 61.0
+  z: -1997.536718082004
+  yaw: -162.46377563476562
+  pitch: 64.94119262695312

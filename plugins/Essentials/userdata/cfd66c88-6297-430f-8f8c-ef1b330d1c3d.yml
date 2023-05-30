@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1685482908637
-  login: 1685480415170
+  logout: 1685483124970
+  login: 1685483151486
 money: '0'
 last-account-name: bee_mp3
 logoutlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -1058.609295863354
+  x: -1058.6124000870695
   y: -42.0
-  z: 597.330806665349
-  yaw: -57.10627746582031
-  pitch: 30.092647552490234
+  z: 597.3619179286322
+  yaw: 176.63177490234375
+  pitch: 14.906912803649902
 lastlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
