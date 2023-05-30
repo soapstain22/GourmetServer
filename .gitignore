@@ -9,6 +9,9 @@ plugins/ChestShop/version
 plugins/LibertyBans/internal/hypersql/punishments-database.log
 
 plugins/LibertyBans/internal/hypersql/punishments-database.lck
-world/***
-logs/***
-
+world/*
+logs/*
+plugins/Essentials/userdata/*
+plugins/Essentials/userdata/c3731d96-84ca-4d77-b2fd-bb448e122151.yml
+plugins/Essentials/userdata/ec2b24bd-5947-4891-bffc-d0551201c7c0.yml
+plugins/Essentials/userdata/7ff0fecd-c4ef-46ae-b334-301e1e4d46ea.yml

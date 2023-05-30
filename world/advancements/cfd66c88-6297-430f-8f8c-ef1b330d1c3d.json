@@ -344,6 +344,7 @@
       "minecraft:spider": "2023-05-22 13:53:28 -0400",
       "minecraft:creeper": "2023-05-24 21:04:24 -0400",
       "minecraft:phantom": "2023-05-25 22:01:42 -0400",
+      "minecraft:witch": "2023-05-30 00:59:59 -0400",
       "minecraft:shulker": "2023-05-25 22:58:11 -0400",
       "minecraft:enderman": "2023-05-25 22:50:01 -0400",
       "minecraft:zombie": "2023-05-21 21:07:55 -0400",
@@ -3082,6 +3083,48 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2023-05-25 23:59:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-05-29 21:31:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2023-05-29 22:14:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2023-05-29 23:20:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2023-05-29 23:20:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2023-05-29 23:20:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2023-05-30 01:02:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2023-05-30 01:02:48 -0400"
     },
     "done": true
   },
