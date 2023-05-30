@@ -10,7 +10,8 @@ plugins/LibertyBans/internal/hypersql/punishments-database.log
 
 plugins/LibertyBans/internal/hypersql/punishments-database.lck
 world/*
-world/stats/*
+world/stats/**
+world/**
 logs/
 plugins/Essentials/userdata/*
 plugins/Essentials/
