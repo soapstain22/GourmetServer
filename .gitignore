@@ -1,3 +1,4 @@
+logs/
 *.mca
 plugins/LibertyBans/internal/*
 *.dat
@@ -10,10 +11,11 @@ plugins/LibertyBans/internal/hypersql/punishments-database.log
 
 plugins/LibertyBans/internal/hypersql/punishments-database.lck
 world/*
-world/stats/**
+world/stats/*.json
 world/**
-logs/
+
 plugins/Essentials/userdata/*
 plugins/Essentials/
 plugins/Essentials/userdata/ec2b24bd-5947-4891-bffc-d0551201c7c0.yml
 plugins/Essentials/userdata/7ff0fecd-c4ef-46ae-b334-301e1e4d46ea.yml
+world/stats/7ff0fecd-c4ef-46ae-b334-301e1e4d46ea.json
