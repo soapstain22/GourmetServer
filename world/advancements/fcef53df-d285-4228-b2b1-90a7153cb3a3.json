@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2023-06-01 14:16:49 -0400",
       "minecraft:taiga": "2023-05-22 22:38:24 -0400",
       "minecraft:deep_ocean": "2023-05-25 00:34:35 -0400",
       "minecraft:eroded_badlands": "2023-05-22 00:01:23 -0400",
@@ -20,13 +21,18 @@
       "minecraft:sparse_jungle": "2023-05-21 23:54:29 -0400",
       "minecraft:river": "2023-05-21 21:44:34 -0400",
       "minecraft:lukewarm_ocean": "2023-05-24 23:56:48 -0400",
+      "minecraft:snowy_plains": "2023-06-01 12:22:17 -0400",
+      "minecraft:stony_shore": "2023-06-01 12:21:32 -0400",
       "minecraft:dripstone_caves": "2023-05-21 22:18:17 -0400",
       "minecraft:snowy_taiga": "2023-05-22 22:39:13 -0400",
       "minecraft:cold_ocean": "2023-05-22 17:29:48 -0400",
       "minecraft:forest": "2023-05-21 21:43:34 -0400",
       "minecraft:lush_caves": "2023-05-21 23:29:18 -0400",
+      "minecraft:deep_cold_ocean": "2023-06-01 12:19:20 -0400",
+      "minecraft:ice_spikes": "2023-06-01 12:39:27 -0400",
       "minecraft:frozen_ocean": "2023-05-22 22:55:42 -0400",
       "minecraft:desert": "2023-05-21 23:07:53 -0400",
+      "minecraft:deep_frozen_ocean": "2023-06-01 12:19:30 -0400",
       "minecraft:jungle": "2023-05-21 23:54:07 -0400",
       "minecraft:ocean": "2023-05-22 17:31:59 -0400",
       "minecraft:old_growth_spruce_taiga": "2023-05-22 22:39:27 -0400",
@@ -34,7 +40,9 @@
       "minecraft:windswept_savanna": "2023-05-24 23:49:13 -0400",
       "minecraft:warm_ocean": "2023-05-21 23:47:16 -0400",
       "minecraft:deep_lukewarm_ocean": "2023-05-25 00:05:30 -0400",
+      "minecraft:frozen_peaks": "2023-06-01 14:17:43 -0400",
       "minecraft:old_growth_birch_forest": "2023-05-22 22:27:46 -0400",
+      "minecraft:deep_dark": "2023-06-01 18:55:12 -0400",
       "minecraft:meadow": "2023-05-21 22:00:18 -0400",
       "minecraft:savanna": "2023-05-21 22:00:45 -0400",
       "minecraft:plains": "2023-05-21 21:44:49 -0400"
@@ -371,6 +379,7 @@
       "minecraft:phantom": "2023-05-24 11:13:19 -0400",
       "minecraft:witch": "2023-05-24 11:37:24 -0400",
       "minecraft:husk": "2023-05-22 00:15:39 -0400",
+      "minecraft:shulker": "2023-06-01 14:40:58 -0400",
       "minecraft:cave_spider": "2023-05-21 22:31:37 -0400",
       "minecraft:piglin": "2023-05-25 14:42:33 -0400",
       "minecraft:enderman": "2023-05-22 16:13:17 -0400",
@@ -455,12 +464,14 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2023-05-24 11:32:40 -0400",
+      "chicken": "2023-05-30 22:21:21 -0400",
       "cooked_mutton": "2023-05-21 22:03:44 -0400",
       "sweet_berries": "2023-05-22 22:39:33 -0400",
       "cooked_beef": "2023-05-21 23:06:39 -0400",
       "beef": "2023-05-21 21:54:39 -0400",
       "baked_potato": "2023-05-24 22:12:50 -0400",
       "porkchop": "2023-05-25 12:38:08 -0400",
+      "apple": "2023-06-01 15:11:41 -0400",
       "cooked_cod": "2023-05-23 12:23:13 -0400",
       "bread": "2023-05-21 22:46:11 -0400",
       "golden_apple": "2023-05-22 18:56:41 -0400",
@@ -3713,6 +3724,372 @@
   "minecraft:husbandry/safely_harvest_honey": {
     "criteria": {
       "safely_harvest_honey": "2023-05-25 23:27:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-30 19:24:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_slab": {
+    "criteria": {
+      "has_planks": "2023-05-30 19:25:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2023-05-30 19:25:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-05-30 19:25:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-05-30 19:25:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2023-05-30 19:25:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2023-05-30 19:25:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2023-05-30 19:25:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-05-30 19:25:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2023-05-30 19:25:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-05-30 19:31:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2023-05-30 19:31:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2023-05-30 19:31:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2023-05-30 19:33:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2023-05-30 19:33:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2023-05-30 19:33:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2023-05-30 19:35:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-05-30 20:32:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2023-05-30 21:29:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2023-05-31 19:02:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2023-05-31 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2023-05-31 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2023-05-31 21:00:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2023-05-31 21:00:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-06-01 12:10:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2023-06-01 12:40:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-06-01 12:40:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2023-06-01 12:46:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2023-06-01 12:46:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2023-06-01 14:03:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2023-06-01 14:30:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2023-06-01 14:40:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2023-06-01 14:40:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2023-06-01 14:40:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2023-06-01 14:40:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2023-06-01 14:40:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2023-06-01 14:40:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2023-06-01 14:40:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2023-06-01 14:40:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2023-06-01 14:40:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2023-06-01 14:40:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2023-06-01 14:40:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2023-06-01 14:40:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-06-01 16:35:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2023-06-01 16:35:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-06-01 16:35:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-06-01 16:35:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-06-01 16:35:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2023-06-01 20:20:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2023-06-01 20:20:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2023-06-01 20:20:23 -0400"
     },
     "done": true
   },

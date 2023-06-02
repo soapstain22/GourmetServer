@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1685061738554
+  lastteleport: 1685581716838
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1685062537586
-  login: 1685058655521
+  logout: 1685583147079
+  login: 1685582962558
 money: '0'
 last-account-name: Revaalt
 logoutlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -2221.300000011921
-  y: 80.0
-  z: -959.8376040350723
-  yaw: -158.43487548828125
-  pitch: 23.94171142578125
+  x: 4729.623476797395
+  y: -46.0
+  z: 636.8350532797699
+  yaw: 79.475341796875
+  pitch: 1.4481735229492188
 lastlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -1265.3738811805706
-  y: 63.0
-  z: 569.4875000119209
-  yaw: -162.983642578125
-  pitch: 16.360286712646484
+  x: -972.7790198121294
+  y: 70.79673560066871
+  z: 531.1719024706122
+  yaw: -91.14974975585938
+  pitch: -2.33469820022583

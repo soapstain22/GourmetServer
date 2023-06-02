@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1684805069878
+  lastteleport: 1685665159422
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1684892743329
-  login: 1684891934513
+  logout: 1685664753266
+  login: 1685664855057
 money: '0'
 last-account-name: OxisCoxi
 lastlocation:
-  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
-  world-name: world
-  x: -1268.0292168333187
-  y: 64.0
-  z: 513.4656347269383
-  yaw: -10.961669921875
-  pitch: 12.674766540527344
+  world: 33770e35-aa2e-435e-acc3-61f46770e382
+  world-name: world_the_end
+  x: -12.699999988079071
+  y: 1.0
+  z: -318.07837951642637
+  yaw: 8.872027397155762
+  pitch: 23.665739059448242
 logoutlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -1246.6156818619497
-  y: 68.0
-  z: 450.49239480395596
-  yaw: -89.6591796875
-  pitch: 15.920272827148438
+  x: -1033.3551180658922
+  y: 69.0
+  z: 315.22868506924664
+  yaw: 34.934104919433594
+  pitch: 14.561378479003906

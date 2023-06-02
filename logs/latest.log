@@ -1,143 +1,145 @@
-[17:45:34] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:45:35] [ServerMain/INFO]: Loaded 7 recipes
-[17:45:36] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[17:45:36] [Server thread/INFO]: Loading properties
-[17:45:36] [Server thread/INFO]: This server is running Paper version git-Paper-538 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: bcd8dc2)
-[17:45:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:45:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:45:36] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:12:46] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:12:47] [ServerMain/INFO]: Loaded 7 recipes
+[20:12:48] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[20:12:48] [Server thread/INFO]: Loading properties
+[20:12:48] [Server thread/INFO]: This server is running Paper version git-Paper-538 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: bcd8dc2)
+[20:12:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:12:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:12:48] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[17:45:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[17:45:37] [Server thread/INFO]: Default game type: SURVIVAL
-[17:45:37] [Server thread/INFO]: Generating keypair
-[17:45:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:45:37] [Server thread/INFO]: Using epoll channel type
-[17:45:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[17:45:37] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[17:45:37] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.79
-[17:45:37] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[17:45:37] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.19.7
-[17:45:37] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.19.7
-[17:45:37] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b??-1b9042e)
-[17:45:38] [Server thread/INFO]: [floodgate] Took 288ms to boot Floodgate
-[17:45:38] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.14+6360-094b734
-[17:45:38] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7b0dc8b0]
-[17:45:38] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
-[17:45:39] [Server thread/INFO]: [ImageOnMap] Loading server plugin ImageOnMap v4.2.2
-[17:45:39] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.19.7
-[17:45:39] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.19.7
-[17:45:39] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.0-SNAPSHOT
-[17:45:39] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[17:45:39] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[17:45:39] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.3
-[17:45:39] [Server thread/INFO]: [LibertyBans] Loading server plugin LibertyBans v1.1.0-M2
-[17:45:39] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v21.3
-[17:45:39] [Server thread/INFO]: [StatPlugin] Loading server plugin StatPlugin v1.0-SNAPSHOT
-[17:45:39] [Server thread/INFO]: [JEXT] Loading server plugin JukeboxExtendedReborn v1.1.3
-[17:45:39] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[17:45:39] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.0.12
-[17:45:39] [Server thread/INFO]: [EssentialsGeoIP] Loading server plugin EssentialsGeoIP v2.19.7
-[17:45:39] [Server thread/INFO]: [ChestShop] Loading server plugin ChestShop v3.12.2 (build 353)
-[17:45:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:45:39] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.79
-[17:45:40] [Server thread/INFO]:         __    
-[17:45:40] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.79
-[17:45:40] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[17:45:40] [Server thread/INFO]: 
-[17:45:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[17:45:40] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[17:45:40] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[17:45:40] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[17:45:41] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1345ms)
-[17:45:41] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[17:45:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[17:45:41] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[17:45:41] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[17:45:41] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[17:45:41] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
-[17:45:41] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[17:45:41] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[17:45:41] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
-[17:45:42] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
-[17:45:42] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.3
-[17:45:42] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[17:45:42] [Server thread/WARN]: It seems like you're running on paper.
-[17:45:42] [Server thread/WARN]: This may cause issues.
-[17:45:42] [Server thread/WARN]: If you encounter any issues, please join my dicord: https://discord.gg/dBhfCzdZxq
-[17:45:42] [Server thread/WARN]: Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[17:45:42] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[17:45:42] [Server thread/INFO]: Preparing level "world"
-[17:45:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:45:43] [Server thread/INFO]: Time elapsed: 88 ms
-[17:45:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[17:45:43] [Server thread/INFO]: Time elapsed: 28 ms
-[17:45:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[17:45:43] [Server thread/INFO]: Time elapsed: 25 ms
-[17:45:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
-[17:45:43] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[17:45:43] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[17:45:43] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[17:45:43] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[17:45:43] [Server thread/INFO]: [Essentials] Using locale en_US
-[17:45:43] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[17:45:43] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[17:45:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[17:45:43] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[17:45:43] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.7
-[17:45:43] [Server thread/INFO]: [EssentialsChat] Secure signed chat and previews are enabled.
-[17:45:43] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[17:45:43] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b??-1b9042e)
-[17:45:44] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v4.2.2
-[17:45:44] [Server thread/INFO]: [ImageOnMap] Loaded 2 player map files.
-[17:45:44] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.7
-[17:45:44] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[17:45:44] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.19.7
-[17:45:44] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
-[17:45:44] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
-[17:45:44] [Server thread/ERROR]: [EssentialsDiscord] An error occurred while logging into Discord, which has caused the plugin to disable itself: 
-No token provided! Please follow the tutorial in the config in order to setup the plugin.
-[17:45:44] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
-[17:45:44] [Server thread/INFO]: [LibertyBans] Enabling LibertyBans v1.1.0-M2
-[17:45:44] [Server thread/INFO]: [LibertyBans] No addons detected
-[17:45:44] [Server thread/INFO]: [space.arim.libertybans.core.addon.AddonLoader] No addons loaded
-[17:45:44] [Server thread/INFO]: [space.arim.libertybans.core.AbstractBaseFoundation] Conducting start phase...
-[17:45:45] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] LibertyBansPool-HyperSQL - Starting...
-[17:45:45] [Server thread/INFO]: [com.zaxxer.hikari.pool.PoolBase] LibertyBansPool-HyperSQL - Driver does not support get/set network timeout for connections. (feature not supported)
-[17:45:45] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] LibertyBansPool-HyperSQL - Added connection org.hsqldb.jdbc.JDBCConnection@4cb9157f
-[17:45:45] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] LibertyBansPool-HyperSQL - Start completed.
-[17:45:45] [Server thread/INFO]: [org.flywaydb.core.internal.license.VersionPrinter] Flyway Community Edition 8.2.0 by Redgate
-[17:45:45] [Server thread/INFO]: [org.flywaydb.core.internal.database.base.BaseDatabaseType] Database: jdbc:hsqldb:file:/home/max/Desktop/Minecraft/plugins/LibertyBans/internal/hypersql/punishments-database;hsqldb.tx_interrupt_rollback=true;sql.enforce_refs=true;sql.restrict_exec=true;sql.sys_index_names=true;hsqldb.default_table_type=cached;sql.enforce_names=true;sql.enforce_types=true (HSQL Database Engine 2.7)
-[17:45:45] [Server thread/WARN]: [org.flywaydb.core.internal.database.base.Database] Flyway upgrade recommended: HSQLDB 2.7 is newer than this version of Flyway and support has not been tested. The latest supported version of HSQLDB is 2.6.
-[17:45:46] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 9 migrations (execution time 00:00.050s)
-[17:45:46] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "PUBLIC": 28
-[17:45:46] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "PUBLIC" is up to date. No migration necessary.
-[17:45:46] [Server thread/INFO]: [space.arim.libertybans.core.AbstractBaseFoundation] Finished start phase in 1.300 seconds
-[17:45:46] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.3
-[17:45:46] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
-[17:45:46] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-[17:45:46] [Server thread/INFO]: --------------------
-[17:45:46] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
-[17:45:46] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
-[17:45:46] [Server thread/INFO]: --------------------
-[17:45:46] [Server thread/INFO]: [StatPlugin] Enabling StatPlugin v1.0-SNAPSHOT
-[17:45:46] [Server thread/INFO]: [JEXT] Enabling JukeboxExtendedReborn v1.1.3
-[17:45:46] [Server thread/INFO]: [JEXT] Enabled Jukebox Extended Reborn, Do Re Mi!
-[17:45:46] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[17:45:46] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[17:45:46] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[17:45:46] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: FUCK
-[17:45:46] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
-[17:45:46] [Server thread/INFO]: Preparing start region for dimension minecraft:programming_area
-[17:45:46] [Server thread/INFO]: Time elapsed: 152 ms
-[17:45:46] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[17:45:46] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[17:45:46] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[17:45:46] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.12
-[17:45:46] [ForkJoinPool.commonPool-worker-2/INFO]: [space.arim.libertybans.core.database.jooq.JooqClassloading] Finished pre-initializing classes in 0.94 seconds
-[17:45:47] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.7
-[17:45:47] [Server thread/ERROR]: [EssentialsGeoIP] No license key found! Please visit https://essentialsx.net/geoip for first time setup instructions.
-[17:45:47] [Server thread/ERROR]: [EssentialsGeoIP] Failed to read GeoIP database!
+[20:12:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:12:49] [Server thread/INFO]: Default game type: SURVIVAL
+[20:12:49] [Server thread/INFO]: Generating keypair
+[20:12:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:12:49] [Server thread/INFO]: Using epoll channel type
+[20:12:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:12:49] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[20:12:49] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.79
+[20:12:50] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[20:12:50] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.19.7
+[20:12:50] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.19.7
+[20:12:50] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b??-1b9042e)
+[20:12:50] [Server thread/INFO]: [floodgate] Took 329ms to boot Floodgate
+[20:12:50] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.14+6360-094b734
+[20:12:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5b3f4f08]
+[20:12:50] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
+[20:12:51] [Server thread/INFO]: [ImageOnMap] Loading server plugin ImageOnMap v4.2.2
+[20:12:51] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.19.7
+[20:12:51] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.19.7
+[20:12:51] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.0-SNAPSHOT
+[20:12:51] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[20:12:51] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:12:51] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.3.3
+[20:12:51] [Server thread/INFO]: [LibertyBans] Loading server plugin LibertyBans v1.1.0-M2
+[20:12:51] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v21.3
+[20:12:51] [Server thread/INFO]: [StatPlugin] Loading server plugin StatPlugin v1.0-SNAPSHOT
+[20:12:51] [Server thread/INFO]: [JEXT] Loading server plugin JukeboxExtendedReborn v1.1.3
+[20:12:51] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[20:12:51] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.0.12
+[20:12:51] [Server thread/INFO]: [EssentialsGeoIP] Loading server plugin EssentialsGeoIP v2.19.7
+[20:12:51] [Server thread/INFO]: [ChestShop] Loading server plugin ChestShop v3.12.2 (build 353)
+[20:12:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:12:51] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.79
+[20:12:52] [Server thread/INFO]:         __    
+[20:12:52] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.79
+[20:12:52] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:12:52] [Server thread/INFO]: 
+[20:12:52] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:12:52] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:12:52] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:12:52] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:12:53] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1193ms)
+[20:12:53] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:12:53] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:12:53] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:12:53] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:12:53] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:12:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
+[20:12:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:12:53] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:12:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[20:12:54] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[20:12:54] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.3
+[20:12:54] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[20:12:54] [Server thread/WARN]: It seems like you're running on paper.
+[20:12:54] [Server thread/WARN]: This may cause issues.
+[20:12:54] [Server thread/WARN]: If you encounter any issues, please join my dicord: https://discord.gg/dBhfCzdZxq
+[20:12:54] [Server thread/WARN]: Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[20:12:54] [Server thread/WARN]: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[20:12:54] [Server thread/INFO]: Preparing level "world"
+[20:12:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:12:55] [Server thread/INFO]: Time elapsed: 78 ms
+[20:12:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:12:55] [Server thread/INFO]: Time elapsed: 19 ms
+[20:12:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:12:55] [Server thread/INFO]: Time elapsed: 46 ms
+[20:12:55] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
+[20:12:55] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[20:12:55] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:12:55] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:12:55] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[20:12:55] [Server thread/INFO]: [Essentials] Using locale en_US
+[20:12:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:12:55] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:12:55] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[20:12:55] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:12:55] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.7
+[20:12:55] [Server thread/INFO]: [EssentialsChat] Secure signed chat and previews are enabled.
+[20:12:55] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[20:12:55] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b??-1b9042e)
+[20:12:56] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v4.2.2
+[20:12:56] [Server thread/INFO]: [ImageOnMap] Loaded 2 player map files.
+[20:12:56] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.7
+[20:12:56] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[20:12:56] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.19.7
+[20:12:56] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[20:12:56] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
+[20:12:56] [Server thread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Login Successful!
+[20:12:56] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
+[20:12:57] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Finished Loading!
+[20:12:57] [Server thread/INFO]: [EssentialsDiscord] Successfully logged in as the robot#4146
+[20:12:58] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[20:12:58] [Server thread/INFO]: [LibertyBans] Enabling LibertyBans v1.1.0-M2
+[20:12:58] [Server thread/INFO]: [LibertyBans] No addons detected
+[20:12:58] [Server thread/INFO]: [space.arim.libertybans.core.addon.AddonLoader] No addons loaded
+[20:12:59] [Server thread/INFO]: [space.arim.libertybans.core.AbstractBaseFoundation] Conducting start phase...
+[20:12:59] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] LibertyBansPool-HyperSQL - Starting...
+[20:12:59] [Server thread/INFO]: [com.zaxxer.hikari.pool.PoolBase] LibertyBansPool-HyperSQL - Driver does not support get/set network timeout for connections. (feature not supported)
+[20:12:59] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] LibertyBansPool-HyperSQL - Added connection org.hsqldb.jdbc.JDBCConnection@35d4c40
+[20:12:59] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] LibertyBansPool-HyperSQL - Start completed.
+[20:13:00] [Server thread/INFO]: [org.flywaydb.core.internal.license.VersionPrinter] Flyway Community Edition 8.2.0 by Redgate
+[20:13:00] [Server thread/INFO]: [org.flywaydb.core.internal.database.base.BaseDatabaseType] Database: jdbc:hsqldb:file:/home/max/Desktop/Minecraft/plugins/LibertyBans/internal/hypersql/punishments-database;hsqldb.tx_interrupt_rollback=true;sql.enforce_refs=true;sql.restrict_exec=true;sql.sys_index_names=true;hsqldb.default_table_type=cached;sql.enforce_names=true;sql.enforce_types=true (HSQL Database Engine 2.7)
+[20:13:00] [Server thread/WARN]: [org.flywaydb.core.internal.database.base.Database] Flyway upgrade recommended: HSQLDB 2.7 is newer than this version of Flyway and support has not been tested. The latest supported version of HSQLDB is 2.6.
+[20:13:00] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 9 migrations (execution time 00:00.104s)
+[20:13:00] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "PUBLIC": 28
+[20:13:00] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "PUBLIC" is up to date. No migration necessary.
+[20:13:00] [Server thread/INFO]: [space.arim.libertybans.core.AbstractBaseFoundation] Finished start phase in 1.081 seconds
+[20:13:00] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.3
+[20:13:00] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[20:13:00] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[20:13:00] [Server thread/INFO]: --------------------
+[20:13:00] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[20:13:00] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[20:13:00] [Server thread/INFO]: --------------------
+[20:13:00] [Server thread/INFO]: [StatPlugin] Enabling StatPlugin v1.0-SNAPSHOT
+[20:13:00] [Server thread/INFO]: [JEXT] Enabling JukeboxExtendedReborn v1.1.3
+[20:13:00] [Server thread/INFO]: [JEXT] Enabled Jukebox Extended Reborn, Do Re Mi!
+[20:13:00] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[20:13:00] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[20:13:00] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[20:13:00] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: FUCK
+[20:13:00] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[20:13:00] [Server thread/INFO]: Preparing start region for dimension minecraft:programming_area
+[20:13:00] [Server thread/INFO]: Time elapsed: 116 ms
+[20:13:00] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[20:13:00] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[20:13:00] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[20:13:00] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.12
+[20:13:01] [ForkJoinPool.commonPool-worker-1/INFO]: [space.arim.libertybans.core.database.jooq.JooqClassloading] Finished pre-initializing classes in 0.83 seconds
+[20:13:01] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.19.7
+[20:13:01] [Server thread/ERROR]: [EssentialsGeoIP] No license key found! Please visit https://essentialsx.net/geoip for first time setup instructions.
+[20:13:01] [Server thread/ERROR]: [EssentialsGeoIP] Failed to read GeoIP database!
 java.io.FileNotFoundException: plugins/EssentialsGeoIP/GeoIP2-Country.mmdb (No such file or directory)
 	at java.io.RandomAccessFile.open0(Native Method) ~[?:?]
 	at java.io.RandomAccessFile.open(RandomAccessFile.java:346) ~[?:?]
@@ -163,103 +165,127 @@ java.io.FileNotFoundException: plugins/EssentialsGeoIP/GeoIP2-Country.mmdb (No s
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1104) ~[paper-1.19.4.jar:git-Paper-538]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320) ~[paper-1.19.4.jar:git-Paper-538]
 	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
-[17:45:47] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
-[17:45:47] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
-[17:45:47] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.12.2 (build 353)
-[17:45:47] [Server thread/INFO]: [ChestShop] Found locales ar, it, es, el, hu, fr, pl, cs, pt_br, ja, sv, da, es_mx, sr, tr, nl, zh_tw, af, ko, no, vi, ro, he, ru, ca, zh, de, fi, en, uk
-[17:45:47] [Server thread/INFO]: [ChestShop] Using EssentialsX Economy as the Economy provider now.
-[17:45:47] [Server thread/INFO]: [ChestShop] Vault loaded!
-[17:45:47] [Server thread/INFO]: [ChestShop] Using Paper's BlockDestroyEvent instead of the BlockPhysicsEvent!
-[17:45:47] [Server thread/INFO]: [ChestShop] Auto-updater is disabled. If you want the plugin to automatically download new releases then set 'TURN_OFF_UPDATES' to 'false' in your config.yml!
-[17:45:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:45:47] [Server thread/INFO]: [Geyser-Spigot] 
-[17:45:47] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-ba4e370)
-[17:45:47] [Server thread/INFO]: [Geyser-Spigot] 
-[17:45:47] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[17:45:50] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[17:45:50] [Server thread/INFO]: [Geyser-Spigot] Done (2.647s)! Run /geyser help for help!
-[17:45:50] [Server thread/INFO]: Running delayed init tasks
-[17:45:50] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[17:45:50] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[17:45:50] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
-[17:45:50] [Server thread/INFO]: Done (13.772s)! For help, type "help"
-[17:45:50] [Server thread/INFO]: Timings Reset
-[17:45:50] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
-[17:45:50] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
-[17:45:50] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.20.0.
-[17:45:50] [Craft Scheduler Thread - 3 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[17:45:51] [User Authenticator #0/INFO]: UUID of player bee_mp3 is cfd66c88-6297-430f-8f8c-ef1b330d1c3d
-[17:45:51] [Server thread/INFO]: bee_mp3 joined the game
-[17:45:51] [Server thread/INFO]: bee_mp3[/67.243.34.233:62764] logged in with entity id 81 at ([world]-1058.6124000870695, -42.0, 597.3619179286322)
-[17:45:51] [Craft Scheduler Thread - 0 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for bee_mp3. Please ensure that your license key and configuration are correct.
-[17:45:53] [User Authenticator #0/INFO]: UUID of player GoPotato360 is 7ff0fecd-c4ef-46ae-b334-301e1e4d46ea
-[17:45:53] [Server thread/INFO]: GoPotato360 joined the game
-[17:45:53] [Server thread/INFO]: GoPotato360[/24.164.183.119:60122] logged in with entity id 898 at ([world]135.9882118534652, 231.0, -1927.300000011921)
-[17:45:53] [Craft Scheduler Thread - 3 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for GoPotato360. Please ensure that your license key and configuration are correct.
-[17:46:12] [Async Chat Thread - #1/INFO]: <NPbee_mp3+++> allgood?
-[17:46:16] [Async Chat Thread - #0/INFO]: <NPGoPotato360+> i think
-[17:46:17] [Server thread/INFO]: [Not Secure] [Server] so much shit needs to be added to the gitignore
-[17:46:19] [Async Chat Thread - #1/INFO]: <NPbee_mp3+++> um
-[17:46:28] [Server thread/INFO]: [Not Secure] [Server] does anything not work serverside
-[17:46:31] [Server thread/INFO]: [Not Secure] [Server] tell me now\
-[17:46:45] [User Authenticator #0/INFO]: UUID of player Dare2BeStoopid is 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-[17:46:45] [Server thread/INFO]: Dare2BeStoopid joined the game
-[17:46:45] [Server thread/INFO]: Dare2BeStoopid[/194.124.76.17:50895] logged in with entity id 1190 at ([world]156.39062218598684, 226.31814947645515, -1876.7349184223672)
-[17:46:47] [Async Chat Thread - #0/INFO]: <NPGoPotato360+> um i mean all the levels r kinda broken
-[17:46:54] [Async Chat Thread - #1/INFO]: <NPGoPotato360+> but idk what else really
-[17:46:57] [Server thread/INFO]: [Not Secure] [Server] daniel's fault
-[17:47:00] [Server thread/INFO]: [Not Secure] [Server] so i cant do shit
-[17:47:00] [Async Chat Thread - #0/INFO]: <NPGoPotato360+> pog
-[17:47:01] [Async Chat Thread - #1/INFO]: <NPbee_mp3+++> not sure except the levels are gone
-[17:47:05] [Async Chat Thread - #0/INFO]: <NPbee_mp3+++> ok
-[17:47:06] [Server thread/INFO]: [Not Secure] [Server] WHAT
-[17:47:10] [Server thread/INFO]: [Not Secure] [Server] how many
-[17:47:15] [Async Chat Thread - #1/INFO]: <NPbee_mp3+++> like
-[17:47:16] [Server thread/INFO]: [Not Secure] [Server] the daniel levels?
-[17:47:20] [Async Chat Thread - #0/INFO]: <NPbee_mp3+++> daniels plugin
-[17:47:34] [Server thread/INFO]: [Not Secure] [Server] i also figured out i cant decompile daniel's plugin
-[17:47:40] [Server thread/INFO]: [Not Secure] [Server] so only he can fix it
-[17:47:41] [Async Chat Thread - #1/INFO]: <NPGoPotato360+> epic lmao
-[17:47:44] [Server thread/INFO]: Dare2BeStoopid was slain by Phantom
-[17:47:46] [Async Chat Thread - #0/INFO]: <NPbee_mp3+++> thats ok
-[17:47:49] [Async Chat Thread - #1/INFO]: <NPbee_mp3+++> oop
-[17:47:51] [Server thread/INFO]: [Not Secure] [Server] i was fucking in the air
-[17:47:51] [Async Chat Thread - #0/INFO]: <NPbee_mp3+++> anyways
-[17:47:54] [Server thread/INFO]: [Not Secure] [Server] i hate this game
-[17:48:00] [Async Chat Thread - #1/INFO]: <NPbee_mp3+++> max
-[17:48:03] [Async Chat Thread - #0/INFO]: <NPbee_mp3+++> question
-[17:48:04] [Server thread/INFO]: [Not Secure] [Server] yes
-[17:48:11] [Async Chat Thread - #1/INFO]: <NPbee_mp3+++> i give you,,,, the rest of my diamonds
-[17:48:18] [Async Chat Thread - #0/INFO]: <NPbee_mp3+++> you put this book on this sword
-[17:48:26] [Server thread/INFO]: [Not Secure] [Server] you already have an op sword
-[17:48:29] [Async Chat Thread - #1/INFO]: <NPbee_mp3+++> i will spend a day in the backrooms idc
-[17:48:35] [Async Chat Thread - #0/INFO]: <NPbee_mp3+++> no im gonna undo that one
-[17:48:39] [Server thread/INFO]: [Not Secure] [Server] ill find something out
-[17:48:47] [Server thread/INFO]: [Not Secure] [Server] i gotta go to the bathroom rq
-[17:48:52] [Async Chat Thread - #1/INFO]: <NPbee_mp3+++> kk
-[17:49:16] [Async Chat Thread - #0/INFO]: <NPGoPotato360+> so sad i keep losing the levels
-[17:49:43] [Async Chat Thread - #1/INFO]: <NPGoPotato360+> like ik max cant fix it atm but like im afk for nothing exept reg xp
-[17:49:57] [Async Chat Thread - #0/INFO]: <NPbee_mp3+++> ik
-[17:50:01] [Async Chat Thread - #1/INFO]: <NPbee_mp3+++> itll be ok
-[17:50:12] [Async Chat Thread - #0/INFO]: <NPGoPotato360+> WWAHAHAHANANANANAAHAHAANANAAA
-[17:50:17] [Async Chat Thread - #1/INFO]: <NPGoPotato360+> ;(
-[17:50:33] [Async Chat Thread - #0/INFO]: <NPGoPotato360+> jk its fine i should really work on this supposed trader hall im making
-[17:50:52] [Async Chat Thread - #1/INFO]: <NPGoPotato360+> i really need 2 villiagers, someone gimme
-[17:52:21] [Server thread/INFO]: [Not Secure] [Server] im in my crack era
-[17:52:29] [Async Chat Thread - #3/INFO]: <NPbee_mp3+++> congrats
-[17:52:37] [Server thread/INFO]: [Not Secure] [Server] anyways what happenned
-[17:52:39] [Async Chat Thread - #2/INFO]: <NPbee_mp3+++> do we wanna vc
-[17:52:45] [Server thread/INFO]: [Not Secure] [Server] mm
-[17:52:47] [Server thread/INFO]: [Not Secure] [Server] ok
-[17:53:22] [Server thread/INFO]: Dare2BeStoopid issued server command: /gamemode spectator
-[17:54:58] [Server thread/WARN]: Dare2BeStoopid moved too quickly! -1363.0901880806955,-168.0,2475.899210260324
-[17:55:02] [Server thread/WARN]: Dare2BeStoopid moved too quickly! -23.542243717846986,0.0,-12.779789682567298
-[17:55:48] [Server thread/WARN]: Dare2BeStoopid moved too quickly! 1374.6544145384485,164.5,-2474.423377708149
-[17:56:16] [Server thread/WARN]: Dare2BeStoopid moved too quickly! -1354.7914955753583,-156.44288875291105,2481.7623132427716
-[17:56:56] [Server thread/WARN]: Dare2BeStoopid moved too quickly! -92.48085276223628,13.228313691509072,83.4869675421773
-[17:57:01] [Server thread/INFO]: Dare2BeStoopid issued server command: /gamemode survival
-[17:57:04] [Server thread/INFO]: Dare2BeStoopid issued server command: /gamemode spectator
-[17:58:26] [Server thread/WARN]: Dare2BeStoopid moved too quickly! 181.8684179678705,186.2451236759749,-137.27692316568482
-[17:58:36] [Server thread/INFO]: Dare2BeStoopid issued server command: /gamemode survival
-[17:58:40] [Server thread/INFO]: Dare2BeStoopid fell from a high place
-[17:59:01] [Server thread/INFO]: Dare2BeStoopid issued server command: /gamemode spectator
+[20:13:01] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[20:13:01] [Server thread/INFO]: [EssentialsGeoIP] Starting Metrics. Opt-out using the global bStats config.
+[20:13:01] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.12.2 (build 353)
+[20:13:01] [Server thread/INFO]: [ChestShop] Found locales ar, it, es, el, hu, fr, pl, cs, pt_br, ja, sv, da, es_mx, sr, tr, nl, zh_tw, af, ko, no, vi, ro, he, ru, ca, zh, de, fi, en, uk
+[20:13:01] [Server thread/INFO]: [ChestShop] Using EssentialsX Economy as the Economy provider now.
+[20:13:01] [Server thread/INFO]: [ChestShop] Vault loaded!
+[20:13:01] [Server thread/INFO]: [ChestShop] Using Paper's BlockDestroyEvent instead of the BlockPhysicsEvent!
+[20:13:01] [Server thread/INFO]: [ChestShop] Auto-updater is disabled. If you want the plugin to automatically download new releases then set 'TURN_OFF_UPDATES' to 'false' in your config.yml!
+[20:13:01] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:13:01] [Server thread/INFO]: [Geyser-Spigot] 
+[20:13:01] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-ba4e370)
+[20:13:01] [Server thread/INFO]: [Geyser-Spigot] 
+[20:13:01] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:13:04] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[20:13:04] [Server thread/INFO]: [Geyser-Spigot] Done (3.079s)! Run /geyser help for help!
+[20:13:04] [Server thread/INFO]: Running delayed init tasks
+[20:13:04] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[20:13:04] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:13:04] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:13:04] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[20:13:04] [Server thread/INFO]: Done (16.202s)! For help, type "help"
+[20:13:04] [Server thread/INFO]: Timings Reset
+[20:13:05] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[20:13:05] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.20.0.
+[20:13:05] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[20:13:35] [User Authenticator #0/INFO]: UUID of player Rebbebba is 24417846-d5ed-4608-ae7a-ed643b41c5e1
+[20:13:35] [Server thread/INFO]: [StatPlugin] Loading Rebbebba's file from: plugins/StatPlugin/Rebbebba.json
+[20:13:35] [Server thread/INFO]: Rebbebba joined the game
+[20:13:35] [Server thread/INFO]: Rebbebba[/68.132.130.223:51780] logged in with entity id 127 at ([world]-1074.9637974587686, -50.0, 822.469485082434)
+[20:14:07] [User Authenticator #0/INFO]: UUID of player ChuggaFTW is 78ea33f1-b577-42bc-b047-73f94f02e30f
+[20:14:07] [Server thread/INFO]: [StatPlugin] Loading ChuggaFTW's file from: plugins/StatPlugin/ChuggaFTW.json
+[20:14:07] [Server thread/INFO]: ChuggaFTW joined the game
+[20:14:07] [Server thread/INFO]: ChuggaFTW[/47.16.167.19:58268] logged in with entity id 688 at ([world]-1021.6105869793062, 70.0, 288.47004250695056)
+[20:14:07] [Craft Scheduler Thread - 4 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for ChuggaFTW. Please ensure that your license key and configuration are correct.
+[20:14:14] [User Authenticator #0/INFO]: UUID of player OxisCoxi is 2e78fb54-6c79-41a5-86e6-a00a224a1f01
+[20:14:15] [Server thread/INFO]: [StatPlugin] Loading OxisCoxi's file from: plugins/StatPlugin/OxisCoxi.json
+[20:14:15] [Server thread/INFO]: OxisCoxi joined the game
+[20:14:15] [Server thread/INFO]: OxisCoxi[/68.192.99.227:52565] logged in with entity id 997 at ([world]-1033.3551180658922, 69.0, 315.22868506924664)
+[20:14:15] [Craft Scheduler Thread - 9 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for OxisCoxi. Please ensure that your license key and configuration are correct.
+[20:14:25] [User Authenticator #0/INFO]: UUID of player _Sega is 7cccc7b7-19e2-496c-a982-d61f85439535
+[20:14:25] [Server thread/INFO]: [StatPlugin] Loading _Sega's file from: plugins/StatPlugin/_Sega.json
+[20:14:25] [Server thread/INFO]: _Sega joined the game
+[20:14:25] [Server thread/INFO]: _Sega[/98.97.176.239:54969] logged in with entity id 1088 at ([world]-1044.1164276639013, 69.0, 336.0038842131365)
+[20:14:25] [Craft Scheduler Thread - 8 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for _Sega. Please ensure that your license key and configuration are correct.
+[20:16:01] [Server thread/INFO]: [Not Secure] [Server] test
+[20:16:01] [User Authenticator #1/INFO]: UUID of player pluto_rights is fcef53df-d285-4228-b2b1-90a7153cb3a3
+[20:16:01] [Server thread/INFO]: [StatPlugin] Loading pluto_rights's file from: plugins/StatPlugin/pluto_rights.json
+[20:16:01] [Server thread/INFO]: pluto_rights joined the game
+[20:16:01] [Server thread/INFO]: pluto_rights[/35.138.71.6:63723] logged in with entity id 3008 at ([world]-1176.9232542690238, 70.0, 492.7882408882266)
+[20:16:02] [Craft Scheduler Thread - 18 - Essentials/WARN]: [EssentialsGeoIP] Unable to fetch GeoIP data for pluto_rights. Please ensure that your license key and configuration are correct.
+[20:16:16] [Async Chat Thread - #2/INFO]: <_Sega+> t.
+[20:18:29] [Server thread/INFO]: OxisCoxi issued server command: /back
+[20:18:32] [Async Chat Thread - #4/INFO]: <_Sega+> 1113983888331649094
+[20:18:32] [Server thread/INFO]: ChuggaFTW issued server command: /back
+[20:18:42] [Server thread/INFO]: ChuggaFTW issued server command: /back
+[20:18:42] [Server thread/WARN]: ChuggaFTW moved too quickly! -5707.0,118.0,-268.0
+[20:19:04] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.19.7
+[20:19:05] [Server thread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.RateLimiter] Waiting for 1 bucket(s) to finish. Average queue size of 0 requests
+[20:19:05] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.19.7
+[20:19:05] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.19.7
+[20:19:05] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[20:19:05] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
+[20:19:05] [Server thread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Login Successful!
+[20:19:05] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
+[20:19:06] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Finished Loading!
+[20:19:06] [Server thread/INFO]: [EssentialsDiscord] Successfully logged in as the robot#4146
+[20:19:06] [Server thread/INFO]: [PlugMan] EssentialsDiscord has been reloaded.
+[20:19:19] [Server thread/INFO]: OxisCoxi issued server command: /back
+[20:19:53] [Server thread/INFO]: [EssentialsDiscord] Disabling EssentialsDiscord v2.19.7
+[20:20:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-538 (MC: 1.19.4) ---
+[20:20:03] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[20:20:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:20:03] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:20:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:20:03] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[20:20:03] [Paper Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: WAITING
+[20:20:03] [Paper Watchdog Thread/ERROR]: 	Stack:
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		java.base@19.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		java.base@19.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		java.base@19.0.2/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		java.base@19.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3745)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		java.base@19.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3690)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		java.base@19.0.2/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		java.base@19.0.2/java.util.concurrent.CompletableFuture.join(CompletableFuture.java:2117)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		EssentialsXDiscord-2.19.7.jar//net.essentialsx.dep.net.dv8tion.jda.internal.requests.RestActionImpl.complete(RestActionImpl.java:219)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		EssentialsXDiscord-2.19.7.jar//net.essentialsx.dep.net.dv8tion.jda.api.requests.RestAction.complete(RestAction.java:633)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		EssentialsXDiscord-2.19.7.jar//net.essentialsx.discord.interactions.InteractionControllerImpl.shutdown(InteractionControllerImpl.java:152)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		EssentialsXDiscord-2.19.7.jar//net.essentialsx.discord.JDADiscordService.shutdown(JDADiscordService.java:422)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		EssentialsXDiscord-2.19.7.jar//net.essentialsx.discord.EssentialsDiscord.onDisable(EssentialsDiscord.java:108)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:109)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:537)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.unload(PaperPluginUtil.java:550)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.reload(PaperPluginUtil.java:508)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		PlugManX.jar//com.rylinaux.plugman.command.ReloadCommand.execute(ReloadCommand.java:125)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:907)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchServerCommand(CraftServer.java:870)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:501)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:448)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1397)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1174)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:320)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4552/0x0000000801948230.run(Unknown Source)
+[20:20:03] [Paper Watchdog Thread/ERROR]: 		java.base@19.0.2/java.lang.Thread.run(Thread.java:1589)
+[20:20:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:20:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:20:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:20:05] [Server thread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.RateLimiter] Waiting for 1 bucket(s) to finish. Average queue size of 0 requests
+[20:20:06] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.19.7
+[20:20:06] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.19.7
+[20:20:06] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
+[20:20:06] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
+[20:20:06] [Server thread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Login Successful!
+[20:20:06] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
+[20:20:06] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Finished Loading!
+[20:20:06] [Server thread/INFO]: [EssentialsDiscord] Successfully logged in as the robot#4146
+[20:20:07] [Server thread/INFO]: [PlugMan] EssentialsDiscord has been reloaded.
+[20:20:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13481ms or 269 ticks behind
+[20:20:07] [Server thread/WARN]: Rebbebba moved too quickly! -9.088427494653047,-1.0,4.887651847051302
+[20:20:07] [Server thread/WARN]: ChuggaFTW moved too quickly! -7.600677789398787,1.0,8.350549202460343

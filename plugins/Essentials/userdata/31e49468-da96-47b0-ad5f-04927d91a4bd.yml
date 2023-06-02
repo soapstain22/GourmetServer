@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1684805997899
-  login: 1684800677429
+  logout: 1685590173522
+  login: 1685588866057
 money: '0'
 last-account-name: irshlay
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -1246.6225814273355
-  y: 68.0
-  z: 448.37704999776224
-  yaw: -51.1478271484375
-  pitch: 15.899435043334961
+  x: -1068.6758620959765
+  y: 74.0
+  z: 408.9356044750653
+  yaw: -177.90040588378906
+  pitch: 23.999963760375977

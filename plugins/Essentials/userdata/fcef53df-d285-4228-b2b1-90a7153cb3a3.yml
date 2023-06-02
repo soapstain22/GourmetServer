@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1685131277389
+  lastteleport: 1685660460674
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1685131560142
-  login: 1685128598040
+  logout: 1685664739377
+  login: 1685664961957
 money: '0'
 last-account-name: pluto_rights
 logoutlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -1176.459287732115
+  x: -1176.9232542690238
   y: 70.0
-  z: 492.7102289898529
-  yaw: 159.6121826171875
-  pitch: 21.600004196166992
+  z: 492.7882408882266
+  yaw: -172.78668212890625
+  pitch: 7.350052356719971
 lastlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -1069.3397198383138
-  y: 70.0
-  z: 328.5636774371073
-  yaw: -96.15179443359375
-  pitch: 12.749963760375977
+  x: -2643.805724937278
+  y: 6.0
+  z: -1043.2580814379294
+  yaw: 98.53961181640625
+  pitch: 32.54998779296875

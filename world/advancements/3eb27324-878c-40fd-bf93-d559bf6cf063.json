@@ -12,6 +12,7 @@
       "minecraft:birch_forest": "2023-05-21 23:17:24 -0400",
       "minecraft:wooded_badlands": "2023-05-25 14:54:02 -0400",
       "minecraft:badlands": "2023-05-25 14:58:04 -0400",
+      "minecraft:savanna_plateau": "2023-05-31 21:02:01 -0400",
       "minecraft:beach": "2023-05-21 21:48:45 -0400",
       "minecraft:mangrove_swamp": "2023-05-25 14:41:33 -0400",
       "minecraft:sparse_jungle": "2023-05-25 14:33:10 -0400",
@@ -2258,15 +2259,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2023-05-25 19:58:04 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
     "criteria": {
       "has_cod": "2023-05-25 19:51:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2023-05-25 19:51:07 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-05-25 19:58:04 -0400"
     },
     "done": true
   },
@@ -2276,9 +2283,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod": {
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
     "criteria": {
-      "has_cod": "2023-05-25 19:51:07 -0400"
+      "has_deepslate_tiles": "2023-05-31 21:02:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-05-31 21:02:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-05-31 21:02:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-05-31 21:02:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-05-31 21:02:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-05-31 21:02:54 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2023-05-31 21:02:54 -0400"
     },
     "done": true
   },
