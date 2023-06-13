@@ -35,18 +35,17 @@ role-sync:
   remove-groups: true
   # The amount of time (in minutes) between which EssentialsX DiscordLink should audit player groups/roles.
   # Requires a restart after changing.
-  resync-delay: 5
+  resync-delay: 1
   # Whether EssentialsX DiscordLink should only consider the primary group of Minecraft users
   primary-group-only: false
   # Minecraft group to Discord role ID synchronization.
   # Players in the following groups listed here will receive the corresponding role ID on discord when they link
   # their Minecraft account to their Discord account.
   groups:
-    default: 000000000000000000
-    admin: 11111111111111111
+    default: 1114618773597605978
   # Discord role ID to Minecraft group synchronization.
   # Users with the following roles listed here will receive the corresponding group in Minecraft when they link
   # their Discord account to their Minecraft account.
   roles:
-    22222222222222222: vip
-    33333333333333333: booster
+    000000000000000000: vip
+    1114618773597605978: dollars-mode

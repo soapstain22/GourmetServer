@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1685583147079
-  login: 1685582962558
+  logout: 1685853412122
+  login: 1685851677049
 money: '0'
 last-account-name: Revaalt
 logoutlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: 4729.623476797395
-  y: -46.0
-  z: 636.8350532797699
-  yaw: 79.475341796875
-  pitch: 1.4481735229492188
+  x: 4723.699999988079
+  y: -47.125
+  z: 583.1370599736406
+  yaw: -79.4708251953125
+  pitch: 12.845967292785645
 lastlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world

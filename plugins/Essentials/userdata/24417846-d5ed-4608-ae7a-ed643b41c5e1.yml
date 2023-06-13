@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1685663862533
+  lastteleport: 1686163657809
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1685664740915
-  login: 1685664815834
+  logout: 1686164158613
+  login: 1686163649749
 money: '0'
 last-account-name: Rebbebba
 logoutlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -1074.9637974587686
-  y: -50.0
-  z: 822.469485082434
-  yaw: 129.7691650390625
-  pitch: 35.100276947021484
+  x: -1154.4441383684712
+  y: 86.0
+  z: 448.30000001192093
+  yaw: -14.602294921875
+  pitch: 2.0244436264038086
 lastlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -4086.9855061915714
-  y: 101.0
-  z: 138.69999998807907
-  yaw: -37.06719970703125
-  pitch: 27.795358657836914
+  x: -969.9093561444483
+  y: 64.0
+  z: 1147.7183618383367
+  yaw: -134.76107788085938
+  pitch: 35.941062927246094
 mail:
 - legacy: false
   read: true

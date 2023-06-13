@@ -12,7 +12,7 @@
 
 # The token for your bot from the Discord Developers site.
 # Please make sure to use this site to add the bot to your server as it grants special permissions you may not be familiar with: https://essentialsx.net/discord.html
-token: "MTExMzk3NDMyMjE3Njk4NzE2Ng.GIfOln.dTn9Ix5zvtlimRm_z741vD2_xPZIZxyC-iH1O0"
+token: "MTExMzk3NDMyMjE3Njk4NzE2Ng.GMfm9g.fByvY8s7fgPS8O58jAXagVJuw5TP5hbkdXpxJQ"
 
 # The ID of your server.
 guild: 1109955317552386213
@@ -246,7 +246,7 @@ presence:
   # - "none": Don't show any activity message
   activity: "playing"
   # The activity status message.
-  message: "Minecraft"
+  message: "Crimpo Quest"
 
 # The following entries allow you to customize the formatting of messages sent by the plugin.
 # Each message has a description of how it is used along with placeholders that can be used.

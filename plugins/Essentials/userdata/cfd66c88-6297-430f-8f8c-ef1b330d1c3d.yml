@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1685655633329
+  lastteleport: 1686163507174
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1685656239729
-  login: 1685652083408
+  logout: 1686163619848
+  login: 1686163492405
 money: '0'
 last-account-name: bee_mp3
 logoutlocation:
   world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
   world-name: world
-  x: -1270.7988921472904
-  y: 64.0
-  z: 564.3157083028108
-  yaw: 174.47369384765625
-  pitch: 20.831436157226562
+  x: -987.0731887911701
+  y: 72.08713891191296
+  z: 1145.3437192209751
+  yaw: 61.10198974609375
+  pitch: 14.687389373779297
 lastlocation:
-  world: 9eaeb7c8-d281-493e-bc7f-c9bfaafd4d45
-  world-name: world
-  x: -1152.512499988079
-  y: 51.053915731190564
-  z: 552.6999999880791
-  yaw: 77.8076400756836
-  pitch: -48.26359939575195
+  world: d70935d3-b6ad-435a-b3bb-83b45f1d67d7
+  world-name: mmo
+  x: 35.233624913164455
+  y: -51.0
+  z: 20.994427831253024
+  yaw: 85.14437866210938
+  pitch: 38.77022171020508

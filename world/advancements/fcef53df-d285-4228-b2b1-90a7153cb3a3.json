@@ -8,12 +8,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2023-06-01 14:16:49 -0400",
+      "minecraft:old_growth_pine_taiga": "2023-06-06 20:47:47 -0400",
       "minecraft:taiga": "2023-05-22 22:38:24 -0400",
       "minecraft:deep_ocean": "2023-05-25 00:34:35 -0400",
       "minecraft:eroded_badlands": "2023-05-22 00:01:23 -0400",
       "minecraft:frozen_river": "2023-05-22 22:41:59 -0400",
+      "minecraft:sunflower_plains": "2023-06-06 19:18:35 -0400",
       "minecraft:birch_forest": "2023-05-22 17:44:16 -0400",
+      "minecraft:windswept_hills": "2023-06-06 17:33:46 -0400",
       "minecraft:wooded_badlands": "2023-05-21 23:23:13 -0400",
+      "minecraft:bamboo_jungle": "2023-06-05 18:56:07 -0400",
       "minecraft:badlands": "2023-05-22 00:00:45 -0400",
       "minecraft:savanna_plateau": "2023-05-21 22:00:23 -0400",
       "minecraft:beach": "2023-05-22 16:42:40 -0400",
@@ -25,6 +29,7 @@
       "minecraft:stony_shore": "2023-06-01 12:21:32 -0400",
       "minecraft:dripstone_caves": "2023-05-21 22:18:17 -0400",
       "minecraft:snowy_taiga": "2023-05-22 22:39:13 -0400",
+      "minecraft:swamp": "2023-06-06 17:33:30 -0400",
       "minecraft:cold_ocean": "2023-05-22 17:29:48 -0400",
       "minecraft:forest": "2023-05-21 21:43:34 -0400",
       "minecraft:lush_caves": "2023-05-21 23:29:18 -0400",
@@ -33,6 +38,7 @@
       "minecraft:frozen_ocean": "2023-05-22 22:55:42 -0400",
       "minecraft:desert": "2023-05-21 23:07:53 -0400",
       "minecraft:deep_frozen_ocean": "2023-06-01 12:19:30 -0400",
+      "minecraft:windswept_forest": "2023-06-06 17:33:50 -0400",
       "minecraft:jungle": "2023-05-21 23:54:07 -0400",
       "minecraft:ocean": "2023-05-22 17:31:59 -0400",
       "minecraft:old_growth_spruce_taiga": "2023-05-22 22:39:27 -0400",
@@ -40,6 +46,7 @@
       "minecraft:windswept_savanna": "2023-05-24 23:49:13 -0400",
       "minecraft:warm_ocean": "2023-05-21 23:47:16 -0400",
       "minecraft:deep_lukewarm_ocean": "2023-05-25 00:05:30 -0400",
+      "minecraft:flower_forest": "2023-06-06 17:59:13 -0400",
       "minecraft:frozen_peaks": "2023-06-01 14:17:43 -0400",
       "minecraft:old_growth_birch_forest": "2023-05-22 22:27:46 -0400",
       "minecraft:deep_dark": "2023-06-01 18:55:12 -0400",
@@ -369,9 +376,12 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2023-06-05 22:09:53 -0400",
       "minecraft:skeleton": "2023-05-21 21:47:31 -0400",
+      "minecraft:ravager": "2023-06-05 22:30:41 -0400",
       "minecraft:ghast": "2023-05-25 14:37:50 -0400",
       "minecraft:hoglin": "2023-05-25 14:34:55 -0400",
+      "minecraft:vindicator": "2023-06-05 22:26:06 -0400",
       "minecraft:magma_cube": "2023-05-22 14:11:32 -0400",
       "minecraft:spider": "2023-05-21 22:11:58 -0400",
       "minecraft:creeper": "2023-05-21 21:59:46 -0400",
@@ -383,6 +393,7 @@
       "minecraft:cave_spider": "2023-05-21 22:31:37 -0400",
       "minecraft:piglin": "2023-05-25 14:42:33 -0400",
       "minecraft:enderman": "2023-05-22 16:13:17 -0400",
+      "minecraft:vex": "2023-06-05 22:31:23 -0400",
       "minecraft:zombie": "2023-05-21 22:07:48 -0400",
       "minecraft:drowned": "2023-05-22 20:19:26 -0400",
       "minecraft:zombie_villager": "2023-05-25 11:30:44 -0400"
@@ -471,14 +482,18 @@
       "beef": "2023-05-21 21:54:39 -0400",
       "baked_potato": "2023-05-24 22:12:50 -0400",
       "porkchop": "2023-05-25 12:38:08 -0400",
+      "tropical_fish": "2023-06-05 18:46:24 -0400",
       "apple": "2023-06-01 15:11:41 -0400",
       "cooked_cod": "2023-05-23 12:23:13 -0400",
       "bread": "2023-05-21 22:46:11 -0400",
       "golden_apple": "2023-05-22 18:56:41 -0400",
       "rotten_flesh": "2023-05-21 23:05:31 -0400",
       "suspicious_stew": "2023-05-25 00:29:27 -0400",
+      "cookie": "2023-06-06 12:49:26 -0400",
+      "glow_berries": "2023-06-05 19:09:43 -0400",
       "salmon": "2023-05-22 20:27:46 -0400",
       "melon_slice": "2023-05-24 23:07:31 -0400",
+      "cooked_rabbit": "2023-06-02 20:39:52 -0400",
       "cooked_chicken": "2023-05-21 22:03:35 -0400",
       "cooked_salmon": "2023-05-23 12:25:09 -0400",
       "carrot": "2023-05-21 21:48:01 -0400"
@@ -3123,7 +3138,9 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:bee": "2023-05-23 15:15:54 -0400"
+      "minecraft:frog": "2023-06-02 20:31:56 -0400",
+      "minecraft:bee": "2023-05-23 15:15:54 -0400",
+      "minecraft:axolotl": "2023-06-06 21:37:58 -0400"
     },
     "done": false
   },
@@ -4090,6 +4107,222 @@
   "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
       "has_amethyst_shard": "2023-06-01 20:20:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2023-06-02 19:08:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2023-06-02 19:08:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2023-06-02 19:08:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2023-06-02 20:09:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2023-06-02 20:09:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2023-06-02 20:09:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2023-06-02 20:23:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2023-06-02 20:35:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/leash_all_frog_variants": {
+    "criteria": {
+      "minecraft:warm": "2023-06-02 20:49:26 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2023-06-02 20:54:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tadpole_in_a_bucket": {
+    "criteria": {
+      "tadpole_bucket": "2023-06-02 20:56:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2023-06-02 21:13:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2023-06-02 22:44:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2023-06-02 22:44:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2023-06-05 21:13:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-06-05 22:14:45 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2023-06-05 22:32:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2023-06-06 12:35:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2023-06-06 17:59:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2023-06-06 17:59:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2023-06-06 17:59:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2023-06-06 18:16:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2023-06-06 18:23:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2023-06-06 18:23:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2023-06-06 18:23:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2023-06-06 19:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2023-06-06 19:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2023-06-06 19:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2023-06-06 19:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2023-06-06 19:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2023-06-06 19:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2023-06-06 19:18:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2023-06-06 21:28:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_candle": {
+    "criteria": {
+      "has_light_gray_dye": "2023-06-06 22:10:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_candle": {
+    "criteria": {
+      "has_cyan_dye": "2023-06-06 22:10:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_candle": {
+    "criteria": {
+      "has_brown_dye": "2023-06-06 22:15:38 -0400"
     },
     "done": true
   },

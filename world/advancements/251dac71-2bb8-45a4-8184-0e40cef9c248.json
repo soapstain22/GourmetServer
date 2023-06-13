@@ -19,6 +19,7 @@
       "minecraft:lush_caves": "2023-05-23 02:19:50 -0400",
       "minecraft:desert": "2023-05-23 02:05:09 -0400",
       "minecraft:jungle": "2023-05-23 02:00:20 -0400",
+      "minecraft:ocean": "2023-06-06 16:37:26 -0400",
       "minecraft:meadow": "2023-05-24 16:04:33 -0400",
       "minecraft:savanna": "2023-05-23 01:59:48 -0400",
       "minecraft:plains": "2023-05-23 01:56:11 -0400"
@@ -428,12 +429,14 @@
       "cooked_beef": "2023-05-23 17:10:29 -0400",
       "tropical_fish": "2023-05-24 19:16:10 -0400",
       "apple": "2023-05-23 16:41:16 -0400",
+      "cooked_cod": "2023-06-06 16:08:32 -0400",
       "bread": "2023-05-23 02:05:55 -0400",
       "rotten_flesh": "2023-05-23 16:52:56 -0400",
       "glow_berries": "2023-05-23 17:13:12 -0400",
       "melon_slice": "2023-05-23 02:14:46 -0400",
       "cooked_chicken": "2023-05-24 19:16:14 -0400",
-      "cooked_salmon": "2023-05-24 16:16:53 -0400"
+      "cooked_salmon": "2023-05-24 16:16:53 -0400",
+      "carrot": "2023-06-06 16:38:58 -0400"
     },
     "done": false
   },
@@ -2132,15 +2135,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/acacia_button": {
+  "minecraft:recipes/misc/black_dye": {
     "criteria": {
-      "has_planks": "2023-06-01 03:28:04 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_button": {
-    "criteria": {
-      "has_planks": "2023-06-01 03:11:18 -0400"
+      "has_ink_sac": "2023-06-01 03:04:34 -0400"
     },
     "done": true
   },
@@ -2150,15 +2147,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_planks": {
+  "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
-      "has_logs": "2023-06-01 03:11:25 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/acacia_pressure_plate": {
-    "criteria": {
-      "has_planks": "2023-06-01 03:28:04 -0400"
+      "has_planks": "2023-06-01 03:11:18 -0400"
     },
     "done": true
   },
@@ -2168,33 +2159,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/black_dye": {
-    "criteria": {
-      "has_ink_sac": "2023-06-01 03:04:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/acacia_sign": {
-    "criteria": {
-      "has_planks": "2023-06-01 03:28:04 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/acacia_slab": {
-    "criteria": {
-      "has_planks": "2023-06-01 03:28:04 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
       "has_planks": "2023-06-01 03:11:18 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/acacia_trapdoor": {
-    "criteria": {
-      "has_planks": "2023-06-01 03:28:04 -0400"
     },
     "done": true
   },
@@ -2216,15 +2183,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/acacia_fence": {
+  "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
-      "has_planks": "2023-06-01 03:28:04 -0400"
+      "has_planks": "2023-06-01 03:11:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2023-06-01 03:11:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2023-06-01 03:11:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2023-06-01 03:11:25 -0400"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2023-06-01 03:11:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2023-06-01 03:28:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-06-01 03:28:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2023-06-01 03:28:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2023-06-01 03:28:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-06-01 03:28:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2023-06-01 03:28:04 -0400"
     },
     "done": true
   },
@@ -2240,27 +2261,131 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/spruce_fence": {
-    "criteria": {
-      "has_planks": "2023-06-01 03:11:18 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_stairs": {
-    "criteria": {
-      "has_planks": "2023-06-01 03:11:18 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/acacia_fence_gate": {
     "criteria": {
       "has_planks": "2023-06-01 03:28:04 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/spruce_slab": {
+  "minecraft:recipes/misc/copper_ingot": {
     "criteria": {
-      "has_planks": "2023-06-01 03:11:18 -0400"
+      "has_copper_block": "2023-06-06 15:57:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2023-06-06 15:57:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2023-06-06 15:57:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2023-06-06 15:57:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2023-06-06 15:57:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2023-06-06 15:57:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2023-06-06 16:18:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2023-06-06 16:18:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2023-06-06 16:21:59 -0400",
+      "minecraft:nether_wastes": "2023-06-06 16:18:36 -0400",
+      "minecraft:warped_forest": "2023-06-06 16:18:23 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2023-06-06 16:18:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2023-06-06 16:18:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2023-06-06 16:18:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2023-06-06 16:18:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2023-06-06 16:18:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2023-06-06 16:18:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2023-06-06 16:19:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2023-06-06 16:48:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_chestplate": "2023-06-06 16:34:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_chestplate": "2023-06-06 16:34:05 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2023-06-06 16:38:00 -0400"
     },
     "done": true
   },

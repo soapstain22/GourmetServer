@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "cfd66c88-6297-430f-8f8c-ef1b330d1c3d",
+    "name": "bee_mp3",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "24417846-d5ed-4608-ae7a-ed643b41c5e1",
     "name": "Rebbebba",
     "level": 4,

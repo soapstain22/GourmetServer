@@ -490,16 +490,21 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2023-05-21 22:29:33 -0400",
+      "minecraft:pillager": "2023-06-05 22:30:47 -0400",
       "minecraft:skeleton": "2023-05-20 17:23:57 -0400",
       "minecraft:hoglin": "2023-05-21 22:56:55 -0400",
+      "minecraft:vindicator": "2023-06-05 22:28:37 -0400",
       "minecraft:spider": "2023-05-20 17:23:53 -0400",
       "minecraft:creeper": "2023-05-20 17:53:37 -0400",
       "minecraft:slime": "2023-05-22 18:05:01 -0400",
       "minecraft:phantom": "2023-05-20 19:19:20 -0400",
       "minecraft:zombified_piglin": "2023-05-22 17:56:30 -0400",
+      "minecraft:witch": "2023-06-05 22:27:12 -0400",
       "minecraft:piglin": "2023-05-21 22:20:54 -0400",
       "minecraft:enderman": "2023-05-20 17:55:34 -0400",
+      "minecraft:endermite": "2023-06-04 23:12:46 -0400",
       "minecraft:zombie": "2023-05-20 17:02:23 -0400",
+      "minecraft:drowned": "2023-06-02 21:58:26 -0400",
       "minecraft:zombie_villager": "2023-05-20 17:27:20 -0400"
     },
     "done": false
@@ -2899,6 +2904,114 @@
   "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2023-05-31 21:23:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-06-02 21:31:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-06-02 21:31:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_white_dye": "2023-06-02 21:32:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_white_dye": {
+    "criteria": {
+      "has_white_dye": "2023-06-02 21:32:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_white_dye": "2023-06-02 21:32:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2023-06-02 21:32:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2023-06-02 21:32:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_white_dye": "2023-06-02 21:32:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_white_dye": "2023-06-02 21:32:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_white_dye": "2023-06-02 21:32:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2023-06-02 21:47:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-06-05 22:08:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2023-06-05 22:32:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-06-06 21:28:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2023-06-06 21:28:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_candle": {
+    "criteria": {
+      "has_blue_dye": "2023-06-06 21:28:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_blue_dye": "2023-06-06 21:28:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2023-06-06 21:27:21 -0400"
     },
     "done": true
   },
