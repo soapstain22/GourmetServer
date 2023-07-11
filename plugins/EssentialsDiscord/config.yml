@@ -12,7 +12,7 @@
 
 # The token for your bot from the Discord Developers site.
 # Please make sure to use this site to add the bot to your server as it grants special permissions you may not be familiar with: https://essentialsx.net/discord.html
-token: "MTExMzk3NDMyMjE3Njk4NzE2Ng.GMfm9g.fByvY8s7fgPS8O58jAXagVJuw5TP5hbkdXpxJQ"
+token: "MTExMzk3NDMyMjE3Njk4NzE2Ng.G2D77H.DpExUHJGFB3m2sW9bQJCBhmSkBik4LzJbAZ6Tw"
 
 # The ID of your server.
 guild: 1109955317552386213
@@ -81,7 +81,7 @@ console:
   # The channel ID (or webhook URL) to send the console output to.
   # If the channel ID/webhook URL is invalid or set to 'none', the console relay will be disabled.
   # Note: If you use a channel ID, the bot must have the "Manage Webhooks" permission in Discord or else the console relay will not work.
-  channel: 1113983888331649094
+  channel: 1113970923486318604
   # The format of the console message. The following placeholders can be used:
   # - {timestamp}: Timestamp in HH:mm:ss format
   # - {level}: The console logging level
