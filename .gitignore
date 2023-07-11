@@ -1,9 +1,1 @@
-libraries/*
-logs/*
-plugins/**
-world/*
-world_nether/**
-world_the_end/**
-programming_area/**
-META-INF/**
-cache/**
+
