@@ -1,1 +1,14 @@
+ops.json
+help.yml
+eula.txt
+permissions.json
+version.json
+wepif.yml
+whitelist.json
+.idea
+world/
+world_nether/
+world_the_end/
+versions
 
+crash-reports/
