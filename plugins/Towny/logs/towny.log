@@ -1,0 +1,40 @@
+2023-07-12 00:13:58,180 [Server thread]: [Towny] Database: [Load] flatfile [Save] flatfile
+2023-07-12 00:13:58,271 [Server thread]: [Towny] Database: Loaded in 91ms.
+2023-07-12 00:13:58,271 [Server thread]: [Towny] Database: 100% of residents have stored UUIDs.
+2023-07-12 00:13:58,276 [Server thread]: [Towny] Searching for third-party plugins...
+2023-07-12 00:13:58,276 [ForkJoinPool.commonPool-worker-1]: [Towny] Cleaning up old backups...
+2023-07-12 00:13:58,276 [Server thread]: [Towny] Plugins found: 
+2023-07-12 00:13:58,278 [Server thread]: [Towny]   Permissions: TownyPerms, LuckPerms v5.4.82 via Vault
+2023-07-12 00:13:58,278 [Server thread]: [Towny]   Chat: LuckPerms v5.4.82 via Vault
+2023-07-12 00:13:58,280 [ForkJoinPool.commonPool-worker-1]: [Towny] Successfully cleaned backups.
+2023-07-12 00:13:58,280 [Server thread]: [Towny]   Economy: EssentialsX Economy via Vault
+2023-07-12 00:13:58,282 [Server thread]: [Towny]   Add-ons: TownyChat v0.107, Dynmap-Towny v0.94, PlaceholderAPI
+                           v2.11.3
+2023-07-12 00:13:58,282 [Server thread]: [Towny]   Warning: EssentialsX Economy has been known to reset
+                           town and nation bank accounts on rare occasions.
+2023-07-12 00:13:58,283 [ForkJoinPool.commonPool-worker-1]: [Towny] Making backup...
+2023-07-12 00:13:58,474 [Server thread]: [Towny] Version: 0.99.2.0 - Plugin Enabled
+2023-07-12 00:13:58,844 [ForkJoinPool.commonPool-worker-1]: [Towny] Towny flatfiles and settings successfully backed up.
+2023-07-12 00:14:01,569 [Craft Scheduler Thread - 10]: [Towny] Checking for updates...
+2023-07-12 00:14:01,570 [Craft Scheduler Thread - 11]: [Towny] Time until a New Day: 11 hours, 45 minutes, 59 seconds
+2023-07-12 00:14:02,487 [Craft Scheduler Thread - 10]: [Towny] New update available: 0.99.5.1 | Current version: 0.99.2.0
+2023-07-12 00:14:02,487 [Craft Scheduler Thread - 10]: [Towny] Download it here: https://github.com/TownyAdvanced/Towny/releases/tag/0.99.5.1
+2023-07-12 06:07:00,539 [Server thread]: [Towny] Time until a New Day: 5 hours, 53 minutes
+2023-07-12 09:03:30,540 [Server thread]: [Towny] Time until a New Day: 2 hours, 56 minutes, 30 seconds
+2023-07-12 10:31:45,540 [Server thread]: [Towny] Time until a New Day: 1 hours, 28 minutes, 15 seconds
+2023-07-12 11:15:52,540 [Server thread]: [Towny] Time until a New Day: 44 minutes, 8 seconds
+2023-07-12 11:37:56,540 [Server thread]: [Towny] Time until a New Day: 22 minutes, 4 seconds
+2023-07-12 11:48:58,540 [Server thread]: [Towny] Time until a New Day: 11 minutes, 2 seconds
+2023-07-12 11:54:29,539 [Server thread]: [Towny] Time until a New Day: 5 minutes, 31 seconds
+2023-07-12 11:57:14,539 [Server thread]: [Towny] Time until a New Day: 2 minutes, 46 seconds
+2023-07-12 11:58:37,540 [Server thread]: [Towny] Time until a New Day: 1 minutes, 23 seconds
+2023-07-12 12:00:00,562 [ForkJoinPool.commonPool-worker-2]: [Towny] Cleaning up old backups...
+2023-07-12 12:00:00,562 [Craft Scheduler Thread - 231]: [Towny] Towny DailyTimerTask took 13ms to process.
+2023-07-12 12:00:00,563 [ForkJoinPool.commonPool-worker-2]: [Towny] Successfully cleaned backups.
+2023-07-12 12:00:00,563 [ForkJoinPool.commonPool-worker-2]: [Towny] Making backup...
+2023-07-12 12:00:01,119 [ForkJoinPool.commonPool-worker-2]: [Towny] Towny flatfiles and settings successfully backed up.
+2023-07-12 12:01:00,540 [Server thread]: [Towny] Time until a New Day: 23 hours, 59 minutes
+2023-07-12 17:53:59,923 [Server thread]: [Towny] Disabling Towny v0.99.2.0
+2023-07-12 17:53:59,979 [Server thread]: [Towny] Finishing File IO Tasks...
+2023-07-12 17:53:59,980 [Server thread]: [Towny] Finishing Universe Tasks...
+2023-07-12 17:53:59,980 [Server thread]: [Towny] Version: 0.99.2.0 - Plugin Disabled

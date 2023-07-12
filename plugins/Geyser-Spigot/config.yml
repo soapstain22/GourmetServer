@@ -19,7 +19,7 @@ bedrock:
   clone-remote-port: false
   # The MOTD that will be broadcasted to Minecraft: Bedrock Edition clients. This is irrelevant if "passthrough-motd" is set to true
   # If either of these are empty, the respective string will default to "Geyser"
-  motd1: "the server"
+  motd1: "Geyser"
   motd2: "Another Geyser server."
   # The Server Name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
   server-name: "Geyser"
@@ -194,7 +194,7 @@ metrics:
   # If metrics should be enabled
   enabled: true
   # UUID of server, don't change!
-  uuid: 0c6be07e-b0ae-418e-93b1-1f45e539fef9
+  uuid: c414350d-e094-4946-b3f0-057e7e214a75
 
 # ADVANCED OPTIONS - DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!
 

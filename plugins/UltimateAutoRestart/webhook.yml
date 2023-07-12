@@ -1,0 +1,47 @@
+#########################################################################################
+#                                                                                       #
+# UltimateAutoRestart, a free resource by Norska @ https://norska.dev                   #
+#                                                                                       #
+# Wiki: https://norska.dev/docs/welcome/                                                #
+# Support: https://norska.dev/discord/                                                  #
+#                                                                                       #
+# You are editing the webhook.yml file of UltimateAutoRestart.                          #
+#                                                                                       #
+#########################################################################################
+
+#########################################################################################
+#                                                                                       #
+# NOTE: PLEASE READ BEFORE CONFIGURING!                                                 #
+#                                                                                       #
+# Please consult the wiki for any questions regarding the setup of this plugin, if you  #
+# still require help, open a ticket on my discord server!                               #
+#                                                                                       #
+#########################################################################################
+
+# Please consider purchasing the Plus version of UltimateAutoRestart, it helps support the free development
+# of the plugin, as well as unlocks a few extra features such as fully customizable webhooks!
+#
+# Thank you for using UltimateAutoRestart! ❤️ 
+# 
+# https://norska./dev/r/spigot/uar-plus/
+# https://norska./dev/r/polymart/uar-plus/
+
+# PLEASE READ:
+# 1. New line characters (\n) need to be escaped. Use "\\n" instead of "\n".
+# 2. If the webhook returns an HTTP 400 Error, you're doing something wrong.
+# 3. You can test webhooks by using "/uar debug webhook".
+
+webhook:
+   enabled: false
+   # Note: Find the URL at Server Settings -> Integrations -> Webhooks -> Select your Webhook (or make a new one) -> Copy Webhook URL
+   url: ''
+   
+messages:
+      
+   SERVER_RESTARTING:
+      enabled: true
+      content: 'The server is currently restarting! Join back soon!'
+      
+   SERVER_BACK_UP:
+      enabled: true
+      content: 'The server is back up! Join at play.servername.com!'

@@ -1,0 +1,59 @@
+description: '{nl}he likes it'
+startDialog:
+  msgs:
+  - id: 0
+    message:
+      sender: NPC
+      text: i really like this light
+  - id: 1
+    message:
+      sender: NPC
+      text: can u get one for me
+  - id: 2
+    message:
+      sender: PLAYER
+      text: what?
+  - id: 3
+    message:
+      sender: PLAYER
+      text: uh
+  - id: 4
+    message:
+      sender: PLAYER
+      text: okay i guess
+endMsg: close
+repeatable: true
+name: glowstone liker
+timer: 100
+starterNPC: 18
+customItem:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: GLOWSTONE
+endRewards:
+- id: randomReward
+  rewards:
+  - id: expReward
+    xp: 100
+  - id: itemReward
+    items:
+    - v: 3465
+      type: RAW_IRON
+      amount: 4
+  - id: moneyReward
+    money: 100.0
+  min: 2
+  max: 3
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          npcID: 18
+          items:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 3465
+            type: GLOWSTONE
+          stageType: ITEMS
+      endingStages: {}
+id: 10

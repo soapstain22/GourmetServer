@@ -1,0 +1,205 @@
+global:
+  ass:
+    pages:
+      '0':
+        items:
+          '10':
+            display:
+              type_key: leather_boots
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABXQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXQAC1VuYnJlYWthYmxldXEAfgAGAAAABXQACEl0ZW1NZXRhdAAPQ09MT1JBQkxFX0FSTU9SdAAieyJ0ZXh0Ijoic3RlZWxpZXMiLCJpdGFsaWMiOmZhbHNlfXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwdXEAfgAGAAAAAXQALHsidGV4dCI6InN0ZWVsIHRpcHBlZCBzaG9lcyIsIml0YWxpYyI6ZmFsc2V9c3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc+u4CAAFaAAV2YWx1ZXhwAQ==
+            maxRepeatsOnShiftClick: false
+    type: COMMAND
+  hi:
+    pages:
+      '0':
+        items:
+          '22':
+            cost:
+              '0':
+                exp: 1
+                type: experience
+            display:
+              type_key: gold_nugget
+              amount: 1
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                money: 1.0
+                type: money
+    type: BUY
+  a:
+    type: COMMAND
+  '1':
+    type: COMMAND
+  '2':
+    type: COMMAND
+  '3':
+    type: COMMAND
+  bocs:
+    pages:
+      '0':
+        items:
+          '29':
+            cost:
+              '0':
+                money: 1.0
+                type: money
+            display:
+              type_key: mutton
+              amount: 2
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                compareSimilarity: true
+                items:
+                  '0':
+                    type_key: mutton
+                    amount: 2
+                requireUndamaged: true
+                type: items
+    type: COMMAND
+  cum:
+    type: COMMAND
+npc:
+  8b6af2fd-d488-4c72-b76c-0bc1422ef1f9:
+    pages:
+      '0':
+        items:
+          '22':
+            clickToConfirmMessage: no refunds!
+            display:
+              type_key: bricks
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXVxAH4ABgAAAAR0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUN0AJR7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwidGV4dCI6InNldCB5b3VyIG5hbWUgcmVkIGZvciAkMTAwPyJ9XSwidGV4dCI6IiJ9c3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHN0ABNbTGphdmEvbGFuZy9PYmplY3Q7eHB1cQB+AAYAAAABdABAeyJleHRyYSI6W3sidGV4dCI6ImkgY2FudCByZWFsbHkgbWFrZSBpdCB1bnJlZCBsb2wifV0sInRleHQiOiIifQ==
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                commands:
+                  '0': nick &c<player>
+                op: true
+                server: false
+                type: command
+    title: hidebert
+    type: COMMAND
+  82ed4bec-43db-4069-8377-01c9229d6cec:
+    pages:
+      '0':
+        items:
+          '22':
+            clickToConfirmMessage: Confirm? No refunds!
+            cost:
+              '0':
+                money: 100.0
+                type: money
+            display:
+              type_key: bricks
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAAEbG9yZXVxAH4ABgAAAAR0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUN0AJh7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJsaW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwidGV4dCI6IkNoYW5nZSB5b3VyIG5hbWUgYmx1ZSBmb3IgJDEwMD8ifV0sInRleHQiOiIifXNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwdXEAfgAGAAAAAXQAP3siZXh0cmEiOlt7InRleHQiOiJjYW4gYmUgY2hhbmdlZCBiYWNrIHNvbWVob3cuLi4ifV0sInRleHQiOiIifQ==
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                commands:
+                  '0': nickname &3<player>
+                op: true
+                server: false
+                type: command
+    type: COMMAND
+  aaccda13-45e8-4dbe-89ed-5b025284cc1c:
+    pages:
+      '0':
+        items:
+          '0':
+            cost:
+              '0':
+                money: 2.0
+                type: money
+            display:
+              type_key: packed_mud
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAEbG9yZXVxAH4ABgAAAAN0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAF0ADJ7ImV4dHJhIjpbeyJ0ZXh0IjoiMiBkb2xsYXMgcGVyIG11ZCEifV0sInRleHQiOiIifQ==
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                compareSimilarity: true
+                items:
+                  '0':
+                    type_key: packed_mud
+                    amount: 1
+                requireUndamaged: true
+                type: items
+          '20':
+            clickToConfirmMessage: empty
+            cost:
+              '0':
+                money: 0.25
+                type: money
+            display:
+              type_key: stick
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAEbG9yZXVxAH4ABgAAAAN0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAF0ADt7ImV4dHJhIjpbeyJ0ZXh0IjoiMjUgY2VudHMgYSBzdGljayEhISEhISEhISEifV0sInRleHQiOiIifQ==
+            maxRepeatsOnShiftClick: false
+          '12':
+            cost:
+              '0':
+                money: 1.0
+                type: money
+            display:
+              type_key: wheat_seeds
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAEbG9yZXVxAH4ABgAAAAN0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAF0ADV7ImV4dHJhIjpbeyJ0ZXh0IjoiYSBkb2xsYXIgZm9yIGEgc2VlZCEifV0sInRleHQiOiIifQ==
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                compareSimilarity: true
+                items:
+                  '0':
+                    type_key: wheat_seeds
+                    amount: 1
+                requireUndamaged: true
+                type: items
+          '13':
+            cost:
+              '0':
+                money: 25.0
+                type: money
+            display:
+              type_key: dead_bush
+              amount: 1
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                compareSimilarity: true
+                items:
+                  '0':
+                    type_key: dead_bush
+                    amount: 1
+                requireUndamaged: true
+                type: items
+          '29':
+            cost:
+              '0':
+                money: 2.0
+                type: money
+            display:
+              type_key: dirt
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAEbG9yZXVxAH4ABgAAAAN0AAhJdGVtTWV0YXQAClVOU1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlhbGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVxAH4ABgAAAAF0ADV7ImV4dHJhIjpbeyJ0ZXh0IjoiMiBkb2xsYXJzIGZvciBhIGRpcnQifV0sInRleHQiOiIifQ==
+            maxRepeatsOnShiftClick: false
+          '15':
+            display:
+              type_key: sand
+              amount: 1
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                money: 1.0
+                type: money
+    type: BUY

@@ -406,7 +406,7 @@ meta-formatting:
       - "highest"
     duplicates: first-only
     start-spacer: ""
-    middle-spacer: " "
+    middle-spacer: "|"
     end-spacer: ""
   suffix:
     format:

@@ -1,0 +1,216 @@
+timer: 60
+repeatable: true
+description: ''
+name: the weed quest
+startDialog:
+  msgs:
+  - id: 0
+    message:
+      sender: NPC
+      text: HEY! i need to go to church tomorrow! can you help me get some weed?
+  - id: 1
+    message:
+      sender: PLAYER
+      text: anything for you cocksucker72
+  - id: 2
+    message:
+      sender: NPC
+      text: uh alright
+  - id: 3
+    message:
+      sender: NPC
+      text: go find the plug and GET SOME WEED!!!!!!!!!!!!!!!!!!!!!
+endRewards:
+- id: moneyReward
+  money: 150.0
+- id: expReward
+  xp: 300
+startMessage: help cocksucker72 get that chronic!
+failOnDeath: true
+starterNPC: 44
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          npcID: 43
+          msg:
+            msgs:
+            - id: 0
+              message:
+                sender: NPC
+                text: sorry i dont have any weed today
+            - id: 1
+              message:
+                sender: NPC
+                text: sucks to suck
+            - id: 2
+              message:
+                sender: NPC
+                text: my mom died yesterday so there might not be some for a while
+          stageType: NPC
+        '1':
+          npcID: 44
+          msg:
+            msgs:
+            - id: 0
+              message:
+                sender: NPC
+                text: NO WEED???????? maybe ghetto gamer will let me have some from
+                  his weed barrel
+            - id: 1
+              message:
+                sender: PLAYER
+                text: ill see
+          stageType: NPC
+        '2':
+          npcID: 45
+          msg:
+            msgs:
+            - id: 0
+              message:
+                sender: PLAYER
+                text: can i have some of your weed?
+            - id: 1
+              message:
+                sender: NPC
+                text: nobody gets my weed! not even cocksucker! get out of my face!
+            - id: 2
+              message:
+                sender: PLAYER
+                text: alright i guess
+          stageType: NPC
+        '3':
+          npcID: 44
+          msg:
+            msgs:
+            - id: 0
+              message:
+                sender: NPC
+                text: NO WEED AGAIN????????!?!???!???? im going to kill myself
+            - id: 1
+              message:
+                sender: NPC
+                text: i think burpy joe has weed. he just got out of rehab so he HAS
+                  to have some!
+          stageType: NPC
+        '4':
+          npcID: 46
+          msg:
+            msgs:
+            - id: 0
+              message:
+                sender: NPC
+                text: amazing grace
+            - id: 1
+              message:
+                sender: NPC
+                text: how sweet the sound
+            - id: 2
+              message:
+                wait: 10
+                sender: NPC
+                text: the
+            - id: 3
+              message:
+                sender: NPC
+                text: uh
+            - id: 4
+              message:
+                sender: NPC
+                text: auhhhhhh
+            - id: 5
+              message:
+                sender: PLAYER
+                text: i think hes having an overdose
+          stageType: NPC
+        '5':
+          npcID: 46
+          msg:
+            msgs:
+            - id: 0
+              message:
+                sender: NPC
+                text: can i get some of that
+            - id: 1
+              message:
+                sender: PLAYER
+                text: yuh
+          items:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 3465
+            type: MILK_BUCKET
+          customMessage: i dont feel so good
+          stageType: ITEMS
+        '6':
+          npcID: 46
+          msg:
+            msgs:
+            - id: 0
+              message:
+                sender: NPC
+                text: wow thank you
+            - id: 1
+              message:
+                sender: NPC
+                text: this apple had fentanyl in it
+            - id: 2
+              message:
+                sender: NPC
+                text: here is my finest gas
+          stageType: NPC
+          rewards:
+          - id: itemReward
+            items:
+            - v: 3465
+              type: GREEN_DYE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"text":"wead"}],"text":""}'
+                lore:
+                - '{"extra":[{"text":"the zaza"}],"text":""}'
+        '7':
+          npcID: 44
+          msg:
+            msgs:
+            - id: 0
+              message:
+                sender: NPC
+                text: woa can i have some of that?
+            - id: 1
+              message:
+                sender: PLAYER
+                text: sure whatever
+            - id: 2
+              message:
+                sender: NPC
+                text: YEET!
+            - id: 3
+              message:
+                sender: NPC
+                text: have a reward
+          items:
+          - ==: org.bukkit.inventory.ItemStack
+            v: 3465
+            type: GREEN_DYE
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: '{"extra":[{"text":"wead"}],"text":""}'
+              lore:
+              - '{"extra":[{"text":"the zaza"}],"text":""}'
+          stageType: ITEMS
+          rewards:
+          - id: removeItemsReward
+            items:
+            - v: 3465
+              type: GREEN_DYE
+              meta:
+                ==: ItemMeta
+                meta-type: UNSPECIFIC
+                display-name: '{"extra":[{"text":"wead"}],"text":""}'
+                lore:
+                - '{"extra":[{"text":"the zaza"}],"text":""}'
+      endingStages: {}
+id: 8

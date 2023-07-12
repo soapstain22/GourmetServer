@@ -1,0 +1,114 @@
+#File Generated: 20220724-2137 | MCversion: 1.19 | ESGUI ver: 4.8.0
+#Please Check out the wiki for more information about configuring these files!
+#@ https://gpplugins.gitbook.io/economyshopgui/
+
+ShopSections:
+
+  Blocks:
+    enable: true
+    material: "GRASS_BLOCK"
+    displayname: "&2&lBlocks"
+    slot: 19
+
+  Decoration:
+    enable: true
+    material: "TUBE_CORAL"
+    displayname: "&9&lDecoration"
+    slot: 30
+
+  Dyes:
+    enable: true
+    material: "CYAN_DYE"
+    displayname: "&2&lDyes"
+    slot: 23
+
+  Enchanting:
+    enable: true
+    material: "ENCHANTED_BOOK"
+    displayname: "&d&lEnchanting"
+    slot: 22
+    lore:
+    - "&5&lGear up with enchantments!"
+
+  Farming:
+    enable: true
+    material: "WHEAT"
+    displayname: "&a&lFarming"
+    slot: 20
+
+  Food:
+    enable: true
+    material: "COOKED_BEEF"
+    displayname: "&6&lFood"
+    slot: 25
+
+  Mobs:
+    enable: true
+    material: "GUNPOWDER"
+    displayname: "&7&lMobs"
+    slot: 21
+
+  Music:
+    enable: true
+    material: "MUSIC_DISC_STRAD"
+    displayname: "&6&lMusic"
+    slot: 14
+
+  Ores:
+    enable: true
+    material: "IRON_INGOT"
+    displayname: "&f&lOres"
+    slot: 13
+
+  Miscellaneous:
+    enable: true
+    material: "SADDLE"
+    displayname: "&c&lMiscellaneous"
+    slot: 24
+
+  Potions:
+    enable: true
+    material: "POTION"
+    displayname: "&d&lPotions + Tipped Arrows"
+    potion-glow: true
+    slot: 40
+
+  Redstone:
+    enable: true
+    material: "REDSTONE"
+    displayname: "&c&lRedstone"
+    slot: 32
+    lore:
+    - "&4&lFor all redstone geeks!"
+
+  Spawners:
+    enable: true
+    material: "SPAWNER"
+    displayname: "&8&lSpawners"
+    slot: 31
+
+  Workstations:
+    enable: true
+    material: "GRINDSTONE"
+    displayname: "&7&lWorkstations"
+    slot: 12
+    lore:
+    - "&8&lGive your villager a job,"
+    - "&8&lor use it for your own."
+
+  SpawnEggs:
+    enable: false
+    material: "BAT_SPAWN_EGG"
+    displayname: "&8&lSpawnEggs"
+    slot: 4
+
+  Z_EverythingElse:
+    enable: false
+    material: "BEDROCK"
+    displayname: "Z_EverythingElse"
+    slot: 41
+
+Fill-item:
+  material: "GRAY_STAINED_GLASS_PANE"
+  name: " "
+  enable: true

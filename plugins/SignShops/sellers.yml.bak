@@ -1,0 +1,424 @@
+sellers:
+  89/-58/-49/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - 89/-62/-49/quest
+    shopworld: quest
+    sign: 89/-58/-49/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
+      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
+      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAALRklTSElOR19ST0RzcQB+AABzcQB+AAN1
+      cQB+AAYAAAAFcQB+AAh0AAltZXRhLXR5cGV0AAxkaXNwbGF5LW5hbWV0AARsb3JldAAIZW5jaGFu
+      dHN1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAAqeyJleHRyYSI6W3sidGV4dCI6
+      InNpbGx5IHJvZCJ9XSwidGV4dCI6IiJ9c3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1t
+      dXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHN0ABNbTGphdmEv
+      bGFuZy9PYmplY3Q7eHB1cQB+AAYAAAABdAAreyJleHRyYSI6W3sidGV4dCI6InZlcnkgY3V0ZSEi
+      fV0sInRleHQiOiIifXNxAH4AA3VxAH4ABgAAAAN0AARMVUNLdAAETFVSRXQACkRVUkFCSUxJVFl1
+      cQB+AAYAAAADc3EAfgAOAAAAAXEAfgAocQB+ACg=
+  5/-58/-10/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables:
+    - 8/-60/-28/quest
+    containables: []
+    shopworld: quest
+    sign: 5/-58/-10/quest
+    items:
+    - null
+  44/-60/-9/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - 44/-62/-9/quest
+    shopworld: quest
+    sign: 44/-60/-9/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
+      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
+      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAANTVVTSUNfRElTQ18xMXNxAH4AAHNxAH4A
+      A3VxAH4ABgAAAAZxAH4ACHQACW1ldGEtdHlwZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQA
+      CUl0ZW1GbGFnc3QAElB1YmxpY0J1a2tpdFZhbHVlc3VxAH4ABgAAAAZ0AAhJdGVtTWV0YXQAClVO
+      U1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlh
+      bGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVx
+      AH4ABgAAAAJ0AKB7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJs
+      aW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29s
+      b3IiOiJncmF5IiwidGV4dCI6IlRoZSBDcmFuYmVycmllcyAtIExpbmdlciJ9XSwidGV4dCI6IiJ9
+      dAA6eyJleHRyYSI6W3sidGV4dCI6InRoaXMgc29uZyBpcyBhYm91dCBhIGZhcnQifV0sInRleHQi
+      OiIifXNxAH4ADgAAAAdzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhw
+      AAAAAXcEAAAAAXQAE0hJREVfUE9USU9OX0VGRkVDVFN4c3IAEWphdmEudXRpbC5IYXNoTWFwBQfa
+      wcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAR0ACFq
+      dWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC5hdXRob3J0AA9UaGUgQ3JhbmJlcnJpZXN0ACVqdWtl
+      Ym94ZXh0ZW5kZWRyZWJvcm46amV4dC5pZGVudGlmaWVydAAESkVYVHQAIGp1a2Vib3hleHRlbmRl
+      ZHJlYm9ybjpqZXh0LnRpdGxldAAGTGluZ2VydAAnanVrZWJveGV4dGVuZGVkcmVib3JuOmpleHQu
+      bmFtZXNwYWNlX2lkdAAibXVzaWNfZGlzYy5saW5nZXJ0aGVjcmFuYmVycmllc3NpeHg=
+  -1843/63/-1606/world:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - -1843/63/-1604/world
+    shopworld: world
+    sign: -1843/63/-1606/world
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
+      YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
+      TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AA9NVVNJQ19ESVNDX1NUQUw=
+  8/-60/-35/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 8/-60/-35/quest
+    items:
+    - null
+  89/-60/-50/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 89/-60/-50/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
+      YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
+      TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AANDT0Q=
+  89/-60/-49/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - 90/-61/-49/quest
+    shopworld: quest
+    sign: 89/-60/-49/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
+      YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
+      TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AApQVUZGRVJGSVNI
+  44/-60/-12/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - 44/-62/-12/quest
+    shopworld: quest
+    sign: 44/-60/-12/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
+      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
+      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAANTVVTSUNfRElTQ18xMXNxAH4AAHNxAH4A
+      A3VxAH4ABgAAAAZxAH4ACHQACW1ldGEtdHlwZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQA
+      CUl0ZW1GbGFnc3QAElB1YmxpY0J1a2tpdFZhbHVlc3VxAH4ABgAAAAZ0AAhJdGVtTWV0YXQAClVO
+      U1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlh
+      bGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVx
+      AH4ABgAAAAJ0AJp7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJs
+      aW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29s
+      b3IiOiJncmF5IiwidGV4dCI6IkFxdWEgLSBCYXJiaWUgR2lybCJ9XSwidGV4dCI6IiJ9dAAleyJl
+      eHRyYSI6W3sidGV4dCI6InBvb3AifV0sInRleHQiOiIifXNxAH4ADgAAAANzcgATamF2YS51dGls
+      LkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhwAAAAAXcEAAAAAXQAE0hJREVfUE9USU9OX0VG
+      RkVDVFN4c3IAEWphdmEudXRpbC5IYXNoTWFwBQfawcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhy
+      ZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAR0ACFqdWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC5h
+      dXRob3J0AARBcXVhdAAlanVrZWJveGV4dGVuZGVkcmVib3JuOmpleHQuaWRlbnRpZmllcnQABEpF
+      WFR0ACBqdWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC50aXRsZXQAC0JhcmJpZSBHaXJsdAAnanVr
+      ZWJveGV4dGVuZGVkcmVib3JuOmpleHQubmFtZXNwYWNlX2lkdAAcbXVzaWNfZGlzYy5iYXJiaWVn
+      aXJsYXF1YXR3b3g=
+  30/-60/-47/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 30/-60/-47/quest
+    items:
+    - null
+  89/-58/-50/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables:
+    - 89/-58/-49/quest
+    containables:
+    - 89/-62/-50/quest
+    shopworld: quest
+    sign: 89/-58/-50/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
+      YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
+      TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AAtGSVNISU5HX1JPRA==
+  8/-60/-28/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 8/-60/-28/quest
+    items:
+    - null
+  5/-58/-9/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables:
+    - 5/-58/-10/quest
+    containables: []
+    shopworld: quest
+    sign: 5/-58/-9/quest
+    items:
+    - null
+  44/-60/-10/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - 44/-62/-10/quest
+    shopworld: quest
+    sign: 44/-60/-10/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
+      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
+      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAANTVVTSUNfRElTQ18xMXNxAH4AAHNxAH4A
+      A3VxAH4ABgAAAAZxAH4ACHQACW1ldGEtdHlwZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQA
+      CUl0ZW1GbGFnc3QAElB1YmxpY0J1a2tpdFZhbHVlc3VxAH4ABgAAAAZ0AAhJdGVtTWV0YXQAClVO
+      U1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlh
+      bGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVx
+      AH4ABgAAAAJ0AJ57ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJs
+      aW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29s
+      b3IiOiJncmF5IiwidGV4dCI6IlJ1cGVydCBIb2xtZXMgLSBFc2NhcGUifV0sInRleHQiOiIifXQA
+      OnsiZXh0cmEiOlt7InRleHQiOiJpZiB5b3UgbGlrZSBwZW5pcyBjb2xhZGFzIn1dLCJ0ZXh0Ijoi
+      In1zcQB+AA4AAAAIc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAA
+      AAF3BAAAAAF0ABNISURFX1BPVElPTl9FRkZFQ1RTeHNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHD
+      FmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAEdAAhanVr
+      ZWJveGV4dGVuZGVkcmVib3JuOmpleHQuYXV0aG9ydAANUnVwZXJ0IEhvbG1lc3QAJWp1a2Vib3hl
+      eHRlbmRlZHJlYm9ybjpqZXh0LmlkZW50aWZpZXJ0AARKRVhUdAAganVrZWJveGV4dGVuZGVkcmVi
+      b3JuOmpleHQudGl0bGV0AAZFc2NhcGV0ACdqdWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC5uYW1l
+      c3BhY2VfaWR0ACJtdXNpY19kaXNjLmVzY2FwZXJ1cGVydGhvbG1lc3NldmVueA==
+  44/-60/-6/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - 44/-62/-6/quest
+    shopworld: quest
+    sign: 44/-60/-6/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
+      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
+      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAANTVVTSUNfRElTQ18xMXNxAH4AAHNxAH4A
+      A3VxAH4ABgAAAAZxAH4ACHQACW1ldGEtdHlwZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQA
+      CUl0ZW1GbGFnc3QAElB1YmxpY0J1a2tpdFZhbHVlc3VxAH4ABgAAAAZ0AAhJdGVtTWV0YXQAClVO
+      U1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlh
+      bGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVx
+      AH4ABgAAAAJ0ALF7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJs
+      aW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29s
+      b3IiOiJncmF5IiwidGV4dCI6IkJ1Y2t3aGVhdCBCb3l6IC0gUGVhbnV0IEJ1dHRlciBKZWxseSBU
+      aW1lIn1dLCJ0ZXh0IjoiIn10AUp7ImV4dHJhIjpbeyJ0ZXh0IjoiUGVhbnV0IEJ1dHRlciBKZWxs
+      eSBUaW1lIHdhcyBhIHNvbmcgYnkgQnVja3doZWF0IEJveXrigKYgYSBub3ZlbHR5IGFjdCB0aGF0
+      IG9ubHkgcmVsZWFzZSBhIHNpbmdsZSBmdWxsIGxlbmd0aCByZWNvcmQuIFRoZSBzaW5nZXIgb24g
+      dGhlIHNvbmcgd2FzIG5hbWVkIEplcm1haW5lIEZ1bGxlci4gSmVybWFpbmUgRnVsbGVyIGdvdCBp
+      bnRvIGFuIGFsdGVyY2F0aW9uIGluIExhcyBWZWdhcyBpbiAyMDAyIHdpdGggYSBwb2xpY2Ugb2Zm
+      aWNlci4gSGUgc2hvdCB0aGUgb2ZmaWNlciBpbiB0aGUgY2hlc3QgYW5kIHRoZSBoZWFkIn1dLCJ0
+      ZXh0IjoiIn1zcQB+AA4AAAAEc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNp
+      emV4cAAAAAF3BAAAAAF0ABNISURFX1BPVElPTl9FRkZFQ1RTeHNyABFqYXZhLnV0aWwuSGFzaE1h
+      cAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAE
+      dAAhanVrZWJveGV4dGVuZGVkcmVib3JuOmpleHQuYXV0aG9ydAAOQnVja3doZWF0IEJveXp0ACVq
+      dWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC5pZGVudGlmaWVydAAESkVYVHQAIGp1a2Vib3hleHRl
+      bmRlZHJlYm9ybjpqZXh0LnRpdGxldAAYUGVhbnV0IEJ1dHRlciBKZWxseSBUaW1ldAAnanVrZWJv
+      eGV4dGVuZGVkcmVib3JuOmpleHQubmFtZXNwYWNlX2lkdAAybXVzaWNfZGlzYy5wZWFudXRidXR0
+      ZXJqZWxseXRpbWVidWNrd2hlYXRib3l6dGhyZWV4
+  -1935/68/-1644/world:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -1935/68/-1644/world
+    items:
+    - null
+  5/-58/-8/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 5/-58/-8/quest
+    items:
+    - null
+  44/-60/-11/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables:
+    - 44/-60/-12/quest
+    containables:
+    - 44/-62/-11/quest
+    shopworld: quest
+    sign: 44/-60/-11/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
+      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
+      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAANTVVTSUNfRElTQ18xMXNxAH4AAHNxAH4A
+      A3VxAH4ABgAAAAZxAH4ACHQACW1ldGEtdHlwZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQA
+      CUl0ZW1GbGFnc3QAElB1YmxpY0J1a2tpdFZhbHVlc3VxAH4ABgAAAAZ0AAhJdGVtTWV0YXQAClVO
+      U1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlh
+      bGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVx
+      AH4ABgAAAAJ0AJx7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJs
+      aW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29s
+      b3IiOiJncmF5IiwidGV4dCI6IldlZXplciAtIEJ1ZGR5IEhvbGx5In1dLCJ0ZXh0IjoiIn10AD57
+      ImV4dHJhIjpbeyJ0ZXh0IjoiaSBzbWVsbCBqdXN0IGxpa2UgYnVkZHkgaG9sbHkifV0sInRleHQi
+      OiIifXNxAH4ADgAAAAZzcgATamF2YS51dGlsLkFycmF5TGlzdHiB0h2Zx2GdAwABSQAEc2l6ZXhw
+      AAAAAXcEAAAAAXQAE0hJREVfUE9USU9OX0VGRkVDVFN4c3IAEWphdmEudXRpbC5IYXNoTWFwBQfa
+      wcMWYNEDAAJGAApsb2FkRmFjdG9ySQAJdGhyZXNob2xkeHA/QAAAAAAADHcIAAAAEAAAAAR0ACFq
+      dWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC5hdXRob3J0AAZXZWV6ZXJ0ACVqdWtlYm94ZXh0ZW5k
+      ZWRyZWJvcm46amV4dC5pZGVudGlmaWVydAAESkVYVHQAIGp1a2Vib3hleHRlbmRlZHJlYm9ybjpq
+      ZXh0LnRpdGxldAALQnVkZHkgSG9sbHl0ACdqdWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC5uYW1l
+      c3BhY2VfaWR0AB9tdXNpY19kaXNjLmJ1ZGR5aG9sbHl3ZWV6ZXJmaXZleA==
+  8/-60/-37/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 8/-60/-37/quest
+    items:
+    - null
+  8/-60/-30/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 8/-60/-30/quest
+    items:
+    - null
+  44/-60/-8/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - 44/-62/-8/quest
+    shopworld: quest
+    sign: 44/-60/-8/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
+      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
+      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAANTVVTSUNfRElTQ18xMXNxAH4AAHNxAH4A
+      A3VxAH4ABgAAAAZxAH4ACHQACW1ldGEtdHlwZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQA
+      CUl0ZW1GbGFnc3QAElB1YmxpY0J1a2tpdFZhbHVlc3VxAH4ABgAAAAZ0AAhJdGVtTWV0YXQAClVO
+      U1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlh
+      bGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVx
+      AH4ABgAAAAJ0AKd7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJs
+      aW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29s
+      b3IiOiJncmF5IiwidGV4dCI6IkFtZXJpY2FuIEZvb3RiYWxsIC0gTmV2ZXIgTWVhbnQifV0sInRl
+      eHQiOiIifXQAN3siZXh0cmEiOlt7InRleHQiOiJ0aGlzIHNvbmcgbWFrZXMgbWUgY3J5In1dLCJ0
+      ZXh0IjoiIn1zcQB+AA4AAAABc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNp
+      emV4cAAAAAF3BAAAAAF0ABNISURFX1BPVElPTl9FRkZFQ1RTeHNyABFqYXZhLnV0aWwuSGFzaE1h
+      cAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAE
+      dAAhanVrZWJveGV4dGVuZGVkcmVib3JuOmpleHQuYXV0aG9ydAARQW1lcmljYW4gRm9vdGJhbGx0
+      ACVqdWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC5pZGVudGlmaWVydAAESkVYVHQAIGp1a2Vib3hl
+      eHRlbmRlZHJlYm9ybjpqZXh0LnRpdGxldAALTmV2ZXIgTWVhbnR0ACdqdWtlYm94ZXh0ZW5kZWRy
+      ZWJvcm46amV4dC5uYW1lc3BhY2VfaWR0ACltdXNpY19kaXNjLm5ldmVybWVhbnRhbWVyaWNhbmZv
+      b3RiYWxsemVyb3g=
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
+      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
+      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAANTVVTSUNfRElTQ18xMXNxAH4AAHNxAH4A
+      A3VxAH4ABgAAAAZxAH4ACHQACW1ldGEtdHlwZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQA
+      CUl0ZW1GbGFnc3QAElB1YmxpY0J1a2tpdFZhbHVlc3VxAH4ABgAAAAZ0AAhJdGVtTWV0YXQAClVO
+      U1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlh
+      bGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVx
+      AH4ABgAAAAJ0AKd7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJs
+      aW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29s
+      b3IiOiJncmF5IiwidGV4dCI6IkFtZXJpY2FuIEZvb3RiYWxsIC0gTmV2ZXIgTWVhbnQifV0sInRl
+      eHQiOiIifXQAN3siZXh0cmEiOlt7InRleHQiOiJ0aGlzIHNvbmcgbWFrZXMgbWUgY3J5In1dLCJ0
+      ZXh0IjoiIn1zcQB+AA4AAAABc3IAE2phdmEudXRpbC5BcnJheUxpc3R4gdIdmcdhnQMAAUkABHNp
+      emV4cAAAAAF3BAAAAAF0ABNISURFX1BPVElPTl9FRkZFQ1RTeHNyABFqYXZhLnV0aWwuSGFzaE1h
+      cAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAAE
+      dAAhanVrZWJveGV4dGVuZGVkcmVib3JuOmpleHQuYXV0aG9ydAARQW1lcmljYW4gRm9vdGJhbGx0
+      ACVqdWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC5pZGVudGlmaWVydAAESkVYVHQAIGp1a2Vib3hl
+      eHRlbmRlZHJlYm9ybjpqZXh0LnRpdGxldAALTmV2ZXIgTWVhbnR0ACdqdWtlYm94ZXh0ZW5kZWRy
+      ZWJvcm46amV4dC5uYW1lc3BhY2VfaWR0ACltdXNpY19kaXNjLm5ldmVybWVhbnRhbWVyaWNhbmZv
+      b3RiYWxsemVyb3g=
+  44/-60/-7/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - 44/-62/-7/quest
+    shopworld: quest
+    sign: 44/-60/-7/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
+      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
+      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAANTVVTSUNfRElTQ18xMXNxAH4AAHNxAH4A
+      A3VxAH4ABgAAAAZxAH4ACHQACW1ldGEtdHlwZXQABGxvcmV0ABFjdXN0b20tbW9kZWwtZGF0YXQA
+      CUl0ZW1GbGFnc3QAElB1YmxpY0J1a2tpdFZhbHVlc3VxAH4ABgAAAAZ0AAhJdGVtTWV0YXQAClVO
+      U1BFQ0lGSUNzcgA2Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVMaXN0JFNlcmlh
+      bGl6ZWRGb3JtAAAAAAAAAAACAAFbAAhlbGVtZW50c3QAE1tMamF2YS9sYW5nL09iamVjdDt4cHVx
+      AH4ABgAAAAJ0AKd7ImV4dHJhIjpbeyJib2xkIjpmYWxzZSwiaXRhbGljIjpmYWxzZSwidW5kZXJs
+      aW5lZCI6ZmFsc2UsInN0cmlrZXRocm91Z2giOmZhbHNlLCJvYmZ1c2NhdGVkIjpmYWxzZSwiY29s
+      b3IiOiJncmF5IiwidGV4dCI6Ikd1bW1pYsOkciAtIFRoZSBHdW1teSBCZWFyIFNvbmcifV0sInRl
+      eHQiOiIifXQCTXsiZXh0cmEiOlt7InRleHQiOiJUaGUgb3JpZ2luYWwgMzAgc2Vjb25kIHZpZGVv
+      IGZvciBJdHQgVmFuIEEgR3VtaW1hY2ksIHRoZSBIdW5nYXJpYW4gdmVyc2lvbiBvZiBJIEFtIEEg
+      R3VtbXkgQmVhciwgZGVidXRlZCBvbiB0aGUgaW50ZXJuZXQgaW4gQXVndXN0IG9mIDIwMDYuIEl0
+      IHF1aWNrbHkgd2VudCB2aXJhbCwgZ2FpbmluZyBodW5kcmVkcyBvZiB0aG91c2FuZHMgb2Ygdmll
+      d3MgYXMgdGhlIHBvcHVsYXJpdHkgb2YgdGhpcyBjYXRjaHkgc29uZyBhbmQgZnVubnkgY2hhcmFj
+      dGVyIGluY3JlYXNlZCBhbmQgc3ByZWFkIGJ5IHdvcmQgb2YgbW91dGguIEEgMzAgc2Vjb25kIEVu
+      Z2xpc2ggdmVyc2lvbiB3YXMgdGhlbiBjcmVhdGVkIHdoaWNoIGhlbHBlZCB0byBpbmNyZWFzZSB0
+      aGUgY2xpcCdzIHBvcHVsYXJpdHkgYW5kIHZpZXdzIHJvY2tldGVkIHVwIGludG8gdGhlIG1pbGxp
+      b25zLiBCeSB0aGUgc3VtbWVyIG9mIDIwMDcsIHRoZSBmaW5hbCBmdWxsIGxlbmd0aCAyOjMwIHZl
+      cnNpb24gd2FzIHJlbGVhc2VkIGFuZCBpdCBoYXMgYmVlbiBnYWluaW5nIHZpZXdzIGFuZCB2aWV3
+      ZXJzIGV2ZXIgc2luY2UuIn1dLCJ0ZXh0IjoiIn1zcQB+AA4AAAACc3IAE2phdmEudXRpbC5BcnJh
+      eUxpc3R4gdIdmcdhnQMAAUkABHNpemV4cAAAAAF3BAAAAAF0ABNISURFX1BPVElPTl9FRkZFQ1RT
+      eHNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9s
+      ZHhwP0AAAAAAAAx3CAAAABAAAAAEdAAhanVrZWJveGV4dGVuZGVkcmVib3JuOmpleHQuYXV0aG9y
+      dAAJR3VtbWliw6RydAAlanVrZWJveGV4dGVuZGVkcmVib3JuOmpleHQuaWRlbnRpZmllcnQABEpF
+      WFR0ACBqdWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC50aXRsZXQAE1RoZSBHdW1teSBCZWFyIFNv
+      bmd0ACdqdWtlYm94ZXh0ZW5kZWRyZWJvcm46amV4dC5uYW1lc3BhY2VfaWR0ACVtdXNpY19kaXNj
+      LnRoZWd1bW15YmVhcnNvbmdndW1taWJyb25leA==
+deferred_sellers: {}
+invalid_sellers: {}
+DataVersion: 3

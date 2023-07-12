@@ -12,7 +12,7 @@
 # - kick: Kicks the player with a link code and requires they link their discord account before they can join.
 # - freeze: Prevents player from moving/interacting/doing commands when they join until they link their discord account.
 # - none: Places no restrictions on players for unlinked accounts.
-link-policy: none
+link-policy: kick
 
 # Whether to ignore Discord messages from unlinked members and hide them from Minecraft chat.
 block-unlinked-chat: false
@@ -25,7 +25,7 @@ relay-mail: true
 
 # MC group to Discord role sync settings
 # Allows for the ability to give players discord roles based on their Minecraft groups and/or give players Minecraft
-# groups based on their Discord roles.
+# groups based on their Discord roles. 
 role-sync:
   # Whether EssentialsX DiscordLink should remove synced Discord roles from players who unlink their Minecraft account,
   # leave the Discord server, or who no longer have the groups that awarded them the role in the first place.
@@ -43,9 +43,10 @@ role-sync:
   # their Minecraft account to their Discord account.
   groups:
     default: 1114618773597605978
+    vip: 1125878908533870673
   # Discord role ID to Minecraft group synchronization.
   # Users with the following roles listed here will receive the corresponding group in Minecraft when they link
   # their Discord account to their Minecraft account.
   roles:
-    000000000000000000: vip
+    1117885877583089714: vip
     1114618773597605978: dollars-mode

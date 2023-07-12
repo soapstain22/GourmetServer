@@ -1,6 +1,15 @@
-&eWelcome, {PLAYER}&e!
-&eType &c/help&e for a list of commands.
-&eType &c/list&e to see who else is online.
-&bPlay CRIMPO QUEST on itch.io!&b
+&4g&6o&eur&2m&ae&9t &bs&1e&5r&dv&fe&8r
+welcome to the server. if you want to play on the server, type /motd stuff
+%server_tps%TPS
+%server_uptime% since last reboot
 
-&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
+#stuff
+/motd: read this again
+/towny: everything to do with towns/claims
+/warps: access other areas that are not usually accessable otherwise
+/discord: join the discord
+/sell: make some goddamn money!!!!!
+/vote: &e keep the server alive
+/tpa: teleport to people
+/sethome: set home
+/home: go home

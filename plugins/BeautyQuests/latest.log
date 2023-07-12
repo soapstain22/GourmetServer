@@ -1,0 +1,353 @@
+[00:13:26] ---- BEAUTYQUESTS LOGGER - OPENED Wed Jul 12 00:13:26 EDT 2023 ----
+[00:13:58] [INFO] [BeautyQuests] Enabling BeautyQuests v0.20.1
+[00:13:58] [INFO] [BeautyQuests] ------------ BeautyQuests ------------
+[00:13:58] [WARNING] [BeautyQuests] You are not running the Paper software.
+It is highly recommended to use it for extended features and more stability.
+[00:13:58] [DEBUG] Hooked into [Citizens] v2.0.32-SNAPSHOT (build 3147)
+[00:13:58] [DEBUG] Hooked into [WorldGuard] v7.0.9-SNAPSHOT+2250-fffb0c1
+[00:13:58] [DEBUG] Hooked into [Vault] v1.7.3-b131
+[00:13:58] [DEBUG] Hooked into [PlaceholderAPI] v2.11.3
+[00:13:58] [DEBUG] Hooked into [dynmap] v3.6-beta-2-894
+[00:13:58] [WARNING] [BeautyQuests] The Minecraft version 1_20_R1 is not supported by BeautyQuests.
+[00:13:58] [WARNING] [BeautyQuests] Some functionnalities of the plugin have not been enabled.
+[00:13:58] [DEBUG] Loading data file, last time edited : Tue Jul 11 22:48:59 EDT 2023
+[00:13:58] [DEBUG] Unavailable string in config for key inv.mobSelect.advancedSpawners
+[00:13:58] [INFO] [BeautyQuests] Loaded language en_US (0.019s)!
+[00:13:58] [INFO] [BeautyQuests] Loaded start particles: REDSTONE in shape POINT with color R255 G255 B255
+[00:13:58] [INFO] [BeautyQuests] Loaded talk particles: VILLAGER_HAPPY in shape POINT
+[00:13:58] [INFO] [BeautyQuests] Loaded next particles: SMOKE_NORMAL in shape SPOT
+[00:13:58] [DEBUG] Initlializing default stage types.
+[00:13:58] [DEBUG] Stage registered (Talk, 0)
+[00:13:58] [DEBUG] Stage registered (Items, 1)
+[00:13:58] [DEBUG] Stage registered (Mobs, 2)
+[00:13:58] [DEBUG] Stage registered (Mine, 3)
+[00:13:58] [DEBUG] Stage registered (Place, 4)
+[00:13:58] [DEBUG] Stage registered (Chat, 5)
+[00:13:58] [DEBUG] Stage registered (Interact, 6)
+[00:13:58] [DEBUG] Stage registered (Fish, 7)
+[00:13:58] [DEBUG] Stage registered (Melt, 8)
+[00:13:58] [DEBUG] Stage registered (Enchant, 9)
+[00:13:58] [DEBUG] Stage registered (Craft, 10)
+[00:13:58] [DEBUG] Stage registered (Bucket, 11)
+[00:13:58] [DEBUG] Stage registered (Location, 12)
+[00:13:58] [DEBUG] Stage registered (PlayTime, 13)
+[00:13:58] [DEBUG] Stage registered (Breed, 14)
+[00:13:58] [DEBUG] Stage registered (Tame, 15)
+[00:13:58] [DEBUG] Stage registered (Death, 16)
+[00:13:58] [DEBUG] Stage registered (DealDamage, 17)
+[00:13:58] [DEBUG] Stage registered (EatDrink, 18)
+[00:13:58] [DEBUG] Initlializing default rewards.
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: commandReward, class: fr.skytasul.quests.rewards.CommandReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: itemReward, class: fr.skytasul.quests.rewards.ItemReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: removeItemsReward, class: fr.skytasul.quests.rewards.RemoveItemsReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: textReward, class: fr.skytasul.quests.rewards.MessageReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: tpReward, class: fr.skytasul.quests.rewards.TeleportationReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: expReward, class: fr.skytasul.quests.rewards.XPReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: checkpointReward, class: fr.skytasul.quests.rewards.CheckpointReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: questStopReward, class: fr.skytasul.quests.rewards.QuestStopReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: requirementDependentReward, class: fr.skytasul.quests.rewards.RequirementDependentReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: randomReward, class: fr.skytasul.quests.rewards.RandomReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: wait, class: fr.skytasul.quests.rewards.WaitReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: titleReward, class: fr.skytasul.quests.rewards.TitleReward)
+[00:13:58] [DEBUG] Initlializing default requirements.
+[00:13:58] [DEBUG] Quest object registered in registry requirements (id: logicalOr, class: fr.skytasul.quests.requirements.logical.LogicalOrRequirement)
+[00:13:58] [DEBUG] Quest object registered in registry requirements (id: questRequired, class: fr.skytasul.quests.requirements.QuestRequirement)
+[00:13:58] [DEBUG] Quest object registered in registry requirements (id: levelRequired, class: fr.skytasul.quests.requirements.LevelRequirement)
+[00:13:58] [DEBUG] Quest object registered in registry requirements (id: permissionRequired, class: fr.skytasul.quests.requirements.PermissionsRequirement)
+[00:13:58] [DEBUG] Quest object registered in registry requirements (id: scoreboardRequired, class: fr.skytasul.quests.requirements.ScoreboardRequirement)
+[00:13:58] [DEBUG] Quest object registered in registry requirements (id: equipmentRequired, class: fr.skytasul.quests.requirements.EquipmentRequirement)
+[00:13:58] [DEBUG] Initlializing default quest options.
+[00:13:58] [DEBUG] Quest option registered (id: pool)
+[00:13:58] [DEBUG] Quest option registered (id: name)
+[00:13:58] [DEBUG] Quest option registered (id: description)
+[00:13:58] [DEBUG] Quest option registered (id: customItem)
+[00:13:58] [DEBUG] Quest option registered (id: confirmMessage)
+[00:13:58] [DEBUG] Quest option registered (id: hologramText)
+[00:13:58] [DEBUG] Quest option registered (id: bypassLimit)
+[00:13:58] [DEBUG] Quest option registered (id: startableFromGUI)
+[00:13:58] [DEBUG] Quest option registered (id: failOnDeath)
+[00:13:58] [DEBUG] Quest option registered (id: cancellable)
+[00:13:58] [DEBUG] Quest option registered (id: cancelActions)
+[00:13:58] [DEBUG] Quest option registered (id: hologramLaunch)
+[00:13:58] [DEBUG] Quest option registered (id: hologramLaunchNo)
+[00:13:58] [DEBUG] Quest option registered (id: scoreboard)
+[00:13:58] [DEBUG] Quest option registered (id: hideNoRequirements)
+[00:13:58] [DEBUG] Quest option registered (id: auto)
+[00:13:58] [DEBUG] Quest option registered (id: repeatable)
+[00:13:58] [DEBUG] Quest option registered (id: timer)
+[00:13:58] [DEBUG] Quest option registered (id: visibility)
+[00:13:58] [DEBUG] Quest option registered (id: endSound)
+[00:13:58] [DEBUG] Quest option registered (id: firework)
+[00:13:58] [DEBUG] Quest option registered (id: requirements)
+[00:13:58] [DEBUG] Quest option registered (id: startRewards)
+[00:13:58] [DEBUG] Quest option registered (id: startMessage)
+[00:13:58] [DEBUG] Quest option registered (id: starterNPC)
+[00:13:58] [DEBUG] Quest option registered (id: startDialog)
+[00:13:58] [DEBUG] Quest option registered (id: endRewards)
+[00:13:58] [DEBUG] Quest option registered (id: endMsg)
+[00:13:58] [DEBUG] Item comparison registered (id: bukkit)
+[00:13:58] [DEBUG] Item comparison registered (id: customBukkit)
+[00:13:58] [DEBUG] Item comparison registered (id: material)
+[00:13:58] [DEBUG] Item comparison registered (id: name)
+[00:13:58] [DEBUG] Item comparison registered (id: lore)
+[00:13:58] [DEBUG] Item comparison registered (id: enchants)
+[00:13:58] [DEBUG] Item comparison registered (id: repair)
+[00:13:58] [DEBUG] Mob factory registered (id: bukkitEntity)
+[00:13:58] [DEBUG] Bossbars manager has been registered: fr.skytasul.quests.api.bossbar.BQBossBarImplementation
+[00:13:58] [DEBUG] Brigadier registered!
+[00:13:58] [DEBUG] Mob factory registered (id: citizensNPC)
+[00:13:58] [DEBUG] Now using WorldGuard entry API.
+[00:13:58] [DEBUG] Stage registered (Find, 19)
+[00:13:58] [DEBUG] Quest object registered in registry requirements (id: regionRequired, class: fr.skytasul.quests.requirements.RegionRequirement)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: moneyReward, class: fr.skytasul.quests.rewards.MoneyReward)
+[00:13:58] [DEBUG] Quest object registered in registry rewards (id: permReward, class: fr.skytasul.quests.rewards.PermissionReward)
+[00:13:58] [DEBUG] Quest object registered in registry requirements (id: moneyRequired, class: fr.skytasul.quests.requirements.MoneyRequirement)
+[00:13:58] [INFO] [BeautyQuests] Placeholders registered !
+[00:13:58] [DEBUG] Quest object registered in registry requirements (id: placeholderRequired, class: fr.skytasul.quests.requirements.PlaceholderRequirement)
+[00:13:58] [DEBUG] Started bStats metrics
+[00:13:58] [DEBUG] Starting Spigot updater
+[00:14:01] [DEBUG] 0 accounts loaded and 110 identifiers.
+[00:14:01] [DEBUG] Marker qu_11 created
+[00:14:01] [DEBUG] Marker qu_10 created
+[00:14:01] [INFO] [BeautyQuests] 2 quests loaded (0.021s)!
+[00:14:01] [INFO] [BeautyQuests] Periodic saves task started (18000 ticks). Task ID: 142
+[00:14:01] [INFO] [BeautyQuests] You are using the latest version of BeautyQuests.
+[00:22:58] [DEBUG] Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f) joined the server
+[00:22:58] [DEBUG] Loading player Dare2BeStoopid...
+[00:22:58] [DEBUG] Loading account #3. Last file edition: Tue Jul 11 22:48:59 EDT 2023
+[00:22:58] [DEBUG] Completed load of Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f (#3)) datas within 193 ms (2 quests, 0 pools) | Loaded from file from index
+[00:24:09] [DEBUG] Dare2BeStoopid left the server
+[00:24:09] [DEBUG] Unloading player Dare2BeStoopid... (2 quests, 0 pools)
+[00:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[00:29:01] [DEBUG] Saved datas (0.002s)!
+[00:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[00:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[00:44:01] [DEBUG] Saved datas (0.001s)!
+[00:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[00:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[00:59:01] [DEBUG] Saved datas (0.001s)!
+[00:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[01:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[01:14:01] [DEBUG] Saved datas (0.0s)!
+[01:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[01:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[01:29:01] [DEBUG] Saved datas (0.001s)!
+[01:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[01:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[01:44:01] [DEBUG] Saved datas (0.001s)!
+[01:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[01:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[01:59:01] [DEBUG] Saved datas (0.001s)!
+[01:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[02:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[02:14:01] [DEBUG] Saved datas (0.002s)!
+[02:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[02:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[02:29:01] [DEBUG] Saved datas (0.001s)!
+[02:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[02:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[02:44:01] [DEBUG] Saved datas (0.001s)!
+[02:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[02:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[02:59:01] [DEBUG] Saved datas (0.001s)!
+[02:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[03:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[03:14:01] [DEBUG] Saved datas (0.001s)!
+[03:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[03:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[03:29:01] [DEBUG] Saved datas (0.001s)!
+[03:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[03:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[03:44:01] [DEBUG] Saved datas (0.001s)!
+[03:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[03:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[03:59:01] [DEBUG] Saved datas (0.002s)!
+[03:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[04:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[04:14:01] [DEBUG] Saved datas (0.002s)!
+[04:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[04:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[04:29:01] [DEBUG] Saved datas (0.001s)!
+[04:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[04:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[04:44:01] [DEBUG] Saved datas (0.001s)!
+[04:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[04:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[04:59:01] [DEBUG] Saved datas (0.001s)!
+[04:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[05:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[05:14:01] [DEBUG] Saved datas (0.002s)!
+[05:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[05:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[05:29:01] [DEBUG] Saved datas (0.001s)!
+[05:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[05:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[05:44:01] [DEBUG] Saved datas (0.001s)!
+[05:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[05:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[05:59:01] [DEBUG] Saved datas (0.001s)!
+[05:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[06:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[06:14:01] [DEBUG] Saved datas (0.0s)!
+[06:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[06:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[06:29:01] [DEBUG] Saved datas (0.002s)!
+[06:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[06:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[06:44:01] [DEBUG] Saved datas (0.001s)!
+[06:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[06:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[06:59:01] [DEBUG] Saved datas (0.001s)!
+[06:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[07:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[07:14:01] [DEBUG] Saved datas (0.001s)!
+[07:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[07:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[07:29:01] [DEBUG] Saved datas (0.001s)!
+[07:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[07:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[07:44:01] [DEBUG] Saved datas (0.001s)!
+[07:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[07:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[07:59:01] [DEBUG] Saved datas (0.001s)!
+[07:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[08:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[08:14:01] [DEBUG] Saved datas (0.002s)!
+[08:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[08:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[08:29:01] [DEBUG] Saved datas (0.002s)!
+[08:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[08:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[08:44:01] [DEBUG] Saved datas (0.001s)!
+[08:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[08:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[08:59:01] [DEBUG] Saved datas (0.002s)!
+[08:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[09:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[09:14:01] [DEBUG] Saved datas (0.001s)!
+[09:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[09:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[09:29:01] [DEBUG] Saved datas (0.002s)!
+[09:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[09:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[09:44:01] [DEBUG] Saved datas (0.002s)!
+[09:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[09:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[09:59:01] [DEBUG] Saved datas (0.001s)!
+[09:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[10:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[10:14:01] [DEBUG] Saved datas (0.0s)!
+[10:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[10:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[10:29:01] [DEBUG] Saved datas (0.002s)!
+[10:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[10:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[10:44:01] [DEBUG] Saved datas (0.001s)!
+[10:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[10:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[10:59:01] [DEBUG] Saved datas (0.002s)!
+[10:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[11:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[11:14:01] [DEBUG] Saved datas (0.0s)!
+[11:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[11:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[11:29:01] [DEBUG] Saved datas (0.001s)!
+[11:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[11:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[11:44:01] [DEBUG] Saved datas (0.001s)!
+[11:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[11:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[11:59:01] [DEBUG] Saved datas (0.001s)!
+[11:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[12:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[12:14:01] [DEBUG] Saved datas (0.0s)!
+[12:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[12:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[12:29:01] [DEBUG] Saved datas (0.001s)!
+[12:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[12:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[12:44:01] [DEBUG] Saved datas (0.001s)!
+[12:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[12:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[12:59:01] [DEBUG] Saved datas (0.001s)!
+[12:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[13:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[13:14:01] [DEBUG] Saved datas (0.001s)!
+[13:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[13:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[13:29:01] [DEBUG] Saved datas (0.002s)!
+[13:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[13:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[13:44:01] [DEBUG] Saved datas (0.001s)!
+[13:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[13:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[13:59:01] [DEBUG] Saved datas (0.001s)!
+[13:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[14:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[14:14:01] [DEBUG] Saved datas (0.001s)!
+[14:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[14:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[14:29:01] [DEBUG] Saved datas (0.001s)!
+[14:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[14:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[14:44:01] [DEBUG] Saved datas (0.001s)!
+[14:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[14:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[14:59:01] [DEBUG] Saved datas (0.001s)!
+[14:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[15:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[15:14:01] [DEBUG] Saved datas (0.001s)!
+[15:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[15:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[15:29:01] [DEBUG] Saved datas (0.001s)!
+[15:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[15:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[15:44:01] [DEBUG] Saved datas (0.002s)!
+[15:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[15:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[15:59:01] [DEBUG] Saved datas (0.002s)!
+[15:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[16:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[16:14:01] [DEBUG] Saved datas (0.001s)!
+[16:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[16:15:07] [DEBUG] Alecxkes (371077a3-a8c9-4a1b-97c1-260326ea54a5) joined the server
+[16:15:07] [DEBUG] Loading player Alecxkes...
+[16:15:08] [DEBUG] Loading account #74. Last file edition: Sun Jul 09 17:14:21 EDT 2023
+[16:15:08] [DEBUG] Completed load of Alecxkes (371077a3-a8c9-4a1b-97c1-260326ea54a5 (#74)) datas within 341 ms (0 quests, 0 pools) | Loaded from file from index
+[16:15:52] [DEBUG] Alecxkes left the server
+[16:15:52] [DEBUG] Unloading player Alecxkes... (0 quests, 0 pools)
+[16:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[16:29:01] [DEBUG] Saved datas (0.001s)!
+[16:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[16:44:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[16:44:01] [DEBUG] Saved datas (0.001s)!
+[16:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[16:59:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[16:59:01] [DEBUG] Saved datas (0.001s)!
+[16:59:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[17:14:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[17:14:01] [DEBUG] Saved datas (0.001s)!
+[17:14:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[17:29:01] [DEBUG] Saving 0 loaded accounts and 110 identifiers.
+[17:29:01] [DEBUG] Saved datas (0.002s)!
+[17:29:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[17:36:37] [DEBUG] Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f) joined the server
+[17:36:37] [DEBUG] Loading player Dare2BeStoopid...
+[17:36:37] [DEBUG] Loading account #3. Last file edition: Wed Jul 12 00:24:09 EDT 2023
+[17:36:37] [DEBUG] Completed load of Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f (#3)) datas within 19 ms (2 quests, 0 pools) | Loaded from file from index
+[17:44:01] [DEBUG] Saving 1 loaded accounts and 110 identifiers.
+[17:44:01] [DEBUG] Saved datas (0.003s)!
+[17:44:01] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[17:45:07] [DEBUG] Rebbebba (24417846-d5ed-4608-ae7a-ed643b41c5e1) joined the server
+[17:45:07] [DEBUG] Loading player Rebbebba...
+[17:45:07] [DEBUG] Loading account #10. Last file edition: Tue Jul 11 00:25:42 EDT 2023
+[17:45:07] [DEBUG] Completed load of Rebbebba (24417846-d5ed-4608-ae7a-ed643b41c5e1 (#10)) datas within 22 ms (1 quests, 0 pools) | Loaded from file from index
+[17:53:58] [DEBUG] Rebbebba left the server
+[17:53:58] [DEBUG] Unloading player Rebbebba... (1 quests, 0 pools)
+[17:53:59] [INFO] [BeautyQuests] Disabling BeautyQuests v0.20.1
+[17:53:59] [INFO] [BeautyQuests] Periodic saves task stopped.
+[17:53:59] [DEBUG] Saving 1 loaded accounts and 110 identifiers.
+[17:53:59] [DEBUG] Saved datas (0.002s)!
+[17:53:59] [DEBUG] Unregistered from WorldGuard entry API.
+[17:53:59] Logger was open during 17 hours 40 minutes
+[17:53:59] ---- BEAUTYQUESTS LOGGER - CLOSED Wed Jul 12 17:53:59 EDT 2023 ----
