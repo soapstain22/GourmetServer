@@ -1,1012 +1,439 @@
-[00:00:03] [pool-57-thread-1/INFO]: [VotingPlugin] Detected day changed, processing...
-[00:00:03] [pool-57-thread-1/INFO]: [VotingPlugin] Time change event: DAY, Fake: false
-[00:00:13] [pool-57-thread-1/INFO]: [VotingPlugin] Finished processing day change, took 10 seconds
-[00:00:13] [pool-57-thread-1/INFO]: [VotingPlugin] Created zip file at /home/max/gourmet/GourmetServer/plugins/VotingPlugin/Backups/Backup-2023_JULY_13.zip
-[00:00:13] [pool-57-thread-1/INFO]: [VotingPlugin] Finished processing day changes
-[00:01:42] [Server thread/INFO]: AmbigousAmishi lost connection: Disconnected
-[00:01:42] [Server thread/INFO]: 🌐️ ← AmbigousAmishi
-[00:01:46] [Craft Scheduler Thread - 29/INFO]: [BuycraftX] Sending 1 analytic events
-[00:01:52] [Craft Scheduler Thread - 30/INFO]: [BuycraftX] Fetching all due players...
-[00:01:52] [Craft Scheduler Thread - 30/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:01:55] [Server thread/INFO]: Bree3_K lost connection: Disconnected
-[00:01:55] [Server thread/INFO]: 🌐️ ← Bree3_K
-[00:01:59] [User Authenticator #8/INFO]: UUID of player Bree3_K is caee9b51-e10f-411d-ac55-b94910e2d605
-[00:01:59] [Server thread/INFO]: [StatPlugin] Loading Bree3_K's file from: plugins/StatPlugin/Bree3_K.json
-[00:01:59] [Server thread/INFO]: Bree3_K[/72.190.140.156:49153] logged in with entity id 94630 at ([world]-1687.936227169446, 67.0, -1272.8192183704184)
-[00:02:00] [Server thread/INFO]: 🌐️ → Bree3_K
-[00:02:00] [Craft Scheduler Thread - 12/WARN]: Unable to fetch GeoIP data for Bree3_K. Please ensure that your license key and configuration are correct.
-[00:02:18] [Server thread/INFO]: Bree3_K lost connection: Disconnected
-[00:02:18] [Server thread/INFO]: 🌐️ ← Bree3_K
-[00:02:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5071ms or 101 ticks behind
-[00:02:51] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Sending 3 analytic events
-[00:03:56] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetching all due players...
-[00:03:56] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:04:55] [Craft Scheduler Thread - 28/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 35.669111ms. Summary: Getting groups for cfba6191-c02e-4af9-b55b-b96f2582e811
-[00:05:56] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetching all due players...
-[00:05:57] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:07:57] [Craft Scheduler Thread - 31/INFO]: [BuycraftX] Fetching all due players...
-[00:07:57] [Craft Scheduler Thread - 31/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:09:56] [User Authenticator #9/INFO]: UUID of player Bree3_K is caee9b51-e10f-411d-ac55-b94910e2d605
-[00:09:56] [Server thread/INFO]: [StatPlugin] Loading Bree3_K's file from: plugins/StatPlugin/Bree3_K.json
-[00:09:56] [Server thread/INFO]: Bree3_K[/72.190.140.156:49361] logged in with entity id 180335 at ([world]-1687.936227169446, 67.0, -1272.8192183704184)
-[00:09:56] [Server thread/INFO]: 🌐️ → Bree3_K
-[00:09:56] [Craft Scheduler Thread - 28/WARN]: Unable to fetch GeoIP data for Bree3_K. Please ensure that your license key and configuration are correct.
-[00:09:57] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetching all due players...
-[00:09:57] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:10:51] [Craft Scheduler Thread - 31/INFO]: [BuycraftX] Sending 1 analytic events
-[00:11:58] [Craft Scheduler Thread - 32/INFO]: [BuycraftX] Fetching all due players...
-[00:11:58] [Craft Scheduler Thread - 32/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:13:58] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetching all due players...
-[00:13:58] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:15:58] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetching all due players...
-[00:15:58] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:17:58] [Craft Scheduler Thread - 32/INFO]: [BuycraftX] Fetching all due players...
-[00:17:58] [Craft Scheduler Thread - 32/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:19:59] [Craft Scheduler Thread - 33/INFO]: [BuycraftX] Fetching all due players...
-[00:19:59] [Craft Scheduler Thread - 33/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:21:58] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetching all due players...
-[00:21:58] [Craft Scheduler Thread - 28/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:23:59] [Craft Scheduler Thread - 35/INFO]: [BuycraftX] Fetching all due players...
-[00:23:59] [Craft Scheduler Thread - 35/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:25:59] [Craft Scheduler Thread - 34/INFO]: [BuycraftX] Fetching all due players...
-[00:25:59] [Craft Scheduler Thread - 34/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:28:00] [Craft Scheduler Thread - 33/INFO]: [BuycraftX] Fetching all due players...
-[00:28:00] [Craft Scheduler Thread - 33/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:29:59] [Craft Scheduler Thread - 33/INFO]: [BuycraftX] Fetching all due players...
-[00:29:59] [Craft Scheduler Thread - 33/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:32:00] [Craft Scheduler Thread - 37/INFO]: [BuycraftX] Fetching all due players...
-[00:32:00] [Craft Scheduler Thread - 37/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:34:00] [Craft Scheduler Thread - 33/INFO]: [BuycraftX] Fetching all due players...
-[00:34:00] [Craft Scheduler Thread - 33/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:36:00] [Craft Scheduler Thread - 37/INFO]: [BuycraftX] Fetching all due players...
-[00:36:01] [Craft Scheduler Thread - 37/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:36:40] [Server thread/INFO]: Bree3_K issued server command: /home
-[00:38:01] [Craft Scheduler Thread - 35/INFO]: [BuycraftX] Fetching all due players...
-[00:38:01] [Craft Scheduler Thread - 35/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:40:01] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetching all due players...
-[00:40:01] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:42:01] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetching all due players...
-[00:42:01] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:44:01] [Craft Scheduler Thread - 44/INFO]: [BuycraftX] Fetching all due players...
-[00:44:01] [Craft Scheduler Thread - 44/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:46:02] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetching all due players...
-[00:46:02] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:46:07] [IO-Worker-101/ERROR]: Failed to store chunk [-295, -73]
-java.util.ConcurrentModificationException: null
-	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1605) ~[?:?]
-	at java.util.HashMap$KeyIterator.next(HashMap.java:1628) ~[?:?]
-	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:280) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:248) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:260) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:250) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:60) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.util.thread.ThreadedMailbox.h(SourceFile:91) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+[17:52:58] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:52:59] [ServerMain/INFO]: Loaded 7 recipes
+[17:53:00] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[17:53:00] [Server thread/INFO]: Loading properties
+[17:53:01] [Server thread/INFO]: This server is running CraftBukkit version 3828-Spigot-9ebce8a-202fc5c (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[17:53:01] [Server thread/INFO]: Debug logging is disabled
+[17:53:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:53:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:53:01] [Server thread/INFO]: Default game type: SURVIVAL
+[17:53:01] [Server thread/INFO]: Generating keypair
+[17:53:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:53:01] [Server thread/INFO]: Using epoll channel type
+[17:53:02] [Server thread/INFO]: [VotingPlugin] Loading 1 libraries... please wait
+[17:53:02] [Server thread/INFO]: [VotingPlugin] Loaded library /home/max/gourmet/GourmetServer/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar
+[17:53:02] [Server thread/INFO]: [VotingPlugin] Loaded library /home/max/gourmet/GourmetServer/libraries/org/ow2/asm/asm/7.3.1/asm-7.3.1.jar
+[17:53:02] [Server thread/INFO]: [VotingPlugin] Loaded library /home/max/gourmet/GourmetServer/libraries/org/ow2/asm/asm-commons/7.3.1/asm-commons-7.3.1.jar
+[17:53:02] [Server thread/INFO]: [VotingPlugin] Loaded library /home/max/gourmet/GourmetServer/libraries/org/ow2/asm/asm-analysis/7.3.1/asm-analysis-7.3.1.jar
+[17:53:02] [Server thread/INFO]: [VotingPlugin] Loaded library /home/max/gourmet/GourmetServer/libraries/org/ow2/asm/asm-tree/7.3.1/asm-tree-7.3.1.jar
+[17:53:02] [Server thread/INFO]: [VotingPlugin] Loaded library /home/max/gourmet/GourmetServer/libraries/org/ow2/asm/asm-util/7.3.1/asm-util-7.3.1.jar
+[17:53:02] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[17:53:02] [Server thread/INFO]: [BuycraftX] Loading BuycraftX v12.0.8
+[17:53:02] [Server thread/INFO]: [Votifier] Loading Votifier v2.7.3
+[17:53:02] [Server thread/INFO]: [StatPlugin] Loading StatPlugin v1.0-SNAPSHOT
+[17:53:02] [Server thread/INFO]: [ImageOnMap] Loading ImageOnMap v4.2.2
+[17:53:02] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.7.0
+[17:53:02] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[17:53:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:53:02] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[17:53:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:53:03] [Server thread/INFO]: [floodgate] Took 606ms to boot Floodgate
+[17:53:03] [Server thread/INFO]: [PlaceholderSIGN] Loading PlaceholderSIGN v2.0.0
+[17:53:03] [Server thread/INFO]: [MiniMOTD] Loading MiniMOTD v2.0.12
+[17:53:03] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.82
+[17:53:03] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.1.0-SNAPSHOT-649
+[17:53:03] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.1) has not yet been tested! Proceed with caution.
+[17:53:04] [Server thread/INFO]: [JEXT] Loading JukeboxExtendedReborn v1.1.3
+[17:53:04] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.12
+[17:53:04] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.2-SNAPSHOT
+[17:53:04] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:53:04] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:53:04] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[17:53:04] [Server thread/INFO]: [dynmap] Loading dynmap v3.6-beta-2-894
+[17:53:04] [Server thread/INFO]: [dynmap] version=3828-Spigot-9ebce8a-202fc5c (MC: 1.20.1)
+[17:53:04] [Server thread/INFO]: [dynmap] Mod Support API available
+[17:53:04] [Server thread/INFO]: [JukeLooper] Loading JukeLooper v2.5
+[17:53:04] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.15+6463-5ca4dff
+[17:53:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@47b1ecb0]
+[17:53:05] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0
+[17:53:05] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.9-SNAPSHOT+2250-fffb0c1
+[17:53:05] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[17:53:05] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.32-SNAPSHOT (build 3147)
+[17:53:05] [Server thread/INFO]: [EnderBank] Loading EnderBank v1.20.1.a.1
+[17:53:05] [Server thread/INFO]: [VotingPlugin] Loading VotingPlugin v6.13.1
+[17:53:05] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.3-b523
+[17:53:05] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.20.0
+[17:53:05] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.20.0
+[17:53:05] [Server thread/INFO]: [LibertyBans] Loading LibertyBans v1.1.0-M2
+[17:53:05] [Server thread/INFO]: [GSit] Loading GSit v1.4.6
+[17:53:05] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.20.0
+[17:53:05] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v21.3
+[17:53:05] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.12.2 (build 353)
+[17:53:05] [Server thread/INFO]: [ChestShop] WorldGuard version 7.0.9-SNAPSHOT+2250-fffb0c1 loaded.
+[17:53:05] [Server thread/INFO]: [EssentialsDiscord] Loading EssentialsDiscord v2.20.0
+[17:53:05] [Server thread/INFO]: [SignShop] Loading SignShop v3.7.2
+[17:53:05] [Server thread/INFO]: Loading EssentialsDiscordLink v2.20.0
+[17:53:05] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.3.3
+[17:53:05] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.82
+[17:53:05] [Server thread/INFO]:         __    
+[17:53:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.82
+[17:53:05] [Server thread/INFO]:   |___ |      Running on Bukkit - CraftBukkit
+[17:53:05] [Server thread/INFO]: 
+[17:53:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:53:05] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:53:06] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:53:06] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:53:06] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1363ms)
+[17:53:06] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0-SNAPSHOT-649
+[17:53:06] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:53:06] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.0 which is not a depend or softdepend of this plugin.
+[17:53:06] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:53:06] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:53:06] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:53:06] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:53:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[17:53:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:53:06] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:53:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[17:53:07] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:53:07] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[17:53:07] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[17:53:07] [Server thread/INFO]: [WorldEdit]   
+[17:53:07] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[17:53:07] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[17:53:07] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[17:53:07] [Server thread/INFO]: [WorldEdit]   
+[17:53:07] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[17:53:07] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[17:53:07] [Server thread/INFO]: [WorldEdit]   
+[17:53:07] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[17:53:07] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[17:53:07] [Server thread/INFO]: [WorldEdit]   
+[17:53:07] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[17:53:07] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:53:07] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.3
+[17:53:08] [Server thread/INFO]: Preparing level "world"
+[17:53:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:53:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:11] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:12] [Server thread/INFO]: Time elapsed: 2996 ms
+[17:53:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:53:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[17:53:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:53:13] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:53:14] [Worker-Main-2/INFO]: Preparing spawn area: 16%
+[17:53:14] [Server thread/INFO]: Time elapsed: 1734 ms
+[17:53:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:53:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[17:53:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:15] [Worker-Main-4/INFO]: Preparing spawn area: 20%
+[17:53:15] [Server thread/INFO]: Time elapsed: 1229 ms
+[17:53:15] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[17:53:15] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:53:15] [Server thread/INFO]: [BuycraftX] Enabling BuycraftX v12.0.8
+[17:53:15] [Server thread/INFO]: [BuycraftX] Validating your server key...
+[17:53:16] [Server thread/INFO]: [BuycraftX] Fetching all server packages...
+[17:53:16] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:53:18] [Server thread/INFO]: [Votifier] Enabling Votifier v2.7.3
+[17:53:18] [Server thread/INFO]: [Votifier] Loaded token for website: default
+[17:53:18] [Server thread/INFO]: [Votifier] Using epoll transport to accept votes.
+[17:53:18] [Server thread/INFO]: [Votifier] Method none selected for vote forwarding: Votes will not be received from a forwarder.
+[17:53:18] [Server thread/INFO]: [StatPlugin] Enabling StatPlugin v1.0-SNAPSHOT
+[17:53:18] [Votifier epoll boss/INFO]: [Votifier] Votifier enabled on socket /[0:0:0:0:0:0:0:0%0]:8192.
+[17:53:18] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v4.2.2
+[17:53:18] [Server thread/INFO]: [ImageOnMap] Loaded 3 player map files.
+[17:53:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[17:53:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
+[17:53:18] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[17:53:18] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[17:53:18] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[17:53:18] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://jo0001.github.io/ViaSetup
+[17:53:18] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[17:53:18] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[17:53:18] [Server thread/INFO]: [PlaceholderSIGN] Enabling PlaceholderSIGN v2.0.0
+[17:53:18] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.0.12
+[17:53:18] [Server thread/WARN]: ======================================================
+[17:53:18] [Server thread/WARN]:  MiniMOTD works better if you use Paper as your server
+[17:53:18] [Server thread/WARN]:  software.
+[17:53:18] [Server thread/WARN]:  
+[17:53:18] [Server thread/WARN]:  Spigot does not include the necessary APIs for all
+[17:53:18] [Server thread/WARN]:  of MiniMOTD's features to operate. MiniMOTD was
+[17:53:18] [Server thread/WARN]:  designed to work with Paper and it's expanded API
+[17:53:18] [Server thread/WARN]:  for full compatibility.
+[17:53:18] [Server thread/WARN]:  
+[17:53:18] [Server thread/WARN]:  Get Paper from https://papermc.io/downloads
+[17:53:18] [Server thread/WARN]: ======================================================
+[17:53:18] [Server thread/INFO]: [JEXT] Enabling JukeboxExtendedReborn v1.1.3
+[17:53:19] [Server thread/INFO]: [JEXT] Enabled Jukebox Extended Reborn, Do Re Mi!
+[17:53:19] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+[17:53:19] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_20_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m
+[17:53:19] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
+[17:53:19] [Server thread/INFO]: [dynmap] Enabling dynmap v3.6-beta-2-894
+[17:53:19] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[17:53:19] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.82 for access control
+[17:53:19] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[17:53:21] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[17:53:21] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[17:53:21] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[17:53:21] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[17:53:21] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[17:53:21] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[17:53:21] [Server thread/INFO]: [dynmap] version 3.6-beta-2-894 is enabled - core version 3.6-beta-2-894
+[17:53:21] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[17:53:21] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[17:53:21] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[17:53:21] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[17:53:21] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[17:53:21] [Server thread/INFO]: [dynmap] Loaded 9496 pending tile renders for world 'world'
+[17:53:21] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[17:53:21] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[17:53:21] [Server thread/INFO]: [dynmap] Enabled
+[17:53:21] [Server thread/INFO]: [JukeLooper] Enabling JukeLooper v2.5
+[17:53:21] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0
+[17:53:21] [Server thread/ERROR]: You are running an unsupported server version!
+[17:53:21] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[17:53:21] [Server thread/INFO]: No kits found to migrate.
+[17:53:21] [Server thread/INFO]: Loaded 38132 items from items.json.
+[17:53:21] [Server thread/INFO]: Using locale en_US
+[17:53:21] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[17:53:21] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:53:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[17:53:21] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[17:53:21] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9-SNAPSHOT+2250-fffb0c1
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[17:53:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[17:53:21] [Server thread/INFO]: [WorldGuard] Loading region data...
+[17:53:22] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[17:53:22] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[17:53:22] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[17:53:22] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: town
+[17:53:22] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[17:53:22] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: FUCK
+[17:53:22] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[17:53:22] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: programming_area
+[17:53:22] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[17:53:22] [Server thread/INFO]: Preparing start region for dimension minecraft:quest
+[17:53:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[17:53:22] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[17:53:23] [Worker-Main-5/INFO]: Preparing spawn area: 47%
+[17:53:23] [Server thread/INFO]: Time elapsed: 1198 ms
+[17:53:23] [Server thread/INFO]: [WorldGuard] (quest) TNT ignition is PERMITTED.
+[17:53:23] [Server thread/INFO]: [WorldGuard] (quest) Lighters are PERMITTED.
+[17:53:23] [Server thread/INFO]: [WorldGuard] (quest) Lava fire is PERMITTED.
+[17:53:23] [Server thread/INFO]: [WorldGuard] (quest) Fire spread is UNRESTRICTED.
+[17:53:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'quest'
+[17:53:23] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'quest'.
+[17:53:23] [Server thread/INFO]: [dynmap] Loaded 199 pending tile renders for world 'quest'
+[17:53:23] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: mmo
+[17:53:23] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[17:53:23] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: rando
+[17:53:23] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[17:53:23] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: flatgrass
+[17:53:23] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[17:53:23] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[17:53:23] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[17:53:23] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[17:53:23] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.32-SNAPSHOT (build 3147)
+[17:53:23] [Server thread/INFO]: [Citizens] Loading external libraries
+[17:53:23] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[17:53:23] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[17:53:23] [Server thread/INFO]: [EnderBank] Enabling EnderBank v1.20.1.a.1
+[17:53:23] [Server thread/INFO]: [VotingPlugin] Enabling VotingPlugin v6.13.1
+[17:53:24] [Server thread/INFO]: [VotingPlugin] Giving VotingPlugin.Player permission by default, can be disabled in the config
+[17:53:24] [Server thread/INFO]: [VotingPlugin] Enabled VotingPlugin 6.13.1
+[17:53:24] [Server thread/WARN]: [VotingPlugin] No vote has been recieved from topminecraftservers.org, may be an invalid service site. Please read: https://github.com/BenCodez/VotingPlugin/wiki/Votifier-Troubleshooting
+[17:53:24] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.3-b523
+[17:53:24] [Server thread/INFO]: [Multiverse-Inventories] The following worlds for group 'new' are not loaded: creative
+[17:53:24] [Server thread/INFO]: [Multiverse-Inventories] The following worlds for group 'testgroup' are not loaded: town, mmo
+[17:53:24] [Server thread/INFO]: [Multiverse-Inventories 4.2.3-b523] enabled.
+[17:53:24] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.20.0
+[17:53:24] [Server thread/ERROR]: No license key found! Please visit https://essentialsx.net/geoip for first time setup instructions.
+[17:53:24] [Server thread/ERROR]: Failed to read GeoIP database!
+java.io.FileNotFoundException: plugins/EssentialsGeoIP/GeoIP2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method) ~[?:?]
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:346) ~[?:?]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:260) ~[?:?]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:214) ~[?:?]
+	at com.earth2me.essentials.geoip.libs.maxmind.db.BufferHolder.<init>(BufferHolder.java:19) ~[?:?]
+	at com.earth2me.essentials.geoip.libs.maxmind.db.Reader.<init>(Reader.java:116) ~[?:?]
+	at com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66) ~[?:?]
+	at com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54) ~[?:?]
+	at com.earth2me.essentials.geoip.libs.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.reloadConfig(EssentialsGeoIPPlayerListener.java:175) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.<init>(EssentialsGeoIPPlayerListener.java:51) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:33) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:543) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:457) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:589) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
 	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
-[00:48:01] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetching all due players...
-[00:48:01] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:50:02] [Craft Scheduler Thread - 44/INFO]: [BuycraftX] Fetching all due players...
-[00:50:02] [Craft Scheduler Thread - 44/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:50:31] [Server thread/INFO]: Bree3_K issued server command: /sellall hand
-[00:50:31] [Server thread/INFO]: Shop >> Bree3_K sold 1 x Pink Wool(Blocks.234) for $7.35 with the sell all command.
-[00:52:02] [Craft Scheduler Thread - 45/INFO]: [BuycraftX] Fetching all due players...
-[00:52:02] [Craft Scheduler Thread - 45/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:52:05] [Server thread/INFO]: Bree3_K has made the advancement [A Terrible Fortress]
-[00:53:34] [Server thread/INFO]: Bree3_K has made the advancement [Hidden in the Depths]
-[00:54:02] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetching all due players...
-[00:54:02] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:56:02] [Craft Scheduler Thread - 44/INFO]: [BuycraftX] Fetching all due players...
-[00:56:02] [Craft Scheduler Thread - 44/INFO]: [BuycraftX] Fetched due players (0 found).
-[00:58:03] [Craft Scheduler Thread - 45/INFO]: [BuycraftX] Fetching all due players...
-[00:58:03] [Craft Scheduler Thread - 45/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:00:02] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetching all due players...
-[01:00:02] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:02:03] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetching all due players...
-[01:02:03] [Craft Scheduler Thread - 41/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:04:03] [Craft Scheduler Thread - 50/INFO]: [BuycraftX] Fetching all due players...
-[01:04:04] [Craft Scheduler Thread - 50/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:06:04] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetching all due players...
-[01:06:04] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:08:04] [Craft Scheduler Thread - 49/INFO]: [BuycraftX] Fetching all due players...
-[01:08:04] [Craft Scheduler Thread - 49/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:08:51] [Server thread/INFO]: Bree3_K issued server command: /home
-[01:10:04] [Craft Scheduler Thread - 51/INFO]: [BuycraftX] Fetching all due players...
-[01:10:04] [Craft Scheduler Thread - 51/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:10:34] [Server thread/INFO]: Bree3_K lost connection: Disconnected
-[01:10:34] [Server thread/INFO]: 🌐️ ← Bree3_K
-[01:10:51] [Craft Scheduler Thread - 52/INFO]: [BuycraftX] Sending 1 analytic events
-[01:12:04] [Craft Scheduler Thread - 48/INFO]: [BuycraftX] Fetching all due players...
-[01:12:04] [Craft Scheduler Thread - 48/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:14:04] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetching all due players...
-[01:14:04] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:16:04] [Craft Scheduler Thread - 54/INFO]: [BuycraftX] Fetching all due players...
-[01:16:05] [Craft Scheduler Thread - 54/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:18:05] [Craft Scheduler Thread - 57/INFO]: [BuycraftX] Fetching all due players...
-[01:18:05] [Craft Scheduler Thread - 57/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:20:05] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetching all due players...
-[01:20:05] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:20:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5381ms or 107 ticks behind
-[01:22:10] [Craft Scheduler Thread - 48/INFO]: [BuycraftX] Fetching all due players...
-[01:22:10] [Craft Scheduler Thread - 48/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:24:10] [Craft Scheduler Thread - 54/INFO]: [BuycraftX] Fetching all due players...
-[01:24:11] [Craft Scheduler Thread - 54/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:26:11] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetching all due players...
-[01:26:11] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:28:11] [Craft Scheduler Thread - 56/INFO]: [BuycraftX] Fetching all due players...
-[01:28:11] [Craft Scheduler Thread - 56/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:30:12] [Craft Scheduler Thread - 48/INFO]: [BuycraftX] Fetching all due players...
-[01:30:12] [Craft Scheduler Thread - 48/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:32:12] [Craft Scheduler Thread - 54/INFO]: [BuycraftX] Fetching all due players...
-[01:32:12] [Craft Scheduler Thread - 54/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:34:12] [Craft Scheduler Thread - 59/INFO]: [BuycraftX] Fetching all due players...
-[01:34:12] [Craft Scheduler Thread - 59/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:36:12] [Craft Scheduler Thread - 60/INFO]: [BuycraftX] Fetching all due players...
-[01:36:12] [Craft Scheduler Thread - 60/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:38:12] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetching all due players...
-[01:38:12] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:40:12] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetching all due players...
-[01:40:12] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:42:13] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetching all due players...
-[01:42:13] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:44:13] [Craft Scheduler Thread - 63/INFO]: [BuycraftX] Fetching all due players...
-[01:44:13] [Craft Scheduler Thread - 63/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:46:13] [Craft Scheduler Thread - 62/INFO]: [BuycraftX] Fetching all due players...
-[01:46:13] [Craft Scheduler Thread - 62/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:48:13] [Craft Scheduler Thread - 54/INFO]: [BuycraftX] Fetching all due players...
-[01:48:13] [Craft Scheduler Thread - 54/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:50:13] [Craft Scheduler Thread - 62/INFO]: [BuycraftX] Fetching all due players...
-[01:50:13] [Craft Scheduler Thread - 62/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:52:13] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetching all due players...
-[01:52:13] [Craft Scheduler Thread - 46/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:54:14] [Craft Scheduler Thread - 65/INFO]: [BuycraftX] Fetching all due players...
-[01:54:14] [Craft Scheduler Thread - 65/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:56:14] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetching all due players...
-[01:56:14] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetched due players (0 found).
-[01:58:14] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetching all due players...
-[01:58:14] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:00:14] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetching all due players...
-[02:00:14] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:02:14] [Craft Scheduler Thread - 69/INFO]: [BuycraftX] Fetching all due players...
-[02:02:15] [Craft Scheduler Thread - 69/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:04:15] [Craft Scheduler Thread - 70/INFO]: [BuycraftX] Fetching all due players...
-[02:04:15] [Craft Scheduler Thread - 70/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:06:15] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetching all due players...
-[02:06:15] [Craft Scheduler Thread - 61/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:08:15] [Craft Scheduler Thread - 67/INFO]: [BuycraftX] Fetching all due players...
-[02:08:15] [Craft Scheduler Thread - 67/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:10:15] [Craft Scheduler Thread - 72/INFO]: [BuycraftX] Fetching all due players...
-[02:10:16] [Craft Scheduler Thread - 72/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:12:15] [Craft Scheduler Thread - 72/INFO]: [BuycraftX] Fetching all due players...
-[02:12:16] [Craft Scheduler Thread - 72/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:14:16] [Craft Scheduler Thread - 73/INFO]: [BuycraftX] Fetching all due players...
-[02:14:16] [Craft Scheduler Thread - 73/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:16:16] [Craft Scheduler Thread - 75/INFO]: [BuycraftX] Fetching all due players...
-[02:16:16] [Craft Scheduler Thread - 75/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:18:16] [Craft Scheduler Thread - 70/INFO]: [BuycraftX] Fetching all due players...
-[02:18:17] [Craft Scheduler Thread - 70/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:20:18] [Craft Scheduler Thread - 70/INFO]: [BuycraftX] Fetching all due players...
-[02:20:18] [Craft Scheduler Thread - 70/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:22:17] [Craft Scheduler Thread - 76/INFO]: [BuycraftX] Fetching all due players...
-[02:22:17] [Craft Scheduler Thread - 76/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:24:17] [Craft Scheduler Thread - 78/INFO]: [BuycraftX] Fetching all due players...
-[02:24:17] [Craft Scheduler Thread - 78/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:26:18] [Craft Scheduler Thread - 77/INFO]: [BuycraftX] Fetching all due players...
-[02:26:18] [Craft Scheduler Thread - 77/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:28:18] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetching all due players...
-[02:28:18] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:30:19] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetching all due players...
-[02:30:19] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:32:19] [Craft Scheduler Thread - 76/INFO]: [BuycraftX] Fetching all due players...
-[02:32:19] [Craft Scheduler Thread - 76/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:34:20] [Craft Scheduler Thread - 76/INFO]: [BuycraftX] Fetching all due players...
-[02:34:20] [Craft Scheduler Thread - 76/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:36:19] [Craft Scheduler Thread - 76/INFO]: [BuycraftX] Fetching all due players...
-[02:36:19] [Craft Scheduler Thread - 76/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:38:20] [Craft Scheduler Thread - 83/INFO]: [BuycraftX] Fetching all due players...
-[02:38:20] [Craft Scheduler Thread - 83/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:40:20] [Craft Scheduler Thread - 82/INFO]: [BuycraftX] Fetching all due players...
-[02:40:20] [Craft Scheduler Thread - 82/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:42:20] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetching all due players...
-[02:42:20] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:44:20] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetching all due players...
-[02:44:20] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:46:20] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetching all due players...
-[02:46:20] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:48:21] [Craft Scheduler Thread - 87/INFO]: [BuycraftX] Fetching all due players...
-[02:48:21] [Craft Scheduler Thread - 87/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:50:21] [Craft Scheduler Thread - 82/INFO]: [BuycraftX] Fetching all due players...
-[02:50:21] [Craft Scheduler Thread - 82/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:52:21] [Craft Scheduler Thread - 87/INFO]: [BuycraftX] Fetching all due players...
-[02:52:21] [Craft Scheduler Thread - 87/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:54:22] [Craft Scheduler Thread - 87/INFO]: [BuycraftX] Fetching all due players...
-[02:54:22] [Craft Scheduler Thread - 87/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:56:21] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetching all due players...
-[02:56:21] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetched due players (0 found).
-[02:58:22] [Craft Scheduler Thread - 92/INFO]: [BuycraftX] Fetching all due players...
-[02:58:22] [Craft Scheduler Thread - 92/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:00:22] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetching all due players...
-[03:00:22] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:02:22] [Craft Scheduler Thread - 90/INFO]: [BuycraftX] Fetching all due players...
-[03:02:23] [Craft Scheduler Thread - 90/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:04:23] [Craft Scheduler Thread - 90/INFO]: [BuycraftX] Fetching all due players...
-[03:04:23] [Craft Scheduler Thread - 90/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:06:23] [Craft Scheduler Thread - 90/INFO]: [BuycraftX] Fetching all due players...
-[03:06:23] [Craft Scheduler Thread - 90/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:08:23] [Craft Scheduler Thread - 95/INFO]: [BuycraftX] Fetching all due players...
-[03:08:23] [Craft Scheduler Thread - 95/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:10:23] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetching all due players...
-[03:10:23] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:12:23] [Craft Scheduler Thread - 90/INFO]: [BuycraftX] Fetching all due players...
-[03:12:23] [Craft Scheduler Thread - 90/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:14:23] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetching all due players...
-[03:14:23] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:16:23] [Craft Scheduler Thread - 91/INFO]: [BuycraftX] Fetching all due players...
-[03:16:23] [Craft Scheduler Thread - 91/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:18:23] [Craft Scheduler Thread - 91/INFO]: [BuycraftX] Fetching all due players...
-[03:18:24] [Craft Scheduler Thread - 91/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:20:24] [Craft Scheduler Thread - 91/INFO]: [BuycraftX] Fetching all due players...
-[03:20:24] [Craft Scheduler Thread - 91/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:22:25] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetching all due players...
-[03:22:25] [Craft Scheduler Thread - 74/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:24:25] [Craft Scheduler Thread - 94/INFO]: [BuycraftX] Fetching all due players...
-[03:24:25] [Craft Scheduler Thread - 94/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:26:25] [Craft Scheduler Thread - 91/INFO]: [BuycraftX] Fetching all due players...
-[03:26:25] [Craft Scheduler Thread - 91/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:28:25] [Craft Scheduler Thread - 94/INFO]: [BuycraftX] Fetching all due players...
-[03:28:26] [Craft Scheduler Thread - 94/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:30:26] [Craft Scheduler Thread - 101/INFO]: [BuycraftX] Fetching all due players...
-[03:30:26] [Craft Scheduler Thread - 101/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:32:26] [Craft Scheduler Thread - 101/INFO]: [BuycraftX] Fetching all due players...
-[03:32:26] [Craft Scheduler Thread - 101/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:34:26] [Craft Scheduler Thread - 100/INFO]: [BuycraftX] Fetching all due players...
-[03:34:26] [Craft Scheduler Thread - 100/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:36:27] [Craft Scheduler Thread - 104/INFO]: [BuycraftX] Fetching all due players...
-[03:36:27] [Craft Scheduler Thread - 104/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:38:27] [Craft Scheduler Thread - 100/INFO]: [BuycraftX] Fetching all due players...
-[03:38:27] [Craft Scheduler Thread - 100/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:40:27] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetching all due players...
-[03:40:27] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:42:28] [Craft Scheduler Thread - 105/INFO]: [BuycraftX] Fetching all due players...
-[03:42:28] [Craft Scheduler Thread - 105/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:44:28] [Craft Scheduler Thread - 91/INFO]: [BuycraftX] Fetching all due players...
-[03:44:28] [Craft Scheduler Thread - 91/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:46:27] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetching all due players...
-[03:46:28] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:48:28] [Craft Scheduler Thread - 107/INFO]: [BuycraftX] Fetching all due players...
-[03:48:28] [Craft Scheduler Thread - 107/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:50:28] [Craft Scheduler Thread - 100/INFO]: [BuycraftX] Fetching all due players...
-[03:50:28] [Craft Scheduler Thread - 100/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:52:29] [Craft Scheduler Thread - 109/INFO]: [BuycraftX] Fetching all due players...
-[03:52:29] [Craft Scheduler Thread - 109/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:54:28] [Craft Scheduler Thread - 106/INFO]: [BuycraftX] Fetching all due players...
-[03:54:29] [Craft Scheduler Thread - 106/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:56:29] [Craft Scheduler Thread - 106/INFO]: [BuycraftX] Fetching all due players...
-[03:56:29] [Craft Scheduler Thread - 106/INFO]: [BuycraftX] Fetched due players (0 found).
-[03:58:29] [Craft Scheduler Thread - 107/INFO]: [BuycraftX] Fetching all due players...
-[03:58:30] [Craft Scheduler Thread - 107/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:00:30] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetching all due players...
-[04:00:30] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:02:31] [Craft Scheduler Thread - 109/INFO]: [BuycraftX] Fetching all due players...
-[04:02:31] [Craft Scheduler Thread - 109/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:04:30] [Craft Scheduler Thread - 110/INFO]: [BuycraftX] Fetching all due players...
-[04:04:30] [Craft Scheduler Thread - 110/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:06:30] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetching all due players...
-[04:06:31] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:08:31] [Craft Scheduler Thread - 107/INFO]: [BuycraftX] Fetching all due players...
-[04:08:31] [Craft Scheduler Thread - 107/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:10:31] [Craft Scheduler Thread - 107/INFO]: [BuycraftX] Fetching all due players...
-[04:10:31] [Craft Scheduler Thread - 107/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:12:31] [Craft Scheduler Thread - 112/INFO]: [BuycraftX] Fetching all due players...
-[04:12:31] [Craft Scheduler Thread - 112/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:14:31] [Craft Scheduler Thread - 115/INFO]: [BuycraftX] Fetching all due players...
-[04:14:32] [Craft Scheduler Thread - 115/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:16:31] [Craft Scheduler Thread - 116/INFO]: [BuycraftX] Fetching all due players...
-[04:16:31] [Craft Scheduler Thread - 116/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:18:32] [Craft Scheduler Thread - 115/INFO]: [BuycraftX] Fetching all due players...
-[04:18:32] [Craft Scheduler Thread - 115/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:20:31] [Craft Scheduler Thread - 112/INFO]: [BuycraftX] Fetching all due players...
-[04:20:32] [Craft Scheduler Thread - 112/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:22:32] [Craft Scheduler Thread - 118/INFO]: [BuycraftX] Fetching all due players...
-[04:22:32] [Craft Scheduler Thread - 118/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:24:32] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetching all due players...
-[04:24:32] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:26:32] [Craft Scheduler Thread - 115/INFO]: [BuycraftX] Fetching all due players...
-[04:26:32] [Craft Scheduler Thread - 115/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:28:08] [IO-Worker-313/ERROR]: Failed to store chunk [-289, -63]
-java.util.ConcurrentModificationException: null
-	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1605) ~[?:?]
-	at java.util.HashMap$KeyIterator.next(HashMap.java:1628) ~[?:?]
-	at net.minecraft.nbt.NBTTagCompound.a(SourceFile:163) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:280) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.nbt.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:248) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.world.level.chunk.storage.RegionFileCache.a(RegionFileCache.java:141) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:260) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.world.level.chunk.storage.IOWorker.a(SourceFile:250) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.util.thread.PairedQueue$b.run(SourceFile:60) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.util.thread.ThreadedMailbox.h(SourceFile:91) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.util.thread.ThreadedMailbox.a(SourceFile:146) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.util.thread.ThreadedMailbox.run(SourceFile:102) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
-[04:28:33] [Craft Scheduler Thread - 117/INFO]: [BuycraftX] Fetching all due players...
-[04:28:33] [Craft Scheduler Thread - 117/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:30:33] [Craft Scheduler Thread - 119/INFO]: [BuycraftX] Fetching all due players...
-[04:30:33] [Craft Scheduler Thread - 119/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:32:33] [Craft Scheduler Thread - 120/INFO]: [BuycraftX] Fetching all due players...
-[04:32:33] [Craft Scheduler Thread - 120/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:34:33] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetching all due players...
-[04:34:33] [Craft Scheduler Thread - 96/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:36:34] [Craft Scheduler Thread - 118/INFO]: [BuycraftX] Fetching all due players...
-[04:36:34] [Craft Scheduler Thread - 118/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:38:34] [Craft Scheduler Thread - 121/INFO]: [BuycraftX] Fetching all due players...
-[04:38:34] [Craft Scheduler Thread - 121/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:40:34] [Craft Scheduler Thread - 124/INFO]: [BuycraftX] Fetching all due players...
-[04:40:34] [Craft Scheduler Thread - 124/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:42:34] [Craft Scheduler Thread - 118/INFO]: [BuycraftX] Fetching all due players...
-[04:42:35] [Craft Scheduler Thread - 118/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:44:34] [Craft Scheduler Thread - 122/INFO]: [BuycraftX] Fetching all due players...
-[04:44:34] [Craft Scheduler Thread - 122/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:46:35] [Craft Scheduler Thread - 120/INFO]: [BuycraftX] Fetching all due players...
-[04:46:35] [Craft Scheduler Thread - 120/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:48:34] [Craft Scheduler Thread - 120/INFO]: [BuycraftX] Fetching all due players...
-[04:48:35] [Craft Scheduler Thread - 120/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:50:35] [Craft Scheduler Thread - 120/INFO]: [BuycraftX] Fetching all due players...
-[04:50:35] [Craft Scheduler Thread - 120/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:52:35] [Craft Scheduler Thread - 126/INFO]: [BuycraftX] Fetching all due players...
-[04:52:35] [Craft Scheduler Thread - 126/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:54:36] [Craft Scheduler Thread - 126/INFO]: [BuycraftX] Fetching all due players...
-[04:54:36] [Craft Scheduler Thread - 126/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:55:56] [Craft Scheduler Thread - 128/INFO]: [Vault] Checking for Updates ... 
-[04:55:56] [Craft Scheduler Thread - 128/INFO]: [Vault] No new version available
-[04:56:36] [Craft Scheduler Thread - 122/INFO]: [BuycraftX] Fetching all due players...
-[04:56:36] [Craft Scheduler Thread - 122/INFO]: [BuycraftX] Fetched due players (0 found).
-[04:58:36] [Craft Scheduler Thread - 126/INFO]: [BuycraftX] Fetching all due players...
-[04:58:36] [Craft Scheduler Thread - 126/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:00:36] [Craft Scheduler Thread - 124/INFO]: [BuycraftX] Fetching all due players...
-[05:00:36] [Craft Scheduler Thread - 124/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:02:36] [Craft Scheduler Thread - 122/INFO]: [BuycraftX] Fetching all due players...
-[05:02:36] [Craft Scheduler Thread - 122/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:04:36] [Craft Scheduler Thread - 124/INFO]: [BuycraftX] Fetching all due players...
-[05:04:36] [Craft Scheduler Thread - 124/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:06:36] [Craft Scheduler Thread - 122/INFO]: [BuycraftX] Fetching all due players...
-[05:06:36] [Craft Scheduler Thread - 122/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:08:36] [Craft Scheduler Thread - 124/INFO]: [BuycraftX] Fetching all due players...
-[05:08:37] [Craft Scheduler Thread - 124/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:10:37] [Craft Scheduler Thread - 134/INFO]: [BuycraftX] Fetching all due players...
-[05:10:37] [Craft Scheduler Thread - 134/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:12:37] [Craft Scheduler Thread - 133/INFO]: [BuycraftX] Fetching all due players...
-[05:12:37] [Craft Scheduler Thread - 133/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:14:37] [Craft Scheduler Thread - 132/INFO]: [BuycraftX] Fetching all due players...
-[05:14:37] [Craft Scheduler Thread - 132/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:16:37] [Craft Scheduler Thread - 137/INFO]: [BuycraftX] Fetching all due players...
-[05:16:37] [Craft Scheduler Thread - 137/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:18:38] [Craft Scheduler Thread - 132/INFO]: [BuycraftX] Fetching all due players...
-[05:18:38] [Craft Scheduler Thread - 132/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:20:38] [Craft Scheduler Thread - 136/INFO]: [BuycraftX] Fetching all due players...
-[05:20:38] [Craft Scheduler Thread - 136/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:22:38] [Craft Scheduler Thread - 136/INFO]: [BuycraftX] Fetching all due players...
-[05:22:38] [Craft Scheduler Thread - 136/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:24:38] [Craft Scheduler Thread - 139/INFO]: [BuycraftX] Fetching all due players...
-[05:24:38] [Craft Scheduler Thread - 139/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:26:38] [Craft Scheduler Thread - 135/INFO]: [BuycraftX] Fetching all due players...
-[05:26:38] [Craft Scheduler Thread - 135/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:28:38] [Craft Scheduler Thread - 136/INFO]: [BuycraftX] Fetching all due players...
-[05:28:38] [Craft Scheduler Thread - 136/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:30:38] [Craft Scheduler Thread - 144/INFO]: [BuycraftX] Fetching all due players...
-[05:30:38] [Craft Scheduler Thread - 144/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:32:39] [Craft Scheduler Thread - 143/INFO]: [BuycraftX] Fetching all due players...
-[05:32:39] [Craft Scheduler Thread - 143/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:34:39] [Craft Scheduler Thread - 135/INFO]: [BuycraftX] Fetching all due players...
-[05:34:39] [Craft Scheduler Thread - 135/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:36:39] [Craft Scheduler Thread - 146/INFO]: [BuycraftX] Fetching all due players...
-[05:36:39] [Craft Scheduler Thread - 146/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:38:39] [Craft Scheduler Thread - 147/INFO]: [BuycraftX] Fetching all due players...
-[05:38:39] [Craft Scheduler Thread - 147/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:40:39] [Craft Scheduler Thread - 149/INFO]: [BuycraftX] Fetching all due players...
-[05:40:39] [Craft Scheduler Thread - 149/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:42:39] [Craft Scheduler Thread - 146/INFO]: [BuycraftX] Fetching all due players...
-[05:42:39] [Craft Scheduler Thread - 146/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:44:39] [Craft Scheduler Thread - 148/INFO]: [BuycraftX] Fetching all due players...
-[05:44:39] [Craft Scheduler Thread - 148/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:46:40] [Craft Scheduler Thread - 148/INFO]: [BuycraftX] Fetching all due players...
-[05:46:40] [Craft Scheduler Thread - 148/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:48:40] [Craft Scheduler Thread - 144/INFO]: [BuycraftX] Fetching all due players...
-[05:48:40] [Craft Scheduler Thread - 144/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:50:40] [Craft Scheduler Thread - 153/INFO]: [BuycraftX] Fetching all due players...
-[05:50:41] [Craft Scheduler Thread - 153/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:52:41] [Craft Scheduler Thread - 149/INFO]: [BuycraftX] Fetching all due players...
-[05:52:41] [Craft Scheduler Thread - 149/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:54:41] [Craft Scheduler Thread - 149/INFO]: [BuycraftX] Fetching all due players...
-[05:54:41] [Craft Scheduler Thread - 149/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:56:41] [Craft Scheduler Thread - 154/INFO]: [BuycraftX] Fetching all due players...
-[05:56:41] [Craft Scheduler Thread - 154/INFO]: [BuycraftX] Fetched due players (0 found).
-[05:58:15] [Votifier epoll worker/ERROR]: [Votifier] Unable to process vote from /84.54.51.121:61000
-com.vexsoftware.votifier.io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
-[05:58:41] [Craft Scheduler Thread - 148/INFO]: [BuycraftX] Fetching all due players...
-[05:58:41] [Craft Scheduler Thread - 148/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:00:42] [Craft Scheduler Thread - 156/INFO]: [BuycraftX] Fetching all due players...
-[06:00:42] [Craft Scheduler Thread - 156/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:02:41] [Craft Scheduler Thread - 158/INFO]: [BuycraftX] Fetching all due players...
-[06:02:42] [Craft Scheduler Thread - 158/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:04:42] [Craft Scheduler Thread - 159/INFO]: [BuycraftX] Fetching all due players...
-[06:04:42] [Craft Scheduler Thread - 159/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:06:42] [Craft Scheduler Thread - 159/INFO]: [BuycraftX] Fetching all due players...
-[06:06:42] [Craft Scheduler Thread - 159/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:08:42] [Craft Scheduler Thread - 157/INFO]: [BuycraftX] Fetching all due players...
-[06:08:42] [Craft Scheduler Thread - 157/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:10:43] [Craft Scheduler Thread - 149/INFO]: [BuycraftX] Fetching all due players...
-[06:10:43] [Craft Scheduler Thread - 149/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:12:43] [Craft Scheduler Thread - 148/INFO]: [BuycraftX] Fetching all due players...
-[06:12:43] [Craft Scheduler Thread - 148/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:14:43] [Craft Scheduler Thread - 161/INFO]: [BuycraftX] Fetching all due players...
-[06:14:43] [Craft Scheduler Thread - 161/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:16:43] [Craft Scheduler Thread - 160/INFO]: [BuycraftX] Fetching all due players...
-[06:16:44] [Craft Scheduler Thread - 160/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:18:43] [Craft Scheduler Thread - 154/INFO]: [BuycraftX] Fetching all due players...
-[06:18:43] [Craft Scheduler Thread - 154/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:20:43] [Craft Scheduler Thread - 162/INFO]: [BuycraftX] Fetching all due players...
-[06:20:43] [Craft Scheduler Thread - 162/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:22:43] [Craft Scheduler Thread - 163/INFO]: [BuycraftX] Fetching all due players...
-[06:22:43] [Craft Scheduler Thread - 163/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:24:44] [Craft Scheduler Thread - 164/INFO]: [BuycraftX] Fetching all due players...
-[06:24:44] [Craft Scheduler Thread - 164/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:26:44] [Craft Scheduler Thread - 164/INFO]: [BuycraftX] Fetching all due players...
-[06:26:44] [Craft Scheduler Thread - 164/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:28:44] [Craft Scheduler Thread - 162/INFO]: [BuycraftX] Fetching all due players...
-[06:28:44] [Craft Scheduler Thread - 162/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:30:44] [Craft Scheduler Thread - 164/INFO]: [BuycraftX] Fetching all due players...
-[06:30:44] [Craft Scheduler Thread - 164/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:32:45] [Craft Scheduler Thread - 162/INFO]: [BuycraftX] Fetching all due players...
-[06:32:45] [Craft Scheduler Thread - 162/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:34:45] [Craft Scheduler Thread - 157/INFO]: [BuycraftX] Fetching all due players...
-[06:34:45] [Craft Scheduler Thread - 157/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:36:45] [Craft Scheduler Thread - 168/INFO]: [BuycraftX] Fetching all due players...
-[06:36:45] [Craft Scheduler Thread - 168/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:38:45] [Craft Scheduler Thread - 157/INFO]: [BuycraftX] Fetching all due players...
-[06:38:45] [Craft Scheduler Thread - 157/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:40:46] [Craft Scheduler Thread - 169/INFO]: [BuycraftX] Fetching all due players...
-[06:40:46] [Craft Scheduler Thread - 169/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:42:45] [Craft Scheduler Thread - 169/INFO]: [BuycraftX] Fetching all due players...
-[06:42:45] [Craft Scheduler Thread - 169/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:44:45] [Craft Scheduler Thread - 157/INFO]: [BuycraftX] Fetching all due players...
-[06:44:45] [Craft Scheduler Thread - 157/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:46:45] [Craft Scheduler Thread - 168/INFO]: [BuycraftX] Fetching all due players...
-[06:46:45] [Craft Scheduler Thread - 168/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:48:46] [Craft Scheduler Thread - 172/INFO]: [BuycraftX] Fetching all due players...
-[06:48:46] [Craft Scheduler Thread - 172/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:50:46] [Craft Scheduler Thread - 174/INFO]: [BuycraftX] Fetching all due players...
-[06:50:47] [Craft Scheduler Thread - 174/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:52:46] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetching all due players...
-[06:52:47] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:54:47] [Craft Scheduler Thread - 176/INFO]: [BuycraftX] Fetching all due players...
-[06:54:47] [Craft Scheduler Thread - 176/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:56:47] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetching all due players...
-[06:56:48] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetched due players (0 found).
-[06:58:48] [Craft Scheduler Thread - 176/INFO]: [BuycraftX] Fetching all due players...
-[06:58:49] [Craft Scheduler Thread - 176/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:00:49] [Craft Scheduler Thread - 179/INFO]: [BuycraftX] Fetching all due players...
-[07:00:49] [Craft Scheduler Thread - 179/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:02:50] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetching all due players...
-[07:02:50] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:04:50] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetching all due players...
-[07:04:50] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:06:50] [Craft Scheduler Thread - 176/INFO]: [BuycraftX] Fetching all due players...
-[07:06:50] [Craft Scheduler Thread - 176/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:08:51] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetching all due players...
-[07:08:52] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:10:51] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetching all due players...
-[07:10:51] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:12:52] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetching all due players...
-[07:12:52] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:14:53] [Craft Scheduler Thread - 183/INFO]: [BuycraftX] Fetching all due players...
-[07:14:53] [Craft Scheduler Thread - 183/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:16:52] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetching all due players...
-[07:16:53] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:18:53] [Craft Scheduler Thread - 172/INFO]: [BuycraftX] Fetching all due players...
-[07:18:54] [Craft Scheduler Thread - 172/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:20:53] [Craft Scheduler Thread - 172/INFO]: [BuycraftX] Fetching all due players...
-[07:20:53] [Craft Scheduler Thread - 172/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:22:53] [Craft Scheduler Thread - 184/INFO]: [BuycraftX] Fetching all due players...
-[07:22:53] [Craft Scheduler Thread - 184/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:24:54] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetching all due players...
-[07:24:54] [Craft Scheduler Thread - 166/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:26:54] [Craft Scheduler Thread - 183/INFO]: [BuycraftX] Fetching all due players...
-[07:26:54] [Craft Scheduler Thread - 183/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:28:54] [Craft Scheduler Thread - 183/INFO]: [BuycraftX] Fetching all due players...
-[07:28:55] [Craft Scheduler Thread - 183/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:29:37] [Votifier epoll worker/ERROR]: [Votifier] Unable to process vote from /91.191.209.142:65382
-com.vexsoftware.votifier.io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Connection reset by peer
-[07:30:54] [Craft Scheduler Thread - 187/INFO]: [BuycraftX] Fetching all due players...
-[07:30:54] [Craft Scheduler Thread - 187/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:32:55] [Craft Scheduler Thread - 187/INFO]: [BuycraftX] Fetching all due players...
-[07:32:55] [Craft Scheduler Thread - 187/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:34:55] [Craft Scheduler Thread - 189/INFO]: [BuycraftX] Fetching all due players...
-[07:34:55] [Craft Scheduler Thread - 189/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:36:55] [Craft Scheduler Thread - 190/INFO]: [BuycraftX] Fetching all due players...
-[07:36:55] [Craft Scheduler Thread - 190/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:38:55] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetching all due players...
-[07:38:55] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:40:55] [Craft Scheduler Thread - 191/INFO]: [BuycraftX] Fetching all due players...
-[07:40:55] [Craft Scheduler Thread - 191/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:42:55] [Craft Scheduler Thread - 187/INFO]: [BuycraftX] Fetching all due players...
-[07:42:56] [Craft Scheduler Thread - 187/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:44:56] [Craft Scheduler Thread - 192/INFO]: [BuycraftX] Fetching all due players...
-[07:44:56] [Craft Scheduler Thread - 192/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:46:56] [Craft Scheduler Thread - 187/INFO]: [BuycraftX] Fetching all due players...
-[07:46:56] [Craft Scheduler Thread - 187/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:48:57] [Craft Scheduler Thread - 192/INFO]: [BuycraftX] Fetching all due players...
-[07:48:57] [Craft Scheduler Thread - 192/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:50:57] [Craft Scheduler Thread - 189/INFO]: [BuycraftX] Fetching all due players...
-[07:50:57] [Craft Scheduler Thread - 189/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:52:58] [Craft Scheduler Thread - 194/INFO]: [BuycraftX] Fetching all due players...
-[07:52:58] [Craft Scheduler Thread - 194/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:54:57] [Craft Scheduler Thread - 193/INFO]: [BuycraftX] Fetching all due players...
-[07:54:57] [Craft Scheduler Thread - 193/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:56:58] [Craft Scheduler Thread - 194/INFO]: [BuycraftX] Fetching all due players...
-[07:56:58] [Craft Scheduler Thread - 194/INFO]: [BuycraftX] Fetched due players (0 found).
-[07:58:58] [Craft Scheduler Thread - 196/INFO]: [BuycraftX] Fetching all due players...
-[07:58:58] [Craft Scheduler Thread - 196/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:00:58] [Craft Scheduler Thread - 193/INFO]: [BuycraftX] Fetching all due players...
-[08:00:58] [Craft Scheduler Thread - 193/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:02:59] [Craft Scheduler Thread - 196/INFO]: [BuycraftX] Fetching all due players...
-[08:02:59] [Craft Scheduler Thread - 196/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:04:59] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetching all due players...
-[08:04:59] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:06:59] [Craft Scheduler Thread - 197/INFO]: [BuycraftX] Fetching all due players...
-[08:06:59] [Craft Scheduler Thread - 197/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:09:00] [Craft Scheduler Thread - 200/INFO]: [BuycraftX] Fetching all due players...
-[08:09:00] [Craft Scheduler Thread - 200/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:11:00] [Craft Scheduler Thread - 196/INFO]: [BuycraftX] Fetching all due players...
-[08:11:00] [Craft Scheduler Thread - 196/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:13:01] [Craft Scheduler Thread - 197/INFO]: [BuycraftX] Fetching all due players...
-[08:13:01] [Craft Scheduler Thread - 197/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:15:01] [Craft Scheduler Thread - 200/INFO]: [BuycraftX] Fetching all due players...
-[08:15:01] [Craft Scheduler Thread - 200/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:17:01] [Craft Scheduler Thread - 202/INFO]: [BuycraftX] Fetching all due players...
-[08:17:01] [Craft Scheduler Thread - 202/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:19:02] [Craft Scheduler Thread - 202/INFO]: [BuycraftX] Fetching all due players...
-[08:19:02] [Craft Scheduler Thread - 202/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:21:02] [Craft Scheduler Thread - 203/INFO]: [BuycraftX] Fetching all due players...
-[08:21:02] [Craft Scheduler Thread - 203/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:23:02] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetching all due players...
-[08:23:02] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:25:02] [Craft Scheduler Thread - 196/INFO]: [BuycraftX] Fetching all due players...
-[08:25:03] [Craft Scheduler Thread - 196/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:27:03] [Craft Scheduler Thread - 202/INFO]: [BuycraftX] Fetching all due players...
-[08:27:03] [Craft Scheduler Thread - 202/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:29:03] [Craft Scheduler Thread - 196/INFO]: [BuycraftX] Fetching all due players...
-[08:29:03] [Craft Scheduler Thread - 196/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:31:03] [Craft Scheduler Thread - 205/INFO]: [BuycraftX] Fetching all due players...
-[08:31:03] [Craft Scheduler Thread - 205/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:33:03] [Craft Scheduler Thread - 206/INFO]: [BuycraftX] Fetching all due players...
-[08:33:04] [Craft Scheduler Thread - 206/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:35:04] [Craft Scheduler Thread - 206/INFO]: [BuycraftX] Fetching all due players...
-[08:35:04] [Craft Scheduler Thread - 206/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:37:04] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetching all due players...
-[08:37:04] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:39:05] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetching all due players...
-[08:39:05] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:41:04] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetching all due players...
-[08:41:04] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:43:05] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetching all due players...
-[08:43:05] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:45:05] [Craft Scheduler Thread - 213/INFO]: [BuycraftX] Fetching all due players...
-[08:45:05] [Craft Scheduler Thread - 213/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:47:06] [Craft Scheduler Thread - 212/INFO]: [BuycraftX] Fetching all due players...
-[08:47:06] [Craft Scheduler Thread - 212/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:49:05] [Craft Scheduler Thread - 212/INFO]: [BuycraftX] Fetching all due players...
-[08:49:05] [Craft Scheduler Thread - 212/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:50:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5546ms or 110 ticks behind
-[08:51:11] [Craft Scheduler Thread - 216/INFO]: [BuycraftX] Fetching all due players...
-[08:51:11] [Craft Scheduler Thread - 216/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:53:11] [Craft Scheduler Thread - 215/INFO]: [BuycraftX] Fetching all due players...
-[08:53:12] [Craft Scheduler Thread - 215/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:55:11] [Craft Scheduler Thread - 217/INFO]: [BuycraftX] Fetching all due players...
-[08:55:12] [Craft Scheduler Thread - 217/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:57:12] [Craft Scheduler Thread - 211/INFO]: [BuycraftX] Fetching all due players...
-[08:57:12] [Craft Scheduler Thread - 211/INFO]: [BuycraftX] Fetched due players (0 found).
-[08:59:13] [Craft Scheduler Thread - 215/INFO]: [BuycraftX] Fetching all due players...
-[08:59:13] [Craft Scheduler Thread - 215/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:01:13] [Craft Scheduler Thread - 215/INFO]: [BuycraftX] Fetching all due players...
-[09:01:13] [Craft Scheduler Thread - 215/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:03:13] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetching all due players...
-[09:03:13] [Craft Scheduler Thread - 178/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:05:14] [Craft Scheduler Thread - 218/INFO]: [BuycraftX] Fetching all due players...
-[09:05:14] [Craft Scheduler Thread - 218/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:07:14] [Craft Scheduler Thread - 218/INFO]: [BuycraftX] Fetching all due players...
-[09:07:14] [Craft Scheduler Thread - 218/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:09:14] [Craft Scheduler Thread - 214/INFO]: [BuycraftX] Fetching all due players...
-[09:09:14] [Craft Scheduler Thread - 214/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:11:15] [Craft Scheduler Thread - 220/INFO]: [BuycraftX] Fetching all due players...
-[09:11:15] [Craft Scheduler Thread - 220/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:13:15] [Craft Scheduler Thread - 211/INFO]: [BuycraftX] Fetching all due players...
-[09:13:15] [Craft Scheduler Thread - 211/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:15:16] [Craft Scheduler Thread - 222/INFO]: [BuycraftX] Fetching all due players...
-[09:15:16] [Craft Scheduler Thread - 222/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:17:16] [Craft Scheduler Thread - 211/INFO]: [BuycraftX] Fetching all due players...
-[09:17:16] [Craft Scheduler Thread - 211/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:19:16] [Craft Scheduler Thread - 214/INFO]: [BuycraftX] Fetching all due players...
-[09:19:16] [Craft Scheduler Thread - 214/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:21:16] [Craft Scheduler Thread - 226/INFO]: [BuycraftX] Fetching all due players...
-[09:21:17] [Craft Scheduler Thread - 226/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:23:16] [Craft Scheduler Thread - 218/INFO]: [BuycraftX] Fetching all due players...
-[09:23:17] [Craft Scheduler Thread - 218/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:25:16] [Craft Scheduler Thread - 218/INFO]: [BuycraftX] Fetching all due players...
-[09:25:17] [Craft Scheduler Thread - 218/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:27:17] [Craft Scheduler Thread - 227/INFO]: [BuycraftX] Fetching all due players...
-[09:27:17] [Craft Scheduler Thread - 227/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:29:17] [Craft Scheduler Thread - 225/INFO]: [BuycraftX] Fetching all due players...
-[09:29:17] [Craft Scheduler Thread - 225/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:31:18] [Craft Scheduler Thread - 227/INFO]: [BuycraftX] Fetching all due players...
-[09:31:18] [Craft Scheduler Thread - 227/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:33:18] [Craft Scheduler Thread - 225/INFO]: [BuycraftX] Fetching all due players...
-[09:33:18] [Craft Scheduler Thread - 225/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:35:19] [Craft Scheduler Thread - 231/INFO]: [BuycraftX] Fetching all due players...
-[09:35:19] [Craft Scheduler Thread - 231/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:37:19] [Craft Scheduler Thread - 225/INFO]: [BuycraftX] Fetching all due players...
-[09:37:19] [Craft Scheduler Thread - 225/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:39:19] [Craft Scheduler Thread - 232/INFO]: [BuycraftX] Fetching all due players...
-[09:39:19] [Craft Scheduler Thread - 232/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:41:19] [Craft Scheduler Thread - 233/INFO]: [BuycraftX] Fetching all due players...
-[09:41:19] [Craft Scheduler Thread - 233/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:43:19] [Craft Scheduler Thread - 234/INFO]: [BuycraftX] Fetching all due players...
-[09:43:20] [Craft Scheduler Thread - 234/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:45:19] [Craft Scheduler Thread - 234/INFO]: [BuycraftX] Fetching all due players...
-[09:45:20] [Craft Scheduler Thread - 234/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:47:20] [Craft Scheduler Thread - 233/INFO]: [BuycraftX] Fetching all due players...
-[09:47:20] [Craft Scheduler Thread - 233/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:49:20] [Craft Scheduler Thread - 230/INFO]: [BuycraftX] Fetching all due players...
-[09:49:20] [Craft Scheduler Thread - 230/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:51:20] [Craft Scheduler Thread - 230/INFO]: [BuycraftX] Fetching all due players...
-[09:51:20] [Craft Scheduler Thread - 230/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:53:21] [Craft Scheduler Thread - 237/INFO]: [BuycraftX] Fetching all due players...
-[09:53:21] [Craft Scheduler Thread - 237/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:55:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5044ms or 100 ticks behind
-[09:55:28] [Craft Scheduler Thread - 238/INFO]: [BuycraftX] Fetching all due players...
-[09:55:28] [Craft Scheduler Thread - 238/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:57:26] [Craft Scheduler Thread - 239/INFO]: [BuycraftX] Fetching all due players...
-[09:57:26] [Craft Scheduler Thread - 239/INFO]: [BuycraftX] Fetched due players (0 found).
-[09:59:26] [Craft Scheduler Thread - 230/INFO]: [BuycraftX] Fetching all due players...
-[09:59:26] [Craft Scheduler Thread - 230/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:01:26] [Craft Scheduler Thread - 242/INFO]: [BuycraftX] Fetching all due players...
-[10:01:26] [Craft Scheduler Thread - 242/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:03:26] [Craft Scheduler Thread - 239/INFO]: [BuycraftX] Fetching all due players...
-[10:03:27] [Craft Scheduler Thread - 239/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:05:27] [Craft Scheduler Thread - 241/INFO]: [BuycraftX] Fetching all due players...
-[10:05:28] [Craft Scheduler Thread - 241/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:07:28] [Craft Scheduler Thread - 239/INFO]: [BuycraftX] Fetching all due players...
-[10:07:28] [Craft Scheduler Thread - 239/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:09:28] [Craft Scheduler Thread - 239/INFO]: [BuycraftX] Fetching all due players...
-[10:09:28] [Craft Scheduler Thread - 239/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:11:28] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetching all due players...
-[10:11:28] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:13:09] [Craft Scheduler Thread - 237/WARN]: Permissions lag notice with (LuckPermsHandler). Response took 48.468060ms. Summary: Getting groups for 8422890b-61b9-4ef6-bc23-4ea2be183437
-[10:13:28] [Craft Scheduler Thread - 240/INFO]: [BuycraftX] Fetching all due players...
-[10:13:28] [Craft Scheduler Thread - 240/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:15:28] [Craft Scheduler Thread - 246/INFO]: [BuycraftX] Fetching all due players...
-[10:15:28] [Craft Scheduler Thread - 246/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:17:29] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetching all due players...
-[10:17:29] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:19:29] [Craft Scheduler Thread - 247/INFO]: [BuycraftX] Fetching all due players...
-[10:19:29] [Craft Scheduler Thread - 247/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:21:29] [Craft Scheduler Thread - 237/INFO]: [BuycraftX] Fetching all due players...
-[10:21:29] [Craft Scheduler Thread - 237/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:23:29] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetching all due players...
-[10:23:29] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:25:30] [Craft Scheduler Thread - 248/INFO]: [BuycraftX] Fetching all due players...
-[10:25:30] [Craft Scheduler Thread - 248/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:27:30] [Craft Scheduler Thread - 246/INFO]: [BuycraftX] Fetching all due players...
-[10:27:30] [Craft Scheduler Thread - 246/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:29:30] [Craft Scheduler Thread - 248/INFO]: [BuycraftX] Fetching all due players...
-[10:29:30] [Craft Scheduler Thread - 248/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:31:31] [Craft Scheduler Thread - 248/INFO]: [BuycraftX] Fetching all due players...
-[10:31:31] [Craft Scheduler Thread - 248/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:33:30] [Craft Scheduler Thread - 248/INFO]: [BuycraftX] Fetching all due players...
-[10:33:30] [Craft Scheduler Thread - 248/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:35:30] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetching all due players...
-[10:35:31] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:37:31] [Craft Scheduler Thread - 252/INFO]: [BuycraftX] Fetching all due players...
-[10:37:31] [Craft Scheduler Thread - 252/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:39:32] [Craft Scheduler Thread - 250/INFO]: [BuycraftX] Fetching all due players...
-[10:39:32] [Craft Scheduler Thread - 250/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:41:32] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetching all due players...
-[10:41:32] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:43:32] [Craft Scheduler Thread - 255/INFO]: [BuycraftX] Fetching all due players...
-[10:43:33] [Craft Scheduler Thread - 255/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:45:32] [Craft Scheduler Thread - 252/INFO]: [BuycraftX] Fetching all due players...
-[10:45:32] [Craft Scheduler Thread - 252/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:47:32] [Craft Scheduler Thread - 256/INFO]: [BuycraftX] Fetching all due players...
-[10:47:33] [Craft Scheduler Thread - 256/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:49:33] [Craft Scheduler Thread - 252/INFO]: [BuycraftX] Fetching all due players...
-[10:49:33] [Craft Scheduler Thread - 252/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:51:33] [Craft Scheduler Thread - 258/INFO]: [BuycraftX] Fetching all due players...
-[10:51:34] [Craft Scheduler Thread - 258/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:53:34] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetching all due players...
-[10:53:34] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:55:34] [Craft Scheduler Thread - 260/INFO]: [BuycraftX] Fetching all due players...
-[10:55:34] [Craft Scheduler Thread - 260/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:56:07] [Craft Scheduler Thread - 245/INFO]: [Vault] Checking for Updates ... 
-[10:56:07] [Craft Scheduler Thread - 245/INFO]: [Vault] No new version available
-[10:57:35] [Craft Scheduler Thread - 259/INFO]: [BuycraftX] Fetching all due players...
-[10:57:35] [Craft Scheduler Thread - 259/INFO]: [BuycraftX] Fetched due players (0 found).
-[10:59:35] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetching all due players...
-[10:59:35] [Craft Scheduler Thread - 245/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:01:35] [Craft Scheduler Thread - 261/INFO]: [BuycraftX] Fetching all due players...
-[11:01:35] [Craft Scheduler Thread - 261/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:03:36] [Craft Scheduler Thread - 260/INFO]: [BuycraftX] Fetching all due players...
-[11:03:36] [Craft Scheduler Thread - 260/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:05:36] [Craft Scheduler Thread - 262/INFO]: [BuycraftX] Fetching all due players...
-[11:05:36] [Craft Scheduler Thread - 262/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:07:36] [Craft Scheduler Thread - 260/INFO]: [BuycraftX] Fetching all due players...
-[11:07:36] [Craft Scheduler Thread - 260/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:09:36] [Craft Scheduler Thread - 259/INFO]: [BuycraftX] Fetching all due players...
-[11:09:37] [Craft Scheduler Thread - 259/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:11:37] [Craft Scheduler Thread - 260/INFO]: [BuycraftX] Fetching all due players...
-[11:11:37] [Craft Scheduler Thread - 260/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:13:37] [Craft Scheduler Thread - 264/INFO]: [BuycraftX] Fetching all due players...
-[11:13:37] [Craft Scheduler Thread - 264/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:15:37] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetching all due players...
-[11:15:38] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:17:38] [Craft Scheduler Thread - 267/INFO]: [BuycraftX] Fetching all due players...
-[11:17:38] [Craft Scheduler Thread - 267/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:19:39] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetching all due players...
-[11:19:39] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:21:39] [Craft Scheduler Thread - 264/INFO]: [BuycraftX] Fetching all due players...
-[11:21:39] [Craft Scheduler Thread - 264/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:23:39] [Craft Scheduler Thread - 268/INFO]: [BuycraftX] Fetching all due players...
-[11:23:39] [Craft Scheduler Thread - 268/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:25:40] [Craft Scheduler Thread - 268/INFO]: [BuycraftX] Fetching all due players...
-[11:25:40] [Craft Scheduler Thread - 268/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:27:40] [Craft Scheduler Thread - 268/INFO]: [BuycraftX] Fetching all due players...
-[11:27:41] [Craft Scheduler Thread - 268/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:29:40] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetching all due players...
-[11:29:40] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:31:40] [Craft Scheduler Thread - 270/INFO]: [BuycraftX] Fetching all due players...
-[11:31:40] [Craft Scheduler Thread - 270/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:33:41] [Craft Scheduler Thread - 269/INFO]: [BuycraftX] Fetching all due players...
-[11:33:41] [Craft Scheduler Thread - 269/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:35:42] [Craft Scheduler Thread - 264/INFO]: [BuycraftX] Fetching all due players...
-[11:35:43] [Craft Scheduler Thread - 264/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:37:43] [Craft Scheduler Thread - 267/INFO]: [BuycraftX] Fetching all due players...
-[11:37:43] [Craft Scheduler Thread - 267/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:39:43] [Craft Scheduler Thread - 264/INFO]: [BuycraftX] Fetching all due players...
-[11:39:43] [Craft Scheduler Thread - 264/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:41:43] [Craft Scheduler Thread - 264/INFO]: [BuycraftX] Fetching all due players...
-[11:41:44] [Craft Scheduler Thread - 264/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:43:43] [Craft Scheduler Thread - 273/INFO]: [BuycraftX] Fetching all due players...
-[11:43:43] [Craft Scheduler Thread - 273/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:45:44] [Craft Scheduler Thread - 272/INFO]: [BuycraftX] Fetching all due players...
-[11:45:44] [Craft Scheduler Thread - 272/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:47:44] [Craft Scheduler Thread - 273/INFO]: [BuycraftX] Fetching all due players...
-[11:47:45] [Craft Scheduler Thread - 273/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:49:46] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetching all due players...
-[11:49:46] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:51:45] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetching all due players...
-[11:51:45] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:53:45] [Craft Scheduler Thread - 270/INFO]: [BuycraftX] Fetching all due players...
-[11:53:46] [Craft Scheduler Thread - 270/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:55:46] [Craft Scheduler Thread - 270/INFO]: [BuycraftX] Fetching all due players...
-[11:55:46] [Craft Scheduler Thread - 270/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:57:46] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetching all due players...
-[11:57:46] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetched due players (0 found).
-[11:59:46] [Craft Scheduler Thread - 277/INFO]: [BuycraftX] Fetching all due players...
-[11:59:48] [Craft Scheduler Thread - 277/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:01:48] [Craft Scheduler Thread - 277/INFO]: [BuycraftX] Fetching all due players...
-[12:01:48] [Craft Scheduler Thread - 277/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:03:48] [Craft Scheduler Thread - 278/INFO]: [BuycraftX] Fetching all due players...
-[12:03:49] [Craft Scheduler Thread - 278/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:05:49] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetching all due players...
-[12:05:50] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:07:50] [Craft Scheduler Thread - 283/INFO]: [BuycraftX] Fetching all due players...
-[12:07:50] [Craft Scheduler Thread - 283/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:09:50] [Craft Scheduler Thread - 281/INFO]: [BuycraftX] Fetching all due players...
-[12:09:50] [Craft Scheduler Thread - 281/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:11:50] [Craft Scheduler Thread - 277/INFO]: [BuycraftX] Fetching all due players...
-[12:11:51] [Craft Scheduler Thread - 277/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:13:52] [Craft Scheduler Thread - 277/INFO]: [BuycraftX] Fetching all due players...
-[12:13:52] [Craft Scheduler Thread - 277/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:15:52] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetching all due players...
-[12:15:52] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:17:52] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetching all due players...
-[12:17:52] [Craft Scheduler Thread - 265/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:19:52] [Craft Scheduler Thread - 287/INFO]: [BuycraftX] Fetching all due players...
-[12:19:52] [Craft Scheduler Thread - 287/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:21:52] [Craft Scheduler Thread - 286/INFO]: [BuycraftX] Fetching all due players...
-[12:21:52] [Craft Scheduler Thread - 286/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:23:48] [User Authenticator #10/INFO]: UUID of player Rebbebba is 24417846-d5ed-4608-ae7a-ed643b41c5e1
-[12:23:48] [Server thread/INFO]: [StatPlugin] Loading Rebbebba's file from: plugins/StatPlugin/Rebbebba.json
-[12:23:48] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to StatPlugin v1.0-SNAPSHOT
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:308) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:183) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:169) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:75) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:285) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:175) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1324) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
+[17:53:24] [Server thread/INFO]: This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[17:53:24] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:53:24] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.0
+[17:53:24] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:53:24] [Server thread/INFO]: [LibertyBans] Enabling LibertyBans v1.1.0-M2
+[17:53:24] [Server thread/INFO]: [LibertyBans] No addons detected
+[17:53:24] [Server thread/INFO]: No addons loaded
+[17:53:25] [Server thread/INFO]: Conducting start phase...
+[17:53:25] [Server thread/ERROR]: Error occurred while enabling LibertyBans v1.1.0-M2 (Is it up to date?)
+java.util.concurrent.CompletionException: java.lang.NoSuchMethodError: org.yaml.snakeyaml.representer.Representer: method 'void <init>()' not found
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) ~[?:?]
+Caused by: java.lang.NoSuchMethodError: org.yaml.snakeyaml.representer.Representer: method 'void <init>()' not found
+	at space.arim.dazzleconf.ext.snakeyaml.SnakeYamlOptions$Builder.lambda$new$0(SnakeYamlOptions.java:111) ~[?:?]
+	at space.arim.dazzleconf.ext.snakeyaml.SnakeYamlConfigurationFactory.loadMapFromReader(SnakeYamlConfigurationFactory.java:131) ~[?:?]
+	at space.arim.dazzleconf.factory.AbstractConfigurationFactory$ConfigFactoryDelegate.loadMap(AbstractConfigurationFactory.java:148) ~[?:?]
+	at space.arim.dazzleconf.factory.HumanReadableConfigurationFactory.bufferedLoadMap(HumanReadableConfigurationFactory.java:90) ~[?:?]
+	at space.arim.dazzleconf.factory.HumanReadableConfigurationFactory.loadMap(HumanReadableConfigurationFactory.java:78) ~[?:?]
+	at space.arim.dazzleconf.factory.ConfigurationFormatFactory.load(ConfigurationFormatFactory.java:126) ~[?:?]
+	at space.arim.dazzleconf.factory.DelegatingConfigurationFactory.load(DelegatingConfigurationFactory.java:57) ~[?:?]
+	at space.arim.dazzleconf.factory.AbstractConfigurationFactory.load(AbstractConfigurationFactory.java:42) ~[?:?]
+	at space.arim.libertybans.core.config.ConfigHolder.loadFromPath(ConfigHolder.java:116) ~[?:?]
+	at space.arim.libertybans.core.config.ConfigHolder.lambda$reload$0(ConfigHolder.java:87) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[17:53:25] [Server thread/INFO]: [GSit] Enabling GSit v1.4.6
+[17:53:25] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[17:53:25] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[17:53:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gsit [1.4.6]
+[17:53:25] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[17:53:25] [Server thread/INFO]: [GSit] New version available: 1.4.9!
+[17:53:25] [Server thread/INFO]: [GSit] You are currently running version: 1.4.6!
+[17:53:25] [Server thread/INFO]: [GSit] Download the latest version at:
+[17:53:25] [Server thread/INFO]: [GSit] https://www.spigotmc.org/resources/62325
+[17:53:25] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.0
+[17:53:25] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:53:25] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.3
+[17:53:25] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[17:53:25] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[17:53:25] [Server thread/INFO]: --------------------
+[17:53:25] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[17:53:25] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[17:53:25] [Server thread/INFO]: --------------------
+[17:53:25] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.12.2 (build 353)
+[17:53:25] [Server thread/INFO]: [ChestShop] Found locales ar, it, es, el, hu, fr, pl, cs, pt_br, ja, sv, da, es_mx, sr, tr, nl, zh_tw, af, ko, no, vi, ro, he, ru, ca, zh, de, fi, en, uk
+[17:53:25] [Server thread/INFO]: [ChestShop] Using EssentialsX Economy as the Economy provider now.
+[17:53:25] [Server thread/INFO]: [ChestShop] Vault loaded!
+[17:53:25] [Server thread/INFO]: [ChestShop] Auto-updater is disabled. If you want the plugin to automatically download new releases then set 'TURN_OFF_UPDATES' to 'false' in your config.yml!
+[17:53:25] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.20.0
+[17:53:25] [Server thread/WARN]: Loaded class {0} from {1} which is not a depend or softdepend of this plugin.
+[17:53:25] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:53:25] [Server thread/INFO]: trying to log in...
+[17:53:26] [Server thread/INFO]: Login Successful!
+[17:53:26] [JDA MainWS-ReadThread/INFO]: Connected to WebSocket
+[17:53:26] [JDA MainWS-ReadThread/INFO]: Finished Loading!
+[17:53:26] [Server thread/INFO]: u r in as the robot#4146
+[17:53:28] [Server thread/INFO]: [SignShop] Enabling SignShop v3.7.2
+[17:53:28] [Server thread/INFO]: [SignShop] Checking data version.
+[17:53:28] [Server thread/INFO]: [SignShop] Your data is current.
+[17:53:28] [Server thread/INFO]: [SignShop] Loading and validating shops, please wait...
+[17:53:28] [Server thread/INFO]: [SignShop] Loaded 18 valid shops.
+[17:53:28] [Server thread/WARN]: [SignShop] Loaded class org.dynmap.DynmapAPI from dynmap v3.6-beta-2-894 which is not a depend or softdepend of this plugin.
+[17:53:28] [Server thread/INFO]: [SignShop] Thank you for enabling metrics!
+[17:53:28] [Server thread/WARN]: [SignShop] Spawn-Protection is set to 16 in server.properties and there are 9 ops!
+[17:53:28] [Server thread/WARN]: [SignShop] Non-opped players may not be able to use SignShop signs in spawn!
+[17:53:28] [Server thread/WARN]: [SignShop] Please set 'spawn-protection' to 0 and use a protection plugin to protect spawn instead.
+[17:53:28] [Server thread/INFO]: [SignShop] v3.7.2 Enabled
+[17:53:28] [Server thread/INFO]: Enabling EssentialsDiscordLink v2.20.0
+[17:53:29] [Server thread/WARN]: Invalid group dollars-mode was provided for role 1114618773597605978. The following groups are available: [default, trusted, moderator, host, admin, vip]
+[17:53:29] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[17:53:29] [Server thread/WARN]: Could not register alias sell because it contains commands that do not exist: economyshopgui:sellall $1-
+[17:53:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:53:29] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:53:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:53:29] [Server thread/INFO]: [Geyser-Spigot] 
+[17:53:29] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-0e3e2d0)
+[17:53:29] [Server thread/INFO]: [Geyser-Spigot] 
+[17:53:29] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:53:29] [ForkJoinPool.commonPool-worker-3/WARN]: [PlaceholderAPI] Loaded class net.ess3.api.IEssentials from Essentials v2.20.0 which is not a depend or softdepend of this plugin.
+[17:53:30] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[17:53:31] [Server thread/INFO]: [Geyser-Spigot] Done (1.806s)! Run /geyser help for help!
+[17:53:31] [Server thread/INFO]: Done (22.992s)! For help, type "help"
+[17:53:31] [Server thread/INFO]: Starting GS4 status listener
+[17:53:31] [Server thread/INFO]: Thread Query Listener started
+[17:53:31] [Query Listener #1/INFO]: Query running on 0.0.0.0:25566
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[17:53:31] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[17:53:31] [Craft Scheduler Thread - 8/INFO]: §7Fetching version information...
+[17:53:31] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[17:53:31] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: world [1.2.2]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: string [1.0.1]
+[17:53:31] [Server thread/ERROR]: [PlaceholderAPI] Failed to load expansion class VipSystemExpansion - One of its properties is null which is not allowed!
+java.lang.NullPointerException: The expansion version is null!
+	at java.util.Objects.requireNonNull(Objects.java:259) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.register(LocalExpansionManager.java:181) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at me.clip.placeholderapi.expansion.manager.LocalExpansionManager.lambda$registerAll$4(LocalExpansionManager.java:356) ~[?:?]
+	at me.clip.placeholderapi.util.Futures.lambda$null$0(Futures.java:46) ~[?:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:415) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1257) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
 	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:388) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
 	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1198) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1015) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
 	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot read field "swiftnessLevel" because "playerStat" is null
-	at me.damor.statplugin.PlayerManager.applyEffects(PlayerManager.java:84) ~[?:?]
-	at me.damor.statplugin.PlayerManager.addPlayer(PlayerManager.java:137) ~[?:?]
-	at me.damor.statplugin.PlayerListener.onPlayerJoin(PlayerListener.java:27) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[12:23:48] [Server thread/INFO]: Rebbebba[/68.132.130.223:60926] logged in with entity id 1651817 at ([world]1917.8026065040067, 65.18919737003976, -1639.397597923877)
-[12:23:49] [Server thread/INFO]: 🌐️ → Rebbebba
-[12:23:53] [Craft Scheduler Thread - 290/INFO]: [BuycraftX] Fetching all due players...
-[12:23:53] [Craft Scheduler Thread - 290/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:24:06] [Craft Scheduler Thread - 286/INFO]: [BuycraftX] Sending 1 analytic events
-[12:25:53] [Craft Scheduler Thread - 284/INFO]: [BuycraftX] Fetching all due players...
-[12:25:53] [Craft Scheduler Thread - 284/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:27:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5094ms or 101 ticks behind
-[12:28:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 55055ms or 1101 ticks behind
-[12:28:57] [Craft Scheduler Thread - 293/INFO]: [BuycraftX] Fetching all due players...
-[12:28:57] [Craft Scheduler Thread - 293/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:29:03] [Server thread/INFO]: Rebbebba issued server command: /gamemode creative
-[12:29:58] [Server thread/INFO]: Rebbebba issued server command: /gamemode survival
-[12:30:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 59764ms or 1195 ticks behind
-[12:31:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 62007ms or 1240 ticks behind
-[12:33:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 68459ms or 1369 ticks behind
-[12:35:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 86929ms or 1738 ticks behind
-[12:35:35] [Craft Scheduler Thread - 284/INFO]: [BuycraftX] Fetching all due players...
-[12:35:35] [Craft Scheduler Thread - 284/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:36:44] [Server thread/INFO]: Rebbebba lost connection: Disconnected
-[12:36:44] [Server thread/INFO]: 🌐️ ← Rebbebba
-[12:37:09] [User Authenticator #11/INFO]: UUID of player Rebbebba is 24417846-d5ed-4608-ae7a-ed643b41c5e1
-[12:37:10] [Server thread/INFO]: [StatPlugin] Loading Rebbebba's file from: plugins/StatPlugin/Rebbebba.json
-[12:37:10] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to StatPlugin v1.0-SNAPSHOT
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:308) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:183) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:169) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:75) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:285) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:175) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1324) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:388) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1198) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1015) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.20.1-R0.1-SNAPSHOT.jar:3828-Spigot-9ebce8a-202fc5c]
-	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot read field "swiftnessLevel" because "playerStat" is null
-	at me.damor.statplugin.PlayerManager.applyEffects(PlayerManager.java:84) ~[?:?]
-	at me.damor.statplugin.PlayerManager.addPlayer(PlayerManager.java:137) ~[?:?]
-	at me.damor.statplugin.PlayerListener.onPlayerJoin(PlayerListener.java:27) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[12:37:10] [Server thread/INFO]: Rebbebba[/68.132.130.223:61387] logged in with entity id 1659095 at ([world]1908.0667132371582, 64.0, -1370.115986211524)
-[12:37:10] [Server thread/INFO]: 🌐️ → Rebbebba
-[12:37:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 94027ms or 1880 ticks behind
-[12:40:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 122826ms or 2456 ticks behind
-[12:40:10] [Server thread/INFO]: Rebbebba issued server command: /home
-[12:40:24] [Server thread/INFO]: Rebbebba issued server command: /warp building
-[12:40:31] [Server thread/INFO]: Rebbebba issued server command: /warp spawn
-[12:42:24] [Craft Scheduler Thread - 290/INFO]: [BuycraftX] Sending 2 analytic events
-[12:44:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 253614ms or 5072 ticks behind
-[12:47:58] [Server thread/INFO]: Rebbebba issued server command: /gamemode cre
-[12:48:02] [Server thread/INFO]: Rebbebba issued server command: /gamemode creative
-[12:48:09] [Server thread/INFO]: Rebbebba issued server command: /gamemode survival
-[12:50:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 285682ms or 5713 ticks behind
-[12:50:23] [Craft Scheduler Thread - 300/INFO]: [BuycraftX] Fetching all due players...
-[12:50:23] [Craft Scheduler Thread - 300/INFO]: [BuycraftX] Fetched due players (0 found).
-[12:55:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 299224ms or 5984 ticks behind
-[13:01:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 336457ms or 6729 ticks behind
-[13:03:12] [Server thread/INFO]: Rebbebba issued server command: /claim
-[13:03:29] [Server thread/INFO]: Rebbebba issued server command: /claim Home Sweet Home
-[13:03:53] [User Authenticator #12/INFO]: UUID of player cumprescription is a80713e0-1876-4684-9ee4-15445f3015b1
-[13:03:54] [Server thread/INFO]: cumprescription[/67.245.213.23:59040] logged in with entity id 1683252 at ([quest]-1.2172446127943803, -59.9375, -27.513661888236136)
-[13:03:54] [Server thread/INFO]: 🌐️ → cumprescription
-[13:04:04] [Server thread/INFO]: cumprescription issued server command: /v
-[13:04:09] [Server thread/INFO]: cumprescription issued server command: /fly
-[13:04:11] [Server thread/INFO]: cumprescription issued server command: /tp reb
-[13:04:19] [Server thread/INFO]: cumprescription issued server command: /fly
-[13:04:26] [Server thread/INFO]: cumprescription issued server command: /gamemode spe
-[13:04:30] [Server thread/INFO]: cumprescription issued server command: /gamemode spectator
-[13:04:59] [Server thread/INFO]: cumprescription lost connection: Disconnected
-[13:04:59] [Server thread/INFO]: [StatPlugin] Creating new file for cumprescription at: plugins/StatPlugin/cumprescription.json
-[13:04:59] [Server thread/INFO]: 🌐️ ← cumprescription
-[13:05:12] [Craft Scheduler Thread - 305/INFO]: [BuycraftX] Sending 2 analytic events
-[13:05:50] [Server thread/INFO]: Rebbebba issued server command: /claim Chicago
-[13:07:56] [Server thread/WARN]: Rebbebba moved too quickly! 10.096982079055124,0.24813599859093927,-0.9483765062576026
-[13:08:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 380915ms or 7618 ticks behind
-[13:15:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 385219ms or 7704 ticks behind
-[13:15:51] [Craft Scheduler Thread - 309/INFO]: [BuycraftX] Fetching all due players...
-[13:15:52] [Craft Scheduler Thread - 309/INFO]: [BuycraftX] Fetched due players (0 found).
-[13:18:12] [Server thread/INFO]: Rebbebba lost connection: Disconnected
-[13:18:12] [Server thread/INFO]: 🌐️ ← Rebbebba
-[13:19:10] [Craft Scheduler Thread - 309/INFO]: [BuycraftX] Sending 1 analytic events
-[13:21:21] [User Authenticator #13/INFO]: UUID of player ThatOnePenguin_2 is 6279a5f3-b867-417e-90de-6bf3b247925d
-[13:21:21] [Server thread/INFO]: [StatPlugin] Loading ThatOnePenguin_2's file from: plugins/StatPlugin/ThatOnePenguin_2.json
-[13:21:21] [Server thread/INFO]: ThatOnePenguin_2[/47.41.79.36:51468] logged in with entity id 1726229 at ([world]-1707.957322675549, 63.0, -1898.846927595178)
-[13:21:22] [Server thread/INFO]: 🌐️ → ThatOnePenguin_2
-[13:23:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 428416ms or 8568 ticks behind
-[13:24:03] [Server thread/INFO]: ThatOnePenguin_2 lost connection: Disconnected
-[13:24:03] [Server thread/INFO]: 🌐️ ← ThatOnePenguin_2
-[13:31:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 479234ms or 9584 ticks behind
-[13:35:58] [Craft Scheduler Thread - 323/INFO]: [BuycraftX] Sending 2 analytic events
-[13:40:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 482878ms or 9657 ticks behind
-[13:45:19] [User Authenticator #14/INFO]: UUID of player SassyMassy201 is beeb80f8-28af-49cb-b37a-652f25e4531b
-[13:45:21] [Server thread/INFO]: [StatPlugin] Loading SassyMassy201's file from: plugins/StatPlugin/SassyMassy201.json
-[13:45:21] [Server thread/INFO]: SassyMassy201[/96.58.15.107:49993] logged in with entity id 1793884 at ([world]-1881.216747018688, 78.0, -1693.0617102649962)
-[13:45:21] [Server thread/INFO]: 🌐️ → SassyMassy201
-[13:45:33] [Server thread/INFO]: SassyMassy201 issued server command: /claim
-[13:45:39] [Server thread/INFO]: SassyMassy201 issued server command: /claim help
-[13:45:45] [Server thread/INFO]: SassyMassy201 issued server command: /claim help
-[13:45:58] [Server thread/INFO]: SassyMassy201 issued server command: /claim marville
-[13:46:03] [Server thread/INFO]: SassyMassy201 issued server command: /gmc
-[13:46:42] [Server thread/INFO]: SassyMassy201 issued server command: /gms
-[13:46:50] [Server thread/INFO]: SassyMassy201 issued server command: /claim myclaims
-[13:46:56] [Server thread/INFO]: SassyMassy201 issued server command: /claim info
-[13:47:19] [Server thread/INFO]: SassyMassy201 issued server command: /claim <marville>
-[13:47:36] [Server thread/INFO]: SassyMassy201 lost connection: Disconnected
-[13:47:36] [Server thread/INFO]: 🌐️ ← SassyMassy201
-[13:48:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 474408ms or 9488 ticks behind
-[13:49:01] [Craft Scheduler Thread - 330/INFO]: [BuycraftX] Fetching all due players...
-[13:49:02] [Craft Scheduler Thread - 330/INFO]: [BuycraftX] Fetched due players (0 found).
-[13:52:56] [Craft Scheduler Thread - 332/INFO]: [BuycraftX] Sending 2 analytic events
-[13:57:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 485062ms or 9701 ticks behind
-[14:05:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 480955ms or 9619 ticks behind
-[14:14:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 480640ms or 9612 ticks behind
-[14:22:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 481213ms or 9624 ticks behind
-[14:23:09] [Craft Scheduler Thread - 343/INFO]: [BuycraftX] Fetching all due players...
-[14:23:10] [Craft Scheduler Thread - 343/INFO]: [BuycraftX] Fetched due players (0 found).
-[14:31:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 481267ms or 9625 ticks behind
-[14:35:00] [User Authenticator #15/INFO]: UUID of player ThatOnePenguin_2 is 6279a5f3-b867-417e-90de-6bf3b247925d
-[14:35:00] [Server thread/INFO]: [StatPlugin] Loading ThatOnePenguin_2's file from: plugins/StatPlugin/ThatOnePenguin_2.json
-[14:35:00] [Server thread/INFO]: ThatOnePenguin_2[/47.41.79.36:54254] logged in with entity id 1942342 at ([world]-1711.712938454129, 64.0, -1910.513346586572)
-[14:35:01] [Server thread/INFO]: 🌐️ → ThatOnePenguin_2
-[14:39:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 451314ms or 9026 ticks behind
-[14:43:05] [Craft Scheduler Thread - 351/INFO]: [BuycraftX] Sending 1 analytic events
-[14:46:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 421025ms or 8420 ticks behind
-[14:54:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 422339ms or 8446 ticks behind
-[14:54:41] [Craft Scheduler Thread - 351/INFO]: [BuycraftX] Fetching all due players...
-[14:54:41] [Craft Scheduler Thread - 351/INFO]: [BuycraftX] Fetched due players (0 found).
-[15:01:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 422584ms or 8451 ticks behind
-[15:02:35] [Server thread/INFO]: ThatOnePenguin_2 lost connection: Disconnected
-[15:02:35] [Server thread/INFO]: 🌐️ ← ThatOnePenguin_2
-[15:10:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 499897ms or 9997 ticks behind
-[15:15:15] [Craft Scheduler Thread - 362/INFO]: [BuycraftX] Sending 1 analytic events
-[15:19:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 508608ms or 10172 ticks behind
-[15:28:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 508400ms or 10168 ticks behind
-[15:29:07] [Craft Scheduler Thread - 368/INFO]: [BuycraftX] Fetching all due players...
-[15:29:07] [Craft Scheduler Thread - 368/INFO]: [BuycraftX] Fetched due players (0 found).
-[15:37:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 509379ms or 10187 ticks behind
-[15:47:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 590554ms or 11811 ticks behind
-[15:56:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 501581ms or 10031 ticks behind
-[16:05:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 501830ms or 10036 ticks behind
-[16:06:10] [Craft Scheduler Thread - 383/INFO]: [BuycraftX] Fetching all due players...
-[16:06:10] [Craft Scheduler Thread - 383/INFO]: [BuycraftX] Fetched due players (0 found).
-[16:14:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 501909ms or 10038 ticks behind
-[16:23:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 502142ms or 10042 ticks behind
-[16:32:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 501773ms or 10035 ticks behind
-[16:41:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 501967ms or 10039 ticks behind
-[16:41:37] [Craft Scheduler Thread - 395/INFO]: [BuycraftX] Fetching all due players...
-[16:41:38] [Craft Scheduler Thread - 395/INFO]: [BuycraftX] Fetched due players (0 found).
-[16:49:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 501842ms or 10036 ticks behind
-[16:58:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 502786ms or 10055 ticks behind
-[17:07:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 501964ms or 10039 ticks behind
-[17:16:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 502579ms or 10051 ticks behind
-[17:17:09] [Craft Scheduler Thread - 405/INFO]: [BuycraftX] Fetching all due players...
-[17:17:09] [Craft Scheduler Thread - 405/INFO]: [BuycraftX] Fetched due players (0 found).
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ViaVersion [2.0.0]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.2]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: sound [1.0.0]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: rainbowcolor [1.2]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: utils [1.0.0]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: str [1.0.0]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: localtime [1.2]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.8.1]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: essentials [1.5.2]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: geolocation [1.1]
+[17:53:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ascii [1.0.0]
+[17:53:31] [Server thread/INFO]: 13 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[17:53:31] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[17:53:31] [Craft Scheduler Thread - 0/INFO]: [Vault] Checking for Updates ... 
+[17:53:31] [Craft Scheduler Thread - 0/INFO]: [Vault] No new version available
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[17:53:31] [Craft Scheduler Thread - 3/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[17:53:31] [ForkJoinPool.commonPool-worker-5/INFO]: [Geyser-Spigot] §aThere's a new Geyser update available to support Bedrock version 1.20.10. Download it here: §9§nhttps://ci.geysermc.org
+[17:53:31] [Server thread/INFO]: [VotingPlugin] Successfully hooked into vault economy!
+[17:53:31] [Server thread/INFO]: [VotingPlugin] Hooked into vault permissions
+[17:53:31] [Craft Scheduler Thread - 4/INFO]: There is an update available for MiniMOTD!
+[17:53:31] [Craft Scheduler Thread - 4/INFO]: This server is running version v2.0.12, which is 1 versions outdated.
+[17:53:31] [Craft Scheduler Thread - 4/INFO]: Download the latest version, v2.0.13 from GitHub at the link below:
+[17:53:31] [Craft Scheduler Thread - 4/INFO]: https://github.com/jpenilla/MiniMOTD/releases/tag/v2.0.13
+[17:53:31] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[17:53:31] [Craft Scheduler Thread - 0/INFO]: [VotingPlugin] VotingPlugin is up to date! Version: 6.13.1
+[17:53:31] [Craft Scheduler Thread - 0/INFO]: [BuycraftX] Fetching all due players...
+[17:53:32] [Craft Scheduler Thread - 0/INFO]: [BuycraftX] Fetched due players (0 found).

@@ -47,3 +47,4 @@ plugins/VotingPlugin/ServerData.yml
 plugins/SignShop/sellers.yml
 plugins/SignShop/sellers.yml.bak
 plugins/LuckPerms/luckperms-h2-v2.mv.db
+plugins/EssentialsDiscord/config.yml
