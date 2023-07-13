@@ -1,0 +1,36 @@
+# Configuration relative to quests
+quests:
+  # Time in seconds before the quest tracker switch
+  changeTime: 10
+  # If enabled and the player has no quest launched, the scoreboard will disappear
+  # until the player starts a new quest
+  hideIfEmpty: true
+  # If enabled, scoreboard lines containing a {quest_xxx} placeholder
+  # will be automatically refreshed whenever the quest tracker is updated
+  refreshLines: true
+  # If enabled, lines containing quest placeholders which relies on context
+  # (such as {quest_time_left} in the expansion) that are not available for the
+  # currently displayed quest will not be shown.
+  hide unknown quest placeholders: false
+
+worlds:
+  # List of worlds to filter
+  filterList: []
+  # If true, the list above will be treated as an "allow list" and not a "block list"
+  isAllowList: false
+
+# Lines contained in the scoreboard
+#  Available parameters are:
+#  * value: the value of line, surrounded by quotes (')
+#   -> special placeholders: {quest_name}, {quest_advancement}, {quest_description}
+#  * refresh: time in seconds before the line is refreshed (useful with dynamic placeholders)
+#   -> not needed for {quest_xxx} lines if the "refreshLines" setting is set to true
+#  * length: max length of the line, if the number of characters exceed this limit the line will be split
+lines:
+- value: ''
+- value: '§6{quest_name}'
+- value: ''
+- value: '{quest_advancement}'
+  length: 30
+- value: ''
+  

@@ -9,6 +9,11 @@ whitelist.json
 world/
 world_nether/
 world_the_end/
+META-INF/
+libraries/
+logs/
+work/
+apache-maven-*/
 plugins/Citizens/lib
 plugins/dynmap/web
 plugins/WorldEdit/sessions
@@ -20,7 +25,6 @@ plugins/ImageOnMap
 plugins/Multiverse-Inventories/
 *.db
 *.cache
-*.db
 versions
 
 crash-reports/
@@ -39,3 +43,7 @@ plugins/GUIShop/Data/cache.yml
 plugins/GUIShop/Data/inventories.yml
 plugins/EssentialsDiscord/
 plugins/EconomyShopGUI/transaction-log.txt
+plugins/VotingPlugin/ServerData.yml
+plugins/SignShop/sellers.yml
+plugins/SignShop/sellers.yml.bak
+plugins/LuckPerms/luckperms-h2-v2.mv.db

@@ -1,0 +1,183 @@
+[21:24:38] ---- BEAUTYQUESTS LOGGER - OPENED Wed Jul 12 21:24:38 EDT 2023 ----
+[21:24:38] [INFO] [BeautyQuests] Enabling BeautyQuests v0.20.1
+[21:24:38] [INFO] [BeautyQuests] ------------ BeautyQuests ------------
+[21:24:38] [WARNING] [BeautyQuests] You are not running the Paper software.
+It is highly recommended to use it for extended features and more stability.
+[21:24:38] [DEBUG] Hooked into [Citizens] v2.0.32-SNAPSHOT (build 3147)
+[21:24:38] [DEBUG] Hooked into [WorldGuard] v7.0.9-SNAPSHOT+2250-fffb0c1
+[21:24:38] [DEBUG] Hooked into [Vault] v1.7.3-b131
+[21:24:38] [DEBUG] Hooked into [PlaceholderAPI] v2.11.3
+[21:24:38] [DEBUG] Hooked into [dynmap] v3.6-beta-2-894
+[21:24:38] [WARNING] [BeautyQuests] The Minecraft version 1_20_R1 is not supported by BeautyQuests.
+[21:24:38] [WARNING] [BeautyQuests] Some functionnalities of the plugin have not been enabled.
+[21:24:38] [DEBUG] Loading data file, last time edited : Wed Jul 12 21:24:38 EDT 2023
+[21:24:38] [DEBUG] Unavailable string in config for key inv.mobSelect.advancedSpawners
+[21:24:38] [INFO] [BeautyQuests] Loaded language en_US (0.03s)!
+[21:24:38] [INFO] [BeautyQuests] Loaded start particles: REDSTONE in shape POINT with color R255 G255 B0
+[21:24:38] [INFO] [BeautyQuests] Loaded talk particles: VILLAGER_HAPPY in shape BAR
+[21:24:38] [INFO] [BeautyQuests] Loaded next particles: SMOKE_NORMAL in shape SPOT
+[21:24:38] [DEBUG] Initlializing default stage types.
+[21:24:38] [DEBUG] Stage registered (Talk, 0)
+[21:24:38] [DEBUG] Stage registered (Items, 1)
+[21:24:38] [DEBUG] Stage registered (Mobs, 2)
+[21:24:38] [DEBUG] Stage registered (Mine, 3)
+[21:24:38] [DEBUG] Stage registered (Place, 4)
+[21:24:38] [DEBUG] Stage registered (Chat, 5)
+[21:24:38] [DEBUG] Stage registered (Interact, 6)
+[21:24:38] [DEBUG] Stage registered (Fish, 7)
+[21:24:38] [DEBUG] Stage registered (Melt, 8)
+[21:24:38] [DEBUG] Stage registered (Enchant, 9)
+[21:24:38] [DEBUG] Stage registered (Craft, 10)
+[21:24:38] [DEBUG] Stage registered (Bucket, 11)
+[21:24:38] [DEBUG] Stage registered (Location, 12)
+[21:24:38] [DEBUG] Stage registered (PlayTime, 13)
+[21:24:38] [DEBUG] Stage registered (Breed, 14)
+[21:24:38] [DEBUG] Stage registered (Tame, 15)
+[21:24:38] [DEBUG] Stage registered (Death, 16)
+[21:24:38] [DEBUG] Stage registered (DealDamage, 17)
+[21:24:38] [DEBUG] Stage registered (EatDrink, 18)
+[21:24:38] [DEBUG] Initlializing default rewards.
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: commandReward, class: fr.skytasul.quests.rewards.CommandReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: itemReward, class: fr.skytasul.quests.rewards.ItemReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: removeItemsReward, class: fr.skytasul.quests.rewards.RemoveItemsReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: textReward, class: fr.skytasul.quests.rewards.MessageReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: tpReward, class: fr.skytasul.quests.rewards.TeleportationReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: expReward, class: fr.skytasul.quests.rewards.XPReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: checkpointReward, class: fr.skytasul.quests.rewards.CheckpointReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: questStopReward, class: fr.skytasul.quests.rewards.QuestStopReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: requirementDependentReward, class: fr.skytasul.quests.rewards.RequirementDependentReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: randomReward, class: fr.skytasul.quests.rewards.RandomReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: wait, class: fr.skytasul.quests.rewards.WaitReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: titleReward, class: fr.skytasul.quests.rewards.TitleReward)
+[21:24:38] [DEBUG] Initlializing default requirements.
+[21:24:38] [DEBUG] Quest object registered in registry requirements (id: logicalOr, class: fr.skytasul.quests.requirements.logical.LogicalOrRequirement)
+[21:24:38] [DEBUG] Quest object registered in registry requirements (id: questRequired, class: fr.skytasul.quests.requirements.QuestRequirement)
+[21:24:38] [DEBUG] Quest object registered in registry requirements (id: levelRequired, class: fr.skytasul.quests.requirements.LevelRequirement)
+[21:24:38] [DEBUG] Quest object registered in registry requirements (id: permissionRequired, class: fr.skytasul.quests.requirements.PermissionsRequirement)
+[21:24:38] [DEBUG] Quest object registered in registry requirements (id: scoreboardRequired, class: fr.skytasul.quests.requirements.ScoreboardRequirement)
+[21:24:38] [DEBUG] Quest object registered in registry requirements (id: equipmentRequired, class: fr.skytasul.quests.requirements.EquipmentRequirement)
+[21:24:38] [DEBUG] Initlializing default quest options.
+[21:24:38] [DEBUG] Quest option registered (id: pool)
+[21:24:38] [DEBUG] Quest option registered (id: name)
+[21:24:38] [DEBUG] Quest option registered (id: description)
+[21:24:38] [DEBUG] Quest option registered (id: customItem)
+[21:24:38] [DEBUG] Quest option registered (id: confirmMessage)
+[21:24:38] [DEBUG] Quest option registered (id: hologramText)
+[21:24:38] [DEBUG] Quest option registered (id: bypassLimit)
+[21:24:38] [DEBUG] Quest option registered (id: startableFromGUI)
+[21:24:38] [DEBUG] Quest option registered (id: failOnDeath)
+[21:24:38] [DEBUG] Quest option registered (id: cancellable)
+[21:24:38] [DEBUG] Quest option registered (id: cancelActions)
+[21:24:38] [DEBUG] Quest option registered (id: hologramLaunch)
+[21:24:38] [DEBUG] Quest option registered (id: hologramLaunchNo)
+[21:24:38] [DEBUG] Quest option registered (id: scoreboard)
+[21:24:38] [DEBUG] Quest option registered (id: hideNoRequirements)
+[21:24:38] [DEBUG] Quest option registered (id: auto)
+[21:24:38] [DEBUG] Quest option registered (id: repeatable)
+[21:24:38] [DEBUG] Quest option registered (id: timer)
+[21:24:38] [DEBUG] Quest option registered (id: visibility)
+[21:24:38] [DEBUG] Quest option registered (id: endSound)
+[21:24:38] [DEBUG] Quest option registered (id: firework)
+[21:24:38] [DEBUG] Quest option registered (id: requirements)
+[21:24:38] [DEBUG] Quest option registered (id: startRewards)
+[21:24:38] [DEBUG] Quest option registered (id: startMessage)
+[21:24:38] [DEBUG] Quest option registered (id: starterNPC)
+[21:24:38] [DEBUG] Quest option registered (id: startDialog)
+[21:24:38] [DEBUG] Quest option registered (id: endRewards)
+[21:24:38] [DEBUG] Quest option registered (id: endMsg)
+[21:24:38] [DEBUG] Item comparison registered (id: bukkit)
+[21:24:38] [DEBUG] Item comparison registered (id: customBukkit)
+[21:24:38] [DEBUG] Item comparison registered (id: material)
+[21:24:38] [DEBUG] Item comparison registered (id: name)
+[21:24:38] [DEBUG] Item comparison registered (id: lore)
+[21:24:38] [DEBUG] Item comparison registered (id: enchants)
+[21:24:38] [DEBUG] Item comparison registered (id: repair)
+[21:24:38] [DEBUG] Mob factory registered (id: bukkitEntity)
+[21:24:38] [DEBUG] Bossbars manager has been registered: fr.skytasul.quests.api.bossbar.BQBossBarImplementation
+[21:24:38] [DEBUG] Brigadier registered!
+[21:24:38] [DEBUG] Mob factory registered (id: citizensNPC)
+[21:24:38] [DEBUG] Now using WorldGuard entry API.
+[21:24:38] [DEBUG] Stage registered (Find, 19)
+[21:24:38] [DEBUG] Quest object registered in registry requirements (id: regionRequired, class: fr.skytasul.quests.requirements.RegionRequirement)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: moneyReward, class: fr.skytasul.quests.rewards.MoneyReward)
+[21:24:38] [DEBUG] Quest object registered in registry rewards (id: permReward, class: fr.skytasul.quests.rewards.PermissionReward)
+[21:24:38] [DEBUG] Quest object registered in registry requirements (id: moneyRequired, class: fr.skytasul.quests.requirements.MoneyRequirement)
+[21:24:38] [INFO] [BeautyQuests] Placeholders registered !
+[21:24:38] [DEBUG] Quest object registered in registry requirements (id: placeholderRequired, class: fr.skytasul.quests.requirements.PlaceholderRequirement)
+[21:24:38] [DEBUG] Started bStats metrics
+[21:24:38] [DEBUG] Starting Spigot updater
+[21:24:39] [DEBUG] 0 accounts loaded and 110 identifiers.
+[21:24:39] [DEBUG] Registered 5 lines in scoreboard
+[21:24:39] [INFO] [BeautyQuests] 0 quests loaded (0.008s)!
+[21:24:39] [INFO] [BeautyQuests] Periodic saves task started (18000 ticks). Task ID: 28646
+[21:24:39] [INFO] [BeautyQuests] You are using the latest version of BeautyQuests.
+[21:24:39] [DEBUG] Loading player GoPotato360...
+[21:24:39] [DEBUG] Loading player pluto_rights...
+[21:24:39] [DEBUG] Loading player _Sega...
+[21:24:39] [DEBUG] Loading player Rebbebba...
+[21:24:39] [DEBUG] Loading player Dare2BeStoopid...
+[21:24:39] [DEBUG] New account registered for pluto_rights (fcef53df-d285-4228-b2b1-90a7153cb3a3), index 5 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:24:39] [DEBUG] New account registered for Rebbebba (24417846-d5ed-4608-ae7a-ed643b41c5e1), index 10 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:24:39] [DEBUG] New account registered for Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f), index 3 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:24:39] [DEBUG] New account registered for _Sega (7cccc7b7-19e2-496c-a982-d61f85439535), index 9 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:24:39] [DEBUG] New account registered for GoPotato360 (7ff0fecd-c4ef-46ae-b334-301e1e4d46ea), index 4 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:24:39] [DEBUG] Completed load of Rebbebba (24417846-d5ed-4608-ae7a-ed643b41c5e1 (#10)) datas within 30 ms (0 quests, 0 pools)
+[21:24:39] [DEBUG] Completed load of _Sega (7cccc7b7-19e2-496c-a982-d61f85439535 (#9)) datas within 32 ms (0 quests, 0 pools)
+[21:24:39] [DEBUG] Completed load of pluto_rights (fcef53df-d285-4228-b2b1-90a7153cb3a3 (#5)) datas within 32 ms (0 quests, 0 pools)
+[21:24:39] [DEBUG] Completed load of Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f (#3)) datas within 32 ms (0 quests, 0 pools)
+[21:24:39] [DEBUG] Completed load of GoPotato360 (7ff0fecd-c4ef-46ae-b334-301e1e4d46ea (#4)) datas within 33 ms (0 quests, 0 pools)
+[21:28:31] [DEBUG] Bree3_K (caee9b51-e10f-411d-ac55-b94910e2d605) joined the server
+[21:28:31] [DEBUG] Loading player Bree3_K...
+[21:28:31] [DEBUG] New account registered for Bree3_K (caee9b51-e10f-411d-ac55-b94910e2d605), index 11 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:28:31] [DEBUG] Completed load of Bree3_K (caee9b51-e10f-411d-ac55-b94910e2d605 (#11)) datas within 210 ms (0 quests, 0 pools)
+[21:28:58] [DEBUG] Ametrina (1266130b-1041-4151-b893-5ddbc0faa6f8) joined the server
+[21:28:58] [DEBUG] Loading player Ametrina...
+[21:28:58] [DEBUG] New account registered for Ametrina (1266130b-1041-4151-b893-5ddbc0faa6f8), index 111 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:28:58] [DEBUG] Completed load of Ametrina (1266130b-1041-4151-b893-5ddbc0faa6f8 (#111)) datas within 51 ms (0 quests, 0 pools)
+[21:29:03] [DEBUG] TheAPG13TTV (8422890b-61b9-4ef6-bc23-4ea2be183437) joined the server
+[21:29:03] [DEBUG] Loading player TheAPG13TTV...
+[21:29:03] [DEBUG] New account registered for TheAPG13TTV (8422890b-61b9-4ef6-bc23-4ea2be183437), index 112 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:29:03] [DEBUG] Completed load of TheAPG13TTV (8422890b-61b9-4ef6-bc23-4ea2be183437 (#112)) datas within 49 ms (0 quests, 0 pools)
+[21:32:08] [DEBUG] _Sega left the server
+[21:32:08] [DEBUG] Unloading player _Sega... (0 quests, 0 pools)
+[21:32:23] [DEBUG] AmbigousAmishi (05cc077f-f3c6-427d-8417-080f0925ec92) joined the server
+[21:32:23] [DEBUG] Loading player AmbigousAmishi...
+[21:32:23] [DEBUG] New account registered for AmbigousAmishi (05cc077f-f3c6-427d-8417-080f0925ec92), index 113 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:32:23] [DEBUG] Completed load of AmbigousAmishi (05cc077f-f3c6-427d-8417-080f0925ec92 (#113)) datas within 49 ms (0 quests, 0 pools)
+[21:33:31] [DEBUG] AmbigousAmishi left the server
+[21:33:31] [DEBUG] Unloading player AmbigousAmishi... (0 quests, 0 pools)
+[21:34:11] [DEBUG] SassyMassy201 (beeb80f8-28af-49cb-b37a-652f25e4531b) joined the server
+[21:34:11] [DEBUG] Loading player SassyMassy201...
+[21:34:11] [DEBUG] New account registered for SassyMassy201 (beeb80f8-28af-49cb-b37a-652f25e4531b), index 37 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:34:11] [DEBUG] Completed load of SassyMassy201 (beeb80f8-28af-49cb-b37a-652f25e4531b (#37)) datas within 63 ms (0 quests, 0 pools)
+[21:34:46] [DEBUG] AmbigousAmishi (05cc077f-f3c6-427d-8417-080f0925ec92) joined the server
+[21:34:46] [DEBUG] Loading player AmbigousAmishi...
+[21:34:46] [DEBUG] Completed load of AmbigousAmishi (05cc077f-f3c6-427d-8417-080f0925ec92 (#113)) datas within 53 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[21:39:13] [DEBUG] TheAPG13TTV left the server
+[21:39:13] [DEBUG] Unloading player TheAPG13TTV... (0 quests, 0 pools)
+[21:39:56] [DEBUG] Saving 8 loaded accounts and 113 identifiers.
+[21:39:56] [DEBUG] Saved datas (0.002s)!
+[21:39:56] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[21:42:47] [DEBUG] _Sega (7cccc7b7-19e2-496c-a982-d61f85439535) joined the server
+[21:42:47] [DEBUG] Loading player _Sega...
+[21:42:47] [DEBUG] Loading account #9. Last file edition: Wed Jul 12 21:32:09 EDT 2023
+[21:42:47] [DEBUG] Completed load of _Sega (7cccc7b7-19e2-496c-a982-d61f85439535 (#9)) datas within 56 ms (0 quests, 0 pools) | Loaded from file from index
+[21:53:22] [DEBUG] Rebbebba left the server
+[21:53:22] [DEBUG] Unloading player Rebbebba... (0 quests, 0 pools)
+[21:55:05] [DEBUG] SassyMassy201 left the server
+[21:55:05] [DEBUG] Unloading player SassyMassy201... (0 quests, 0 pools)
+[21:56:31] [DEBUG] pluto_rights left the server
+[21:56:31] [DEBUG] Unloading player pluto_rights... (0 quests, 0 pools)
+[21:56:38] [DEBUG] pluto_rights (fcef53df-d285-4228-b2b1-90a7153cb3a3) joined the server
+[21:56:38] [DEBUG] Loading player pluto_rights...
+[21:56:40] [DEBUG] Completed load of pluto_rights (fcef53df-d285-4228-b2b1-90a7153cb3a3 (#5)) datas within 1545 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[21:59:08] [DEBUG] pluto_rights left the server
+[21:59:08] [DEBUG] Unloading player pluto_rights... (0 quests, 0 pools)
+[21:59:40] [INFO] [BeautyQuests] Disabling BeautyQuests v0.20.1
+[21:59:40] [INFO] [BeautyQuests] Periodic saves task stopped.
+[21:59:40] [INFO] [BeautyQuests] 6 scoreboards deleted.
+[21:59:40] [DEBUG] Saving 6 loaded accounts and 113 identifiers.
+[21:59:40] [DEBUG] Saved datas (0.004s)!
+[21:59:40] [DEBUG] Unregistered from WorldGuard entry API.
+[21:59:40] Logger was open during 35 minutes
+[21:59:40] ---- BEAUTYQUESTS LOGGER - CLOSED Wed Jul 12 21:59:40 EDT 2023 ----
