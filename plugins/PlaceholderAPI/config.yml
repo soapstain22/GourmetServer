@@ -10,53 +10,10 @@
 # Download placeholders: /papi ecloud
 check_updates: true
 cloud_enabled: true
-cloud_sorting: name
+cloud_sorting: "name"
 cloud_allow_unverified_expansions: false
 boolean:
   'true': 'yes'
   'false': 'no'
 date_format: MM/dd/yy HH:mm:ss
 debug: false
-expansions:
-  string:
-    replacements:
-      small-numbers:
-        '0': ₀
-        '1': ₁
-        '2': ₂
-        '3': ₃
-        '4': ₄
-        '5': ₅
-        '6': ₆
-        '7': ₇
-        '8': ₈
-        '9': ₉
-  str:
-    debug: false
-    boolean:
-      format:
-        'true': '&aO'
-        'false': '&7X'
-      output-parameter-format: true
-    blank:
-      tail:
-        suffix: ya
-        prefix: ''
-      head:
-        suffix: ''
-        prefix: ''
-  vault:
-    formatting:
-      thousands: k
-      millions: M
-      billions: B
-      trillions: T
-      quadrillions: Q
-  server:
-    tps_color:
-      high: '&a'
-      low: '&c'
-      medium: '&e'
-    server_name: A Minecraft Server
-  localtime:
-    date_format: dd/MM/yyyy hh:mma

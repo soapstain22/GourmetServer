@@ -12,6 +12,7 @@ world_the_end/
 META-INF/
 libraries/
 logs/
+paperclip/
 work/
 apache-maven-*/
 plugins/Citizens/lib
@@ -26,7 +27,6 @@ plugins/Multiverse-Inventories/
 *.db
 *.cache
 versions
-
 crash-reports/
 plugins/Votifier/rsa/private.key
 plugins/Votifier/rsa/public.key
@@ -47,4 +47,3 @@ plugins/VotingPlugin/ServerData.yml
 plugins/SignShop/sellers.yml
 plugins/SignShop/sellers.yml.bak
 plugins/LuckPerms/luckperms-h2-v2.mv.db
-plugins/EssentialsDiscord/config.yml
