@@ -43,10 +43,16 @@ role-sync:
   # their Minecraft account to their Discord account.
   groups:
     default: 1114618773597605978
-    vip: 1125878908533870673
+    trusted: 1129543891201314906
+    admin: 1129543624745549876
+    moderator: 1129543521532137503
+    vip: 1129545357613875240
   # Discord role ID to Minecraft group synchronization.
   # Users with the following roles listed here will receive the corresponding group in Minecraft when they link
   # their Discord account to their Minecraft account.
   roles:
-    1117885877583089714: vip
-    1114618773597605978: dollars-mode
+    1129545357613875240: vip
+    1129543891201314906: trusted
+    1129543891201314906: admin
+    1129543521532137503: moderator
+    

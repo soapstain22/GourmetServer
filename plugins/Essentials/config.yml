@@ -906,7 +906,7 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '{WORLD}{PREFIX}{NICKNAME}{SUFFIX}: {MESSAGE}'
+  format: '{WORLD}{PREFIX}{NICKNAME}{SUFFIX}&7:&r {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 

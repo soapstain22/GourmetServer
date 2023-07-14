@@ -24,10 +24,6 @@ plugins/Towny/backup
 plugins/StatPlugin
 plugins/ImageOnMap
 plugins/Multiverse-Inventories/
-*.db
-*.cache
-versions
-crash-reports/
 plugins/Votifier/rsa/private.key
 plugins/Votifier/rsa/public.key
 plugins/Votifier/config.yml
@@ -47,3 +43,8 @@ plugins/VotingPlugin/ServerData.yml
 plugins/SignShop/sellers.yml
 plugins/SignShop/sellers.yml.bak
 plugins/LuckPerms/luckperms-h2-v2.mv.db
+*.db
+*.cache
+versions
+crash-reports/
+plugins/EssentialsDiscord/config.yml
