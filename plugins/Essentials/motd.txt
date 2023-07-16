@@ -1,9 +1,6 @@
 &4g&6o&eur&2m&ae&9t &bs&1e&5r&dv&fe&8r
-welcome to the server. if you want to play on the server, type /motd stuff
-%server_tps%TPS
-%server_uptime% since last reboot
+welcome to my server.
 
-#stuff
 /motd: read this again
 /towny: everything to do with towns/claims
 /warps: access other areas that are not usually accessable otherwise
