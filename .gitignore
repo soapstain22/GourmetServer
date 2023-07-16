@@ -21,6 +21,9 @@ logs/
 paperclip/
 work/
 apache-maven-*/
+*/region/*
+*/entities/*
+*/poi/*
 plugins/Citizens/lib
 plugins/dynmap/web
 plugins/WorldEdit/sessions

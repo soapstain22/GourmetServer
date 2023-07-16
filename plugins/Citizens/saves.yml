@@ -36,9 +36,9 @@ npc:
       location:
         bodyYaw: 81.9483
         world: quest
-        x: '25.7425'
-        y: '-60.0'
-        z: '-20.8703'
+        x: '24.683'
+        y: '-60.0625'
+        z: '-20.8667'
         yaw: '81.9483'
         pitch: '6.3123'
       spawned: true
@@ -94,13 +94,13 @@ npc:
           '24': dinner
       type: PLAYER
       location:
-        bodyYaw: 87.18414
+        bodyYaw: -86.167114
         world: quest
-        x: '35.5583'
-        y: '-60.0625'
-        z: '-40.5581'
-        yaw: '87.1841'
-        pitch: '-9.6727'
+        x: '37.8521'
+        y: '-60.0'
+        z: '-39.1249'
+        yaw: '-86.1671'
+        pitch: '-15.1434'
       spawned: true
       lookclose:
         range: '5.0'

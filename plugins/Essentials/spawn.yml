@@ -1,12 +1,12 @@
 spawns:
   default:
-    world: 69eea492-ff7e-4769-a3b6-25a7ff838f96
-    world-name: fake
-    x: 3.231553080537608
-    y: 78.0
-    z: -22.462837220123458
-    yaw: 73.52978515625
-    pitch: 32.527748107910156
+    world: 5f4d61fd-7b6d-4598-b311-c90eda020f72
+    world-name: quest
+    x: 25.769419363249657
+    y: -60.0625
+    z: -9.900234162300615
+    yaw: 173.63848876953125
+    pitch: 1.0633295774459839
   permaworld:
     world: 3e9a3314-3673-4fdd-872f-ccc75ed6a40a
     world-name: world

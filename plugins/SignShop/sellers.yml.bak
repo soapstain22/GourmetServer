@@ -29,28 +29,6 @@ sellers:
     shopworld: quest
     sign: 5/-58/-10/quest
     items: []
-  5/-58/-9/quest:
-    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-    activatables:
-    - 5/-58/-10/quest
-    containables: []
-    shopworld: quest
-    sign: 5/-58/-9/quest
-    items: []
-  -1935/68/-1644/world:
-    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-    activatables: []
-    containables: []
-    shopworld: world
-    sign: -1935/68/-1644/world
-    items: []
-  5/-58/-8/quest:
-    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-    activatables: []
-    containables: []
-    shopworld: quest
-    sign: 5/-58/-8/quest
-    items: []
   89/-60/-50/quest:
     owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
     activatables: []
@@ -82,6 +60,14 @@ sellers:
       A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
       YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
       TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AApQVUZGRVJGSVNI
+  25/-60/-13/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 25/-60/-13/quest
+    items:
+    - null
   -1933/67/-1639/world:
     owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
     activatables: []
@@ -139,6 +125,36 @@ sellers:
       A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
       YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
       TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AAtGSVNISU5HX1JPRA==
+  5/-58/-9/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables:
+    - 5/-58/-10/quest
+    containables: []
+    shopworld: quest
+    sign: 5/-58/-9/quest
+    items: []
+  -1935/68/-1644/world:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: world
+    sign: -1935/68/-1644/world
+    items: []
+  5/-58/-8/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 5/-58/-8/quest
+    items: []
+  22/-60/-14/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 22/-60/-14/quest
+    items:
+    - null
 deferred_sellers: {}
 invalid_sellers: {}
 DataVersion: 3

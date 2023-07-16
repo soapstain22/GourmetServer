@@ -1,20 +1,22 @@
-LastUpdated: 1689474778697
+LastUpdated: 1689540549228
 VotingPlugin:
   AutoCachePlaceholders: []
   AutoCacheUpdated: true
-  Version: 'git-Paper-81 (MC: 1.20.1)'
+  Version: '3828-Spigot-9ebce8a-202fc5c (MC: 1.20.1)'
   ServiceSites:
   - PlanetMinecraft.com
   - Best Minecraft Servers
   - hi
   - lol u can just put whatever u want here
+  - minecraft-serverlist-com
   - MinecraftServers.org
   - TopMinecraftServers
+  - MinecraftServersList
   - MCSL
   - Minecraft.Buzz
   - mclist.io
 PluginVersions:
   VotingPlugin: 6.13.1
 Month: JULY
-PrevWeek: 28
-PrevDay: 15
+PrevWeek: 29
+PrevDay: 16

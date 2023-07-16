@@ -178,6 +178,28 @@ VoteSites:
     Rewards:
       Messages:
         Player: '&aThanks for voting on %ServiceSite%!'
+  MinecraftServersList:
+    Enabled: true
+    ServiceSite: MinecraftServersList
+    VoteURL: VoteURL
+    VoteDelay: 24.0
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Messages:
+        Player: '&aThanks for voting on %ServiceSite%!'
+  minecraft-serverlist-com:
+    Enabled: true
+    ServiceSite: minecraft-serverlist-com
+    VoteURL: VoteURL
+    VoteDelay: 24.0
+    DisplayItem:
+      Material: GRASS
+      Amount: 1
+    Rewards:
+      Messages:
+        Player: '&aThanks for voting on %ServiceSite%!'
 
 # Reward for any site
 # Similar to AnySiteReward
