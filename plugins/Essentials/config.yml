@@ -906,7 +906,7 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '{WORLD}{PREFIX}{NICKNAME}{SUFFIX}&7:&r {MESSAGE}'
+  format: '[{WORLD}]{PREFIX}{NICKNAME}{SUFFIX}&7:&r {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
@@ -923,10 +923,10 @@ chat:
   # World aliases allow you to replace the world name with something different in the chat format.
   # If you are using world aliases, make sure to remove the '#' at the start to allow the setting to be read.
   world-aliases:
-    quest: "🕹️"
-    world: "🌎"
-    world_nether: "🔥"
-    world_end: "🔚️"
+    quest: "quest"
+    world: "world"
+    world_nether: "nether"
+    world_end: "end"
 
   # Whether a player's shout mode should persist restarts.
   persist-shout: false

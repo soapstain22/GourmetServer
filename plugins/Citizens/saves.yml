@@ -1,3 +1,130 @@
 # Citizens NPC Storage
 
-{}
+last-created-npc-id: 2
+npc:
+  '0':
+    name: spawnbert
+    uuid: b188d518-5f70-4d05-8d97-ce20bb40d56a
+    traits:
+      owner:
+        uuid: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+      type: PLAYER
+      location:
+        bodyYaw: -56.421295
+        world: world
+        x: '-1852.209'
+        y: '63.0'
+        z: '-1614.0206'
+        yaw: '-56.4213'
+        pitch: '11.8837'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: owner,mounttrait,type,location,spawned,inventory,scoreboardtrait,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '2':
+    name: shopbert
+    uuid: 799c9733-2167-4f00-9a01-ad3b4d467c3d
+    traits:
+      owner:
+        uuid: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+      type: PLAYER
+      location:
+        bodyYaw: 81.9483
+        world: quest
+        x: '25.7425'
+        y: '-60.0'
+        z: '-20.8703'
+        yaw: '81.9483'
+        pitch: '6.3123'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: owner,mounttrait,shop,type,location,spawned,inventory,scoreboardtrait,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '1':
+    metadata:
+      minecraft-ai: true
+    name: --template
+    uuid: 5368b958-70cd-4f51-862a-e15e98170ad3
+    traits:
+      owner:
+        uuid: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+      text:
+        delay: -1
+        talk-close: false
+        random-talker: false
+        realistic-looking: false
+        range: '5.0'
+        talkitem: default
+        speech-bubbles: false
+        text:
+          '0': hello
+          '1': what do you mean
+          '2': who?
+          '3': what?
+          '4': when?
+          '5': where?
+          '6': why?
+          '7': how?
+          '8': alright
+          '9': okay
+          '10': just not seeing it
+          '11': praise server!
+          '12': praise!
+          '13': some day i will have a server
+          '14': bummer
+          '15': whos asking?
+          '16': me?
+          '17': probably
+          '18': praise the server!
+          '19': i love to read and write!
+          '20': smell that?
+          '21': look at me to win the game!
+          '22': can you not
+          '23': can you give me some space
+          '24': dinner
+      type: PLAYER
+      location:
+        bodyYaw: 87.18414
+        world: quest
+        x: '35.5583'
+        y: '-60.0625'
+        z: '-40.5581'
+        yaw: '87.1841'
+        pitch: '-9.6727'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      skintrait:
+        fetchDefaultSkin: true
+        updateSkins: false
+    traitnames: owner,mounttrait,text,rotationtrait,type,location,spawned,inventory,lookclose,scoreboardtrait,skintrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false

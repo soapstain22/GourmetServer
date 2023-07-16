@@ -1,46 +1,47 @@
-# EssentialsX kit configuration.
-# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
-
-# Note: All items MUST be followed by a quantity!
-# All kit names should be lower case, and will be treated as lower in permissions/costs.
-# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
-# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
-# To make the kit execute a command, add /<command> to the items list. Use {USERNAME} to specify the player receiving the kit.
-# {PLAYER} will show the player's displayname instead of username.
-# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
-# Set delay to -1 for a one time kit.
-#
-# In addition, you can also organize your kits into separate files under the `kits` subdirectory.
-# Essentials will treat all .yml files in the `kits` subdirectory as kits files, and will add any kits from those files along with the kits in `kits.yml`.
-# Any file in the `kits` subdirectory must be formatted in the same way as this file. This allows you to define multiple kits in each file.
-# For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
   tools:
     delay: 10
     items:
-      - stonesword 1
-      - stoneshovel 1
-      - stonepickaxe 1
-      - stoneaxe 1
+    - stonesword 1
+    - stoneshovel 1
+    - stonepickaxe 1
+    - stoneaxe 1
   dtools:
     delay: 600
     items:
-      - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
-      - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
-      - lhelm 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
-      - daxe:780 1
-      - /broadcast {USERNAME} just got some fancy tools!
+    - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+    - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+    - lhelm 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+    - daxe:780 1
+    - /broadcast {USERNAME} just got some fancy tools!
   notch:
     delay: 6000
     items:
-      - playerhead 1 player:Notch
+    - playerhead 1 player:Notch
   color:
     delay: 6000
     items:
-      - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
+    - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes
+      book:Colors
   firework:
     delay: 6000
     items:
-      - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
-      - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
-      - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1
+    - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+    - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle
+      power:1
+    - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle
+      color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
+      shape:star effect:trail power:1
+  servertools:
+    delay: 256
+    items:
+    - written_book 1 title:the_rules author:Dare2BeStoopid page1:RULE_#1_-_you_gotta_follow_the_rules!
+      page2:RULE_#2_-_if_you_leave_for_attention,_everyone_will_get_sick_of_your_shit!_this_also_applies_to_threats_of_leaving_the_server,_ddos_attacks,_killing_me_in_real_life
+      page3:RULE_#3_-_play_fair._you_can_use_x-ray_to_do_whatever_but_understand_that_you_aren’t_slick._just_x-ray_for_materials_for_yourself_and_yourself_only,_because_it_just_cuts_out_like_6_hours_of_adventuring._
+      page4:RULE_#4_-_your_account_is_your_account._if_you_think_you_are_slick_by_saying_"my_brother_was_on_my_account_and_griefed_the_map"_idgaf!_dont_let_this_happen_in_the_first_place_then
+      page5:RULE_#5_-_don’t_beat_the_shit_out_of_random_people._pretend_these_people_know_where_you_live_and_will_call_your_mom_and_get_her_involved
+      page6:RULE_#6_-_banning_will_only_happen_if_they_were_never_supposed_to_be_in_the_server_in_the_first_place_
+      page7:RULE_#7_-_NOBODY_WANTS_TO_PLAY_ON_YOUR_SERVER!!!!!!!!!!_i_work_very_hard_to_keep_this_server_nice_so_please_dont_advertise_your_server_or_ill_kick_your_ass
+    - written_book 1 title:readme.txt author:dare2bestoopid page1:&#FF00FFHow_do_I_claim_land?&r|What_is_the_Discord?|What_is_the_server's_Map?|Take_me_to_the_Hub|Take_me_to_the_Spawn|Take_me_to_my_spawnpoint|How_do_I_make_a_shop?|How_do_I_sell_things?|Do_you_need_help_with_anything?|Whats_that_little_earth_emoji_in_chat?|What_different_chats_are_there?
+    - golden_axe 1
+    - redstone 1

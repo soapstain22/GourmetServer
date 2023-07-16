@@ -60,6 +60,8 @@ global:
                 requireUndamaged: true
                 type: items
     type: COMMAND
+  ui:
+    type: COMMAND
   cum:
     type: COMMAND
 npc:
@@ -203,3 +205,5 @@ npc:
                 money: 1.0
                 type: money
     type: BUY
+  799c9733-2167-4f00-9a01-ad3b4d467c3d:
+    type: COMMAND

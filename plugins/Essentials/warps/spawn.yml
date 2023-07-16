@@ -1,9 +1,9 @@
-world: 3e9a3314-3673-4fdd-872f-ccc75ed6a40a
-world-name: world
-x: -1936.0436689065361
-y: 68.0
-z: -1643.4376976816177
-yaw: -83.10546875
-pitch: 24.26982879638672
+world: 69eea492-ff7e-4769-a3b6-25a7ff838f96
+world-name: fake
+x: 3.5
+y: 78.0
+z: -22.5
+yaw: 73.52978515625
+pitch: 32.527748107910156
 name: spawn
 lastowner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f

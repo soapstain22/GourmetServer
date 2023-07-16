@@ -1,4 +1,42 @@
 sellers:
+  89/-58/-49/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - 89/-62/-49/quest
+    shopworld: quest
+    sign: 89/-58/-49/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
+      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
+      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAALRklTSElOR19ST0RzcQB+AABzcQB+AAN1
+      cQB+AAYAAAAFcQB+AAh0AAltZXRhLXR5cGV0AAxkaXNwbGF5LW5hbWV0AARsb3JldAAIZW5jaGFu
+      dHN1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAAqeyJleHRyYSI6W3sidGV4dCI6
+      InNpbGx5IHJvZCJ9XSwidGV4dCI6IiJ9c3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1t
+      dXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHN0ABNbTGphdmEv
+      bGFuZy9PYmplY3Q7eHB1cQB+AAYAAAABdAAreyJleHRyYSI6W3sidGV4dCI6InZlcnkgY3V0ZSEi
+      fV0sInRleHQiOiIifXNxAH4AA3VxAH4ABgAAAAN0AARMVUNLdAAETFVSRXQACkRVUkFCSUxJVFl1
+      cQB+AAYAAAADc3EAfgAOAAAAAXEAfgAocQB+ACg=
+  5/-58/-10/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 5/-58/-10/quest
+    items: []
+  5/-58/-9/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables:
+    - 5/-58/-10/quest
+    containables: []
+    shopworld: quest
+    sign: 5/-58/-9/quest
+    items: []
   -1935/68/-1644/world:
     owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
     activatables: []
@@ -6,6 +44,44 @@ sellers:
     shopworld: world
     sign: -1935/68/-1644/world
     items: []
+  5/-58/-8/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 5/-58/-8/quest
+    items: []
+  89/-60/-50/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 89/-60/-50/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
+      YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
+      TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AANDT0Q=
+  89/-60/-49/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables:
+    - 90/-61/-49/quest
+    shopworld: quest
+    sign: 89/-60/-49/quest
+    items:
+    - |
+      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+      A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
+      YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
+      TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AApQVUZGRVJGSVNI
   -1933/67/-1639/world:
     owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
     activatables: []
@@ -39,122 +115,21 @@ sellers:
       A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
       YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
       TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AApJUk9OX0lOR09U
-deferred_sellers:
-  5/-58/-9/quest:
-    owner:
-    - 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-    activatables:
-    - 5/-58/-10/quest
-    containables: []
-    shopworld:
-    - quest
-    sign:
-    - 5/-58/-9/quest
-    items: []
-  89/-58/-49/quest:
-    owner:
-    - 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-    activatables: []
-    containables:
-    - 89/-62/-49/quest
-    shopworld:
-    - quest
-    sign:
-    - 89/-58/-49/quest
-    items:
-    - |
-      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
-      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
-      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
-      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
-      BHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5
-      Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2
-      YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAA2JdAALRklTSElOR19ST0RzcQB+AABzcQB+AAN1
-      cQB+AAYAAAAFcQB+AAh0AAltZXRhLXR5cGV0AAxkaXNwbGF5LW5hbWV0AARsb3JldAAIZW5jaGFu
-      dHN1cQB+AAYAAAAFdAAISXRlbU1ldGF0AApVTlNQRUNJRklDdAAqeyJleHRyYSI6W3sidGV4dCI6
-      InNpbGx5IHJvZCJ9XSwidGV4dCI6IiJ9c3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1t
-      dXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHN0ABNbTGphdmEv
-      bGFuZy9PYmplY3Q7eHB1cQB+AAYAAAABdAAreyJleHRyYSI6W3sidGV4dCI6InZlcnkgY3V0ZSEi
-      fV0sInRleHQiOiIifXNxAH4AA3VxAH4ABgAAAAN0AARMVUNLdAAETFVSRXQACkRVUkFCSUxJVFl1
-      cQB+AAYAAAADc3EAfgAOAAAAAXEAfgAocQB+ACg=
-  5/-58/-10/quest:
-    owner:
-    - 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-    activatables: []
-    containables: []
-    shopworld:
-    - quest
-    sign:
-    - 5/-58/-10/quest
-    items: []
-  5/-58/-8/quest:
-    owner:
-    - 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-    activatables: []
-    containables: []
-    shopworld:
-    - quest
-    sign:
-    - 5/-58/-8/quest
-    items: []
-  89/-60/-50/quest:
-    owner:
-    - 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-    activatables: []
-    containables: []
-    shopworld:
-    - quest
-    sign:
-    - 89/-60/-50/quest
-    items:
-    - |
-      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
-      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
-      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
-      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
-      A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
-      YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
-      TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AANDT0Q=
-  89/-60/-49/quest:
-    owner:
-    - 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-    activatables: []
-    containables:
-    - 90/-61/-49/quest
-    shopworld:
-    - quest
-    sign:
-    - 89/-60/-49/quest
-    items:
-    - |
-      rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
-      dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
-      bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
-      dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
-      A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
-      YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
-      TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AApQVUZGRVJGSVNI
   30/-60/-47/quest:
-    owner:
-    - 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
     activatables: []
     containables: []
-    shopworld:
-    - quest
-    sign:
-    - 30/-60/-47/quest
+    shopworld: quest
+    sign: 30/-60/-47/quest
     items: []
   89/-58/-50/quest:
-    owner:
-    - 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
     activatables:
     - 89/-58/-49/quest
     containables:
     - 89/-62/-50/quest
-    shopworld:
-    - quest
-    sign:
-    - 89/-58/-50/quest
+    shopworld: quest
+    sign: 89/-58/-50/quest
     items:
     - |
       rO0ABXcEAAAAAXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
@@ -164,5 +139,6 @@ deferred_sellers:
       A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
       YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
       TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AAtGSVNISU5HX1JPRA==
+deferred_sellers: {}
 invalid_sellers: {}
 DataVersion: 3

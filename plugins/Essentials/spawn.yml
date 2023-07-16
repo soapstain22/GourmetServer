@@ -1,9 +1,17 @@
 spawns:
   default:
+    world: 69eea492-ff7e-4769-a3b6-25a7ff838f96
+    world-name: fake
+    x: 3.231553080537608
+    y: 78.0
+    z: -22.462837220123458
+    yaw: 73.52978515625
+    pitch: 32.527748107910156
+  permaworld:
     world: 3e9a3314-3673-4fdd-872f-ccc75ed6a40a
     world-name: world
-    x: -1908.479890356008
+    x: -1906.0
     y: 74.0
-    z: -1593.5304735574969
-    yaw: -126.1773681640625
-    pitch: 17.16836929321289
+    z: -1596.0
+    yaw: 0.0
+    pitch: 0.0
