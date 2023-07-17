@@ -1,9 +1,7 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-description: ''
+name: Feature 
+description: Description
+labels: 'Feature'
 ---
 
 **Fill out above and put other details below.**
