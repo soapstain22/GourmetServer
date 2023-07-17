@@ -1,5 +1,6 @@
 ---
-name: fix poop
-description: poop is broken fix it pls
-commands: ''
+name: fix /poop
+about: it does not work
+description: when i type /poop it comes out as a error what did u do it is BROKEN
+commands: '/poop'
 ---
