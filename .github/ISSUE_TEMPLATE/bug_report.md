@@ -1,7 +1,5 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: issue
-labels: ''
-assignees: ''
---
+name: fix poop
+description: poop is broken fix it pls
+commands: ''
+---
