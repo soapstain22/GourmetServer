@@ -1,4 +1,4 @@
-&4g&6o&eur&2m&ae&9t &bs&1e&5r&dv&fe&8r
+&l&4g&6o&eur&2m&ae&9t &bs&1e&5r&dv&fe&8r
 welcome to my server.
 
 /motd: read this again
@@ -10,3 +10,7 @@ welcome to my server.
 /tpa: teleport to people
 /sethome: set home
 /home: go home
+&d for developers, type /motd dev
+#dev
+
+

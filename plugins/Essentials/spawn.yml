@@ -2,11 +2,11 @@ spawns:
   default:
     world: 5f4d61fd-7b6d-4598-b311-c90eda020f72
     world-name: quest
-    x: 25.769419363249657
-    y: -60.0625
-    z: -9.900234162300615
-    yaw: 173.63848876953125
-    pitch: 1.0633295774459839
+    x: -3.5
+    y: -60.0
+    z: -28.5
+    yaw: -87.76023864746094
+    pitch: 0.599727213382721
   permaworld:
     world: 3e9a3314-3673-4fdd-872f-ccc75ed6a40a
     world-name: world
@@ -15,3 +15,11 @@ spawns:
     z: -1596.0
     yaw: 0.0
     pitch: 0.0
+  hub:
+    world: 5f4d61fd-7b6d-4598-b311-c90eda020f72
+    world-name: quest
+    x: -3.841824362688573
+    y: -59.9375
+    z: -28.761362416245532
+    yaw: -103.660400390625
+    pitch: -4.350274562835693

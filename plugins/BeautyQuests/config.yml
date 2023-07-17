@@ -1,0 +1,221 @@
+# - General configuration -
+# Number of minutes before the quest can be redone
+redoMinuts: 5
+# Chosen lang (file name) Available by default: fr_FR, en_US, zh_CN, zh_HK, de_DE, it_IT, es_ES, pt_PT, pt_BR, sv_SE, hu_HU, ru_RU, pl_PL, th_TH, lt_LT, vi_VN
+lang: en_US
+# (1.13 and above) Minecraft vanilla translations (JSON file name). Some can be found on SkytAsul's Discord server
+minecraftTranslationsFile: ''
+# Enable or disable update checking on the loading
+checkUpdates: true
+# Enable or disable prefix before plugin message
+enablePrefix: true
+# Number of minutes between two periodic saves
+saveCycle: 15
+# Enable "periodic save" message in console
+saveCycleMessage: true
+# Maximum amount of quests that can be started at the same time by a player.
+# This limit can also be set by player by giving the permission "beautyquests.start.<max launched quests>"
+# to a group or a player with your permissions plugin.
+# It is possible not to count some quests in this limit with the "Bypass limit" quest option.
+maxLaunchedQuests: 0
+# Database configuration
+database:
+  enabled: false
+  host: localhost
+  port: 3306
+  database: beautyquests
+  username: unknown
+  password: unknown
+  ssl: false
+  tables:
+    playerAccounts: player_accounts
+    playerQuests: player_quests
+    playerPools: player_pools
+
+# - Quests behaviors -
+# Enable or disable the scoreboards - more options in scoreboard.yml
+scoreboards: true
+# Enable or disable message when a quest is updated (next stage)
+playerQuestUpdateMessage: true
+# Enable or disable default messages when a stage starts
+playerStageStartMessage: true
+# Shows a Yes/No GUI to let the player choose if he wants to accept the quest or not
+questConfirmGUI: false
+# Enable of disable playing sounds on various actions
+sounds: true
+# Sound played at the end of a quest
+finishSound: ENTITY_PLAYER_LEVELUP
+# Sound played when the player updates its quest
+nextStageSound: ITEM_FIRECHARGE_USE
+# Enable or disable end fireworks
+fireworks: true
+# Show a progress bar (bossbar) when a player has to kill some mobs for a quest
+mobsProgressBar: false
+# Amount of seconds before the progress bar will disappear (set it to 0 to make it persistent)
+progressBarTimeoutSeconds: 15
+# Which clicks are acceptable for a player to do on the NPC in order to start a quest, follow a dialog...
+# (can be: RIGHT, LEFT, SHIFT_RIGHT, SHIFT_LEFT)
+npcClick:
+- RIGHT
+- SHIFT_RIGHT
+# If enabled, the "choose a quest from this NPC" GUI will not open if there is only 1 quest attached to the NPC
+skip npc gui if only one quest: true
+# Default item shown for a quest in the menus
+item: BOOK
+# Page item material
+pageItem: ARROW
+# Maxmium distance where starting particles are shown
+startParticleDistance: 20
+# Number of seconds before the plugin checks every requirements for the player to show the starting particle
+requirementUpdateTime: 1
+# When there is several quests on the same NPC, will the server send the reason to the player if it does not match a requirement
+requirementReasonOnMultipleQuests: true
+# Enables the sending of the "you obtain xxx" when a player terminates a stage with end rewards
+stageEndRewardsMessage: true
+
+# - Dialogs -
+# Various options related to dialogs
+dialogs:
+  # Dialogs are shown in the action bar instead of the chat
+  inActionBar: false
+  # Default time between two dialogs lines (in ticks: 1s = 20 ticks). 0 to disable.
+  defaultTime: 100
+  # Are dialogs skippable by default
+  defaultSkippable: false
+  # If enabled, players will not be allowed to click on the NPC to pass a line of dialog
+  disableClick: false
+  # Enables the dialog history in the Quests menu
+  history: true
+  # Maximum distance the player can be from the NPC for the dialog to continue. 0 to disable.
+  maxDistance: 15
+  # Default dialog sound when players are speaking
+  defaultPlayerSound: none
+  # Default dialog sound when NPCs are speaking
+  defaultNPCSound: none
+
+# - Quests Menu -
+# Options related to the "/quests" menu
+questsMenu:
+  # Enabled tabs in the quests menu. Valid parameters: NOT_STARTED, IN_PROGRESS, FINISHED
+  enabledTabs:
+  - NOT_STARTED
+  - IN_PROGRESS
+  - FINISHED
+  # Will the "/quests" menu open automatically on the "not started" tab instead of the "quests in progress" one if it is empty
+  openNotStartedTabWhenEmpty: true
+  # Allows player to cancel quests they have started with the GUI
+  allowPlayerCancelQuest: true
+
+# - Integrations -
+# Enable GPS integration
+gps: false
+# Enable or disable SkillAPI experience overriding in xp reward/requirement
+skillAPIoverride: true
+# Enable or disable AccountsHook managing player accounts
+accountsHook: false
+# If set to "true" and the PlayerBlockTracker plugin is enabled on this server, then player-placed blocks will be tracked
+# using PlayerBlockTracker: it allows for persistence after restart, piston tracking, and more.
+usePlayerBlockTracker: true
+# (HolographicDisplays) Disable the hologram above NPC's head
+disableTextHologram: false
+# (HolographicDisplays) Value added to the hologram height (decimal value)
+hologramsHeight: 0.0
+# (HolographicDisplays) Material name of the hologram showed above head of Quests starter. If ProtocolLib is enabled, holograms will be visible only by players who can start the quest
+holoLaunchItemName: BOOK
+# (HolographicDisplays) Material name of the hologram showed above head of Stage NPC. If ProtocolLib is enabled, holograms will be visible only by players who has to talk with this NPC
+holoTalkItemName: COAL
+# (HolographicDisplays) Is the custom name of the hologram in datas.yml shown
+showCustomHologramName: true
+# (PlaceholdersAPI) Configuration for %beautyquests_started_ordered_X% placeholder
+startedQuestsPlaceholder:
+  # Max length of a line if using splitted placeholder
+  lineLength: 30
+  # Time (in seconds) before the shown quest change in placeholder
+  changeTime: 10
+  # Format of the placeholder %beautyquests_started_ordered_X%. Available placeholders: {questName} and {questDescription}, use \n to skip a line
+  splitPlaceholderFormat: |-
+    §6{questName}
+    {questDescription}
+  # Format of the empty placeholder %beautyquests_started_ordered%. Available placeholders: {questName} and {questDescription}
+  inlinePlaceholderFormat: '§6{questName}§e: §o{questDescription}'
+# dynmap integration options
+dynmap:
+  # Name of the marker set. To disable dynmap integration, put an empty string
+  markerSetName: ''
+  # Icon for quest markers
+  markerIcon: bookshelf
+  # Minimum zoom level for markers to be displayed
+  minZoom: 0
+
+# - Stage descriptions -
+# {0} = stage index, {1} = stage amount, {2} = stage description}
+stageDescriptionFormat: §8({0}/{1}) §e{2}
+# Prefix before object's name in lists (example: §6first, §6second and §6third)
+itemNameColor: §6§o
+# Prefix before object's amount in lists (example: first§ex2, second§ex7 and third§ex4)
+itemAmountColor: §e
+# Describes the way stage with multiple objects are described
+stageDescriptionItemsSplit:
+  # Prefix before each line
+  prefix: §e- §6
+  # Format of object amounts. Placeholders: {0} = remaining (decreasing), {1} = done (increasing), {2} = total, {3} = percentage (0 to 100). Example: "{1}/{2}"
+  amountFormat: x{0}
+  # Show amount format if there is only one object remaining
+  showXOne: true
+  # When there is only one object, do not put it on a new line
+  inlineAlone: true
+  # From which sources the text has to be split (available sources: SCOREBOARD, MENU, PLACEHOLDER)
+  sources:
+  - SCOREBOARD
+  - MENU
+  - PLACEHOLDER
+
+# - Quest descriptions -
+# How is formatted the quest description in GUIs
+questDescription:
+  requirements:
+    # Enable the requirements section for quest description
+    display: true
+    # How to format requirements which match the player
+    valid: §a ✔ §7{0}
+    # How to format requirements which do not match the player
+    invalid: §c ✖ §7{0}
+  rewards:
+    # Enable the rewards section for quest description
+    display: true
+    # How to format rewards
+    format: §7- {0}
+
+# - Particles configuration -
+# enabled: will the particle be shown?
+# particleEffect: name of the particle
+# particleColor: for colored particles, RGB value of the color
+# particleShape: shape of the particle effect (available: point, near, bar, exclamation, spot)
+
+# Particles shown on a NPC when the player can start the quest
+start:
+  enabled: true
+  particleEffect: redstone
+  particleColor:
+    RED: 255
+    BLUE: 0
+    GREEN: 255
+  particleShape: point
+# Particles shown on the NPC to which the player has to talk
+talk:
+  enabled: true
+  particleEffect: villager_happy
+  particleColor:
+    RED: 255
+    BLUE: 0
+    GREEN: 255
+  particleShape: bar
+# Particles shown when the player finish a stage of a quest
+next:
+  enabled: true
+  particleEffect: smoke_normal
+  particleColor:
+    RED: 255
+    BLUE: 0
+    GREEN: 255
+  particleShape: spot
