@@ -1,6 +1,8 @@
 ---
-name: fix /poop
-about: it does not work
-description: when i type /poop it comes out as a error what did u do it is BROKEN
-broken: '/poop'
+name: fix request
+about: request something that is broken to be fixed
+description: please fill in the blanks
 ---
+what is it thats broken:
+whats broken about it:
+what do you want me to do about it:
