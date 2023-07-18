@@ -1,19 +1,8 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: issue
-labels: ''
-assignees: ''
-
+name: fix request
+about: request something that is broken to be fixed
+description: please fill in the blanks
 ---
-
-**document the bug**
-fill this in with what the problem is
-**To Reproduce**
-fill this in with instructions on how to get that bug
-**Expected behavior**
-fill this in with what you expected to happen
-**Screenshots**
-add screenshots to encourage fixes
-*labels:* [bug]
-a list of labels to apply separated by commas
+what is it thats broken:
+whats broken about it:
+what do you want me to do about it:
