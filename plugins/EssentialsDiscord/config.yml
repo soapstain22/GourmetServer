@@ -12,7 +12,7 @@
 
 # The token for your bot from the Discord Developers site.
 # Please make sure to use this site to add the bot to your server as it grants special permissions you may not be familiar with: https://essentialsx.net/discord.html
-token: "MTExMzk3NDMyMjE3Njk4NzE2Ng.GE8aEw.qfcZklufYb-2yrEXbtxKj7PTowODghc1LUpBMA"
+token: "MTExMzk3NDMyMjE3Njk4NzE2Ng.G0CtsJ.7__Ex5o_vnSLo1yjlD38B6M6kehvNuOxOpVefg"
 
 # The ID of your server.
 guild: 1109955317552386213
@@ -40,7 +40,7 @@ discord-url: "https://discord.gg/6BM2dn2sja"
 # (note: you will need to replace the zeros with the actual channel ID you want to use)
 channels:
   primary: 1113970923486318604
-  staff: 000000000000000000
+  staff: 1126270995846664314
 
 # Should all players receive Discord messages from the primary channel, regardless of their permissions?
 # This is intended for use for people without permission plugins. If you have a permission plugin, please give your

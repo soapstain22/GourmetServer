@@ -104,8 +104,7 @@ sellers:
     containables: []
     shopworld: quest
     sign: 43/-60/-48/quest
-    items:
-    - null
+    items: []
   -1931/67/-1639/world:
     owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
     activatables:
