@@ -63,9 +63,9 @@ chat:
   # By default, this will ignore messages starting with '!' or '?'.
   discord-filter: "^[!?]"
   # Whether or not webhook messages from Discord should be shown in Minecraft.
-  show-webhook-messages: false
+  show-webhook-messages: true
   # Whether or not bot messages from Discord should be shown in Minecraft.
-  show-bot-messages: false
+  show-bot-messages: true
   # Whether or not to show all Minecraft chat messages that are not shown to all players.
   # You shouldn't need to enable this unless you're not seeing all chat messages go through to Discord.
   show-all-chat: false
@@ -88,12 +88,12 @@ console:
   # - {message}: The actual message being logged
   format: "[{timestamp} {level}] {message}"
   # The name of the webhook that will be created, if a channel ID is provided.
-  webhook-name: "CONSOLE"
+  webhook-name: "SYSTEM"
   # Set to true if all messages in the console relay channel should be treated as commands.
   # Note: Enabling this means everyone who can send messages in the console channel will be able to send commands as the
   # console. It's recommended you stick to the /execute command which has role permission checks (see command configuration below).
   # Note 2: This option requires a channel ID and is not supported if you specify a webhook URL above. You'll need to use /execute in Discord if you use a webhook URL.
-  command-relay: false
+  command-relay: true
   # Set to true if bots/webhooks should be able to send commands through the command relay.
   bot-command-relay: false
   # The maximum log level of messages to send to the console relay.
@@ -192,7 +192,7 @@ commands:
     enabled: true
     # Whether or not the command should be hidden from other people in the channel.
     # If set to false, members of the Discord guild will be able to see the target and content of your message.
-    hide-command: true
+    hide-command: false
     # List of user IDs or role names/IDs allowed to use this command (or '*' to allow anyone to access it).
     allowed-roles:
       - "*"
@@ -261,7 +261,7 @@ messages:
   # - {role}: The name of the user's topmost role on Discord. If the user doesn't have a role, the placeholder is empty.
   # - {color}: The minecraft color representative of the user's topmost role color on Discord. If the user doesn't have a role color, the placeholder is empty.
   # - {message}: The content of the message being sent
-  discord-to-mc: "&c☎️&6[#{channel}] &3{fullname}&7: &f{message}"
+  discord-to-mc: "&c📞&6[#{channel}] &3{fullname}&7: &f{message}"
   # This is the message that is used to relay minecraft chat in Discord.
   # The following placeholders can be used here:
   # - {username}: The username of the player sending the message
@@ -271,7 +271,7 @@ messages:
   # - {prefix}: The prefix of the player sending the message
   # - {suffix}: The suffix of the player sending the message
   # ... PlaceholderAPI placeholders are also supported here too!
-  mc-to-discord: "{displayname}: {message}"
+  mc-to-discord: "{displayname}📞 {message}"
   # This is the bot's name which appears in Discord when sending player-specific messages.
   # The following placeholders can be used here:
   # - {username}: The username of the player sending the message
@@ -366,7 +366,7 @@ messages:
   # - {online}: The amount of players online
   # - {unique}: The amount of unique players to ever join the server
   # ... PlaceholderAPI placeholders are also supported here too!
-  first-join: ":arrow_right: :first_place: {displayname} is the {unique} person to join da server."
+  first-join: "NEW!!!!!!!! {displayname} is the {unique} person to join da server."
   # This is the message sent to Discord when a player leaves the minecraft server.
   # The following placeholders can be used here:
   # - {username}: The name of the user leaving
