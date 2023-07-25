@@ -33,8 +33,9 @@ kits:
       color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink
       shape:star effect:trail power:1
   servertools:
-    delay: 256
+    delay: 200
     items:
+    - written_book 1 title:the_motd_bible author:dare2bestoopid page1:&c&lG&6&lo&#FFD400&lu&#81D546&lr&2&lm&9&le&1&lt&#3CC7C7&l_S&9&le&#8C11BD&lr&#D74EFF&lv&#FF98FF&le&#895EB0&lr&r||/help|/sell_&#EAE7CDhand,_all,_blocks&r|/sethome&#EAE7CD_wtf,_hi&r|/motd_&#EAE7CDdev&r|/warp_&#EAE7CDhub,_spawn,_old&r|/baltop_&#EAE7CDhub&r|&d/vote&r|&#4FB4E9&nGithub&r&n|&#4FB4E9&nBugtracker&r&n|&#4FB4E9&nSend_Bug_Report&r&n|&#4FB4E9&nDynamic_Map&r&n|&#4FB4E9&nDiscord
     - written_book 1 title:the_rules author:Dare2BeStoopid page1:RULE_#1_-_you_gotta_follow_the_rules!
       page2:RULE_#2_-_if_you_leave_for_attention,_everyone_will_get_sick_of_your_shit!_this_also_applies_to_threats_of_leaving_the_server,_ddos_attacks,_killing_me_in_real_life
       page3:RULE_#3_-_play_fair._you_can_use_x-ray_to_do_whatever_but_understand_that_you_aren’t_slick._just_x-ray_for_materials_for_yourself_and_yourself_only,_because_it_just_cuts_out_like_6_hours_of_adventuring._

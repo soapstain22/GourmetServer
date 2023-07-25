@@ -98,6 +98,14 @@ sellers:
       A3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0
       YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
       TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AApJUk9OX0lOR09U
+  43/-60/-48/quest:
+    owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
+    activatables: []
+    containables: []
+    shopworld: quest
+    sign: 43/-60/-48/quest
+    items:
+    - null
   -1931/67/-1639/world:
     owner: 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
     activatables:
@@ -133,15 +141,5 @@ sellers:
       YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcu
       TnVtYmVyhqyVHQuU4IsCAAB4cAAADYl0AAtGSVNISU5HX1JPRA==
 deferred_sellers: {}
-invalid_sellers:
-  25/-60/-13/quest:
-    owner:
-    - 8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f
-    activatables: []
-    containables: []
-    shopworld:
-    - quest
-    sign:
-    - 25/-60/-13/quest
-    items: []
+invalid_sellers: {}
 DataVersion: 3

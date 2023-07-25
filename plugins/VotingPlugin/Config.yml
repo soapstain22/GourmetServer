@@ -70,7 +70,7 @@ VoteReminding:
   # This can also be edited via /av gui
   Rewards:
     Messages:
-      Player: '&a pls go vote on the serverlist websites'
+      Player: '&a YOU SHOULD TYPE /VOTE AND GO TO TO THE WEBSITES AND VOTE ON THE SERVER WITH YOUR NAME'
     Title:
       Enabled: false
       Title: '&cplease type /vote PLEASE do it NOW!!!!!!!!!!!!'
@@ -124,7 +124,7 @@ Format:
     # %url% = site URL
     Vote: 
       Text:
-      - '&3&lVOTE FOR LITTLE REWARDS'
+      - '&3&lVOTE FOR PRIZE CHEST'
       
       # If you want to want to use the feature below where the plugin will
       # automaticly list the sites then set the message in the text above

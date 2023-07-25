@@ -62,9 +62,97 @@ global:
     type: COMMAND
   ui:
     type: COMMAND
+  potions:
+    type: COMMAND
+  rockets:
+    pages:
+      '0':
+        items:
+          '16':
+            display:
+              type_key: crossbow
+              amount: 1
+            maxRepeatsOnShiftClick: false
+          '21':
+            display:
+              type_key: enchanted_book
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAPc3RvcmVkLWVuY2hhbnRzdXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAJRU5DSEFOVEVEc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AAxRVUlDS19DSEFSR0V1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAE=
+            maxRepeatsOnShiftClick: false
+          '22':
+            display:
+              type_key: enchanted_book
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAPc3RvcmVkLWVuY2hhbnRzdXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAJRU5DSEFOVEVEc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AAxRVUlDS19DSEFSR0V1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAI=
+            maxRepeatsOnShiftClick: false
+          '23':
+            display:
+              type_key: enchanted_book
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAPc3RvcmVkLWVuY2hhbnRzdXEAfgAGAAAAA3QACEl0ZW1NZXRhdAAJRU5DSEFOVEVEc3IAN2NvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlQmlNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAHhxAH4AA3VxAH4ABgAAAAF0AAxRVUlDS19DSEFSR0V1cQB+AAYAAAABc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAM=
+            maxRepeatsOnShiftClick: false
+          '10':
+            cost:
+              '0':
+                money: 15.0
+                type: money
+            display:
+              type_key: fire_charge
+              amount: 1
+            maxRepeatsOnShiftClick: false
+          '11':
+            cost:
+              '0':
+                money: 15.0
+                type: money
+            display:
+              type_key: firework_star
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAAEbG9yZXVxAH4ABgAAAAN0AAhJdGVtTWV0YXQAD0ZJUkVXT1JLX0VGRkVDVHNyADZjb20uZ29vZ2xlLmNvbW1vbi5jb2xsZWN0LkltbXV0YWJsZUxpc3QkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAVsACGVsZW1lbnRzdAATW0xqYXZhL2xhbmcvT2JqZWN0O3hwdXEAfgAGAAAAAXQAJHsiZXh0cmEiOlt7InRleHQiOiIxNSQifV0sInRleHQiOiIifQ==
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                compareSimilarity: true
+                items:
+                  '0':
+                    type_key: firework_star
+                    amount: 1
+                requireUndamaged: true
+                type: items
+          '12':
+            cost:
+              '0':
+                money: 25.0
+                type: money
+            display:
+              type_key: gunpowder
+              amount: 1
+            maxRepeatsOnShiftClick: false
+          '13':
+            display:
+              type_key: gold_nugget
+              amount: 1
+            maxRepeatsOnShiftClick: false
+          '14':
+            display:
+              type_key: glowstone_dust
+              amount: 1
+            maxRepeatsOnShiftClick: false
+          '15':
+            display:
+              type_key: paper
+              amount: 1
+            maxRepeatsOnShiftClick: false
+    type: BUY
   cum:
     type: COMMAND
 npc:
+  a764c937-18cb-40da-80fc-911da2a83410:
+    type: COMMAND
   8b6af2fd-d488-4c72-b76c-0bc1422ef1f9:
     pages:
       '0':
@@ -110,6 +198,124 @@ npc:
                 server: false
                 type: command
     type: COMMAND
+  4a4b85a9-e246-4f68-8974-f0574b82ff90:
+    type: COMMAND
+  41769edb-d03d-415a-a292-730611965287:
+    type: COMMAND
+  09fd9775-4c57-433d-8c3f-fa8daa8b8b2a:
+    pages:
+      '0':
+        items:
+          '19':
+            cost:
+              '0':
+                money: 40.0
+                type: money
+            display:
+              type_key: potion
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050ABltaW5lY3JhZnQ6ZmlyZV9yZXNpc3RhbmNl
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                compareSimilarity: true
+                items:
+                  '0':
+                    type_key: potion
+                    amount: 1
+                    meta:
+                      encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050ABltaW5lY3JhZnQ6ZmlyZV9yZXNpc3RhbmNl
+                requireUndamaged: true
+                type: items
+          '20':
+            cost:
+              '0':
+                money: 60.0
+                type: money
+            display:
+              type_key: potion
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050ABNtaW5lY3JhZnQ6c3dpZnRuZXNz
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                compareSimilarity: true
+                items:
+                  '0':
+                    type_key: potion
+                    amount: 1
+                    meta:
+                      encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050ABNtaW5lY3JhZnQ6c3dpZnRuZXNz
+                requireUndamaged: true
+                type: items
+            resultMessage: sold!
+          '24':
+            display:
+              type_key: potion
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050AA9taW5lY3JhZnQ6d2F0ZXI=
+            maxRepeatsOnShiftClick: false
+          '10':
+            cost:
+              '0':
+                money: 50.0
+                type: money
+            display:
+              type_key: potion
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAEbG9yZXQAC3BvdGlvbi10eXBldXEAfgAGAAAABHQACEl0ZW1NZXRhdAAGUE9USU9Oc3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHN0ABNbTGphdmEvbGFuZy9PYmplY3Q7eHB1cQB+AAYAAAABdAApeyJleHRyYSI6W3sidGV4dCI6IjUwIGJ1Y2tzIn1dLCJ0ZXh0IjoiIn10ABZtaW5lY3JhZnQ6bmlnaHRfdmlzaW9u
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                compareSimilarity: true
+                items:
+                  '0':
+                    type_key: potion
+                    amount: 1
+                    meta:
+                      encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050ABZtaW5lY3JhZnQ6bmlnaHRfdmlzaW9u
+                requireUndamaged: true
+                type: items
+            resultMessage: sold!
+          '11':
+            cost:
+              '0':
+                money: 60.0
+                type: money
+            display:
+              type_key: potion
+              amount: 1
+              meta:
+                encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAEbG9yZXQAC3BvdGlvbi10eXBldXEAfgAGAAAABHQACEl0ZW1NZXRhdAAGUE9USU9Oc3IANmNvbS5nb29nbGUuY29tbW9uLmNvbGxlY3QuSW1tdXRhYmxlTGlzdCRTZXJpYWxpemVkRm9ybQAAAAAAAAAAAgABWwAIZWxlbWVudHN0ABNbTGphdmEvbGFuZy9PYmplY3Q7eHB1cQB+AAYAAAABdAApeyJleHRyYSI6W3sidGV4dCI6IjYwIGJ1Y2tzIn1dLCJ0ZXh0IjoiIn10ABFtaW5lY3JhZnQ6bGVhcGluZw==
+            maxRepeatsOnShiftClick: false
+            result:
+              '0':
+                compareSimilarity: true
+                items:
+                  '0':
+                    type_key: potion
+                    amount: 1
+                    meta:
+                      encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAAJbWV0YS10eXBldAALcG90aW9uLXR5cGV1cQB+AAYAAAADdAAISXRlbU1ldGF0AAZQT1RJT050ABFtaW5lY3JhZnQ6bGVhcGluZw==
+                requireUndamaged: true
+                type: items
+            resultMessage: sold!
+          '15':
+            cost:
+              '0':
+                money: 1.0
+                type: money
+            display:
+              type_key: glass_bottle
+              amount: 1
+            maxRepeatsOnShiftClick: false
+        title: potion mcdonalds
+    title: potionberts potions
+    type: BUY
   aaccda13-45e8-4dbe-89ed-5b025284cc1c:
     pages:
       '0':
@@ -206,4 +412,4 @@ npc:
                 type: money
     type: BUY
   799c9733-2167-4f00-9a01-ad3b4d467c3d:
-    type: COMMAND
+    type: BUY

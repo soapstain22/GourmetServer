@@ -22,10 +22,14 @@
 - Houkadook
 '172_93_207_185':
 - Dare2BeStoopid
+'185_187_243_46':
+- Dare2BeStoopid
 '69_251_118_254':
 - Z0erz0
 '172_56_25_252':
 - super_cruz100
+'75_110_246_125':
+- CrossingMoon665
 '172_93_207_187':
 - Dare2BeStoopid
 '181_66_130_92':
@@ -34,12 +38,16 @@
 - bolloedsz
 '73_106_182_236':
 - JoshlovesJAVA
+'92_28_43_10':
+- SEENZZOO
 '179_34_54_14':
 - A_Bit_Alike
 '24_164_183_119':
 - GoPotato360
 '148_72_165_245':
 - Dare2BeStoopid
+'198_2_105_42':
+- Wiltzon
 '68_0_225_172':
 - Nighty0ne
 '96_58_15_107':
@@ -48,6 +56,8 @@
 - Dare2BeStoopid
 '3_137_160_252':
 - Houkadook
+'45_36_47_226':
+- xdvturbojrYES
 '172_93_207_191':
 - Dare2BeStoopid
 '194_124_76_83':
@@ -64,6 +74,8 @@
 - TheAPG13TTV
 '40_133_185_53':
 - MayoWhishes
+'176_205_228_216':
+- Elgm1748
 '148_72_165_239':
 - Dare2BeStoopid
 '23_127_26_50':
@@ -89,6 +101,8 @@
 - Bed_Time_gamers
 '71_75_53_178':
 - Ametrina
+'103_6_151_57':
+- SugarcubeXeno
 '76_156_172_16':
 - Lynx_The1
 '172_56_209_5':
@@ -117,6 +131,8 @@
 - ThatOneRealGuy
 '35_86_156_245':
 - Houkadook
+'185_216_201_93':
+- Dare2BeStoopid
 '124_188_194_249':
 - Appnodata
 '69_67_4_154':
@@ -125,6 +141,10 @@
 - ComicCanine29
 '47_233_63_28':
 - Soviet_Egg
+'212_40_89_252':
+- GwynHatsumii
+'73_238_249_225':
+- yoclod
 '185_107_56_165':
 - Jpegify_
 '72_197_236_212':
@@ -141,6 +161,8 @@
 - Alecxkes
 '37_19_211_108':
 - jpc120513
+'194_156_136_92':
+- Dare2BeStoopid
 '99_233_234_147':
 - Houkadook
 '82_29_191_214':
@@ -155,12 +177,16 @@
 - Unholy_Steve
 '162_156_7_149':
 - ReturnOfThePimp
+'98_210_11_84':
+- dentartant
 '75_68_108_249':
 - mustyfart3939
 '130_51_190_113':
 - schemab0y5
 '136_34_179_69':
 - skitty_kid
+'104_191_57_42':
+- mcraft59
 '172_56_161_227':
 - RepulserZ
 '84_54_51_253':
@@ -173,14 +199,20 @@
 - Fupe
 '69_206_47_38':
 - DatPony101
+'154_160_7_148':
+- ad6nm
 '69_234_40_158':
 - recapp_
 '47_41_79_36':
 - ThatOnePenguin_2
+'35_151_191_145':
+- Xeroth462
 '70_15_227_146':
 - Snail_In_Jail
 '72_181_171_3':
 - lilxxer
+'138_199_52_194':
+- mark3rs
 '50_111_72_103':
 - 1Shadow_Wolf1
 '52_39_53_165':
@@ -191,6 +223,8 @@
 - Xbeamer242
 '94_140_9_5':
 - Dare2BeStoopid
+'74_139_16_21':
+- PokyBook10
 '173_66_12_40':
 - MutleyTarantino
 '94_140_9_4':
