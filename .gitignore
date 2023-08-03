@@ -24,6 +24,7 @@ apache-maven-*/
 */region/*
 */entities/*
 */poi/*
+!quest/
 plugins/Citizens/lib
 plugins/dynmap/web
 plugins/WorldEdit/sessions
