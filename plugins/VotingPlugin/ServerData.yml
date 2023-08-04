@@ -1,4 +1,4 @@
-LastUpdated: 1691109194337
+LastUpdated: 1691109459919
 VotingPlugin:
   AutoCachePlaceholders: []
   AutoCacheUpdated: true
@@ -21,7 +21,7 @@ VotingPlugin:
   - TopServers
 PluginVersions:
   VotingPlugin: 6.13.1
-Month: JULY
-PrevWeek: 30
-PrevDay: 25
-IgnoreTime: true
+Month: AUGUST
+PrevWeek: 31
+PrevDay: 3
+IgnoreTime: false
