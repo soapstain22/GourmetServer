@@ -117,3 +117,6 @@ It is highly recommended to use it for extended features and more stability.
 [20:42:48] [DEBUG] Completed load of YEETpete_ (c9d4e575-959b-32aa-8cca-1586d41dd7dd (#11)) datas within 558 ms (0 quests, 0 pools)
 [20:43:06] [DEBUG] YEETpete_ left the server
 [20:43:06] [DEBUG] Unloading player YEETpete_... (0 quests, 0 pools)
+[20:57:37] [DEBUG] Saving 0 loaded accounts and 11 identifiers.
+[20:57:37] [DEBUG] Saved datas (0.001s)!
+[20:57:37] [INFO] [BeautyQuests] Datas saved ~ periodic save

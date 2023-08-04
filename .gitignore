@@ -44,3 +44,11 @@ plugins/dynmap/ids-by-ip.txt
 plugins/ChestShop/users.db
 plugins/BeautyQuests/latest.log_old
 plugins/BeautyQuests/latest.log
+plugins/Votifier/rsa/private.key
+plugins/SkinsRestorer/Skins/*
+plugins/WorldGuard/worlds/*/blacklist.txt
+plugins/BuycraftX/cache/*
+bundler/*
+plugins/BeautyQuests/latest.log
+plugins/BeautyQuests/players/*
+*.pending
