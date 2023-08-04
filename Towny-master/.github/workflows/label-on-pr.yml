@@ -1,0 +1,13 @@
+name: "Label on PR"
+on:
+    pull_request_target:
+        branches-ignore:    
+            - 'l10n_master'
+jobs:
+    triage:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/labeler@v4
+              with:
+                  repo-token: "${{ secrets.GITHUB_TOKEN }}"
+                  sync-labels: true
