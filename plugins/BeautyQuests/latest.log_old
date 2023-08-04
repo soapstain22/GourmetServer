@@ -1,0 +1,353 @@
+[21:19:20] ---- BEAUTYQUESTS LOGGER - OPENED Sun Jul 16 21:19:20 EDT 2023 ----
+[21:19:20] [INFO] [BeautyQuests] Enabling BeautyQuests v0.20.1
+[21:19:20] [INFO] [BeautyQuests] ------------ BeautyQuests ------------
+[21:19:20] [WARNING] [BeautyQuests] You are not running the Paper software.
+It is highly recommended to use it for extended features and more stability.
+[21:19:20] [DEBUG] Hooked into [Citizens] v2.0.32-SNAPSHOT (build 3147)
+[21:19:20] [DEBUG] Hooked into [Vault] v1.7.3-b131
+[21:19:20] [DEBUG] Hooked into [PlaceholderAPI] v2.11.3
+[21:19:20] [DEBUG] Hooked into [dynmap] v3.6-beta-2-894
+[21:19:20] [WARNING] [BeautyQuests] The Minecraft version 1_20_R1 is not supported by BeautyQuests.
+[21:19:20] [WARNING] [BeautyQuests] Some functionnalities of the plugin have not been enabled.
+[21:19:20] [INFO] [BeautyQuests] data.yml created.
+[21:19:20] [DEBUG] Loading data file, last time edited : Sun Jul 16 21:19:20 EDT 2023
+[21:19:20] [DEBUG] Unavailable string in config for key inv.mobSelect.advancedSpawners
+[21:19:20] [INFO] [BeautyQuests] Loaded language en_US (0.019s)!
+[21:19:20] [INFO] [BeautyQuests] Loaded start particles: REDSTONE in shape POINT with color R255 G255 B0
+[21:19:20] [INFO] [BeautyQuests] Loaded talk particles: VILLAGER_HAPPY in shape BAR
+[21:19:20] [INFO] [BeautyQuests] Loaded next particles: SMOKE_NORMAL in shape SPOT
+[21:19:20] [DEBUG] Initlializing default stage types.
+[21:19:20] [DEBUG] Stage registered (Talk, 0)
+[21:19:20] [DEBUG] Stage registered (Items, 1)
+[21:19:20] [DEBUG] Stage registered (Mobs, 2)
+[21:19:20] [DEBUG] Stage registered (Mine, 3)
+[21:19:20] [DEBUG] Stage registered (Place, 4)
+[21:19:20] [DEBUG] Stage registered (Chat, 5)
+[21:19:20] [DEBUG] Stage registered (Interact, 6)
+[21:19:20] [DEBUG] Stage registered (Fish, 7)
+[21:19:20] [DEBUG] Stage registered (Melt, 8)
+[21:19:20] [DEBUG] Stage registered (Enchant, 9)
+[21:19:20] [DEBUG] Stage registered (Craft, 10)
+[21:19:20] [DEBUG] Stage registered (Bucket, 11)
+[21:19:20] [DEBUG] Stage registered (Location, 12)
+[21:19:20] [DEBUG] Stage registered (PlayTime, 13)
+[21:19:20] [DEBUG] Stage registered (Breed, 14)
+[21:19:20] [DEBUG] Stage registered (Tame, 15)
+[21:19:20] [DEBUG] Stage registered (Death, 16)
+[21:19:20] [DEBUG] Stage registered (DealDamage, 17)
+[21:19:20] [DEBUG] Stage registered (EatDrink, 18)
+[21:19:20] [DEBUG] Initlializing default rewards.
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: commandReward, class: fr.skytasul.quests.rewards.CommandReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: itemReward, class: fr.skytasul.quests.rewards.ItemReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: removeItemsReward, class: fr.skytasul.quests.rewards.RemoveItemsReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: textReward, class: fr.skytasul.quests.rewards.MessageReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: tpReward, class: fr.skytasul.quests.rewards.TeleportationReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: expReward, class: fr.skytasul.quests.rewards.XPReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: checkpointReward, class: fr.skytasul.quests.rewards.CheckpointReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: questStopReward, class: fr.skytasul.quests.rewards.QuestStopReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: requirementDependentReward, class: fr.skytasul.quests.rewards.RequirementDependentReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: randomReward, class: fr.skytasul.quests.rewards.RandomReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: wait, class: fr.skytasul.quests.rewards.WaitReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: titleReward, class: fr.skytasul.quests.rewards.TitleReward)
+[21:19:20] [DEBUG] Initlializing default requirements.
+[21:19:20] [DEBUG] Quest object registered in registry requirements (id: logicalOr, class: fr.skytasul.quests.requirements.logical.LogicalOrRequirement)
+[21:19:20] [DEBUG] Quest object registered in registry requirements (id: questRequired, class: fr.skytasul.quests.requirements.QuestRequirement)
+[21:19:20] [DEBUG] Quest object registered in registry requirements (id: levelRequired, class: fr.skytasul.quests.requirements.LevelRequirement)
+[21:19:20] [DEBUG] Quest object registered in registry requirements (id: permissionRequired, class: fr.skytasul.quests.requirements.PermissionsRequirement)
+[21:19:20] [DEBUG] Quest object registered in registry requirements (id: scoreboardRequired, class: fr.skytasul.quests.requirements.ScoreboardRequirement)
+[21:19:20] [DEBUG] Quest object registered in registry requirements (id: equipmentRequired, class: fr.skytasul.quests.requirements.EquipmentRequirement)
+[21:19:20] [DEBUG] Initlializing default quest options.
+[21:19:20] [DEBUG] Quest option registered (id: pool)
+[21:19:20] [DEBUG] Quest option registered (id: name)
+[21:19:20] [DEBUG] Quest option registered (id: description)
+[21:19:20] [DEBUG] Quest option registered (id: customItem)
+[21:19:20] [DEBUG] Quest option registered (id: confirmMessage)
+[21:19:20] [DEBUG] Quest option registered (id: hologramText)
+[21:19:20] [DEBUG] Quest option registered (id: bypassLimit)
+[21:19:20] [DEBUG] Quest option registered (id: startableFromGUI)
+[21:19:20] [DEBUG] Quest option registered (id: failOnDeath)
+[21:19:20] [DEBUG] Quest option registered (id: cancellable)
+[21:19:20] [DEBUG] Quest option registered (id: cancelActions)
+[21:19:20] [DEBUG] Quest option registered (id: hologramLaunch)
+[21:19:20] [DEBUG] Quest option registered (id: hologramLaunchNo)
+[21:19:20] [DEBUG] Quest option registered (id: scoreboard)
+[21:19:20] [DEBUG] Quest option registered (id: hideNoRequirements)
+[21:19:20] [DEBUG] Quest option registered (id: auto)
+[21:19:20] [DEBUG] Quest option registered (id: repeatable)
+[21:19:20] [DEBUG] Quest option registered (id: timer)
+[21:19:20] [DEBUG] Quest option registered (id: visibility)
+[21:19:20] [DEBUG] Quest option registered (id: endSound)
+[21:19:20] [DEBUG] Quest option registered (id: firework)
+[21:19:20] [DEBUG] Quest option registered (id: requirements)
+[21:19:20] [DEBUG] Quest option registered (id: startRewards)
+[21:19:20] [DEBUG] Quest option registered (id: startMessage)
+[21:19:20] [DEBUG] Quest option registered (id: starterNPC)
+[21:19:20] [DEBUG] Quest option registered (id: startDialog)
+[21:19:20] [DEBUG] Quest option registered (id: endRewards)
+[21:19:20] [DEBUG] Quest option registered (id: endMsg)
+[21:19:20] [DEBUG] Item comparison registered (id: bukkit)
+[21:19:20] [DEBUG] Item comparison registered (id: customBukkit)
+[21:19:20] [DEBUG] Item comparison registered (id: material)
+[21:19:20] [DEBUG] Item comparison registered (id: name)
+[21:19:20] [DEBUG] Item comparison registered (id: lore)
+[21:19:20] [DEBUG] Item comparison registered (id: enchants)
+[21:19:20] [DEBUG] Item comparison registered (id: repair)
+[21:19:20] [DEBUG] Mob factory registered (id: bukkitEntity)
+[21:19:20] [DEBUG] Bossbars manager has been registered: fr.skytasul.quests.api.bossbar.BQBossBarImplementation
+[21:19:20] [DEBUG] Brigadier registered!
+[21:19:20] [WARNING] [BeautyQuests] Loaded class net.citizensnpcs.api.event.NPCRemoveEvent from Citizens v2.0.32-SNAPSHOT (build 3147) which is not a depend or softdepend of this plugin.
+[21:19:20] [DEBUG] Mob factory registered (id: citizensNPC)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: moneyReward, class: fr.skytasul.quests.rewards.MoneyReward)
+[21:19:20] [DEBUG] Quest object registered in registry rewards (id: permReward, class: fr.skytasul.quests.rewards.PermissionReward)
+[21:19:20] [DEBUG] Quest object registered in registry requirements (id: moneyRequired, class: fr.skytasul.quests.requirements.MoneyRequirement)
+[21:19:20] [WARNING] [BeautyQuests] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.3 which is not a depend or softdepend of this plugin.
+[21:19:20] [INFO] [BeautyQuests] Placeholders registered !
+[21:19:20] [DEBUG] Quest object registered in registry requirements (id: placeholderRequired, class: fr.skytasul.quests.requirements.PlaceholderRequirement)
+[21:19:20] [DEBUG] Started bStats metrics
+[21:19:20] [DEBUG] Starting Spigot updater
+[21:19:21] [DEBUG] 0 accounts loaded and 0 identifiers.
+[21:19:21] [DEBUG] Registered 5 lines in scoreboard
+[21:19:21] [INFO] [BeautyQuests] 0 quests loaded (0.009s)!
+[21:19:21] [INFO] [BeautyQuests] Periodic saves task started (18000 ticks). Task ID: 693202
+[21:19:21] [DEBUG] Loading player Logosnail...
+[21:19:21] [DEBUG] Loading player Dare2BeStoopid...
+[21:19:21] [DEBUG] Loading player RealMedal575950...
+[21:19:21] [DEBUG] Loading player Bree3_K...
+[21:19:21] [DEBUG] Loading player recapp_...
+[21:19:21] [DEBUG] New account registered for recapp_ (1e327c73-a9bc-4e09-a1c2-5bc80f79b88c), index 2 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:19:21] [DEBUG] New account registered for Logosnail (a1661bbb-b4d9-47e4-8090-da2fcbee373f), index 1 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:19:21] [DEBUG] New account registered for Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f), index 3 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:19:21] [DEBUG] New account registered for RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397), index 1 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:19:21] [DEBUG] New account registered for Bree3_K (caee9b51-e10f-411d-ac55-b94910e2d605), index 4 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:19:21] [DEBUG] Completed load of Logosnail (a1661bbb-b4d9-47e4-8090-da2fcbee373f (#1)) datas within 10 ms (0 quests, 0 pools)
+[21:19:21] [DEBUG] Completed load of Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f (#3)) datas within 13 ms (0 quests, 0 pools)
+[21:19:21] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#1)) datas within 13 ms (0 quests, 0 pools)
+[21:19:21] [DEBUG] Completed load of recapp_ (1e327c73-a9bc-4e09-a1c2-5bc80f79b88c (#2)) datas within 13 ms (0 quests, 0 pools)
+[21:19:21] [DEBUG] Completed load of Bree3_K (caee9b51-e10f-411d-ac55-b94910e2d605 (#4)) datas within 13 ms (0 quests, 0 pools)
+[21:19:21] [INFO] [BeautyQuests] You are using the latest version of BeautyQuests.
+[21:26:27] [DEBUG] GoPotato360 (7ff0fecd-c4ef-46ae-b334-301e1e4d46ea) joined the server
+[21:26:27] [DEBUG] Loading player GoPotato360...
+[21:26:27] [DEBUG] New account registered for GoPotato360 (7ff0fecd-c4ef-46ae-b334-301e1e4d46ea), index 5 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:26:28] [DEBUG] Completed load of GoPotato360 (7ff0fecd-c4ef-46ae-b334-301e1e4d46ea (#5)) datas within 399 ms (0 quests, 0 pools)
+[21:27:46] [DEBUG] Bree3_K left the server
+[21:27:46] [DEBUG] Unloading player Bree3_K... (0 quests, 0 pools)
+[21:28:37] [DEBUG] Bree3_K (caee9b51-e10f-411d-ac55-b94910e2d605) joined the server
+[21:28:37] [DEBUG] Loading player Bree3_K...
+[21:28:37] [DEBUG] Completed load of Bree3_K (caee9b51-e10f-411d-ac55-b94910e2d605 (#4)) datas within 37 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[21:33:35] [DEBUG] RealMedal575950 left the server
+[21:33:35] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[21:34:17] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[21:34:17] [DEBUG] Loading player RealMedal575950...
+[21:34:17] [DEBUG] New account registered for RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397), index 6 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[21:34:17] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 54 ms (0 quests, 0 pools)
+[21:34:19] [DEBUG] Saving 5 loaded accounts and 6 identifiers.
+[21:34:19] [DEBUG] Saved datas (0.001s)!
+[21:34:19] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[21:35:07] [DEBUG] RealMedal575950 left the server
+[21:35:07] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[21:35:15] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[21:35:15] [DEBUG] Loading player RealMedal575950...
+[21:35:15] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 326 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[21:37:18] [DEBUG] GoPotato360 left the server
+[21:37:18] [DEBUG] Unloading player GoPotato360... (0 quests, 0 pools)
+[21:43:08] [DEBUG] GoPotato360 (7ff0fecd-c4ef-46ae-b334-301e1e4d46ea) joined the server
+[21:43:08] [DEBUG] Loading player GoPotato360...
+[21:43:09] [DEBUG] Loading account #5. Last file edition: Sun Jul 16 21:37:18 EDT 2023
+[21:43:09] [DEBUG] Completed load of GoPotato360 (7ff0fecd-c4ef-46ae-b334-301e1e4d46ea (#5)) datas within 433 ms (0 quests, 0 pools) | Loaded from file from index
+[21:49:26] [DEBUG] Saving 5 loaded accounts and 6 identifiers.
+[21:49:26] [DEBUG] Saved datas (0.001s)!
+[21:49:26] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[21:51:05] [DEBUG] Bree3_K left the server
+[21:51:05] [DEBUG] Unloading player Bree3_K... (0 quests, 0 pools)
+[21:59:08] [DEBUG] RealMedal575950 left the server
+[21:59:08] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[22:04:26] [DEBUG] Saving 3 loaded accounts and 6 identifiers.
+[22:04:26] [DEBUG] Saved datas (0.001s)!
+[22:04:26] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[22:05:16] [DEBUG] GoPotato360 left the server
+[22:05:16] [DEBUG] Unloading player GoPotato360... (0 quests, 0 pools)
+[22:12:43] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[22:12:43] [DEBUG] Loading player RealMedal575950...
+[22:12:43] [DEBUG] Loading account #6. Last file edition: Sun Jul 16 21:59:08 EDT 2023
+[22:12:43] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 308 ms (0 quests, 0 pools) | Loaded from file from index
+[22:19:26] [DEBUG] Saving 3 loaded accounts and 6 identifiers.
+[22:19:26] [DEBUG] Saved datas (0.002s)!
+[22:19:26] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[22:33:37] [DEBUG] bolloedsz (d50dc320-d854-4517-8dbb-a55517447029) joined the server
+[22:33:37] [DEBUG] Loading player bolloedsz...
+[22:33:38] [DEBUG] New account registered for bolloedsz (d50dc320-d854-4517-8dbb-a55517447029), index 7 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[22:33:38] [DEBUG] Completed load of bolloedsz (d50dc320-d854-4517-8dbb-a55517447029 (#7)) datas within 28 ms (0 quests, 0 pools)
+[22:34:26] [DEBUG] Saving 4 loaded accounts and 7 identifiers.
+[22:34:26] [DEBUG] Saved datas (0.002s)!
+[22:34:26] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[22:49:26] [DEBUG] Saving 4 loaded accounts and 7 identifiers.
+[22:49:26] [DEBUG] Saved datas (0.001s)!
+[22:49:26] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[22:54:26] [DEBUG] RealMedal575950 left the server
+[22:54:26] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[22:54:28] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[22:54:28] [DEBUG] Loading player RealMedal575950...
+[22:54:29] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 260 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[22:55:18] [DEBUG] RealMedal575950 left the server
+[22:55:18] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[22:55:42] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[22:55:42] [DEBUG] Loading player RealMedal575950...
+[22:55:42] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 266 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[22:56:04] [DEBUG] Rebbebba (24417846-d5ed-4608-ae7a-ed643b41c5e1) joined the server
+[22:56:04] [DEBUG] Loading player Rebbebba...
+[22:56:05] [DEBUG] New account registered for Rebbebba (24417846-d5ed-4608-ae7a-ed643b41c5e1), index 8 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[22:56:05] [DEBUG] Completed load of Rebbebba (24417846-d5ed-4608-ae7a-ed643b41c5e1 (#8)) datas within 610 ms (0 quests, 0 pools)
+[22:56:05] [DEBUG] RealMedal575950 left the server
+[22:56:05] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[22:56:12] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[22:56:12] [DEBUG] Loading player RealMedal575950...
+[22:56:13] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 268 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[23:04:41] [DEBUG] Saving 5 loaded accounts and 8 identifiers.
+[23:04:41] [DEBUG] Saved datas (0.001s)!
+[23:04:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[23:04:58] [DEBUG] RealMedal575950 left the server
+[23:04:58] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[23:05:26] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[23:05:26] [DEBUG] Loading player RealMedal575950...
+[23:05:26] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 276 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[23:06:25] [DEBUG] bolloedsz left the server
+[23:06:25] [DEBUG] Unloading player bolloedsz... (0 quests, 0 pools)
+[23:07:06] [DEBUG] RealMedal575950 left the server
+[23:07:06] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[23:07:10] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[23:07:10] [DEBUG] Loading player RealMedal575950...
+[23:07:11] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 266 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[23:08:00] [DEBUG] RealMedal575950 left the server
+[23:08:00] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[23:08:35] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[23:08:35] [DEBUG] Loading player RealMedal575950...
+[23:08:35] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 257 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[23:14:50] [DEBUG] DatPony101 (b2638e76-0eaa-4dee-a207-52b4fa3243af) joined the server
+[23:14:50] [DEBUG] Loading player DatPony101...
+[23:14:50] [DEBUG] New account registered for DatPony101 (b2638e76-0eaa-4dee-a207-52b4fa3243af), index 9 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[23:14:50] [DEBUG] Completed load of DatPony101 (b2638e76-0eaa-4dee-a207-52b4fa3243af (#9)) datas within 25 ms (0 quests, 0 pools)
+[23:14:55] [DEBUG] DatPony101 left the server
+[23:14:55] [DEBUG] Unloading player DatPony101... (0 quests, 0 pools)
+[23:19:41] [DEBUG] Saving 4 loaded accounts and 9 identifiers.
+[23:19:41] [DEBUG] Saved datas (0.001s)!
+[23:19:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[23:21:25] [DEBUG] DatPony101 (b2638e76-0eaa-4dee-a207-52b4fa3243af) joined the server
+[23:21:25] [DEBUG] Loading player DatPony101...
+[23:21:25] [DEBUG] Loading account #9. Last file edition: Sun Jul 16 23:14:55 EDT 2023
+[23:21:25] [DEBUG] Completed load of DatPony101 (b2638e76-0eaa-4dee-a207-52b4fa3243af (#9)) datas within 19 ms (0 quests, 0 pools) | Loaded from file from index
+[23:24:56] [DEBUG] DatPony101 left the server
+[23:24:56] [DEBUG] Unloading player DatPony101... (0 quests, 0 pools)
+[23:34:41] [DEBUG] Saving 4 loaded accounts and 9 identifiers.
+[23:34:41] [DEBUG] Saved datas (0.001s)!
+[23:34:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[23:42:27] [DEBUG] Dare2BeStoopid left the server
+[23:42:27] [DEBUG] Unloading player Dare2BeStoopid... (0 quests, 0 pools)
+[23:43:12] [DEBUG] RealMedal575950 left the server
+[23:43:12] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[23:43:42] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[23:43:42] [DEBUG] Loading player RealMedal575950...
+[23:43:42] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 38 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[23:47:50] [DEBUG] Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f) joined the server
+[23:47:50] [DEBUG] Loading player Dare2BeStoopid...
+[23:47:50] [DEBUG] Loading account #3. Last file edition: Sun Jul 16 23:42:27 EDT 2023
+[23:47:50] [DEBUG] Completed load of Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f (#3)) datas within 16 ms (0 quests, 0 pools) | Loaded from file from index
+[23:49:41] [DEBUG] Saving 4 loaded accounts and 9 identifiers.
+[23:49:41] [DEBUG] Saved datas (0.001s)!
+[23:49:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[23:51:46] [DEBUG] recapp_ left the server
+[23:51:46] [DEBUG] Unloading player recapp_... (0 quests, 0 pools)
+[00:04:41] [DEBUG] Saving 3 loaded accounts and 9 identifiers.
+[00:04:41] [DEBUG] Saved datas (0.001s)!
+[00:04:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[00:19:41] [DEBUG] Saving 3 loaded accounts and 9 identifiers.
+[00:19:41] [DEBUG] Saved datas (0.001s)!
+[00:19:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[00:20:47] [DEBUG] Dare2BeStoopid left the server
+[00:20:47] [DEBUG] Unloading player Dare2BeStoopid... (0 quests, 0 pools)
+[00:22:27] [DEBUG] RealMedal575950 left the server
+[00:22:27] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[00:22:31] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[00:22:31] [DEBUG] Loading player RealMedal575950...
+[00:22:31] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 31 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[00:23:00] [DEBUG] RealMedal575950 left the server
+[00:23:00] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[00:23:03] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[00:23:03] [DEBUG] Loading player RealMedal575950...
+[00:23:03] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 30 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[00:23:53] [DEBUG] RealMedal575950 left the server
+[00:23:53] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[00:24:25] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[00:24:25] [DEBUG] Loading player RealMedal575950...
+[00:24:25] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 34 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[00:24:31] [DEBUG] RealMedal575950 left the server
+[00:24:31] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[00:24:34] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[00:24:34] [DEBUG] Loading player RealMedal575950...
+[00:24:34] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 30 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[00:28:19] [DEBUG] RealMedal575950 left the server
+[00:28:19] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[00:28:39] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[00:28:39] [DEBUG] Loading player RealMedal575950...
+[00:28:39] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 32 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[00:29:30] [DEBUG] RealMedal575950 left the server
+[00:29:30] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[00:31:07] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[00:31:07] [DEBUG] Loading player RealMedal575950...
+[00:31:07] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 32 ms (0 quests, 0 pools) | Loaded from cached accounts pending unload
+[00:31:17] [DEBUG] RealMedal575950 left the server
+[00:31:17] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[00:33:54] [DEBUG] RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397) joined the server
+[00:33:54] [DEBUG] Loading player RealMedal575950...
+[00:33:54] [DEBUG] Loading account #6. Last file edition: Mon Jul 17 00:31:17 EDT 2023
+[00:33:54] [DEBUG] Completed load of RealMedal575950 (8cf904d2-2408-4d71-945f-0127b1155397 (#6)) datas within 34 ms (0 quests, 0 pools) | Loaded from file from index
+[00:34:41] [DEBUG] Saving 2 loaded accounts and 9 identifiers.
+[00:34:41] [DEBUG] Saved datas (0.06s)!
+[00:34:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[00:42:22] [DEBUG] Rebbebba left the server
+[00:42:22] [DEBUG] Unloading player Rebbebba... (0 quests, 0 pools)
+[00:49:41] [DEBUG] Saving 1 loaded accounts and 9 identifiers.
+[00:49:41] [DEBUG] Saved datas (0.0s)!
+[00:49:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[00:52:12] [DEBUG] MexixanRunaway (4f2e8cc5-420a-4826-b7db-6fecebae25e0) joined the server
+[00:52:12] [DEBUG] Loading player MexixanRunaway...
+[00:52:12] [DEBUG] New account registered for MexixanRunaway (4f2e8cc5-420a-4826-b7db-6fecebae25e0), index 10 via f.s.q.players.PlayersManager.tryLoad 176 -> f.s.q.players.PlayersManager.tryLoad 176
+[00:52:12] [DEBUG] Completed load of MexixanRunaway (4f2e8cc5-420a-4826-b7db-6fecebae25e0 (#10)) datas within 55 ms (0 quests, 0 pools)
+[00:52:21] [DEBUG] MexixanRunaway left the server
+[00:52:21] [DEBUG] Unloading player MexixanRunaway... (0 quests, 0 pools)
+[01:00:03] [DEBUG] RealMedal575950 left the server
+[01:00:03] [DEBUG] Unloading player RealMedal575950... (0 quests, 0 pools)
+[01:04:41] [DEBUG] Saving 0 loaded accounts and 10 identifiers.
+[01:04:41] [DEBUG] Saved datas (0.0s)!
+[01:04:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[01:14:31] [DEBUG] Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f) joined the server
+[01:14:31] [DEBUG] Loading player Dare2BeStoopid...
+[01:14:31] [DEBUG] Loading account #3. Last file edition: Mon Jul 17 00:20:47 EDT 2023
+[01:14:31] [DEBUG] Completed load of Dare2BeStoopid (8caa6ae6-1fdb-4cd0-834d-fd8d89fa102f (#3)) datas within 14 ms (0 quests, 0 pools) | Loaded from file from index
+[01:19:41] [DEBUG] Saving 1 loaded accounts and 10 identifiers.
+[01:19:41] [DEBUG] Saved datas (0.0s)!
+[01:19:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[01:34:41] [DEBUG] Saving 1 loaded accounts and 10 identifiers.
+[01:34:41] [DEBUG] Saved datas (0.001s)!
+[01:34:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[01:49:41] [DEBUG] Saving 1 loaded accounts and 10 identifiers.
+[01:49:41] [DEBUG] Saved datas (0.001s)!
+[01:49:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[02:04:41] [DEBUG] Saving 1 loaded accounts and 10 identifiers.
+[02:04:41] [DEBUG] Saved datas (0.0s)!
+[02:04:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[02:19:41] [DEBUG] Saving 1 loaded accounts and 10 identifiers.
+[02:19:41] [DEBUG] Saved datas (0.002s)!
+[02:19:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[02:34:41] [DEBUG] Saving 1 loaded accounts and 10 identifiers.
+[02:34:41] [DEBUG] Saved datas (0.001s)!
+[02:34:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[02:49:41] [DEBUG] Saving 1 loaded accounts and 10 identifiers.
+[02:49:41] [DEBUG] Saved datas (0.0s)!
+[02:49:41] [INFO] [BeautyQuests] Datas saved ~ periodic save
+[02:56:01] [INFO] [BeautyQuests] Disabling BeautyQuests v0.20.1
+[02:56:01] [INFO] [BeautyQuests] Periodic saves task stopped.
+[02:56:01] [INFO] [BeautyQuests] 2 scoreboards deleted.
+[02:56:01] [DEBUG] Saving 1 loaded accounts and 10 identifiers.
+[02:56:01] [DEBUG] Saved datas (0.001s)!
+[02:56:01] Logger was open during 5 hours 36 minutes
+[02:56:01] ---- BEAUTYQUESTS LOGGER - CLOSED Mon Jul 17 02:56:01 EDT 2023 ----
