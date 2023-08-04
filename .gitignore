@@ -63,3 +63,11 @@ world/level.dat
 *.pending
 plugins/dynmap/ids-by-ip.txt
 plugins/Multiverse-Core/worlds.yml
+plugins/VotingPlugin/ServerData.yml
+plugins/Essentials/uuids.bin
+plugins/Essentials/usermap.bin
+plugins/BeautyQuests/latest.log
+*.dat
+plugins/ChestShop/users.db
+plugins/BeautyQuests/latest.log_old
+plugins/BeautyQuests/latest.log
