@@ -88,7 +88,7 @@ Options:
     sit-message: true
 
     # Defines whether a player can sit on another player by default without using the sit playertoggle command
-    default-sit-mode: true
+    default-sit-mode: false
 
 
 

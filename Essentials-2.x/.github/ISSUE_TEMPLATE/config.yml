@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: View common issues
+    url: https://github.com/EssentialsX/Essentials/issues/3956
+    about: Check the list of known common issues to see if it solves your problem.
+  - name: Check past help requests
+    url: https://github.com/EssentialsX/Essentials/discussions/categories/q-a
+    about: Visit the Q&A forum to search for previous help requests.
+  - name: Check past feature suggestions
+    url: https://github.com/EssentialsX/Essentials/issues?q=is%3Aissue+label%3A%22type%3A+enhancement%22
+    about: Visit the Feature Suggestions forum to view and discuss existing feature suggestions.
+  - name: Create help request
+    url: https://github.com/EssentialsX/Essentials/discussions/new?category=q-a
+    about: Create a support ticket to get help from developers.
+  - name: Get help from the community on Discord
+    url: https://discord.gg/casfFyh
+    about: Join the MOSS Discord for community-powered EssentialsX support!

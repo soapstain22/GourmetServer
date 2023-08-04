@@ -1,0 +1,22 @@
+name: Published Release / PreRelease
+
+on:
+    release:
+        types: [released]
+        branches: [master]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Set up Eclipse Temurin
+              uses: actions/setup-java@v3
+              with:
+                  distribution: 'temurin'
+                  java-version: '17'
+                  java-package: jdk
+                  settings-path: ${{ github.workspace }} # location for the settings.xml file
+            - name: Deploy to GitHub Package Registry
+              run: mvn -B deploy -s $GITHUB_WORKSPACE/settings.xml -DskipTests=false
+              env:
+                  GITHUB_TOKEN: ${{ github.token }}

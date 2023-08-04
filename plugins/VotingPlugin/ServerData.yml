@@ -1,8 +1,8 @@
-LastUpdated: 1690328407001
+LastUpdated: 1691111044710
 VotingPlugin:
   AutoCachePlaceholders: []
   AutoCacheUpdated: true
-  Version: '3838-Spigot-3374045-a2fafdd (MC: 1.20.1)'
+  Version: '3844-Spigot-b41c46d-c335a55 (MC: 1.20.1)'
   ServiceSites:
   - PlanetMinecraft.com
   - Best Minecraft Servers
@@ -21,6 +21,7 @@ VotingPlugin:
   - TopServers
 PluginVersions:
   VotingPlugin: 6.13.1
-Month: JULY
-PrevWeek: 30
-PrevDay: 25
+Month: AUGUST
+PrevWeek: 31
+PrevDay: 3
+IgnoreTime: false

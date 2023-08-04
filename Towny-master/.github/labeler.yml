@@ -1,0 +1,46 @@
+Label-War:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/war/*
+
+Label-Command:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/command/*
+
+Label-Data:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/db/*
+
+Label-Config:
+    - Towny/Towny/src/main/java/main/java/com/palmergames/bukkit/towny/config/*
+
+Label-Money:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/object/EconomyAccount.java
+    - Towny/src/main/java/com/palmergames/bukkit/towny/object/EconomyHandler.java
+    - Towny/src/main/java/com/palmergames/bukkit/towny/object/economy/*
+    - Towny/src/main/java/com/palmergames/bukkit/towny/TownyEconomyHandler.java
+
+Label-Events:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/event/*
+
+Label-Towns:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/object/Town.java
+
+Label-Nations:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/object/Nation.java
+
+Label-Resident:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/object/Resident.java
+
+Label-TownBlock:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/object/TownBlock.java
+
+Label-TownyAdmin:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/command/TownyAdminCommand.java
+
+Label-API:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/TownyAPI.java
+
+Label-Languages:
+    - Towny/src/main/java/com/palmergames/bukkit/towny/object/Translatable.java
+    - Towny/src/main/java/com/palmergames/bukkit/towny/object/Translator.java
+    - Towny/src/main/java/com/palmergames/bukkit/towny/object/Translation.java
+
+Label-CI/CD:
+    - .github/workflows/*
