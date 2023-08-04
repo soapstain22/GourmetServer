@@ -1,5 +1,5 @@
 ---
 name: bug report
 labels: bug 
-description: please fill in the blanks
+about: please fill in the blanks
 ---
