@@ -52,3 +52,8 @@ bundler/*
 plugins/BeautyQuests/latest.log
 plugins/BeautyQuests/players/*
 *.pending
+plugins/Multiverse-Core/worlds.yml
+plugins/VotingPlugin/ServerData.yml
+plugins/BeautyQuests/latest.log
+plugins/BeautyQuests/latest.log_old
+plugins/ChestShop/users.db
