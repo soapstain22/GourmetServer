@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 7,
+      "weight": 25,
       "element": {
         "location": "gourmet:road",
         "processors": "minecraft:empty",
@@ -12,7 +12,7 @@
       }
     },
     {	
-      "weight": 2,
+      "weight": 4,
       "element": {
         "location": "gourmet:roadhome",
         "processors": "minecraft:empty",
