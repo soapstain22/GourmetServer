@@ -43,24 +43,27 @@ border: 1px solid #fff;
 ------------------------------------------------
 ----------------------------------------------*/
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-  background: #fff url(/img/dirt.jpg) center center/cover repeat;
-  }
+  background: gray url("/img/dirt.png") repeat local 0px 0px;
+	margin: 5;
+	padding: 5;
+	box-sizing: border-box;  }
   /*----------------------------------------------
   ------------------------------------------------
   1. Universal Styles
   ------------------------------------------------
   ----------------------------------------------*/
   body {
+    
 	font-family:sans-serif;
-  color: white;
+  color: black;
+  background-image:image("img/dirt.png");
+  outline-color: black;
   
   }
   .button {
     border: none;
-    color: white;
+    color: gray;
+    outline-color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -74,26 +77,30 @@ border: 1px solid #fff;
   2. Header & Nav Styles
   ------------------------------------------------
   ----------------------------------------------*/
+  h1 {
+    align-self: flex-start;
+    outline: width 2px;
+    border: 8px solid #000;
+  }
   h2 {
     border-top: 8px groove #000;
     border-right: 8px groove #000;
     border-bottom: 8px groove #000;
     border-left: 8px groove #000;
   }
-  button {
-    background-color: white;
-  }
   /*----------------------------------------------
   ------------------------------------------------
   3. Main Body Styles
   ------------------------------------------------
   ----------------------------------------------*/
-  p {
-    align-self: flex-start;
-	outline: width 2px;
-  border: 10px solid #000;
+
+  body {
+    align-self:auto;
+    background-color: darkgray;
+    outline: black groove solid;
 
   }
+
   /*----------------------------------------------
   ------------------------------------------------
   4. Sidebar Styles
