@@ -1,0 +1,170 @@
+unlockedPages: 1
+inventory:
+  '0':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '1':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '2':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '3':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '4':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '5':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '6':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '7':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '8':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '9':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '10':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '11':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '12':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '13':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '14':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '15':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '16':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '17':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '18':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '19':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '20':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '21':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '22':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '23':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '24':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '25':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '26':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '27':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '28':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '29':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '30':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '31':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '32':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '33':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '34':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '35':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '36':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '37':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '38':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '39':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '40':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
+  '41':
+    ==: org.bukkit.inventory.ItemStack
+    v: 3465
+    type: AIR
