@@ -52,3 +52,7 @@ bundler/*
 plugins/BeautyQuests/latest.log
 plugins/BeautyQuests/players/*
 *.pending
+plugins/BeautyQuests/data.yml
+plugins/Essentials/trade.log
+plugins/EssentialsDiscord/config.yml
+usercache.json
