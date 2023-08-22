@@ -1,12 +1,12 @@
 spawns:
   default:
-    world: 3e9a3314-3673-4fdd-872f-ccc75ed6a40a
-    world-name: world
-    x: -1740.5786241577075
-    y: 65.0
-    z: -2411.801904645158
-    yaw: 35.100921630859375
-    pitch: 17.849905014038086
+    world: 601a69d0-ddb4-4e45-a7cc-9a1d163e717e
+    world-name: void
+    x: 8.369347123116356
+    y: 85.0
+    z: -8.007866871868798
+    yaw: -13.800048828125
+    pitch: 13.349830627441406
   permaworld:
     world: 3e9a3314-3673-4fdd-872f-ccc75ed6a40a
     world-name: world
