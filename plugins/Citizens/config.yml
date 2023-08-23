@@ -56,25 +56,33 @@ npc:
       cache-paths: false
     look-close:
       # Enable look close by default
-      enabled: false
+      enabled: true
       # Default look close range in blocks
       range: 5
       # Default random look close enabled
-      random-look-enabled: false
+      random-look-enabled: true
       # Default random look delay
       random-look-delay: 3s
       # Default to checking for line of sight when looking at players
-      realistic-looking: false
+      realistic-looking: true
       # Whether to disable look close while pathfinding
       disable-while-navigating: true
     talk-close:
       # Default talk to nearby players
-      random-talker: false
+      random-talker: true
       enabled: false
       # Default talk close range in blocks
       range: 5
       text:
-        '0': Hi, I'm <npc>!
+        '0': hows it hanging
+        '1': whats the big idea?
+        '2': im tired
+        '3': are we gonna have a problem?
+        '4': outta my way!
+        '5': no no no
+        '6': whats that?
+        '7': curious
+        '8': ummmmmmmmmm
     # Default duration of no-damage-ticks on entity spawn, Minecraft default is 20 ticks
     spawn-nodamage-duration: 1s
     # Default duration in the same location before the NPC considers itself stuck and failed pathfinding
@@ -122,9 +130,9 @@ npc:
     max-packet-entries: 15
   text:
     # Default maximum delay when talking to players
-    default-random-text-delay-max: 10s
+    default-random-text-delay-max: 15s
     # Default minimum delay when talking to players
-    default-random-text-delay-min: 5s
+    default-random-text-delay-min: 10s
     # Default duration that speech bubbles show up for
     speech-bubble-duration: 50t
     # The item filter to talk with
@@ -157,13 +165,13 @@ npc:
     # The global cooldown before a command can be used again, must be in seconds
     global-cooldown: 1s
     error-messages:
-      maximum-times-used: You have reached the maximum number of uses ({0}).
-      missing-item: Missing {1} {0}
-      no-permission: You don't have permission to do that.
-      not-enough-experience: You need at least {0} experience.
-      not-enough-money: You need at least ${0}.
-      on-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
-      on-global-cooldown: Please wait for {minutes} minutes and {seconds_over} seconds.
+      maximum-times-used: out of uses ({0})
+      missing-item: item required - {1} {0}
+      no-permission: locked!
+      not-enough-experience: You need {0} experience
+      not-enough-money: You need at least ${0}
+      on-cooldown: cooldown for {minutes} minutes and {seconds_over} seconds.
+      on-global-cooldown: cooldown for {minutes} minutes and {seconds_over} seconds.
   movement:
     # Movement speed percentage increase while in water
     water-speed-modifier: 1.15
@@ -178,7 +186,7 @@ npc:
   selection:
     # The default item in hand to select an NPC
     item: stick
-    message: Selected [[<npc>]] (ID [[<id>]]).
+    message: selected [[<npc>]] (ID [[<id>]]).
   # Whether the server owns NPCs rather than individual players
   server-ownership: false
   shops:

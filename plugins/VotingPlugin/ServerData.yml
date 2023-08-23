@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-LastUpdated: 1691111044710
-=======
 LastUpdated: 1691252298233
->>>>>>> Stashed changes
 VotingPlugin:
   AutoCachePlaceholders: []
   AutoCacheUpdated: true
@@ -10,14 +6,12 @@ VotingPlugin:
   ServiceSites:
   - PlanetMinecraft.com
   - Best Minecraft Servers
-  - hi
   - minecraft-serverlist-com
   - TopMinecraftServers
   - MC-Servers.com
   - MCSL
   - Minelist.net
   - mclist.io
-  - lol u can just put whatever u want here
   - MinecraftServers.org
   - MCServers.TOP
   - MinecraftServersList

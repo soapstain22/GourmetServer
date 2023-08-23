@@ -10,6 +10,7 @@
 # List of mechanics to enable! If they aren't in this list, the server won't load them!
 enabled-mechanics:
 - Variables
+- ICs
 
 # A list of CraftBook mechanics that are disabled, for easy copy/pastability to the enabled list.
 disabled-mechanics:
@@ -44,7 +45,6 @@ disabled-mechanics:
 - Glowstone
 - HeadDrops
 - HiddenSwitch
-- ICs
 - JackOLantern
 - Jukebox
 - LandBoats

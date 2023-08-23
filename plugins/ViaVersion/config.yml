@@ -21,11 +21,11 @@ block-versions: []
 # List of all Minecraft protocol versions: http://wiki.vg/Protocol_version_numbers, or use a generator: https://via.krusic22.com
 block-protocols: []
 # Change the blocked disconnect message
-block-disconnect-msg: You are using an unsupported Minecraft version!
+block-disconnect-msg: what the hell are you connecting with!?
 # If you use ProtocolLib, we can't reload without kicking the players.
 # (We don't suggest using reload either, use a plugin manager)
 # You can customise the message we kick people with if you use ProtocolLib here.
-reload-disconnect-msg: Server reload, please rejoin!
+reload-disconnect-msg: viaversion said something about a reload on your end. try reconnecting
 # We warn when there's a error converting item and block data over versions, should we suppress these? (Only suggested if spamming)
 suppress-conversion-warnings: false
 #
@@ -40,7 +40,7 @@ suppress-conversion-warnings: false
 # What is the maximum per second a client can send (Use %pps to display their pps)
 # Use -1 to disable.
 max-pps: 800
-max-pps-kick-msg: You are sending too many packets!
+max-pps-kick-msg: quit it with the 800+ packets per second
 #
 # We can also kick them if over a period they send over a threshold a certain amount of times.
 #
@@ -52,7 +52,7 @@ tracking-warning-pps: 120
 # How many warnings over the interval can we have
 # This can never be higher than "tracking-period"
 tracking-max-warnings: 4
-tracking-max-kick-msg: You are sending too many packets, :(
+tracking-max-kick-msg: NO MORE PACKETS
 #
 #----------------------------------------------------------#
 #                 MULTIPLE VERSIONS OPTIONS                #

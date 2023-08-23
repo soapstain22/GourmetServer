@@ -62,7 +62,7 @@ DisablePrefix: false
 # If there is more than one, the plugin will choose a random one.
 # [?] Supports custom & url.png skins, read SkinFile Generator below. [?]
 DefaultSkins:
-  Enabled: false
+  Enabled: true
   ApplyForPremium: false
   Names:
     - "xknat"
