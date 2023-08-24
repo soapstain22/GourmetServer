@@ -35,9 +35,7 @@ body:
       options:
         - label: I agree to follow the rules
           required: true
----
-<body>
   yaga baga bobo
   test test
   click box[ ]
-</body>
+---
