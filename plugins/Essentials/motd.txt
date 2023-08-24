@@ -1,16 +1,11 @@
-&l&4g&6o&eur&2m&ae&9t &bs&1e&5r&dv&fe&8r
-welcome to my server.
-
-/motd: read this again
-/towny: everything to do with towns/claims
-/warps: access other areas that are not usually accessable otherwise
-/discord: join the discord
-/sell: make some goddamn money!!!!!
-/vote: &e keep the server alive
-/tpa: teleport to people
-/sethome: set home
-/home: go home
-&d for developers, type /motd dev
-#dev
+- Resource Pack: https://github.com/soapstain22/GourmetResource
+- Data Pack: https://github.com/soapstain22/GourmetData
+- Website: https://github.com/soapstain22/GourmetServer/blob/master/index.html
+- Issues: https://github.com/soapstain22/GourmetServer/issues/new/choose
+- Discord: https://discord.gg/YqbRQdS2Qc
+- Dynamic Map: http://71.190.235.122:8123/
+- Webstore: https://gourmet-server.tebex.io/
+- Github: https://github.com/soapstain22/GourmetServer
+- Wiki: https://github.com/soapstain22/GourmetServer/wiki
 
 
