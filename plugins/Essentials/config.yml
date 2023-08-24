@@ -71,7 +71,7 @@ add-prefix-in-playerlist: true
 # When this option is enabled, player suffixes will be shown in the playerlist.
 # This feature only works for Minecraft version 1.8 and higher. 
 # This value of change-playerlist has to be true
-add-suffix-in-playerlist: false
+add-suffix-in-playerlist: true
 
 # If the teleport destination is unsafe, should players be teleported to the nearest safe location?
 # If this is set to true, Essentials will attempt to teleport players close to the intended destination.
@@ -360,14 +360,14 @@ use-nbt-serialization-in-createkit: false
 
 enabledSigns:
   #- color
-  #- balance
-  #- buy
-  #- sell
-  #- trade
+  - balance
+  - buy
+  - sell
+  - trade
   #- free
-  #- warp
-  #- kit
-  #- mail
+  - warp
+  - kit
+  - mail
   #- enchant
   #- gamemode
   #- heal
@@ -687,8 +687,8 @@ delay-motd: 0
 # A list of commands that should have their complementary confirm commands enabled by default.
 # This is empty by default, for the latest list of valid commands see the latest source config.yml.
 default-enabled-confirm-commands:
-#- pay
-#- clearinventory
+- pay
+- clearinventory
 
 # Where should Essentials teleport players when they are freed from jail?
 # You can set to "back" to have them teleported to where they were before they were jailed, "spawn" to have them
@@ -1146,7 +1146,7 @@ newbies:
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
-  spawnpoint: hub
+  spawnpoint: spawn
 
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.

@@ -20,8 +20,9 @@
 # If true:
 # Only allow one item with chance to go through (from items below)
 # If no chance specificied it will only give the first item
-Money: 1000
-
+Money: 
+  Min: 100
+  Max: 300
 # Pick random number between min and max money amount
 #Money:
 #  Min: 100
@@ -34,16 +35,13 @@ Money: 1000
 #EXP: 100
 
 # Pick a random number between min and max EXP amount to give
-#EXP:
-#  Min: 100
-#  Max: 1000
+EXP:
+  Min: 100
+  Max: 1000
 
-EXPLevels: 3
-
-# Random amount of EXP levels between 3 to 7
-# EXPLevels:
-  # Min: 3
-  # Max: 7
+EXPLevels:
+  Min: 3
+  Max: 7
 
 # Commands to run
 # Use %player% for player name
