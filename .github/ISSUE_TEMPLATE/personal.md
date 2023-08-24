@@ -35,7 +35,4 @@ body:
       options:
         - label: I agree to follow the rules
           required: true
-  yaga baga bobo
-  test test
-  click box[ ]
 ---
