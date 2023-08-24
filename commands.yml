@@ -1,4 +1,6 @@
-command-block-overrides: []
+command-block-overrides:
+    - "summon"
+    - "give"
 ignore-vanilla-permissions: false
 aliases:
   icanhasbukkit:
