@@ -1,9 +1,13 @@
 # GourmetServer
-- [How to make changes](docs/CONTRIBUTING.md)
-- [Report a bug](https://github.com/soapstain22/GourmetServer/issues/new/choose)
-- [Wiki](https://github.com/soapstain22/GourmetServer/wiki)
-- [Discord](https://discord.com/invite/6BM2dn2sja)
-
+- Resource Pack: https://github.com/soapstain22/GourmetResource
+- Data Pack: https://github.com/soapstain22/GourmetData
+- Website: https://github.com/soapstain22/GourmetServer/blob/master/index.html
+- Issues: https://github.com/soapstain22/GourmetServer/issues/new/choose
+- Discord: https://discord.gg/YqbRQdS2Qc
+- Dynamic Map: http://71.190.235.122:8123/
+- Webstore: https://gourmet-server.tebex.io/
+- Github: https://github.com/soapstain22/GourmetServer
+- Wiki: https://github.com/soapstain22/GourmetServer/wiki
 ## How to edit
 First you gotta create a fork of this repository. Forks are just copies of a repository that you can edit, and anything you type in there will be mirrored onto the server. when you are done making changes, create a pull request that merges your changes from your fork into soapstain22/GourmetServer/master. If your pull request is nice and follows guidelines i will accept it and it will be added into the server automagically.
 
