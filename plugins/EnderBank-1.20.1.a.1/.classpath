@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Aaron/Documents/Minecraft Stuff/1.20.1 Server/bundler/libraries/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aaron/Documents/Minecraft Stuff/1.20.1 Server/bundler/libraries/gson-2.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aaron/Documents/Minecraft Stuff/1.20.1 Server/bundler/libraries/snakeyaml-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aaron/Documents/Minecraft Stuff/1.20.1 Server/bundler/libraries/spigot-api-1.20.1-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aaron/Documents/Minecraft Stuff/HolographicDisplays-3.0.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Aaron/Documents/Minecraft Stuff/Vault.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,34 @@
+name: LoginSecurity
+version: 3.2.0
+main: com.lenis0012.bukkit.loginsecurity.LoginSecurity
+author: lenis0012
+description: 'The #1 Auth plugin'
+softdepend: [ProtocolLib]
+api-version: '1.13'
+commands:
+  login:
+    description: Login with your account.
+    usage: /login <password>
+  register:
+    description: Set a password for your account.
+    usage: /register <password>
+  changepassword:
+    description: Change your account password.
+    aliases: [changepass]
+    usage: /changepass <old pass> <new pass>
+  logout:
+    description: Log out of your account.
+    usage: /logout
+  unregister:
+    description: Unregister your account.
+    usage: /unregister <current password>
+  lac:
+    description: LoginSecurity Admin command.
+    usage: /lac
+permissions:
+  ls.update:
+    description: Notify player of available updates
+    default: op
+  ls.bypass:
+    description: Bypass registration requirement
+    default: false

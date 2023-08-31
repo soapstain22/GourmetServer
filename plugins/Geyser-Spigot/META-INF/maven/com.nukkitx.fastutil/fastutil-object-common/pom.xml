@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>fastutil-common-parent</artifactId>
+        <groupId>com.nukkitx.fastutil</groupId>
+        <version>8.5.3</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>fastutil-object-common</artifactId>
+
+    <properties>
+        <jigsaw.module>fastutil.commons.objects</jigsaw.module>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.nukkitx.fastutil</groupId>
+            <artifactId>fastutil-common</artifactId>
+            <version>8.5.3</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>${maven.multiModuleProjectDirectory}/src</sourceDirectory>
+        <testSourceDirectory>${maven.multiModuleProjectDirectory}/test</testSourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <includes>
+                        <include>${package}/objects/ObjectCollection.java</include>
+                        <include>${package}/objects/ObjectCollections.java</include>
+                        <include>${package}/objects/AbstractObjectCollection.java</include>
+                        <include>${package}/objects/AbstractObjectIterator.java</include>
+                        <include>${package}/objects/ObjectIterable.java</include>
+                        <include>${package}/objects/ObjectBidirectionalIterable.java</include>
+                        <include>${package}/objects/ObjectHash.java</include>
+                        <include>${package}/objects/ObjectBinaryOperator.java</include>
+                        <include>${package}/objects/Object*Pair.java</include>
+                    </includes>
+                    <excludes>
+                        <exclude>${package}/objects/ObjectObjectImmutablePair.java</exclude>
+                        <exclude>${package}/objects/ObjectObjectImmutableSortedPair.java</exclude>
+                    </excludes>
+                    <testIncludes>
+                        <testInclude>noop</testInclude>
+                    </testIncludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

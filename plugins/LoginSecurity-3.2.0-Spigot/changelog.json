@@ -1,0 +1,33 @@
+{
+  "version": "LoginSecurity v3.1.1",
+  "data":
+  [
+    [
+      "---[ Changelog ]---",
+      "",
+      "- Fix MySQL support on recent Minecraft versions",
+      "",
+      "Please check spigot-mc.org for the full changelog."
+    ],
+    [
+      "---[ Dev Notes ]---",
+      "",
+      "As you may have noticed, LoginSecurity is not being actively worked on.",
+      "I intend to add some minor requested features and fix bugs, but I will not make any promises."
+    ],
+    [
+      "====[ DONATE ]====",
+      "",
+      "Donate please :)",
+      "$1 = 1 HUG",
+      "",
+      "paypal.me/lenis0012",
+      "=====[ SOCIAL ]=====",
+      "IGN: lenis",
+      "Twitter: @lenis0012",
+      "",
+      "Report bugs!",
+      "-lenis"
+    ]
+  ]
+}

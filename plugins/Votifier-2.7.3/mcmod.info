@@ -1,0 +1,17 @@
+[
+    {
+        "modid": "nuvotifier",
+        "name": "NuVotifier",
+        "version": "2.7.3",
+        "description": "Safe, smart, and secure Votifier server plugin",
+        "authorList": [
+            "Ichbinjoe"
+        ],
+        "dependencies": [
+            "spongeapi@7.1.0"
+        ],
+        "requiredMods": [
+            "spongeapi@7.1.0"
+        ]
+    }
+]

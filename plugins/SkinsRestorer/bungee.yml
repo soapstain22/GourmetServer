@@ -1,0 +1,4 @@
+name: SkinsRestorer
+main: net.skinsrestorer.bungee.SkinsRestorerBootstrap
+version: 14.2.12
+author: knat, AlexProgrammerDE, Th3Tr0LLeR, McLive, DoNotSpamPls

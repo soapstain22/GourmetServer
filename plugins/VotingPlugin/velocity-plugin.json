@@ -1,0 +1,1 @@
+{"id":"votingplugin","name":"VotingPlugin","version":"1.0","description":"VotingPlugin Velocity Version","url":"https://www.spigotmc.org/resources/votingplugin.15358/","authors":["BenCodez"],"dependencies":[{"id":"nuvotifier","optional":true}],"main":"com.bencodez.votingplugin.bungee.velocity.VotingPluginVelocity"}

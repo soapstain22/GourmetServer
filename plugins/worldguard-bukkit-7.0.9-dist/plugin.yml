@@ -1,0 +1,6 @@
+name: WorldGuard
+main: com.sk89q.worldguard.bukkit.WorldGuardPlugin
+version: "7.0.9+5934e49"
+depend: [WorldEdit]
+softdepend: [CommandBook]
+api-version: "1.20"

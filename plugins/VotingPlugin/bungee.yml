@@ -1,0 +1,6 @@
+name: VotingPlugin
+version: 6.13.1
+main: com.bencodez.votingplugin.bungee.VotingPluginBungee
+author: BenCodez
+softDepends:
+- RedisBungee

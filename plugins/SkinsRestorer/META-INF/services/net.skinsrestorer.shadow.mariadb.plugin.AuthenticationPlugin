@@ -1,0 +1,6 @@
+net.skinsrestorer.shadow.mariadb.plugin.authentication.addon.ClearPasswordPlugin
+net.skinsrestorer.shadow.mariadb.plugin.authentication.addon.SendGssApiAuthPacket
+net.skinsrestorer.shadow.mariadb.plugin.authentication.standard.Ed25519PasswordPlugin
+net.skinsrestorer.shadow.mariadb.plugin.authentication.standard.NativePasswordPlugin
+net.skinsrestorer.shadow.mariadb.plugin.authentication.standard.SendPamAuthPacket
+net.skinsrestorer.shadow.mariadb.plugin.authentication.standard.CachingSha2PasswordPlugin

@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Version: 7.2.15
+WorldEdit-Version: 7.2.15
+WorldEdit-Kind: PLUGIN
+Main-Class: com.sk89q.worldedit.internal.util.InfoEntryPoint
+Class-Path: truezip.jar WorldEdit/truezip.jar truevfs.jar WorldEdit/true
+ vfs.jar js.jar WorldEdit/js.jar
+

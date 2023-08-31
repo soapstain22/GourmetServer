@@ -1,0 +1,25 @@
+config-version: 1
+
+settings:
+  material:
+    MUSIC_DISC_13: 178
+    MUSIC_DISC_CAT: 185
+    MUSIC_DISC_BLOCKS: 345
+    MUSIC_DISC_CHIRP: 185
+    MUSIC_DISC_FAR: 174
+    MUSIC_DISC_MALL: 197
+    MUSIC_DISC_MELLOHI: 96
+    MUSIC_DISC_STAL: 150
+    MUSIC_DISC_STRAD: 188
+    MUSIC_DISC_WARD: 251
+    MUSIC_DISC_11: 71
+    MUSIC_DISC_WAIT: 235
+    MUSIC_DISC_PIGSTEP: 148
+    MUSIC_DISC_OTHERSIDE: 195
+    MUSIC_DISC_5: 120
+
+  model-data:
+    0: 100
+
+  namespace:
+    example.namespace: 100

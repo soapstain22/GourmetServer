@@ -1,0 +1,1 @@
+{"id":"skinsrestorer","name":"SkinsRestorer","version":"14.2.12","description":"Ability to restore/change skins on servers! (Offline and Online Mode)","url":"https://skinsrestorer.net/","authors":["knat","AlexProgrammerDE","Blackfire62","McLive"],"dependencies":[],"main":"net.skinsrestorer.velocity.SkinsRestorerBootstrap"}

@@ -1,0 +1,18 @@
+
+--------------------------------------------------------------------------------
+
+  Oops! Has intentando lanzar la versión del plugin de Geyser directamente!
+
+  Este archivo jar es un plugin para ${plugin_type}. Puedes lanzar este archivo como
+  plugin si dejas este archivo en el directorio "${plugin_folder}".
+
+  También existe una versión independiente (standalone) disponible que no necesita
+  ser instado como un plugin, puedes encontrar esta versión en esta pagina:
+
+    http://ci.geysermc.org/
+
+  Si necesitas ayuda, deberías unirte a nuestro Discord:
+
+    http://discord.geysermc.org/
+
+--------------------------------------------------------------------------------

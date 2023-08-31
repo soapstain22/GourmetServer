@@ -1,0 +1,18 @@
+name: JukeLooper
+description: Loop jukeboxes and setup playlists.
+version: 2.5
+main: com.ranull.jukelooper.JukeLooper
+api-version: 1.13
+author: Ranull
+softdepend: [ JukeboxExtended, JukeboxExtendedReborn ]
+
+commands:
+  jukelooper:
+    description: JukeLooper info
+    default: true
+    usage: /jukelooper
+
+permissions:
+  jukelooper.reload:
+    default: op
+    description: Reload JukeLooper

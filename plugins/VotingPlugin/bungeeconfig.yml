@@ -1,0 +1,172 @@
+# Set bungeecoord to true on servers on the network (In VotingPlugin)
+# Set server name in each server related to what it is on bungee
+#
+# MYSQL Required on all setups
+# MYSQL INFO --------------------------
+Host: ''
+# Default port is 3306
+Port: 3306 
+Database: ''
+Username: ''
+Password: ''
+# Max number of connections
+MaxConnections: 1
+# Table name prefix, for use with mutliple servers
+# Don't use with PLUGINMESSAGING bungee setup
+Prefix: ''
+#UseSSL: true
+#PublicKeyRetrieval: false
+#Attempt to use mariadb driver
+#UseMariaDB: false
+
+# Online mode for UUIDS
+# Offline mode setups are not fully tested and are not supported currently
+OnlineMode: true
+
+
+####################################################################################
+# Global mysql data handle for between server commmunications
+# This is NOT required for bungee voting to work
+# This is still a WIP, use with caution
+# This will create a different table then from users storing server info to process
+#
+# If you use this you need to enable this on BungeeSettings.yml on each server with votingplugin
+# Make sure server name is set correctly in BungeeSettings.yml or this will not work correctly
+# 
+# Please use PLUGINMESSAGING for this, SOCKETS should work as well, but not fully tested
+#
+# This will make votes cache until time change has finished processing
+# In the event a server is offline or time change fails, the time change process
+# will continue after a set amount of time (in essense skipping a specific server)
+# This will also respect blocked servers
+GlobalData:
+  Enabled: false
+  # Use existing connection above
+  UseMainMySQL: true
+  # Mysql settings only used if above is false
+  Host: ''
+  # Default port is 3306
+  Port: 3306 
+  Database: ''
+  Username: ''
+  Password: ''
+  # Max number of connections
+  MaxConnections: 1
+  # Must be the same on all servers
+  Prefix: ''
+  #UseSSL: true
+  #PublicKeyRetrieval: false
+  #Attempt to use mariadb driver
+  #UseMariaDB: false
+  
+# Time offset for time changes
+# Must match on all servers
+TimeHourOffSet: 0
+
+####################################################################################
+
+Debug: false
+# Have a reward on each server
+# If false, will send to online server only
+SendVotesToAllServers: true
+# List of servers the plugin won't send the vote to
+# Uses names from bungeecoord config, only needed for non SOCKETS setup
+BlockedServers:
+- hub
+
+
+# Similar to BlockServers
+# If a server is listed then blockedservers is ignored
+WhiteListedServers: []
+
+# What type of bungee setup
+# Requires restart and set on all servers
+# https://github.com/BenCodez/VotingPlugin/wiki/Bungeecoord-Setups
+# Available:
+# SOCKETS 
+# PLUGINMESSAGING (Recommended)
+# MYSQL
+BungeeMethod: PLUGINMESSAGING
+
+# If false, votes will be checked if user is a valid player that has joined to server
+# Works for PLUGINMESSAGING and SOCKETS methods only
+# This requires spigot servers AllowUnJoined to be set to true in Config.yml
+AllowUnJoined: false
+
+# Points to give on vote
+PointsOnVote: 1
+
+# If true, bungee will handle adding totals
+# If false, spigot servers will EACH set their own totals
+# If false, AllowUnJoined should be enabled on bungee, spigot servers will handle that
+# Recommeneded to leave enabled, setups with this disabled are currently unsupported
+BungeeManageTotals: true
+
+# Tell servers to broadcast
+# Set DisableBroadcast to true on spigot servers (BungeeSettings.yml) as well
+Broadcast: true
+
+# Geyser settings
+# This may or may not work
+# Does not work on velocity currently
+GeyserSupport: false
+GeyserPrefix: '.'
+
+VoteParty:
+  # If enabled, will trigger vote party reward 
+  # in BungeeSettings.yml under BungeeVotePartyReward
+  # Only runs rewards for online players
+  Enabled: false
+  # Votes required
+  VotesRequired: 100
+  # Increase amount required on each vote party
+  IncreaseVotesRequired: 0
+  # If false, will only send to servers listed below
+  SendToAllServers: true
+  # Servers to send to, if SendToAllServers is false
+  ServersToSend: []
+  # List of commands to run on bungee server
+  # Set spigot commands in BungeeSettings.yml
+  BungeeCommands: []
+  Broadcast: '&aVote party has been reached!'
+  
+
+##########################################
+# PLUGINMESSAGING Settings
+##########################################
+
+# Applies to PLUGINMESSAGING only
+# Votes will be forwarded when specific player is online
+WaitForUserOnline: false
+
+
+##########################################
+# Multi-proxy setup
+# This is still a WIP, use with caution
+# Primary server  needs votifier and config option enabled
+# Set socket host on each proxy and primary server set sub proxies
+# All servers should be on pluginmessaging or sockets setup
+##########################################
+
+# Support for redis
+# experimental
+MultiProxySupport: false
+
+# Enable on primary proxy server with votifier
+PrimaryServer: false
+
+# If enabled, player will only get 1 reward on a server on the network
+# Must be enabled on all proxies for this to work
+# Must also disable sendtoallservers
+MultiProxyOneGlobalReward: false
+
+# Set this for each proxy
+MultiProxySocketHost:
+  Host: 0.0.0.0
+  Port: 1234
+
+# Set other sub proxies here
+MultiProxyServers:
+  secondproxy:
+    Host: 0.0.0.0
+    Port: 1235

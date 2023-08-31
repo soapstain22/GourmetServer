@@ -1,0 +1,16 @@
+name: MiniMOTD
+version: 2.0.12
+main: xyz.jpenilla.minimotd.bukkit.MiniMOTDPlugin
+folia-supported: true
+description: Use MiniMessage text formatting in the server list MOTD.
+authors:
+  - jmp
+website: https://github.com/jpenilla/MiniMOTD
+commands:
+  minimotd:
+    description: MiniMOTD Command
+    permission: minimotd.admin
+    usage: /minimotd help
+api-version: 1.13
+softdepend:
+  - ViaVersion

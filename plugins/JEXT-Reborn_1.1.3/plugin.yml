@@ -1,0 +1,90 @@
+main: me.spartacus04.jext.Jext
+name: JukeboxExtendedReborn
+authors: [Tajam, Spartacus04]
+version: 1.1.3
+api-version: 1.14
+depend: [ProtocolLib]
+prefix: JEXT
+
+commands:
+  disc:
+    description: Get the specified custom music disc.
+    permission: jext.disc
+    usage: /disc [name]
+  discgive:
+    description: Give the specified custom music disc to player(s).
+    permission: jext.disc.give
+    usage: /discgive [selector] [name]
+  playmusic:
+    description: Play specified custom music to selected player(s).
+    permission: jext.playmusic
+    usage: /playmusic [selector] [name] <pitch> <volume>
+  playat:
+    description: Play specified custom music to selected player(s).
+    permission: jext.playat
+    usage: /playat [X] [Y] [Z] <pitch> <volume>
+  stopmusic:
+    description: Stop specified custom music or all custom music for selected player(s).
+    permission: jext.stopmusic
+    usage: /stopmusic [selector] <name>
+  jukeboxgui:
+    description: Opens a player specific jukebox gui
+    permission: jext.jukeboxgui
+    usage: /jukeboxgui
+  fragment:
+    description: Gives the player a fragment
+    permission: jext.fragment
+    usage: /fragment [name]
+  fragmentgive:
+    description: Gives the player a fragment
+    permission: jext.fragment.give
+    usage: /fragmentgive [selector] [name]
+  jext:
+    description: Reloads the plugin
+    permission: jext.reload
+    usage: /jext
+
+permissions:
+  jext.*:
+    description: Gives access to all Jukebox Extended commands.
+    children:
+      jext.disc: true
+      jext.disc.give: true
+      jext.playmusic: true
+      jext.playat: true
+      jext.stopmusic: true
+      jext.jukeboxgui: true
+      jext.reload: true
+      jext.fragment: true
+      jext.fragment.give: true
+      jext.notifyupdate: true
+  jext.disc:
+    description: Allows player to access all custom disc.
+    default: op
+  jext.disc.give:
+    description: Allows player to give others custom disc.
+    default: op
+  jext.playmusic:
+    description: Allows player to play custom music to players.
+    default: op
+  jext.playat:
+    description: Allows player to play custom music to a location.
+    default: op
+  jext.stopmusic:
+    description: Allows player to stop custom music.
+    default: op
+  jext.reload:
+    description: Allows player to reload the plugin
+    default: op
+  jext.notifyupdate:
+    description: Notifies player of new update
+    default: op
+  jext.jukeboxgui:
+    description: Allows player to open the jukebox gui
+    default: op
+  jext.fragment:
+    description: Allows player to access all custom fragments
+    default: op
+  jext.fragment.give:
+    description: Allows player to give others custom fragments
+    default: op

@@ -1,0 +1,159 @@
+name: GSit
+version: 1.4.6
+description: Relax with other players on nice seats!
+author: Gecolay
+website: https://www.spigotmc.org/resources/62325
+main: dev.geco.gsit.GSitMain
+api-version: 1.13
+folia-supported: true
+softdepend: [GriefPrevention, PlaceholderAPI, PlotSquared, WorldGuard]
+
+commands:
+
+  gsit:
+
+    usage: /<command>
+    aliases: [sit]
+    description: Sit-Command
+
+  glay:
+
+    usage: /<command>
+    aliases: [lay]
+    description: Lay-Command
+
+  gbellyflop:
+
+    usage: /<command>
+    aliases: [bellyflop]
+    description: BellyFlop-Command
+
+  gspin:
+
+    usage: /<command>
+    aliases: [spin]
+    description: Spin-Command
+
+  gcrawl:
+
+    usage: /<command>
+    aliases: [crawl]
+    description: Crawl-Command
+
+  gemote:
+
+    usage: /<command>
+    aliases: [emote]
+    description: Emote-Command
+
+  gsitreload:
+
+    usage: /<command>
+    aliases: [gsitrl]
+    description: Plugin-Reload
+
+
+
+permissions:
+
+  GSit.*:
+    default: op
+    description: OP-Permission for all commands and features of GSit
+    children:
+      GSit.Sit: true
+      GSit.SitClick: true
+      GSit.SitToggle: true
+      GSit.PlayerSit: true
+      GSit.PlayerSitToggle: true
+      GSit.CrawlToggle: true
+      GSit.Lay: true
+      GSit.BellyFlop: true
+      GSit.Spin: true
+      GSit.Crawl: true
+      GSit.Emote: true
+      GSit.Kick.*: true
+      GSit.ByPass.*: true
+      GSit.Update: true
+      GSit.Reload: true
+
+  GSit.Sit:
+    default: true
+    description: Sit | Permission
+
+  GSit.SitClick:
+    default: true
+    description: Sit Click | Permission
+
+  GSit.SitToggle:
+    default: true
+    description: Toggle Sit-Ability | Permission
+
+  GSit.PlayerSit:
+    default: true
+    description: PlayerSit | Permission
+
+  GSit.PlayerSitToggle:
+    default: true
+    description: Toggle PlayerSit-Ability | Permission
+
+  GSit.CrawlToggle:
+    default: true
+    description: Toggle Crawl-Ability | Permission
+
+  GSit.Lay:
+    default: true
+    description: Lay | Permission
+
+  GSit.BellyFlop:
+    default: true
+    description: BellyFlop | Permission
+
+  GSit.Spin:
+    default: true
+    description: Spin | Permission
+
+  GSit.Crawl:
+    default: true
+    description: Crawl | Permission
+
+  GSit.Emote:
+    default: true
+    description: Emote | Permission
+
+  GSit.Kick.*:
+    default: op
+    description: Kick | Permission
+    children:
+      GSit.Kick.Sit: true
+      GSit.Kick.Pose: true
+
+  GSit.Kick.Sit:
+    default: op
+    description: Kick Sit | Permission
+
+  GSit.Kick.Pose:
+    default: op
+    description: Kick Pose | Permission
+
+  GSit.ByPass.*:
+    default: op
+    description: ByPass | Permission
+    children:
+      GSit.ByPass.World: true
+      GSit.ByPass.Region: true
+
+  GSit.ByPass.World:
+    default: op
+    description: ByPass World | Permission
+
+  GSit.ByPass.Region:
+    default: op
+    description: ByPass Region | Permission
+
+  GSit.Update:
+    default: op
+    description: Update-Notification | Permission
+
+  GSit.Reload:
+    default: op
+    description: Plugin-Reload-Command | Permission

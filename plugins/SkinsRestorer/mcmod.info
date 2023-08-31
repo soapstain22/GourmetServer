@@ -1,0 +1,21 @@
+[
+    {
+        "modid": "skinsrestorer",
+        "name": "SkinsRestorer",
+        "version": "14.2.12",
+        "description": "Ability to restore/change skins on servers! (Offline and Online Mode)",
+        "url": "https://skinsrestorer.net/",
+        "authorList": [
+            "knat",
+            "AlexProgrammerDE",
+            "Blackfire62",
+            "McLive"
+        ],
+        "dependencies": [
+            "spongeapi@7.4.0"
+        ],
+        "requiredMods": [
+            "spongeapi@7.4.0"
+        ]
+    }
+]

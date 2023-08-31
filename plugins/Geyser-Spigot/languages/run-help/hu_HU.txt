@@ -1,0 +1,18 @@
+
+--------------------------------------------------------------------------------
+
+  Hoppá! Megpróbáltad közvetlenül futtatni a Geyser plugin verzióját!
+
+  Ez a jar fájl a ${plugin_type} beépülő modulja. Ezt a fájlt bővítményként futtathatja,
+  ha a jar fájlt a „${plugin_folder}” könyvtárba helyezi.
+
+  Rendelkezésre áll egy különálló verzió is,
+  amelyet nem kell bővítményként telepíteni, megtalálható a build szerverünkön:
+
+    http://ci.geysermc.org/
+
+  Ha további segítségre van szüksége, nézze meg diszkordunkat:
+
+    http://discord.geysermc.org/
+
+--------------------------------------------------------------------------------

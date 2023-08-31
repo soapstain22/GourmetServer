@@ -1,0 +1,15 @@
+org.geysermc.geyser.translator.level.block.entity.BedBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.SkullBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.SignBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.DoubleChestBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.SpawnerBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.DecoratedPotBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.JigsawBlockBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.BrushableBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.HangingSignBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.CommandBlockBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.BannerBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.BeaconBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.EndGatewayBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.ShulkerBoxBlockEntityTranslator
+org.geysermc.geyser.translator.level.block.entity.CampfireBlockEntityTranslator

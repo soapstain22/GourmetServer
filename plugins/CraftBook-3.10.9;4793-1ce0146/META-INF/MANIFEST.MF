@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: CraftBook/WorldEdit.jar lib/WorldEdit.jar ../lib/WorldEdit.j
+ ar ../WorldEdit.jar
+CraftBook-Version: 3.10.9
+

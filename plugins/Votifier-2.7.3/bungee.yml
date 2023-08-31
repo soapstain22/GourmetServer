@@ -1,0 +1,4 @@
+name: NuVotifier
+main: com.vexsoftware.votifier.bungee.NuVotifier
+version: 2.7.3
+author: Ichbinjoe, blakeman8192, Kramer, tuxed

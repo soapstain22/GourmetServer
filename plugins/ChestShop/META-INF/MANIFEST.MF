@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Created-By: Maven Jar Plugin 3.2.0
+Build-Jdk-Spec: 17
+Build-Jdk: 17.0.1+12
+Built-At: 2022-06-28T14:04:03Z
+Distribution-Type: devbukkit
+

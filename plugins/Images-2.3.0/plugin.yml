@@ -1,0 +1,13 @@
+name: Images
+version: 2.3.0
+main: com.andavin.images.Images
+authors: [ 'Andavin' ]
+description: A plugin to load and render images on maps.
+website: images.andavin.com
+softdepend: [ 'Multiverse-Core', 'PlotSquared', 'ProtocolLib' ]
+api-version: '1.13'
+commands:
+  image:
+    description: 'Manage custom images.'
+    usage: '/<command> [create|delete|list|import]'
+    aliases: [ 'customimage', 'images', 'img' ]

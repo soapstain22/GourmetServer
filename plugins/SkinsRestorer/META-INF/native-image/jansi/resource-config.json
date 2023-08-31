@@ -1,0 +1,7 @@
+{
+  "resources": [
+    {"pattern": "net/skinsrestorer/shadow/jansi/jansi.properties"},
+    {"pattern": "net/skinsrestorer/shadow/jansi/jansi.txt"},
+    {"pattern": "net/skinsrestorer/shadow/jansi/internal/native/.*"}
+  ]
+}

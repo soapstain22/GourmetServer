@@ -1,0 +1,8 @@
+name: floodgate
+description: Allows Bedrock players to join Java edition servers while keeping the server in online mode
+version: 2.2.2-SNAPSHOT (b59-2278589)
+author: GeyserMC
+website: https://geysermc.org
+main: org.geysermc.floodgate.SpigotPlugin
+api-version: 1.13
+folia-supported: true

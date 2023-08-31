@@ -1,0 +1,8 @@
+name: 'VoidGen'
+version: '2.2.1'
+main: 'de.xtkq.voidgen.VoidGen'
+api-version: 1.13
+load: STARTUP
+loadbefore: [ Multiverse-Core, Multiworld ]
+author: 'xtkq'
+website: 'https://www.spigotmc.org/resources/25391/'
