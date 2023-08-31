@@ -1,7 +1,7 @@
 ---
-name: server problem
+name: Report backend issue
 labels: server 
-about: something is not right with the machine
+about: Report something cannot be fixed in-game
 body:
 - type: markdown
   attributes:
