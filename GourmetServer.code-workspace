@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../GourmetResource"
+		},
+		{
+			"path": "../../../.minecraft/saves/DebugWorld/datapacks/GourmetData"
+		}
+	],
+	"settings": {}
+}
