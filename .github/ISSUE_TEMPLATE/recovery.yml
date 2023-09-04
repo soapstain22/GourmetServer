@@ -1,3 +1,4 @@
+---
 name: Recovery Request
 description: request for chunks or player inventories to be individually rolled back
 labels: Rollbacks
@@ -10,3 +11,4 @@ body:
   attributes:
     label: time to roll back to
     required: true
+---
