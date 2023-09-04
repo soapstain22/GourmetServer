@@ -1,8 +1,9 @@
----
+
 name: player report
 description: point out someone who is breaking the rules
 title: "[report]: "
 labels: ["report","personal"]
+---
 body:
   - type: markdown
     attributes:
