@@ -1,7 +1,7 @@
 ---
 name: Recovery Request
 description: request for chunks or player inventories to be individually rolled back
-labels: Rollbacks
+labels: Rollbacks, Admin
 title: Rollback
 body:
 - type: input
@@ -15,5 +15,14 @@ body:
     placeholder: 7:36 PM, September 4, 2023
   validations:
     required: true
-    
+- type: input
+  attributes:
+    label: whos stuff is it anyways?
+    placeholder: minecraft playername
+  validations:
+    required: true
+- type: markdown
+  attributes:
+    value: |
+      ok now tell us what we need to fix
 ---
