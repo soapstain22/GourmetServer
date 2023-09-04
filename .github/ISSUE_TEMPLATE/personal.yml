@@ -1,7 +1,6 @@
 ---
 name: player report
 description: point out someone who is breaking the rules
-about: "report a player"
 title: "[report]: "
 labels: ["report","personal"]
 body:
