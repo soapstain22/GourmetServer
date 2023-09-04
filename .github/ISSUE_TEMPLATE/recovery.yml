@@ -7,9 +7,12 @@ body:
 - type: input
   attributes:
     label: coordinates for admin to visit
+    placeholder: <x>, <y>, <z>
+
 - type: input
   attributes:
-    label: time to roll back to
+    label: time to roll back to (EDT)
+    placeholder: 7:36 PM, September 4, 2023
   validations:
     required: true
     
