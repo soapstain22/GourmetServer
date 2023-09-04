@@ -10,5 +10,5 @@ body:
 - type: input
   attributes:
     label: time to roll back to
-    required: true
+    require: true
 ---
