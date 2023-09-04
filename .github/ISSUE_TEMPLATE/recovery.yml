@@ -1,0 +1,12 @@
+name: Recovery Request
+description: request for chunks or player inventories to be individually rolled back
+labels: Rollbacks
+title: [Rollback]
+body:
+- type: input
+  attributes:
+    label: coordinates for admin to visit
+- type: input
+  attributes:
+    label: time to roll back to
+    required: true
