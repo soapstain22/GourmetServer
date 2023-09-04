@@ -21,8 +21,7 @@ body:
     placeholder: minecraft playername
   validations:
     required: true
-- type: markdown
+- type: textarea
   attributes:
-    value: |
-      ok now tell us what we need to fix
+    label: what are we supposed to be looking for
 ---
