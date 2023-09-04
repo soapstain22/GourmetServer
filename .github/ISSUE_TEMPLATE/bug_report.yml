@@ -1,15 +1,19 @@
 ---
-name: bug report
-description: report a bug
+name: IN GAME BUG REPORT
+description: report a bug that happens ingame
 title: BUG SPOTTING
 labels: bug 
 body:
-- type: input
-  id: prevalence
+- type: dropdown
+  id: download
   attributes:
-    label: Bug prevalence
-    description: "How often do you or others encounter this bug?"
-    placeholder: "Whenever I visit the user account page (1-2 times a week)"
-  validations:
-    required: true
+    label: What are you playing on?
+    options:
+      - Bedrock
+      - Java
+      - idk
+- type: markdown
+  id: issue
+  attributes:
+    label: What happenned?
 ---
