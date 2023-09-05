@@ -22,9 +22,9 @@ body:
 - type: textarea
   id: repro
   attributes:
-  - label: Task
-  - description: "Describe the task"
-  - value: write something down!!!
-  - render: markdown
+    label: Task
+    description: "Describe the task"
+    value: write something down!!!
+    render: markdown
   validations:
   - required: true
