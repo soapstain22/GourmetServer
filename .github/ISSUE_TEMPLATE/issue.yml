@@ -3,6 +3,9 @@ description: Address something that needs to be done
 title: ISSUE - 
 labels: issue
 body:
+- type: markdown
+  attributes:
+    value: hi!"
 - type: checkboxes
   id: problems
   attributes:
