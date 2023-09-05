@@ -9,16 +9,16 @@ body:
 - type: checkboxes
   id: problems
   attributes:
-  - label: what d?
+    label: what d?
     options:
-    - label: Command
-    - label: Connection
-    - label: Gameplay
-    - label: Discord
-    - label: Github
-    - label: Website
-    - label: Resource Pack
-    - label: Data Pack
+      - label: Command
+      - label: Connection
+      - label: Gameplay
+      - label: Discord
+      - label: Github
+      - label: Website
+      - label: Resource Pack
+      - label: Data Pack
 - type: textarea
   id: repro
   attributes:
