@@ -1,0 +1,25 @@
+name: ISSUE
+description: Address something that needs to be done
+title: ISSUE - 
+labels: issue
+body:
+- type: checkboxes
+  id: problems
+  attributes:
+    label: What is the problem associated with?
+    options:
+      - Command
+      - Connection
+      - Gameplay
+      - Discord
+      - Github
+      - Website
+- type: textarea
+  id: repro
+  attributes:
+    label: Reproduction steps
+    description: "Explain the issue"
+    value: |
+    render: bash
+  validations:
+    required: true
