@@ -9,7 +9,7 @@ body:
 - type: checkboxes
   id: problems
   attributes:
-    label: what d?
+  - label: what d?
     options:
     - label: Command
     - label: Connection
