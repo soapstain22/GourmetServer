@@ -1,7 +1,6 @@
----
-name: IN GAME BUG REPORT
-description: report a bug that happens ingame
-title: BUG SPOTTING
+name: BUG REPORT
+description: report a bug
+title: BUG - 
 labels: bug 
 body:
 - type: dropdown
@@ -12,8 +11,27 @@ body:
       - Bedrock
       - Java
       - idk
-- type: markdown
-  id: issue
+- type: dropdown
+  id: problems
   attributes:
-    label: What happenned?
----
+    label: What is the problem associated with?
+    options:
+      - Command
+      - Connection
+      - Gameplay
+      - Discord
+      - Github
+      - Website
+- type: textarea
+  id: repro
+  attributes:
+    label: Reproduction steps
+    description: "How do you trigger this bug? Please walk us through it step by step."
+    value: |
+      1.
+      2.
+      3.
+      ...
+    render: bash
+  validations:
+    required: true
