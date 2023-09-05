@@ -8,12 +8,12 @@ body:
   attributes:
     label: What is the problem associated with?
     options:
-      - Command
-      - Connection
-      - Gameplay
-      - Discord
-      - Github
-      - Website
+    - label: Command
+    - label: Connection
+    - label: Gameplay
+    - label: Discord
+    - label: Github
+    - label: Website
 - type: textarea
   id: repro
   attributes:
