@@ -1,5 +1,5 @@
 ---
-name: Recovery Request
+name: ITEM RECOVERY
 description: request for chunks or player inventories to be individually rolled back
 labels: Rollbacks, Admin
 title: Rollback
