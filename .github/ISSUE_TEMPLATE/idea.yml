@@ -1,0 +1,14 @@
+name: Idea
+description: Pitch your pipe-dream ideas for the server
+title: IDEA - 
+labels: Idea
+body:
+- type: textarea
+  id: pitch
+  attributes:
+    label: Pitch
+    description: "Take your swing!."
+    value: go on then!
+    render: bash
+  validations:
+    required: true
