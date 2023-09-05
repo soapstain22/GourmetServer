@@ -5,7 +5,7 @@ labels: issue
 body:
 - type: markdown
   attributes:
-    value: hi!"
+    value: "hi!"
 - type: checkboxes
   id: problems
   attributes:
