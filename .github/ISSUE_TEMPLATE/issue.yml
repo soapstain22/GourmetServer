@@ -20,9 +20,9 @@ body:
 - type: textarea
   id: repro
   attributes:
-    label: Reproduction steps
+    label: Text input
     description: "Explain the issue"
-    value: go crazy!
+    value: write something down!!!
     render: bash
   validations:
     required: true
