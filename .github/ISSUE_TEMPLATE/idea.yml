@@ -12,3 +12,15 @@ body:
     render: bash
   validations:
     required: true
+- type: dropdown
+  id: things
+  attributes:
+    label: Select tags
+    options:
+      - Command
+      - Datapack
+      - Resourcepack
+      - Gameplay
+      - Discord
+      - Github
+      - Website
