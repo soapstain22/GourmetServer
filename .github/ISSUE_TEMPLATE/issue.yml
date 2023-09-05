@@ -22,7 +22,7 @@ body:
   attributes:
     label: Reproduction steps
     description: "Explain the issue"
-    value: |
+    value: go crazy!
     render: bash
   validations:
     required: true
