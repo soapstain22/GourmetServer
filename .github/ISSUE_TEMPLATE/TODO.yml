@@ -1,6 +1,6 @@
-name: ISSUE
+name: TODO
 description: Address something that needs to be done
-title: ISSUE - 
+title: TODO - 
 labels: issue
 body:
 - type: markdown
@@ -9,7 +9,7 @@ body:
 - type: checkboxes
   id: problems
   attributes:
-    label: What is the problem associated with?
+    label: what d?
     options:
     - label: Command
     - label: Connection
@@ -17,12 +17,14 @@ body:
     - label: Discord
     - label: Github
     - label: Website
+    - label: Resource Pack
+    - label: Data Pack
 - type: textarea
   id: repro
   attributes:
-    label: Text input
-    description: "Explain the issue"
+    label: Task:
+    description: "Describe the task"
     value: write something down!!!
-    render: bash
+    render: markdown
   validations:
     required: true
