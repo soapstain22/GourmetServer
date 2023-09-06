@@ -26,5 +26,4 @@ body:
     description: "Describe the task"
     value: write something down!!!
     render: markdown
-  validations:
-  - required: true
+  
