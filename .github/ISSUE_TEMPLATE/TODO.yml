@@ -1,7 +1,7 @@
 name: TODO
 description: Address something that needs to be done
 title: TODO - 
-labels: issue
+labels: "help wanted"
 body:
 - type: markdown
   attributes:
@@ -9,7 +9,7 @@ body:
 - type: checkboxes
   id: problems
   attributes:
-    label: what d?
+    label: CATEGORIES
     options:
       - label: Command
       - label: Connection
@@ -22,8 +22,13 @@ body:
 - type: textarea
   id: repro
   attributes:
-    label: Task
-    description: "Describe the task"
-    value: write something down!!!
-    render: markdown
-  
+    label: Reproduction steps
+    description: "Enter text"
+    value: |
+      1.
+      2.
+      3.
+      ...
+    render: bash
+  validations:
+    required: true
