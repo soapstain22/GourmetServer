@@ -1,6 +1,0 @@
-#Customtext
-&7 hello i am the server and this is how i am doing today
-&b %server_ram_used%
-&b %server_ram_free%
-&b %server_ram_total%
-&b %server_ram_max%

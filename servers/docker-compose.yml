@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    environment:
+      EULA: "true"
+      TYPE: SPIGOT
+      # 28140: luckperms
+      # 34315: vault
+      # 2124: Skinsrestorer
+      # 19254: Viaversion
+      SPIGET_RESOURCES: 28140,2124,19254,34315,88135,81254
+      # since we're behind a proxy
+      SERVER_NAME: "Gourmet Server"
+      MOTD: "Gourmet Server"
+      MEMORY: "6G"
+      RESOURCE_PACK: "https://github.com/soapstain22/GourmetResource/raw/main/GourmetResource.zip"
+  # The followingmulti/multi-project/servers/mc-data/plugins/bStats placeholders can be used here:
+      ONLINE_MODE: false
+    volumes:
+      - ./mc-data:/data
+      - ./mc-plugins:/plugins
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+    ports:
+      - "25565:25565"
+volumes:
+  mc:
+    external: true
