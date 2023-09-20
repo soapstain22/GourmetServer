@@ -2,7 +2,7 @@
 - Resource Pack: https://github.com/soapstain22/GourmetResource
 - Data Pack: https://github.com/soapstain22/GourmetData
 - Discord: https://discord.gg/YqbRQdS2Qc
-- Github: https://github.com/soapstain22/GourmetServer
+- Report Issue: https://github.com/soapstain22/GourmetServer/issues
   
 ##  71.190.235.122 
 - Bedrock port: 19132
