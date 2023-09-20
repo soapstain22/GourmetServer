@@ -9,7 +9,7 @@
 - Java port: 25565
 
 ### Your FPS is bad?
-Install one of these optimization modpacks (also includes no-chat-reports)
+Install one of these optimization modpacks
 - https://modrinth.com/modpack/sop
 - https://modrinth.com/modpack/fabulously-optimized
 
