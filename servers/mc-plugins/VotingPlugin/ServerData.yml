@@ -1,0 +1,25 @@
+LastUpdated: 1694725463591
+VotingPlugin:
+  AutoCachePlaceholders: []
+  AutoCacheUpdated: true
+  Version: '3869-Spigot-d2eba2c-78796c9 (MC: 1.20.1)'
+  ServiceSites:
+  - PlanetMinecraft.com
+  - Best Minecraft Servers
+  - minecraft-serverlist-com
+  - TopMinecraftServers
+  - MC-Servers.com
+  - MCSL
+  - Minelist.net
+  - mclist.io
+  - MinecraftServers.org
+  - MCServers.TOP
+  - MinecraftServersList
+  - Minecraft.Buzz
+  - TopServers
+PluginVersions:
+  VotingPlugin: 6.13.1
+Month: SEPTEMBER
+PrevWeek: 37
+PrevDay: 14
+IgnoreTime: false

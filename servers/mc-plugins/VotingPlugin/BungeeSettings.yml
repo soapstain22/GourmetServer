@@ -1,0 +1,110 @@
+##########################################
+# Bungee Setup 
+# Only if using votingplugin bungee to send votes
+# REQUIRES RESTART FOR CHANGES TO TAKE EFFECT
+##########################################
+
+# Plugin using bungee, requires plugin on bungee server
+UseBungeecord: false
+
+# What type of bungee setup
+# Requires restart and set on all servers
+# https://github.com/BenCodez/VotingPlugin/wiki/Bungeecord-Setups
+# Available:
+# SOCKETS
+# PLUGINMESSAGING (Recommended)
+# MYSQL
+BungeeMethod: PLUGINMESSAGING
+
+# Enables more debug messages for communication between servers
+# Use /votingpluginbungee status for testing communication
+BungeeDebug: false
+
+# Get the plugin to broadcast to all servers
+# If false you need to enable 
+# Only use for global rewards (one per network), otherwise you will get double broadcasts
+BungeeBroadcast: false
+
+# For pluginmessaging method only
+# Whether to broadcast on cached votes
+BungeeBroadcastAlways: false
+
+# If true, the server won't broadcast votes
+# To be used in conjuction with Broadcast setting on bungee
+DisableBroadcast: false
+
+# If true, offline rewards will be stored per server, rather than global
+# This shouldn't need to be set unless you get alot of cross server rewards issues
+# You can also specify the server within the rewards
+# Requires server name below to be correct
+PerServerRewards: false
+
+# If true, milestones work per server
+# Please note totals still sync, but milestones can be claimed on each server
+# Needs to be set across all needed servers
+PerServerMilestones: false
+
+# If true, points will be given on a per server level
+# Points will be added when server gets vote from bungee
+PerServerPoints: false
+
+# If true, plugin will trigger VotifierEvent
+# Should allow some compability with other plugins
+TriggerVotifierEvent: false
+
+# What server this is in bungee (must match)
+# Also can be applied to rewards
+Server: PleaseSet
+
+# Rewards from bungee vote party
+# Gives to only players only
+# Use regular voteparty rewards otherwise
+# Can edit via /av gui
+BungeeVotePartyRewards: {}
+
+# List of commands to run on bungee party
+# This runs a one time command only
+BungeeVotePartyGlobalCommands: []
+
+####################################################################################
+# Global mysql data handle for between server commmunications
+# This is NOT required for bungee voting to work
+# This is still a WIP, use with caution
+# This will create a different table then from users storing server info to process
+#
+# If you use this you need to enable this on BungeeSettings.yml on each server with votingplugin
+# Make sure server name is set correctly in BungeeSettings.yml or this will not work correctly
+# 
+# Please use PLUGINMESSAGING for this, SOCKETS should work as well, but not fully tested
+#
+# This will make votes cache until time change has finished processing
+# In the event a server is offline or time change fails, the time change process
+# will continue after a set amount of time (in essense skipping a specific server)
+# This will also respect blocked servers in bungeeconfig.yml
+GlobalData:
+  Enabled: false
+  # Use existing mysql connection from config.yml
+  UseMainMySQL: true
+  # Mysql settings only used if above is false
+  Host: ''
+  # Default port is 3306
+  Port: 3306 
+  Database: ''
+  Username: ''
+  Password: ''
+  # Max number of connections
+  MaxConnections: 1
+  # Must be the same on all servers
+  Prefix: ''
+  #UseSSL: true
+  #PublicKeyRetrieval: false
+  #Attempt to use mariadb driver
+  #UseMariaDB: false
+
+##########################################
+# For socket setup
+# Recommend to try PLUGINMESSAGING setup first
+# Options hidden by default to avoid confusion
+##########################################
+# Options available here:
+# https://github.com/BenCodez/VotingPlugin/wiki/Bungee-Setup-SOCKETS
