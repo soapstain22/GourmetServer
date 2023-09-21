@@ -1,17 +1,19 @@
 version: "3.8"
 
 services:
-  mc:
+  vanilla:
     image: itzg/minecraft-server
     tty: true
     stdin_open: true
     ports:
       - "25565:25565"
     environment:
-      EULA: "TRUE"
-      TYPE: "VANILLA"
       MEMORY: "8G"
-      MOTD: " 1.20.2 Vanilla https://discord.gg/YqbRQdS2Qc"
+      EULA: "TRUE"
+      MOTD: "1.20.2 Vanilla
+       https://discord.gg/YqbRQdS2Qc"
     volumes:
-      # attach the relative directory 'data' to the container's /data path
-      - ./data:/data
+      - ./vanilla:/data
+volumes:
+  vanilla:
+    external: true
