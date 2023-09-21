@@ -9,7 +9,8 @@
 - MINECRAFT VERSION 1.20.1
 - 71.190.235.122 
 - Bedrock port: 19132
-- Java port: 25565
+- Crossplay Java port: 25566
+- Vanilla Java port: 25565
 
 ### Don't own Minecraft?
 - [Click here for java download options](https://www.java.com/en/download/help/download_options.html)
