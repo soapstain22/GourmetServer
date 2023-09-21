@@ -1,3 +1,4 @@
 servers/mc-data/*
 servers/mc-plugins/EssentialsGeoIP/config.yml
 servers/mc-plugins/EssentialsGeoIP/config.yml
+*.DS_Store
