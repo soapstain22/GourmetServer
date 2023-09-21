@@ -16,14 +16,14 @@ services:
       MEMORY: "6G"
       RESOURCE_PACK: "https://github.com/soapstain22/GourmetResource/raw/main/GourmetResource.zip"
       ONLINE_MODE: false
+      STOP_SERVER_ANNOUNCE_DELAY:
     volumes:
       - ./mc-data:/data
-      - ./mc-plugins:/plugins
     stdin_open: true
     tty: true
     restart: unless-stopped
     ports:
-      - "25565:25565"
+      - "25566:25566"
 volumes:
   mc:
     external: true
