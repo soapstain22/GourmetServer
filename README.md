@@ -3,8 +3,9 @@
 - Data Pack: https://github.com/soapstain22/GourmetData
 - Discord: https://discord.gg/YqbRQdS2Qc
 - Report Issue: https://github.com/soapstain22/GourmetServer/issues
-  
-##  71.190.235.122 
+
+# [HOW DO I JOIN?](https://github.com/soapstain22/GourmetServer/wiki#how-do-i-join)
+- 71.190.235.122 
 - Bedrock port: 19132
 - Java port: 25565
 
