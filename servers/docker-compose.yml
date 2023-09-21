@@ -12,7 +12,7 @@ services:
       # 19254: Viaversion
       SPIGET_RESOURCES: 28140,2124,19254,34315,88135,81254,19362
       SERVER_NAME: "Gourmet Server"
-      MOTD: "Gourmet Server"
+      MOTD: "\u00a7c\u00a7lG\u00a76\u00a7lou\u00a7e\u00a7lr\u00a72\u00a7lm\u00a7a\u00a7le\u00a73\u00a7lt\u00a7b\u00a7l S\u00a79\u00a7le\u00a71\u00a7lr\u00a75\u00a7lv\u00a7d\u00a7le\u00a7r\u00a7lr\u00a7r\ndiscord.gg\/6BM2dn2sja"
       MEMORY: "6G"
       RESOURCE_PACK: "https://github.com/soapstain22/GourmetResource/raw/main/GourmetResource.zip"
       ONLINE_MODE: false
