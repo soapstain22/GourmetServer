@@ -6,7 +6,7 @@ database:
   # Url for cities
   download-url-city: "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key={LICENSEKEY}&suffix=tar.gz"
   # License key for downloads
-  license-key: ""
+  license-key: "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"
   update:
     enable: true
     by-every-x-days: 30

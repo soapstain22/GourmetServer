@@ -10,7 +10,7 @@ services:
       # 34315: vault
       # 2124: Skinsrestorer
       # 19254: Viaversion
-      SPIGET_RESOURCES: 28140,2124,19254,34315,88135,81254
+      SPIGET_RESOURCES: 28140,2124,19254,34315,88135,81254,19362
       # since we're behind a proxy
       SERVER_NAME: "Gourmet Server"
       MOTD: "Gourmet Server"
