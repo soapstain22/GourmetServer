@@ -1,6 +1,0 @@
-- Resource Pack: https://github.com/soapstain22/GourmetResource
-- Data Pack: https://github.com/soapstain22/GourmetData
-- Website: https://soapstain22.github.io/gourmet.html
-- Issues: https://github.com/soapstain22/GourmetServer/issues/new/choose
-- Discord: https://discord.gg/YqbRQdS2Qc
-- Github: https://github.com/soapstain22/GourmetServer
