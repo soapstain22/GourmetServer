@@ -7,3 +7,4 @@ servers/mc-plugins/EssentialsDiscord/config.yml
 servers/mc-plugins/EssentialsDiscord/config.yml
 servers/mc-data/.rcon-cli.env
 dbs/mariadb/*
+servers/vanilla/vanilla/*
