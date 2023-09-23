@@ -1,5 +1,5 @@
 # HEY HOW DO I JOIN
-if you dont have minecraft run [this] (https://nightly.link/UltimMC/Launcher/workflows/main/develop) also heres the [link to the readme for the launcher](https://github.com/UltimMC/Launcher#ultimmc)
+if you dont have minecraft run [this](https://nightly.link/UltimMC/Launcher/workflows/main/develop) also heres the [link to the readme for the launcher](https://github.com/UltimMC/Launcher#ultimmc)
 
 ## LINKS
 - Resource Pack: https://github.com/soapstain22/GourmetResource
