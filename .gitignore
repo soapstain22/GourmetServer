@@ -9,3 +9,4 @@ servers/mc-data/.rcon-cli.env
 dbs/mariadb/*
 servers/vanilla/vanilla/*
 servers/1.20.1/mc-data/*
+servers/1.20.2/mc-data/*
