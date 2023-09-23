@@ -21,6 +21,7 @@ services:
       ENFORCE_SECURE_PROFILE: false
     volumes:
       - ./mc-data:/data
+      - ./mc-plugins:/plugins
     stdin_open: true
     tty: true
     restart: unless-stopped
