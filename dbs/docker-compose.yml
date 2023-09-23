@@ -5,10 +5,10 @@ services:
     image: mariadb:10
     environment:
       MARIADB_RANDOM_ROOT_PASSWORD: yes
-      MARIADB_DATABASE: luckperms
+      MARIADB_DATABASE: gourmet
       # These are loaded by compose from .env
-      MARIADB_USER: ${LUCKPERMS_USER}
-      MARIADB_PASSWORD: ${LUCKPERMS_PASSWORD}
+      MARIADB_USER: ${DB_USER}
+      MARIADB_PASSWORD: ${DB_PASSWORD}
     volumes:
       - mariadb:/var/lib/mysql
 
