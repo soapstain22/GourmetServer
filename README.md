@@ -1,15 +1,17 @@
-# **LINKS**
+# HEY HOW DO I JOIN
+if you dont have minecraft run [this] (https://nightly.link/UltimMC/Launcher/workflows/main/develop) also heres the [link to the readme for the launcher](https://github.com/UltimMC/Launcher#ultimmc)
+
+## LINKS
 - Resource Pack: https://github.com/soapstain22/GourmetResource
 - Data Pack: https://github.com/soapstain22/GourmetData
 - Discord: https://discord.gg/YqbRQdS2Qc
 - Report Issue: https://github.com/soapstain22/GourmetServer/issues
 
-# **[CLICK FOR README](https://github.com/soapstain22/GourmetServer/wiki#how-do-i-join)**
+## Server Info
 
 - MINECRAFT VERSION 1.20.1
 - 71.190.235.122 
 - Bedrock port: 19132
-- Crossplay Java port: 25566
 - Vanilla Java port: 25565
 
 ### Don't own Minecraft?
