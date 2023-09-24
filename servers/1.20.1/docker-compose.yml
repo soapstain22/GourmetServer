@@ -5,14 +5,15 @@ services:
     image: itzg/minecraft-server
     environment:
       EULA: "true"
-      TYPE: SPIGOT
+      TYPE: PAPER
       # 28140: luckperms
       # 34315: vault
       # 2124: Skinsrestorer
       # 19254: Viaversion
       # 88135: plugman
       # 19362: loginsecurity
-      SPIGET_RESOURCES: 28140,19254,34315,88135
+      # 6269: authme
+      SPIGET_RESOURCES: 28140,19254,34315,88135,6269
       SERVER_NAME: "Gourmet Server"
       MOTD: "§c§lG§6§lou§e§lr§2§lm§a§le§3§lt§b§l S§9§le§1§lr§5§lv§d§le§r§lr§r\ndiscord.gg/6BM2dn2sja"
       MEMORY: "6G"
