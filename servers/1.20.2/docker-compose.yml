@@ -19,6 +19,10 @@ services:
       MEMORY: "6G"
       RESOURCE_PACK: "https://github.com/soapstain22/GourmetResource/raw/main/GourmetResource.zip"
       ONLINE_MODE: false
+      VIEW_DISTANCE: 15
+      SIMULATION_DISTANCE: 10
+      DIFFICULTY: hard
+      ENABLE_COMMAND_BLOCK: true
       ENFORCE_SECURE_PROFILE: false
     volumes:
       - ./mc-data:/data
