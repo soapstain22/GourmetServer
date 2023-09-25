@@ -21,3 +21,6 @@ https://discord.gg/YqbRQdS2Qc
 - Resource Pack: https://github.com/soapstain22/GourmetResource
 - Data Pack: https://github.com/soapstain22/GourmetData
 - Report Issue: https://github.com/soapstain22/GourmetServer/issues
+
+### Help
+- https://wiki.mc-ess.net/wiki/Sign_Tutorial
