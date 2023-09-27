@@ -792,7 +792,7 @@ confirm-home-overwrite: false
 # You can control the values of items that are sold to the server by using the /setworth command.
 
 # Defines the balance with which new players begin. Defaults to 0.
-starting-balance: 200
+starting-balance: 2000
 
 # Defines the cost to use the given commands PER USE.
 # Some commands like /repair have sub-costs, check the wiki for more information.
@@ -801,8 +801,9 @@ command-costs:
   #example: 1000
   # /kit tools costs $1500 PER USE
   #kit-tools: 1500
-  tpa: 50
-  back: 150
+  kit-tools: 100
+  tpa: 3
+  back: 10
   home: 5
   
 # Set this to a currency symbol you want to use.
@@ -1151,7 +1152,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  kit: servertools
+  kit: tools
 
 # What priority should we use for handling respawns?
 # Set this to none, if you want vanilla respawning behaviour.
