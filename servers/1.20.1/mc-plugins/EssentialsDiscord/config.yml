@@ -41,7 +41,7 @@ discord-url: "https://discord.gg/6BM2dn2sja"
 channels:
   primary: 1113970923486318604
   staff: 1126270995846664314
-
+  game: 1156721524045271050
 # Should all players receive Discord messages from the primary channel, regardless of their permissions?
 # This is intended for use for people without permission plugins. If you have a permission plugin, please give your
 # players the essentials.discord.receive.primary permission.
@@ -128,11 +128,11 @@ message-types:
   # Chat messages sent when a player chats on the Minecraft server.
   chat: primary
   # Death messages sent when a player dies on the Minecraft server.
-  death: primary
+  death: game
   # AFK status change messages sent when a player's AFK status changes.
-  afk: primary
+  afk: game
   # Achievement/advancement messages sent when a player is awarded an achievement/advancement.
-  advancement: primary
+  advancement: game
   # Action messages sent when a player runs the /me or /action commands.
   action: primary
   # Message sent when the server starts up.
@@ -261,7 +261,7 @@ messages:
   # - {role}: The name of the user's topmost role on Discord. If the user doesn't have a role, the placeholder is empty.
   # - {color}: The minecraft color representative of the user's topmost role color on Discord. If the user doesn't have a role color, the placeholder is empty.
   # - {message}: The content of the message being sent
-  discord-to-mc: "&c📞&6[#{channel}] &3{fullname}&7: &f{message}"
+  discord-to-mc: "&c&6[#{channel}] &3{fullname}&7: &f{message}"
   # This is the message that is used to relay minecraft chat in Discord.
   # The following placeholders can be used here:
   # - {username}: The username of the player sending the message
@@ -271,7 +271,7 @@ messages:
   # - {prefix}: The prefix of the player sending the message
   # - {suffix}: The suffix of the player sending the message
   # ... PlaceholderAPI placeholders are also supported here too!
-  mc-to-discord: "{displayname}📞 {message}"
+  mc-to-discord: "{displayname}: {message}"
   # This is the bot's name which appears in Discord when sending player-specific messages.
   # The following placeholders can be used here:
   # - {username}: The username of the player sending the message
