@@ -1,0 +1,2 @@
+thank you for registering
+we have this feature because the server is run in offline mode, and anyone can connect under any username
